@@ -1,0 +1,78 @@
+\section{Related Work}
+\label{sec:related}
+
+% R1: memory systems (A/B: clearly better than LongMemEval's memory-methods paragraph; positioning fixes applied)
+\paragraph{Memory systems for long conversations.}
+Memory systems for chat assistants differ in when they organize what they store. MemGPT treats the context window as
+virtual memory and lets the agent move and edit content between it and external storage~\citep{packer2023memgpt}.
+Most later systems instead store an LLM-processed version of the history and reorganize it at write time, as new turns
+or sessions arrive. Mem0 extracts facts and decides for each new fact whether to add it, update an existing one, or
+delete one~\citep{chhikara2025mem0}. A-Mem links each new note to related notes and updates the tags and context of
+existing ones~\citep{xu2025amem}. MemoryOS moves content between short-, mid-, and long-term
+stores~\citep{kang2025memoryos}. Zep builds a temporal knowledge graph whose edges are invalidated rather than deleted
+when facts change~\citep{rasmussen2025zep}. Hindsight organizes memory into four networks of world facts, agent
+experiences, synthesized entity summaries, and evolving beliefs, and updates them as conversations
+arrive~\citep{latimer2025hindsight}. Other systems defer or limit this work: LightMem consolidates long-term memory
+offline~\citep{fang2025lightmem}, LycheeMemory encodes each finalized segment of dialogue into context-independent
+typed records rather than merging it into existing memory~\citep{li2026lychee}, and LeanMem updates only the event
+memories that evolve while keeping source-grounded records unchanged~\citep{liao2026leanmem}. Even these decide what to
+merge before any question is asked. A related line handles conflicting memories when they are written: MOSAIC checks
+each new fact against its graph neighbors and updates or deletes contradicted entries~\citep{zhao2026mosaic}, TOKI
+types contradiction resolution as bitemporal operators~\citep{wang2026toki}, and TEPA revokes stale entries while
+keeping them for audit~\citep{zhou2026tepa}. \method{} keeps one write-time step, segment-level extraction of atomic records as
+in LycheeMemory, and defers everything that relates records to one another (merging, resolving conflicts, and
+summarizing) to read time, where it is conditioned on the question. The price is extra computation for every
+question, which we measure in \cref{sec:cost}.
+
+% R2: reading strategies and query-focused compression
+\paragraph{Organizing retrieved context for the reader.}
+A second line of work organizes text for the reader, either when the index is built or when a query arrives.
+RAPTOR recursively clusters and summarizes chunks into a tree that is queried at several levels of
+abstraction~\citep{sarthi2024raptor}, and GraphRAG summarizes communities of an entity graph and answers global
+questions by map-reduce over these summaries~\citep{edge2024graphrag}; both organize at index time. At query time,
+Chain-of-Note trains a model to write a reading note on each retrieved document before answering~\citep{yu2023chainofnote},
+RECOMP trains compressors that shorten retrieved documents into extractive or abstractive summaries~\citep{xu2024recomp},
+ReadAgent prompts a model to compress pages into gists and look pages up again when needed~\citep{lee2024readagent}, and
+Astute RAG consolidates retrieved and internal knowledge and resolves conflicts between them~\citep{wang2024astute}.
+Self-RAG~\citep{asai2024selfrag} and Adaptive-RAG~\citep{jeong2024adaptive} decide when and how much to retrieve, which
+is complementary to organizing what has been retrieved. Closest to us, LongMemEval finds that Chain-of-Note-style reading
+and a structured presentation of retrieved sessions improve accuracy on long chat histories~\citep{wu2025longmemeval}.
+Two recent memory systems also move work to query time. Pull keeps raw turns behind a deterministic index and lets the
+reader expand only the turns it needs~\citep{chen2026pull}; it does not rewrite what it retrieves. DeferMem is the
+closest to our method: it retrieves a broad, noisy candidate set from raw history at query time and distills it into
+query-specific evidence with a model trained by reinforcement learning~\citep{yin2026defermem}, evaluated on LoCoMo
+and LongMemEval. \method{} differs in three ways: it needs no training, it compiles from extracted records rather
+than raw turns and passes the records to the reader along with the notes, and its notes have a fixed structure for
+memory-specific failures (updates, conflicts, gaps in coverage, standing instructions). We also evaluate at the 1M
+tier of BEAM, where DeferMem has not been tested.
+We build on these observations rather than claim reader-side notes as new. Our compilation step is one prompted call per
+question, and its format is specific to conversational memory: it orders evidence by time and marks facts that were
+later updated or contradicted, parts of the question the memory does not cover, and the user's standing instructions.
+Zep tracks the validity of facts at write time; we do so at read time over storage that never changes. Our main
+contribution, however, is not the format but a controlled comparison of organizing at write time and at read time,
+with retrieval, prompt, and judge held fixed, across readers that differ in how well they use long contexts.
+
+% R3: how readers use long contexts (A/B: clearly better than Lost-in-the-Middle 6.2; edits applied)
+\paragraph{How readers use long contexts.}
+The \emph{reader}, the model that answers from what the memory retrieves, uses information in the middle of a long
+input less reliably than information at its ends~\citep{liu2024lost}, and its effective context is often much shorter
+than the window it accepts~\citep{hsieh2024ruler}. These findings suggest that giving the reader more memory context
+need not raise accuracy. We observe this in memory systems as well, and we find that it varies sharply across
+readers: the long-context gap that our compilation step (\cref{sec:method}) closes for one reader is already small
+for another (\cref{sec:reader}).
+
+% R4: evaluating memory systems
+\paragraph{Evaluating long-term memory.}
+LoCoMo~\citep{maharana2024locomo}, LongMemEval~\citep{wu2025longmemeval}, and BEAM~\citep{tavakoli2025beam} test
+memory over conversations ranging from about 9K tokens (LoCoMo) to 10M tokens (BEAM). LongMemEval and BEAM grade
+free-form answers with an LLM judge, whose verdicts depend on the judge model and its prompt~\citep{zheng2023judging}.
+Numbers reported in different papers therefore differ in reader, answer prompt, context budget, and judge, and are
+not directly comparable. RENDER fixes the conversation and varies only the form in which evidence reaches the reader,
+and finds spreads of 25--49 points across forms on LongMemEval~\citep{si2026render}; \citet{jiang2026presentation}
+find that most of the gain of a fine-grained revision ledger disappears once its presentation is matched by a flat
+baseline; and MemConflict separates retrieval from use of retrieved evidence under conflicting
+memories~\citep{tao2026memconflict}. Our audit makes the same kind of argument for budget and answer prompt on
+BEAM, and adds a split of each system's lost points into storage, retrieval, and reading. We do not propose a new benchmark. Within each comparison we evaluate every system with the
+same reader, prompt, and judge, run each condition three times, and report intervals clustered by conversation, so
+that for a given reader the differences between rows reflect the memory rather than the evaluation setup; we then
+repeat the main comparison with three readers (\cref{sec:setting}).

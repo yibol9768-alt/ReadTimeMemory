@@ -1,0 +1,370 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:thread",
+   "text": "Home purchase and move: On 2023-08-11, the user said they were buying a $325,000 house, had Wells Fargo pre-approval for $350,000, and planned to request an additional $3,250 seller credit after the inspection found minor roof and plumbing issues; the seller had already agreed to a $2,000 credit. By 2023-11-30, the user was preparing to move into a new home, had Wells Fargo pre-approval for a $400,000 mortgage, and was arranging utilities, cable/TV, insurance, storage-unit logistics, and move tasks. The user planned to use Trello and was excited to move in and have a backyard. Elapsed time: about 111 days from the purchase discussion to move preparations.",
+   "entities": [
+    "user",
+    "Wells Fargo"
+   ],
+   "topic": "home purchase and move",
+   "time": "2023-08-11..2023-11-30",
+   "sources": [
+    "T27",
+    "T31",
+    "T33",
+    "T365",
+    "T369"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Wells Fargo mortgage pre-approval amounts mentioned by the user changed from $350,000 on 2023-08-11 to $400,000 by 2023-11-30, an increase of $50,000. The user’s stated planned purchase price on 2023-08-11 was $325,000.",
+   "entities": [
+    "user",
+    "Wells Fargo"
+   ],
+   "topic": "mortgage pre-approval changes",
+   "time": "2023-08-11..2023-11-30",
+   "sources": [
+    "T27",
+    "T365"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Sleep routine: On 2023-08-02, the user was working toward a consistent bedtime and a 7:00 AM wake-up, while struggling to wake at the desired time. Reading for at least 20 minutes before lights out helped the user relax, reduce screen time, fall asleep more easily, and wake more easily. The user planned to limit weekend sleep-ins to 7:30 AM, try morning stretching or meditation, and considered a smart alarm. They also considered planning the day with a to-do list or goals. These were plans and strategies under consideration; no later outcome was reported.",
+   "entities": [
+    "user"
+   ],
+   "topic": "bedtime and morning routine",
+   "time": "2023-08-02..2023-08-02",
+   "sources": [
+    "T13",
+    "T17",
+    "T19",
+    "T21"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Fresh Earth global commercialization documentation: On 2023-09-01, the user wanted to consolidate document categories and work through them, requesting a copy-and-print-friendly numbering style to use for documents developed going forward. The proposed document set covered technology development, marketing and communications, investment documentation, and other operational needs. Related planning covered business development, regulatory compliance, operations, legal matters, financing, and human resources. The Fresh Earth Data Comms Platform was described as collecting and analyzing impact and participation data to guide communications and rewards; Fresh Earth Rewards was framed as distributing tokens, wealth, and participation-based incentives as an alternative to investor funding. No completed documents or commercialization outcome were reported.",
+   "entities": [
+    "user",
+    "Fresh Earth",
+    "Fresh Earth Data Comms Platform",
+    "Fresh Earth Rewards"
+   ],
+   "topic": "Fresh Earth commercialization and documentation",
+   "time": "2023-09-01..2023-09-01",
+   "sources": [
+    "T117",
+    "T118"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Social-media campaign planning: On 2023-09-09, the user said they felt overwhelmed by a large campaign while working around 40 hours weekly and sometimes staying late. They wanted to apply SMART goals, requested a six-week content calendar, and asked how to set posting frequency. They also explored campaign measurement, including channel metrics, ROI, and CAC. The conversation provided formulas and examples, but no campaign results or later status were reported.",
+   "entities": [
+    "user"
+   ],
+   "topic": "campaign planning and measurement",
+   "time": "2023-09-09..2023-09-09",
+   "sources": [
+    "T145",
+    "T147",
+    "T149",
+    "T151",
+    "T153",
+    "T155",
+    "T154",
+    "T156"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Career development and possible transition: On 2023-08-18, the user asked about promotion pathways, mentorship and training programs, and how to approach a manager about career goals. On 2023-08-26, the user said they had recently been promoted to senior software engineer and were weighing a rival company’s technical lead offer. They were considering a career transition for more challenging roles and explored MBA programs, especially Stanford GSB and MIT Sloan, along with technical certifications. They also asked about Stanford GSB entrepreneurship and venture-capital resources. No decision about the job offer or graduate study was reported. Elapsed time: 8 days between the career-advancement discussion and the job-offer discussion.",
+   "entities": [
+    "user",
+    "Stanford Graduate School of Business",
+    "MIT Sloan School of Management"
+   ],
+   "topic": "career advancement and transition",
+   "time": "2023-08-18..2023-08-26",
+   "sources": [
+    "T61",
+    "T63",
+    "T67",
+    "T69",
+    "T71",
+    "T73",
+    "T75",
+    "T77",
+    "T79"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Thesis focus and social-media distractions: On 2023-11-15, the user said they were easily distracted while working on a thesis and had realized they spent at least two hours per day scrolling Facebook, Instagram, and Twitter before their break. They planned to try the Pomodoro Technique and Trello, remove social apps from their phone’s home screen, schedule specific checking times, and temporarily delete Facebook and Instagram apps. They also planned to unfollow, mute, and organize Twitter accounts. These were planned experiments; no later results were reported.",
+   "entities": [
+    "user",
+    "Facebook",
+    "Instagram",
+    "Twitter",
+    "Trello"
+   ],
+   "topic": "thesis productivity and social-media use",
+   "time": "2023-11-15..2023-11-15",
+   "sources": [
+    "T284",
+    "T286",
+    "T288",
+    "T290",
+    "T292",
+    "T294"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Zombie-game story development: By 2023-10-29, the user had developed three story paths and described Path 3, in which Surgey’s actions lead to an uncontained outbreak and ultimately a global apocalypse. The user wanted maps to leave the timeline distinctions ambiguous unless players closely inspect clues, welcomed feedback, and liked the suggestion of additional smaller timeline splits caused by decisions. The user also discussed seven Amplified zombie types: Jugernaut, Hydra, Skullcrawler, Beserker, Lasher, Hoplite, and Fissionator. Suggestions about which paths should feature particular types and possible path-specific maps/events were assistant proposals, not confirmed user decisions.",
+   "entities": [
+    "user",
+    "Surgey",
+    "Marcus",
+    "Jillian",
+    "Dr. Penelope",
+    "Jugernaut",
+    "Hydra",
+    "Skullcrawler",
+    "Beserker",
+    "Lasher",
+    "Hoplite",
+    "Fissionator"
+   ],
+   "topic": "zombie-game narrative and creature design",
+   "time": "2023-10-28..2023-10-29",
+   "sources": [
+    "T245",
+    "T247",
+    "T249",
+    "T251",
+    "T253",
+    "T254",
+    "T255",
+    "T256",
+    "T257",
+    "T258"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Japan trip planning: The user booked a trip to Japan through Happy Trails Travel Agency in October 2023 and expressed excitement. By 2023-11-20, the user was considering a Nara day trip, planning a guided Tokyo city tour, and looking for convenient, comfortable accommodations in Osaka and Kyoto, with Kayak considered for price comparison. Restaurant, sightseeing, and hotel suggestions were provided, but the user did not confirm those specific choices or bookings.",
+   "entities": [
+    "user",
+    "Japan",
+    "Happy Trails Travel Agency",
+    "Tokyo",
+    "Osaka",
+    "Kyoto",
+    "Nara"
+   ],
+   "topic": "Japan trip",
+   "time": "2023-10-01..2023-11-20",
+   "sources": [
+    "T298",
+    "T300",
+    "T302",
+    "T304"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Santa Cruz and Yosemite travel planning: In October 2023, the user planned several days in Santa Cruz before a four-day Yosemite trip planned for November, and intended to try surfing, particularly at Cowell’s Beach; they planned to look into surf lessons, rentals, and campgrounds. They also wanted to explore Yosemite by bicycle and asked about surfing and kayaking as possible trip activities. Campsites, hikes, bicycle routes and rentals, surf schools, beaches, and kayak locations were suggested. No dates, bookings, rentals, or completed activities were confirmed.",
+   "entities": [
+    "user",
+    "Santa Cruz",
+    "Cowell’s Beach",
+    "Yosemite National Park"
+   ],
+   "topic": "Santa Cruz and Yosemite trip planning",
+   "time": "2023-10-26..2023-11-30",
+   "sources": [
+    "T215",
+    "T216",
+    "T217",
+    "T218",
+    "T219",
+    "T220"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Oxford master’s study exploration: On 2023-11-24, the user asked how to apply to a master’s programme at the University of Oxford and about requirements, personal-statement writing, research opportunities, student support, social and networking opportunities, and food options. The assistant described application components and university resources. The user expressed curiosity about Oxford’s social scene after hearing about student support. No application or decision to attend was reported.",
+   "entities": [
+    "user",
+    "University of Oxford"
+   ],
+   "topic": "Oxford master’s study",
+   "time": "2023-11-24..2023-11-24",
+   "sources": [
+    "T321",
+    "T323",
+    "T325",
+    "T327",
+    "T329",
+    "T331"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Travel destinations discussed as trips, past or prospective: Paris—five-day trip in October 2023, described as amazing and fun; the user stayed near the Eiffel Tower and explored the city. Japan—booked through Happy Trails Travel Agency in October 2023, with Tokyo, Osaka, Kyoto, and a possible Nara day trip discussed in November. Yosemite National Park—proposed four-day trip for November 2023, not confirmed as booked. Santa Cruz, California—planned few days before Yosemite, with surfing at Cowell’s Beach in mind. Chicago—trip under consideration as of 2023-11-23, with the Loop and River North considered for a hotel. Rome—flight prices were being compared on Kayak on 2023-11-20, with a price alert active. Paris was also under consideration for a possible future trip, though the user’s November discussion may have referred to another visit after the October trip.",
+   "entities": [
+    "user",
+    "Paris",
+    "Japan",
+    "Tokyo",
+    "Osaka",
+    "Kyoto",
+    "Nara",
+    "Yosemite National Park",
+    "Santa Cruz",
+    "Chicago",
+    "Rome"
+   ],
+   "topic": "travel destinations and trips",
+   "time": "2023-10-01..2023-11-23",
+   "sources": [
+    "T298",
+    "T300",
+    "T306",
+    "T315",
+    "T317",
+    "T319",
+    "T215",
+    "T217",
+    "T219"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Books and fantasy authors discussed: The user finished Patrick Rothfuss’s The Name of the Wind on 2023-09-05 and said they were hooked, then asked about fantasy in a similar style and about Scott Lynch’s The Lies of Locke Lamora, its setting and plot, writing style, pacing, historical inspirations, Elder Glass, ancient civilizations, and the Bondsmagi. Assistant recommendations included Joe Abercrombie, Steven Erikson, Scott Lynch, Brandon Sanderson, Django Wexler, Brent Weeks, Mark Lawrence, Michael J. Sullivan, Kevin Hearne, and Aliette de Bodard. No other book purchase or reading was confirmed.",
+   "entities": [
+    "user",
+    "Patrick Rothfuss",
+    "The Name of the Wind",
+    "Scott Lynch",
+    "The Lies of Locke Lamora",
+    "Joe Abercrombie",
+    "Steven Erikson",
+    "Brandon Sanderson"
+   ],
+   "topic": "fantasy reading and recommendations",
+   "time": "2023-09-05..2023-09-05",
+   "sources": [
+    "T133",
+    "T134",
+    "T135",
+    "T137",
+    "T139",
+    "T141",
+    "T143"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Home organization and furniture interests: On 2023-09-01, the user wanted a tray to corral coffee-table clutter in a vintage-style living room with a vintage-style lamp, and favored an Art Deco geometric metal tray with a brass finish, considering a size around 12–15 inches. On 2023-11-11, the user planned to organize desk cords with a cable-management box and cable ties. On 2023-09-18, the user was considering a West Elm coffee table and weighing whether to wait for an after-Christmas sale; no purchase was reported.",
+   "entities": [
+    "user",
+    "Art Deco tray",
+    "West Elm coffee table",
+    "cable-management box",
+    "cable ties"
+   ],
+   "topic": "home furnishings and organization",
+   "time": "2023-09-01..2023-11-11",
+   "sources": [
+    "T97",
+    "T99",
+    "T101",
+    "T103",
+    "T105",
+    "T107",
+    "T187",
+    "T189",
+    "T191",
+    "T276",
+    "T278"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Commute listening and productivity interests: The user’s daily morning commute to work takes about 30 minutes, and the user said they are not a morning person and want to stay focused and alert. On 2023-11-29, they planned to try audiobooks and podcasts, experiment with playback speed and sleep timers, and said engaging listening helps. They were particularly interested in self-help and personal-development books for productivity and time management.",
+   "entities": [
+    "user"
+   ],
+   "topic": "commute listening",
+   "time": "2023-11-29..2023-11-29",
+   "sources": [
+    "T353",
+    "T355",
+    "T357",
+    "T359",
+    "T361",
+    "T362",
+    "T363"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user described a daily morning commute of about 30 minutes and said they use phone GPS to drive to their children’s soccer practice every Saturday morning. The records establish one recurring weekly practice trip and a daily commute, but do not give a total number of trips.",
+   "entities": [
+    "user"
+   ],
+   "topic": "driving routines",
+   "time": "2023-11-29..2023-11-29",
+   "sources": [
+    "T347",
+    "T353"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "On 2023-11-15, the user estimated spending at least two hours per day scrolling Facebook, Instagram, and Twitter before their break while trying to focus on a thesis project.",
+   "entities": [
+    "user",
+    "Facebook",
+    "Instagram",
+    "Twitter"
+   ],
+   "topic": "social-media scrolling",
+   "time": "2023-11-15..2023-11-15",
+   "sources": [
+    "T284"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Breakfast and snack ideas: On 2023-10-17, the user said they were eating many salads for lunch and wanted more breakfast variety, had made homemade granola, and was considering it as an oatmeal or yogurt topping. They especially liked oatmeal bowls and yogurt parfaits and were interested in breakfast burritos with scrambled eggs and avocado. They were reducing sugar and said homemade granola helped. They planned Classic Mix and Tropical Bliss trail mixes with cinnamon-spiced almonds and planned to store portions in airtight containers in a cool, dry place.",
+   "entities": [
+    "user",
+    "homemade granola",
+    "oatmeal bowls",
+    "yogurt parfaits",
+    "breakfast burritos",
+    "Classic Mix trail mix",
+    "Tropical Bliss trail mix",
+    "cinnamon-spiced almonds"
+   ],
+   "topic": "breakfast, snacks, and reduced-sugar eating",
+   "time": "2023-10-17..2023-10-17",
+   "sources": [
+    "T203",
+    "T205",
+    "T207",
+    "T209",
+    "T211",
+    "T213"
+   ]
+  }
+ ]
+}

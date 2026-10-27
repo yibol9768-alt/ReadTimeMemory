@@ -1,0 +1,425 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:collection",
+   "text": "Plants the user owns, cares for, or has considered: peace lily, drooping on 2023-05-26 when the user suspected over-fertilizing; African violets, doing well with balanced water-soluble fertilizer on 2023-05-26; fiddle-leaf fig Felix, watered on Wednesdays as of 2023-05-26; desk succulent arrangement, which the user has cared for successfully by 2023-05-26; possible new succulents or air plants, with two or three considered for a shelf near the living-room window on 2023-05-26. The user considered a humidity tray and a different fertilizer for the peace lily on 2023-05-26.",
+   "entities": [
+    "peace lily",
+    "African violets",
+    "Felix (fiddle-leaf fig)",
+    "succulents",
+    "air plants"
+   ],
+   "topic": "plants and plant care",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T13",
+    "T15",
+    "T17",
+    "T19",
+    "T21"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user wants to strengthen data-analysis and visualization skills, drawing on marketing work, a business-administration degree, and a foundation in statistics (2023-05-26). By 2023-05-26, the user had completed two courses and was especially interested in Google Data Studio because it integrates with Google Analytics. The user had set up Google Analytics but was unfamiliar with it, and wanted to analyze product-page behavior and shopping-cart abandonment for a reusable-water-bottle product launch. On 2023-05-26, the user planned to track Add to Cart clicks, calculate add-to-cart rate, segment users who added a product but did not purchase, and build a dashboard covering traffic, engagement, conversion, revenue, advertising, and abandoned-cart measures. In a separate hypothetical visualization exercise that day, the user considered blending Analytics Sessions with Google Sheets sales by Date, defining Conversion Rate as SUM(Sales)/SUM(Sessions), and charting it over time. No implementation or launch outcome is recorded.",
+   "entities": [
+    "Google Data Studio",
+    "Google Analytics",
+    "reusable water bottle product line",
+    "Google Sheets"
+   ],
+   "topic": "data-analysis learning and product-launch analytics",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T1",
+    "T5",
+    "T7",
+    "T8",
+    "T9",
+    "T10",
+    "T11",
+    "T25",
+    "T27",
+    "T31",
+    "T32",
+    "T33",
+    "T35"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-26, the user described a longitudinal, within-player study of team-sport athletes transitioning from academy to elite level, with strength testing every six months over as much as four years before and four years after transition. Each player had six measurements, and the user wanted to examine development over time. The dataset was named both_debuttest3_selecttest and contained name, strength, and months_from_transition. The user requested tidyverse-style ANOVA code and later reported a contrasts error from aov(Strength ~ Time*Test + Error(name/Test), data = anovatest2). The assistant suggested checking whether Test was a factor with at least two levels. No resolved model or analysis result is recorded.",
+   "entities": [
+    "both_debuttest3_selecttest",
+    "anovatest2",
+    "team-sport strength study"
+   ],
+   "topic": "longitudinal strength analysis in R",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T309",
+    "T311",
+    "T312",
+    "T313",
+    "T315"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-26, the user said they felt overwhelmed and wanted stress-management advice; they reported anxiety and depression and attending therapy twice weekly for the previous three months, which helped identify triggers and coping mechanisms. They also reported recent sleep trouble affecting mood and energy and difficulty maintaining exercise. They planned to set realistic bed and wake times and adjust gradually, make the bedroom darker and quieter, and try reading or calming music before bed. They planned to journal for 10–15 minutes each night, writing about feelings, therapy insights, goals, challenges, and gratitude. The user hoped journaling would support mindfulness, self-awareness, emotional regulation, and self-compassion; whether the plans were carried out is not recorded.",
+   "entities": [
+    "therapy",
+    "sleep routine",
+    "journaling",
+    "anxiety",
+    "depression"
+   ],
+   "topic": "mental-health self-care and bedtime routine",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T87",
+    "T89",
+    "T91",
+    "T93",
+    "T95",
+    "T97"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-26, the user worked on a proposal for NEST Student Co-Living, a temporary housing platform connecting local and international university students with nearby property owners and compatible roommates. Its proposed matching considers factors such as budget and location; the pitch framed short-term rentals as a way for owners to earn from properties that might otherwise be vacant or costly to maintain. The user requested separate pitch-deck outlines for property owners and students, followed by straight-line sales scripts for each audience. The materials were drafted, but no launch or business outcome is recorded.",
+   "entities": [
+    "NEST Student Co-Living"
+   ],
+   "topic": "NEST student-housing proposal and pitches",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T135",
+    "T136",
+    "T137",
+    "T138",
+    "T139",
+    "T140",
+    "T141",
+    "T142",
+    "T143"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user attended a memoir-writing workshop at a local bookstore on 2023-05-20..2023-05-21, finding it helpful for structuring memoirs. By 2023-05-26, the user had tried forms including haiku and free verse, liked varied prompts, and planned to begin a series of childhood essays using sensory details. Plans included trying freewriting about a childhood memory through all five senses, sensory freewriting, and a sensory scavenger hunt. The user prefers warm-ups and breaking goals into smaller tasks; completion of the essay series is not recorded.",
+   "entities": [
+    "childhood essay series",
+    "memoir-writing workshop"
+   ],
+   "topic": "writing practice and childhood essays",
+   "time": "2023-05-20..2023-05-26",
+   "sources": [
+    "T391",
+    "T393",
+    "T395",
+    "T397",
+    "T399"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-26, the user was planning a summer trip to Europe and was undecided between Paris and Amsterdam. The user asked about attractions, considered using travel-rewards points for a flight, and researched Lufthansa, British Airways, and KLM without choosing an airline. The user also asked for travel-planning apps and about the Chase Sapphire Preferred card, its travel insurance, and redeeming Chase Ultimate Rewards points. No destination, flight, card, or booking was confirmed.",
+   "entities": [
+    "Paris",
+    "Amsterdam",
+    "Lufthansa",
+    "British Airways",
+    "KLM",
+    "Chase Sapphire Preferred"
+   ],
+   "topic": "Europe trip planning",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T285",
+    "T289",
+    "T291",
+    "T293",
+    "T295"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Vintage postcards in the user's collection or acquired by the user: a 1923 Paris postcard depicting the Eiffel Tower, bought at an antique shop in April 2023 for $15 and estimated by the user at about $50; the user values its historic and architectural appeal (2023-04). On 2023-05-20, the user bought seven additional postcards at a local flea market, including a rare 1950s Hawaii postcard with a surfing theme. The user planned to organize, store, and display the collection (date not stated).",
+   "entities": [
+    "vintage postcard collection",
+    "1923 Paris Eiffel Tower postcard",
+    "1950s Hawaii surfing postcard"
+   ],
+   "topic": "postcard collecting",
+   "time": "2023-04..2023-05-20",
+   "sources": [
+    "T259"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Vintage cameras the user has collected or explored: one 1960s-era Canon rangefinder camera, purchased online before 2023-05-26 and described as a recent addition on 2023-05-26. The user is interested in camera history, photography techniques, film types, and online marketplaces or forums for researching and buying vintage cameras. The user had not decided whether to restore, modify, or preserve the camera in original condition.",
+   "entities": [
+    "1960s-era Canon rangefinder camera",
+    "vintage camera collection"
+   ],
+   "topic": "vintage camera collecting",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T261"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Films and television the user watched, enjoyed, or considered: The Lost Daughter, loved after seeing it at an International Film Festival on 2023-05-26; the complete Harry Potter film series, rewatched by 2023-05-26; Hulu's The Handmaid's Tale and Apple TV+'s For All Mankind, both enjoyed by 2023-05-26; The Marvelous Mrs. Maisel, already watched and loved for its humor and characters by 2023-05-26; The Grand Tour, which the user was keeping up with and found entertaining and informative by 2023-05-26. The user was interested in The Haunting of Hill House and Russian Doll, planned to start The Haunting of Hill House, and was also curious about The Power and Westworld; no viewing of these latter shows is confirmed. The user planned to add HBO to Amazon Prime Video to watch Westworld (2023-05-26).",
+   "entities": [
+    "The Lost Daughter",
+    "Harry Potter",
+    "The Handmaid's Tale",
+    "For All Mankind",
+    "The Marvelous Mrs. Maisel",
+    "The Grand Tour",
+    "The Haunting of Hill House",
+    "Russian Doll",
+    "The Power",
+    "Westworld"
+   ],
+   "topic": "films and television",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T111",
+    "T177",
+    "T183",
+    "T239",
+    "T241",
+    "T243",
+    "T245",
+    "T247",
+    "T249",
+    "T365",
+    "T367",
+    "T371",
+    "T373",
+    "T375"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Live music events the user attended or considered: The Lumineers at Wrigley Field, seen around 2023-05-19..2023-05-25 and described as an amazing time; a Grant Park music festival featuring Billie Eilish, Khalid, and The 1975, attended shortly before 2023-05-26, after which the user felt excited and on a music high. The user was considering more Chicago concerts and asked about a purported Foster the People show at The Vic Theatre on 2023-09-20; the listing and opening-act details came from the assistant and were not independently confirmed by the user.",
+   "entities": [
+    "The Lumineers",
+    "Billie Eilish",
+    "Khalid",
+    "The 1975",
+    "Foster the People"
+   ],
+   "topic": "concerts and music festivals",
+   "time": "2023-05-19..2023-09-20",
+   "sources": [
+    "T377",
+    "T381",
+    "T382",
+    "T385",
+    "T386"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Music the user enjoys or planned to explore: the user loves Miles Davis's experimental sound and loved Kind of Blue; on 2023-05-26, the user planned to listen to Milestones, Bitches Brew, and Workin', especially the song Four, and said they would check out contemporary artists influenced by Miles Davis. The user also expressed particular interest in indie rock and pop after seeing Billie Eilish, Khalid, and The 1975 at a Grant Park festival shortly before 2023-05-26.",
+   "entities": [
+    "Miles Davis",
+    "Kind of Blue",
+    "Milestones",
+    "Bitches Brew",
+    "Workin'",
+    "Four"
+   ],
+   "topic": "music interests and listening plans",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T377",
+    "T381"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Foods, recipes, and meal ideas the user has enjoyed or planned: chicken stir-fry improved with soy sauce (2023-05-26); roasted vegetables and quinoa are favorites, and the user chose Lemon Rosemary Chicken to try (2023-05-26); Sunday batch-roasted vegetables include Brussels sprouts, sweet potatoes, and red onions, with carrots, cauliflower, broccoli, parsnips, beets, or celery root considered as additions (2023-05-28); the user makes apple-cider-vinegar and Dijon vinaigrette and planned to try Korean-style gochujang vinaigrette that weekend (2023-05-26..2023-05-28); the user cooked fried rice with scrambled eggs, mixed vegetables, and leftover takeout rice on 2023-05-26, and planned to try homemade kimchi with a Korean-style rice bowl containing chicken or tofu; the user cooked a pot of chili con carne on 2023-05-21 that lasted through 2023-05-24; the user planned grilled chicken breast and roasted vegetables for meal prep and wanted a new marinade (2023-05-26).",
+   "entities": [
+    "chicken stir-fry",
+    "roasted vegetables",
+    "quinoa",
+    "Lemon Rosemary Chicken",
+    "gochujang vinaigrette",
+    "fried rice",
+    "kimchi",
+    "Korean-style rice bowl",
+    "chili con carne",
+    "grilled chicken breast"
+   ],
+   "topic": "cooking and meal planning",
+   "time": "2023-05-21..2023-05-28",
+   "sources": [
+    "T189",
+    "T191",
+    "T193",
+    "T194",
+    "T195",
+    "T197",
+    "T198",
+    "T201",
+    "T203",
+    "T205",
+    "T209",
+    "T211"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user had enjoyed ribs at Alex's house around 2023-05-05 and, on 2023-05-26, wanted to experiment with barbecue sauce and smoking wood chips during the weekend of 2023-05-27..2023-05-28. The user was interested in asking Alex for a secret recipe; Alex had said the recipe used a dry rub left on the meat for 24 hours, and the user wanted to try that method next time. The user also planned to try Smokey's Downtown with friends that weekend and decided to call ahead about wait times. The restaurant visit and whether the user tried the dry rub are not confirmed.",
+   "entities": [
+    "barbecue ribs",
+    "Alex",
+    "Smokey's Downtown"
+   ],
+   "topic": "barbecue plans and recipe interest",
+   "time": "2023-05-05..2023-05-28",
+   "sources": [
+    "T439",
+    "T441",
+    "T443",
+    "T445",
+    "T447",
+    "T448"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Museums and museum experiences: the user attended an 'Ancient Civilizations' guided tour at the National Museum of History a few weeks before 2023-05-26 and found it interesting; the user had previously attended a behind-the-scenes tour at the Natural History Museum (date unspecified). The user planned to revisit the National Museum of History, was especially interested in ancient Egyptian artifacts and mummification, and planned to ask about tours focused on those subjects and behind-the-scenes or conservation-lab access. The user was interested in seeing how artifacts are preserved; no further visit or tour is confirmed.",
+   "entities": [
+    "National Museum of History",
+    "Natural History Museum",
+    "Ancient Civilizations tour",
+    "conservation lab"
+   ],
+   "topic": "museum visits and artifact preservation",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T213",
+    "T215",
+    "T219",
+    "T221",
+    "T223"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user had previously seen Bald Eagles on a guided bird walk and, on 2023-05-26, planned independent visits to a nearby state park in early morning and late afternoon to observe them. The user planned to bring binoculars and contact the park's nature center or check its website for guided walks, eagle-viewing tours, Snow Goose migration information, and birding hotspots. In April 2023, the user saw a flock of Snow Geese at a wildlife refuge on the way back from the beach and hoped to see them again at the state park. No planned state-park visit is confirmed as completed.",
+   "entities": [
+    "Bald Eagles",
+    "Snow Geese",
+    "nearby state park",
+    "wildlife refuge"
+   ],
+   "topic": "birdwatching plans",
+   "time": "2023-04-01..2023-05-26",
+   "sources": [
+    "T297",
+    "T299",
+    "T301",
+    "T303",
+    "T305",
+    "T307"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user attended Tech Expo 2022 at the Las Vegas Convention Center in March 2022 and said the venue suited the event well. In April 2023, the user attended an e-commerce event similar to an E-commerce Summit in New York, without giving its name. By 2023-05-26, the user was researching Nevada as a possible location for the company's next event but had not selected a venue. The user expressed interest in CommerceNext in New York City for e-commerce trends and networking and asked how to apply for an invitation; there is no record that the user applied or attended.",
+   "entities": [
+    "Tech Expo 2022",
+    "Las Vegas Convention Center",
+    "New York e-commerce event",
+    "CommerceNext",
+    "Nevada"
+   ],
+   "topic": "professional events and event planning",
+   "time": "2022-03..2023-05-26",
+   "sources": [
+    "T144",
+    "T146",
+    "T150",
+    "T154",
+    "T155"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-26, the user was nervous about attending a first career fair. After discussing preparation, the user said they felt better prepared, planned to bring a friend for support, and intended to bring a notepad and pen. The user later said they felt more confident about negotiating their next job offer and planned to keep the salary-negotiation advice in mind. No career-fair attendance or job-offer negotiation outcome is recorded.",
+   "entities": [
+    "first career fair",
+    "job-offer negotiation"
+   ],
+   "topic": "career preparation and confidence",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T69",
+    "T70",
+    "T71",
+    "T73",
+    "T74",
+    "T75",
+    "T76",
+    "T77",
+    "T349",
+    "T351"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Places in California the user visited or considered for outdoor recreation: Tomales Bay and Hog Island, where the user kayaked with friends on 2023-05-20..2023-05-21 after renting kayaks from Blue Waters Kayaking; Big Sur, where the user previously camped with friends and hiked to McWay Falls (date unspecified); and the Pine Ridge Trail to Sykes Camp, which the user chose for a planned 5–6-hour hike because of its scenery and hot springs, with completion not confirmed. The user also considered a future California camping trip near a lake or ocean and wanted a waterproof bag for kayaking and a better-ventilated hiking backpack.",
+   "entities": [
+    "Tomales Bay",
+    "Hog Island",
+    "Blue Waters Kayaking",
+    "Big Sur",
+    "McWay Falls",
+    "Pine Ridge Trail",
+    "Sykes Camp"
+   ],
+   "topic": "California outdoor activities and trip plans",
+   "time": "2023-05-20..2023-05-26",
+   "sources": [
+    "T335"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported attending two separate live-music events by 2023-05-26: The Lumineers at Wrigley Field around 2023-05-19..2023-05-25, and a Grant Park festival featuring Billie Eilish, Khalid, and The 1975 shortly before 2023-05-26. The user described both experiences positively. Later Chicago concert listings were suggestions and are not counted as attended.",
+   "entities": [
+    "The Lumineers",
+    "Billie Eilish",
+    "Khalid",
+    "The 1975"
+   ],
+   "topic": "live-music events attended",
+   "time": "2023-05-19..2023-05-26",
+   "sources": [
+    "T377",
+    "T381"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user said they had completed two courses to improve data-analysis skills by 2023-05-26. No additional course completion is recorded.",
+   "entities": [
+    "data-analysis courses"
+   ],
+   "topic": "completed data-analysis courses",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T25"
+   ]
+  }
+ ]
+}

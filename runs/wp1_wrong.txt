@@ -1,0 +1,176 @@
+[rec_sess cat1 retrieval] Q: Which cities has Jon visited?
+  gold: Paris, Rome
+  pred: Paris.
+
+[rec_sess cat1 retrieval] Q: What kind of classes has James joined?
+  gold: game design course, cooking classes
+  pred: No classes are mentioned for James; he joined an online gaming tournament and platform.
+
+[rec_sess cat1 retrieval] Q: What gifts has Calvin received from his artist friends?
+  gold: gold chain, custom-made guitar with an octopus on it
+  pred: Calvin received a necklace from another artist as a gift.
+
+[rec_sess cat1 retrieval] Q: How does Evan spend his time with his bride after the wedding?
+  gold: family get-together, honeymoon in Canada to see snowy landscapes, ski, taste local cuisine and do some snowshoeing
+  pred: Not mentioned in the memory; best guess: they spend time together painting, hiking, and enjoying family.
+
+[rec_sess cat1 retrieval] Q: What new hobbies did Sam consider trying?
+  gold: Painting, kayaking, hiking, cooking, running
+  pred: Sam considered trying painting (and also thought about trying something different outdoors).
+
+[rec_sess cat1 retrieval] Q: How long did it take for Jon to open his studio?
+  gold: six months
+  pred: The memory doesn’t give an exact opening date, but Jon was still searching in late January 2023 and had started his dance studio by May 2023, so roughly 3–4 months.
+
+[rec_sess cat1 retrieval] Q: What gifts has Deborah received?
+  gold: an appreciate letter from her community, a flower bouqet from her friend, a motivational quote from a friend
+  pred: Deborah received a letter and a handwritten note/quote on a piece of paper from a friend.
+
+[rec_sess cat2 in-ctx] Q: When did Audrey make muffins for herself?
+  gold: The week of April 3rd to 9th
+  pred: 6 September 2023
+
+[rec_sess cat2 in-ctx] Q: How long did it take for Joanna to finish writing her book?
+  gold: four months
+  pred: About three months—she had recently started it by 10 July 2022 and finished during the week before 6 October 2022.
+
+[rec_sess cat2 retrieval] Q: When did James volunteer at an organization?
+  gold: May 2022
+  pred: On 19 June 2022.
+
+[rec_sess cat3 retrieval] Q: Which outdoor gear company likely signed up John for an endorsement deal?
+  gold: Under Armour
+  pred: The memory doesn’t name it; best guess is **The North Face**.
+
+[rec_sess cat3 retrieval] Q: Which popular time management technique does Tim use to prepare for exams?
+  gold: Pomodoro technique
+  pred: Breaking studying into smaller parts (chunking).
+
+[rec_sess cat3 retrieval] Q: Are John and James fans of the same football team?
+  gold: No, James is a Liverpool fan and John is a Manchester City fan.
+  pred: The memory does not say which football team John supports, so it’s not clear they are fans of the same team. James is a Liverpool fan.
+
+[rec_sess cat3 retrieval] Q: What is the board game where you have to find the imposter that John mentions to James?
+  gold: Mafia
+  pred: Dungeons of the Dragon (the only board game John mentions; the memory doesn’t mention an imposter mechanic).
+
+[rec_sess cat4 retrieval] Q: What new activity did Maria start recently, as mentioned on 3 June, 2023?
+  gold: volunteering at a local dog shelter once a month
+  pred: Kundalini yoga.
+
+[rec_sess cat4 in-ctx] Q: Where are John and his teammates planning to explore on a team trip?
+  gold: a new city
+  pred: Edinburgh, Scotland (they were considering it for their October 2023 team trip).
+
+[hyb_mq cat1 retrieval] Q: What gifts has Calvin received from his artist friends?
+  gold: gold chain, custom-made guitar with an octopus on it
+  pred: Calvin received a necklace as a gift from another artist.
+
+[hyb_mq cat1 in-ctx] Q: Where did Jolene and her partner find a cool diving spot?
+  gold: Phuket
+  pred: The memory doesn’t say where; it only mentions Jolene and others found a cool dive spot after her scuba diving lesson.
+
+[hyb_mq cat1 retrieval] Q: What is something Nate gave to Joanna that brings her a lot of joy?
+  gold: stuffed toy pup
+  pred: A white board with a drawing of arrows and words.
+
+[hyb_mq cat1 retrieval] Q: What kind of tricks do James's pets know?
+  gold: swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover
+  pred: James’s dogs can do sit, stay, paw, and rollover.
+
+[hyb_mq cat1 retrieval] Q: How long did it take for Jon to open his studio?
+  gold: six months
+  pred: About five months (from searching in late January 2023 to the June 20, 2023 opening).
+
+[hyb_mq cat1 retrieval] Q: What gifts has Deborah received?
+  gold: an appreciate letter from her community, a flower bouqet from her friend, a motivational quote from a friend
+  pred: Deborah received a letter on 26 January 2023.
+
+[hyb_mq cat2 in-ctx] Q: How long did it take for Joanna to finish writing her book?
+  gold: four months
+  pred: About two and a half to three months (from around 10 July 2022 to late September/early October 2022).
+
+[hyb_mq cat3 in-ctx] Q: Which outdoor gear company likely signed up John for an endorsement deal?
+  gold: Under Armour
+  pred: The memory doesn’t name the company; best guess: Patagonia.
+
+[hyb_mq cat3 in-ctx] Q: What is the board game where you have to find the imposter that John mentions to James?
+  gold: Mafia
+  pred: John only calls it “the impostor game”; no specific title is given in the memory.
+
+[hyb_mq cat3 in-ctx] Q: What Console does Nate own?
+  gold: A Nintendo Switch; since the game "Xenoblade 2" is made for this console.
+  pred: Xbox (based on the black Xbox controller he shared).
+
+[hyb_mq cat4 retrieval] Q: What new activity did Maria start recently, as mentioned on 3 June, 2023?
+  gold: volunteering at a local dog shelter once a month
+  pred: No new activity was mentioned on 3 June 2023; the closest memory is that Maria joined a gym during the week of 5–11 June 2023.
+
+[hyb_mq cat4 in-ctx] Q: Where are John and his teammates planning to explore on a team trip?
+  gold: a new city
+  pred: They were still deciding, but Edinburgh, Scotland was being considered.
+
+[lychee cat1 retrieval] Q: What similar sports collectible do Tim and John own?
+  gold: signed basketball
+  pred: Basketball shoes.
+
+[lychee cat1 in-ctx] Q: Where did Jolene and her partner find a cool diving spot?
+  gold: Phuket
+  pred: They found it during their scuba diving lesson.
+
+[lychee cat1 retrieval] Q: What are the names of Andrew's dogs?
+  gold: Toby, Scout, Buddy
+  pred: Toby and Buddy.
+
+[lychee cat1 write] Q: What new hobbies did Sam consider trying?
+  gold: Painting, kayaking, hiking, cooking, running
+  pred: Sam considered trying painting and kayaking.
+
+[lychee cat1 retrieval] Q: How long did it take for Jon to open his studio?
+  gold: six months
+  pred: About five months, from searching for a spot in late January 2023 to the opening on 2023-06-20.
+
+[lychee cat1 retrieval] Q: What gifts has Deborah received?
+  gold: an appreciate letter from her community, a flower bouqet from her friend, a motivational quote from a friend
+  pred: Deborah received a handwritten thank-you note from her yoga group and a bouquet of flowers from a friend.
+
+[lychee cat2 in-ctx] Q: When did Audrey make muffins for herself?
+  gold: The week of April 3rd to 9th
+  pred: The week of 2023-04-09 to 2023-04-15.
+
+[lychee cat2 in-ctx] Q: When did James meet Samantha?
+  gold: August 9, 2022
+  pred: James met Samantha on 2022-08-10.
+
+[lychee cat2 in-ctx] Q: How long did it take for Joanna to finish writing her book?
+  gold: four months
+  pred: About three months—from July 10, 2022, to late September/early October 2022.
+
+[lychee cat3 in-ctx] Q: Which outdoor gear company likely signed up John for an endorsement deal?
+  gold: Under Armour
+  pred: The memory doesn’t name it; a likely guess is **The North Face**.
+
+[lychee cat3 retrieval] Q: What is a career that Andrew could potentially pursue with his love for animals and nature?
+  gold: Park ranger or a similar position working for the National Park Services.
+  pred: He could pursue dog grooming, since he’s always wanted to learn it and would like to groom his German Shepherd, Toby.
+
+[lychee cat3 retrieval] Q: Does John live close to a beach or the mountains?
+  gold: beach
+  pred: The memory doesn’t say exactly, but John seems to enjoy beaches more than mountains.
+
+[lychee cat3 in-ctx] Q: What is the board game where you have to find the imposter that John mentions to James?
+  gold: Mafia
+  pred: The memory doesn’t name it, but it sounds like *Among Us*.
+
+[lychee cat3 retrieval] Q: What nickname does Nate use for Joanna?
+  gold: Jo
+  pred: No nickname is mentioned; Nate calls her Joanna.
+
+[lychee cat3 retrieval] Q: What Console does Nate own?
+  gold: A Nintendo Switch; since the game "Xenoblade 2" is made for this console.
+  pred: Xbox
+
+[lychee cat4 in-ctx] Q: Where are John and his teammates planning to explore on a team trip?
+  gold: a new city
+  pred: They were considering Edinburgh, Scotland, though the destination was still undecided.
+

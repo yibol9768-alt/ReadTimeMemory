@@ -1,0 +1,430 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:collection",
+   "text": "The user’s collectible items include a Light Yagami figurine from Death Note (acquired by 2023-05-30), The Walking Dead comic issues (owned by 2023-05-30), and vintage cameras, including a Canon AE-1 and a Polaroid Land Camera (owned by 2023-05-30). The user wants to photograph and catalog collectibles and has considered selling duplicate figurines.",
+   "entities": [
+    "user",
+    "Light Yagami figurine",
+    "The Walking Dead comic issues",
+    "Canon AE-1",
+    "Polaroid Land Camera"
+   ],
+   "topic": "collectibles",
+   "time": "2023-05-30..2023-05-30",
+   "sources": [
+    "T493",
+    "T495",
+    "T497",
+    "T499",
+    "T501"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user’s pets include Luna and Max. Max is the user’s dog and has skin allergies that seemed to improve with oatmeal shampoo (2023-05-24). Luna has a fish-design food bowl bought at a downtown local pet store for about $15 (2023-05-24); the user has also referred to a litter mat for Luna and considered finding her a quality bed, possibly suited to skin health or allergies.",
+   "entities": [
+    "user",
+    "Luna",
+    "Max"
+   ],
+   "topic": "pets",
+   "time": "2023-05-24..2023-05-24",
+   "sources": []
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user has bought gifts for family members on several occasions: a $50 photography book for the user’s brother, which he loved (date unspecified); an approximately $80 silver necklace for the user’s sister’s birthday around 2023-04-29; and a $70 cashmere scarf for the user’s mother during the 2022 holiday season, which the user believes she loved. The user has also considered customized jewelry for the mother’s anniversary (2023-05-28).",
+   "entities": [
+    "user",
+    "user’s brother",
+    "user’s sister",
+    "user’s mother"
+   ],
+   "topic": "gifts for family",
+   "time": "2022-11-01..2023-05-28",
+   "sources": [
+    "T3",
+    "T5",
+    "T284",
+    "T290"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user’s discussed meal ideas and planned dishes include chicken fajitas, spaghetti Bolognese, veggie quesadillas, lentil soup, chicken-and-vegetable stir-fry, chicken-and-beef tacos, creamy tomato pasta bake, balsamic-glazed chicken with roasted vegetables, and black bean and sweet potato enchiladas. The user especially liked veggie quesadillas and lentil soup (2023-05-26), and chose chicken fajitas and spaghetti Bolognese for the week of 2023-05-29 (2023-05-29).",
+   "entities": [
+    "user",
+    "chicken fajitas",
+    "spaghetti Bolognese",
+    "veggie quesadillas",
+    "lentil soup",
+    "chicken-and-vegetable stir-fry",
+    "chicken-and-beef tacos",
+    "creamy tomato pasta bake",
+    "balsamic-glazed chicken with roasted vegetables",
+    "black bean and sweet potato enchiladas"
+   ],
+   "topic": "meal planning and recipes",
+   "time": "2023-05-26..2023-05-30",
+   "sources": [
+    "T274",
+    "T278",
+    "T301",
+    "T302",
+    "T303",
+    "T304"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user has shopped or planned to shop at several grocery retailers: Walmart (including a grocery trip on 2023-05-20), Trader Joe’s with the user’s sister during 2023-05-15..2023-05-21, Publix (planned for the week of 2023-05-26..2023-06-01), and Thrive Market (online order in April 2023). The user used Instacart for grocery delivery and planned to use it again on 2023-05-30.",
+   "entities": [
+    "user",
+    "Walmart",
+    "Trader Joe’s",
+    "Publix",
+    "Thrive Market",
+    "Instacart"
+   ],
+   "topic": "grocery shopping",
+   "time": "2023-04-01..2023-06-01",
+   "sources": [
+    "T272",
+    "T280",
+    "T282",
+    "T446",
+    "T452"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user’s travel interests and plans mentioned multiple destinations: Japan, including Osaka and Kyoto with a possible Nara day trip and a guided Tokyo tour (trip booked in April 2023); Rome (flight-price alert on Kayak, 2023-05-23); New Orleans, including interest in its cuisine and a food tour (2023-05-24); Ceuta, including interest in seafood and sea views at Restaurante Puerto Deportivo and a decision to reserve (2023-05-25); and a proposed California wine-country road trip to Paso Robles and Napa Valley, with a possible hot-air-balloon ride (2023-05-28). The user also planned a family Europe vacation to Paris, Rome, and Barcelona for July or August 2023 (2023-05-29).",
+   "entities": [
+    "user",
+    "Japan",
+    "Osaka",
+    "Kyoto",
+    "Nara",
+    "Tokyo",
+    "Rome",
+    "New Orleans",
+    "Ceuta",
+    "Restaurante Puerto Deportivo",
+    "Paso Robles",
+    "Napa Valley",
+    "Paris",
+    "Barcelona"
+   ],
+   "topic": "travel destinations and plans",
+   "time": "2023-04-01..2023-08-31",
+   "sources": [
+    "T133",
+    "T135",
+    "T137",
+    "T143",
+    "T171",
+    "T172",
+    "T173",
+    "T174",
+    "T205",
+    "T206",
+    "T207",
+    "T211",
+    "T422",
+    "T424",
+    "T341",
+    "T343",
+    "T345",
+    "T347"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user booked a Japan trip through Happy Trails Travel Agency in April 2023 and affirmed the agency was legitimate after the assistant expressed uncertainty. On 2023-05-23, the user was considering Osaka and Kyoto, possibly adding a Nara day trip, and planned a guided Tokyo city tour. The user wanted convenient, comfortable accommodation and considered Kayak for comparing hotel prices, with advice to verify prices, fees, and details before booking. The conversation does not confirm the trip dates or hotel bookings. Elapsed time from booking to the planning discussion: about 1 month.",
+   "entities": [
+    "user",
+    "Happy Trails Travel Agency",
+    "Japan",
+    "Osaka",
+    "Kyoto",
+    "Nara",
+    "Tokyo",
+    "Kayak"
+   ],
+   "topic": "Japan trip planning",
+   "time": "2023-04-01..2023-05-23",
+   "sources": [
+    "T133",
+    "T135",
+    "T137",
+    "T139",
+    "T141",
+    "T142"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-23, the user said the business plan for CreativeSpark Marketing was complete after several late nights and weekend work and that they were excited to implement its strategy. The business targets local small and medium-sized businesses, especially busy entrepreneurs without in-house marketing expertise or resources, and aims for a friendly, approachable, knowledgeable voice. The user planned educational Marketing 101 content and chose a concise, conversational video titled “What is SEO?” as the first installment. They planned to track views, engagement, watch time, drop-off points, comments, and conversions, and were also seeking a consistent social media calendar. The record confirms plans, not publication of the video. Elapsed time within the recorded planning session: same day.",
+   "entities": [
+    "user",
+    "CreativeSpark Marketing",
+    "Marketing 101",
+    "What is SEO?"
+   ],
+   "topic": "CreativeSpark Marketing launch and content strategy",
+   "time": "2023-05-23..2023-05-23",
+   "sources": [
+    "T145",
+    "T147",
+    "T149",
+    "T151",
+    "T153",
+    "T155"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-21, the user said they had recently been promoted to Senior Software Engineer at TechCorp after leading engineers on a high-priority project, and wanted to develop artificial intelligence and cloud-computing expertise for possible advancement to Technical Lead or Architect. The user was planning a two-week European trip to network and learn about technology trends, with London events including London AI Summit and TechEx Europe and possible AI and cloud meetups. The user considered contacting Google and Microsoft and planned to read their research papers and blogs. These were plans; the conversation does not confirm that the trip, meetings, or career move occurred. Elapsed time in the recorded thread: same day.",
+   "entities": [
+    "user",
+    "TechCorp",
+    "Google",
+    "Microsoft",
+    "London AI Summit",
+    "TechEx Europe"
+   ],
+   "topic": "career growth and technology networking",
+   "time": "2023-05-21..2023-05-21",
+   "sources": [
+    "T28",
+    "T30",
+    "T32",
+    "T34",
+    "T35",
+    "T36",
+    "T38"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-22, the user described building a tag-matching video-chat application with Socket.IO/WebSockets for signaling and WebRTC for peer connections. The user shared an Express and Socket.IO server listening on port 4000 by default, with an `availableClients` array populated by `setTags`, disconnect handling, an empty `POST /match` placeholder, and commented-out call handlers. The assistant proposed exact tag matching, removing matched clients from the array, assigning a random six-digit room ID, and emitting a `matched` event, but its example attempted to use `req.socket` in an HTTP route. The records do not confirm that the proposed implementation was adopted or that the app was completed. Elapsed time: same day.",
+   "entities": [
+    "user",
+    "Node.js",
+    "Express",
+    "Socket.IO",
+    "WebRTC",
+    "availableClients"
+   ],
+   "topic": "tag-based video-chat application",
+   "time": "2023-05-22..2023-05-22",
+   "sources": [
+    "T77",
+    "T79",
+    "T80"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-26, the user was automating Google DNS Certbot certificate renewal with Docker Compose and a `renew-cert.sh` script, requesting a daily run at 3:15 a.m. The user preferred the earlier Certbot credential-iteration loop and asked for scheduled renewal to be included in a replacement `docker-compose.yml`, not merely cron-installation commands in the script. The user objected that the assistant had lost the original instructions; the assistant apologized and proposed a configuration involving Nginx, PHP-FPM 8.0.11, a `dns-google` Certbot service, certificate renewal for credentials in `credential.yml`, and Nginx reload. The records do not establish that the proposal was applied or met the original requirements. Elapsed time: same day.",
+   "entities": [
+    "user",
+    "Certbot",
+    "Google DNS",
+    "Docker Compose",
+    "Nginx",
+    "PHP-FPM",
+    "renew-cert.sh",
+    "credential.yml"
+   ],
+   "topic": "automated certificate renewal",
+   "time": "2023-05-26..2023-05-26",
+   "sources": [
+    "T264",
+    "T268",
+    "T270",
+    "T271"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "In April 2023, the user ordered about $150 of organic and sustainable products from Thrive Market. By 2023-05-26, the user was trying to shop more sustainably and reduce household waste, considering reusable containers and bags; the user later said the reusable containers from the order were helping. On 2023-05-29, the user reported buying nuts, granola, and dried fruit in bulk to reduce waste and single-use plastics, while also saving money, and was considering another Thrive Market order. Elapsed time from order to later reflection: about 1–2 months.",
+   "entities": [
+    "user",
+    "Thrive Market",
+    "reusable containers",
+    "reusable bags"
+   ],
+   "topic": "sustainable shopping and reducing household waste",
+   "time": "2023-04-01..2023-05-29",
+   "sources": [
+    "T272",
+    "T274",
+    "T276",
+    "T411"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-28, the user said they were having trouble establishing a consistent sleep routine, wanted to wake more refreshed, and had recently started waking at 7:15 a.m. for a new job. A sunrise-simulation alarm did not seem to help, and the user reported taking at least 30 minutes to fall asleep. The user planned to keep a wake-up journal during the week beginning 2023-05-28 and was considering whether to keep a fixed weekend wake time or sleep in. No later results from the journal or sleep changes are recorded. Elapsed time from stated difficulty to planned tracking: same day.",
+   "entities": [
+    "user",
+    "7:15 a.m. wake time",
+    "sunrise-simulation alarm",
+    "wake-up journal"
+   ],
+   "topic": "sleep routine",
+   "time": "2023-05-28..2023-06-03",
+   "sources": [
+    "T321",
+    "T323",
+    "T325",
+    "T327",
+    "T329",
+    "T331"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-22, the user said they were training for a sprint triathlon and optimizing nutrition, including sports drinks, gels, bars or chews, and bike pacing. The user reported that an unnamed energy-bar brand had provided a strong boost on a long ride the preceding weekend and was considering using it in the event. The user also said they were cycling frequently and using yoga for flexibility and injury prevention. The planned triathlon date was 2023-04-16, which had already passed by the 2023-05-22 discussion; the records do not clarify whether the event took place. The user also reported scoring a goal in recreational soccer on 2023-03-05. Elapsed time between the soccer game and the training discussion: about 2 months and 17 days.",
+   "entities": [
+    "user",
+    "sprint triathlon",
+    "recreational soccer league",
+    "energy bars",
+    "yoga"
+   ],
+   "topic": "endurance training and event preparation",
+   "time": "2023-03-05..2023-05-22",
+   "sources": [
+    "T64",
+    "T66",
+    "T68",
+    "T70",
+    "T72",
+    "T74",
+    "T75"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-28, the user planned a summer California wine-country road trip, considering Paso Robles and Napa Valley and possibly skipping Carmel-by-the-Sea, which the user had already visited. The user wanted scenic drives, a possible hot-air-balloon ride, and lodging with a wine-country atmosphere or vineyard view, and intended to plan around the Paso Robles Wine Festival in June and look into Paso Robles Balloon Rides, Allegretto Vineyard Resort, and Hotel Cheval. The records do not confirm that the trip or bookings happened. The user had recently returned from a two-night Santa Barbara trip with wine tasting in nearby Santa Ynez Valley. Elapsed time from that recent trip to new-trip planning: not specified, but both were reported by 2023-05-28.",
+   "entities": [
+    "user",
+    "Santa Barbara",
+    "Santa Ynez Valley",
+    "Paso Robles",
+    "Napa Valley",
+    "Carmel-by-the-Sea",
+    "Paso Robles Wine Festival",
+    "Paso Robles Balloon Rides",
+    "Allegretto Vineyard Resort",
+    "Hotel Cheval"
+   ],
+   "topic": "California wine-country travel",
+   "time": "2023-05-28..2023-06-30",
+   "sources": [
+    "T339",
+    "T341",
+    "T343",
+    "T345",
+    "T347"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-28, the user requested an eight-episode, single-season television plan titled The Gig, set in a fictional historic music club in New Orleans’s French Quarter. The user specified character renames (Alex to JD, Dave to Joe Francois, Eddie to Fish), required the lighting technician to be a woman, and added stagehand Lily in episode 5. The season follows club staff through show days with different bands while the aging owner is courted by a corporation. The user then asked for reasons the concept could succeed and requested the response in bullet points. This is a developed creative concept; no production or further development is confirmed. Elapsed time: same day.",
+   "entities": [
+    "user",
+    "The Gig",
+    "JD",
+    "Joe Francois",
+    "Fish",
+    "Lily"
+   ],
+   "topic": "The Gig television concept",
+   "time": "2023-05-28..2023-05-28",
+   "sources": [
+    "T367",
+    "T368",
+    "T369",
+    "T370"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-28, the user said they were having difficulty establishing a sleep routine and wanted to feel more refreshed; they were waking at 7:15 a.m. for a new job, found a sunrise alarm ineffective, and took at least 30 minutes to fall asleep. They planned a wake-up journal for the week beginning 2023-05-28 and had not decided whether to set a weekend wake time. No outcome or later update is recorded.",
+   "entities": [
+    "user"
+   ],
+   "topic": "sleep difficulties and tracking plan",
+   "time": "2023-05-28..2023-06-03",
+   "sources": [
+    "T321",
+    "T323",
+    "T325",
+    "T327",
+    "T329",
+    "T331"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported using 14 rolls of toilet paper in the three weeks after replacing a toilet brush, as of 2023-05-23, and described the pace as unusually fast. This is one reported usage interval, not a count of separate events.",
+   "entities": [
+    "user",
+    "toilet paper"
+   ],
+   "topic": "toilet-paper use",
+   "time": "2023-05-02..2023-05-23",
+   "sources": []
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user had watched at least two Netflix documentaries by 2023-05-30: Abducted in Plain Sight and The Game Changers. The user had used Netflix for six months by that date and was considering upgrading to Premium, but had not decided.",
+   "entities": [
+    "user",
+    "Netflix",
+    "Abducted in Plain Sight",
+    "The Game Changers"
+   ],
+   "topic": "Netflix viewing and subscription",
+   "time": "2022-11-30..2023-05-30",
+   "sources": [
+    "T436",
+    "T440"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user said they had flown domestically to New York, Los Angeles, and Dallas during the three months before 2023-05-29, and were familiar with Chicago O’Hare (ORD). The records therefore name three recent domestic destinations and one familiar airport, without establishing the number of flights.",
+   "entities": [
+    "user",
+    "New York",
+    "Los Angeles",
+    "Dallas",
+    "Chicago O’Hare International Airport"
+   ],
+   "topic": "recent domestic travel",
+   "time": "2023-02-28..2023-05-29",
+   "sources": [
+    "T422",
+    "T426"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported grocery spending of around $120 at Walmart on 2023-05-20, more than expected, and used a 10% coupon on dairy products. During the week of 2023-05-15..2023-05-21, the user and the user’s sister spent around $80 together at Trader Joe’s on pre-packaged meals and snacks. These are two reported grocery-shopping totals; the Trader Joe’s amount is shared spending.",
+   "entities": [
+    "user",
+    "user’s sister",
+    "Walmart",
+    "Trader Joe’s"
+   ],
+   "topic": "reported grocery spending",
+   "time": "2023-05-15..2023-05-21",
+   "sources": []
+  }
+ ]
+}

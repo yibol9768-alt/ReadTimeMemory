@@ -1,0 +1,218 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:thread",
+   "text": "Christina’s vanilla JavaScript weather-app project began with a Figma v107.4 wireframe on 2024-03-12; on 2024-03-15 she chose vanilla JavaScript over React and set goals for an OpenWeather API v2.5 app with Celsius weather, autocomplete, responsive UI, validation, and error handling. Through 2024-03-28 she implemented and tuned client-side Geocoding API v1 autocomplete (300 ms debounce, up to five results), weather rendering, error handling, caching, retries, and responsive layouts; she reported reducing autocomplete latency from 520 ms to 290 ms and reducing errors from 12% to 1% with null checks. By 2024-04-09 the app was described as feature-complete, with MVP goals met, 85% core test coverage, and 220 ms average API response time. On 2024-04-10 she was preparing to collect user feedback and continuing work on deployment, CI, monitoring, testing, and caching. The elapsed project period from wireframe to feature-complete was 28 days.",
+   "entities": [
+    "Christina",
+    "weather app",
+    "OpenWeather API"
+   ],
+   "topic": "weather app project timeline",
+   "time": "2024-03-12..2024-04-10",
+   "sources": [
+    "T42",
+    "T44",
+    "T50",
+    "T51",
+    "T80",
+    "T88",
+    "T120",
+    "T124",
+    "T186"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Christina’s proposed March 15, 2024 meeting at 09:00 CET was not confirmed. She planned to check her own and team calendars and asked for timezone conversions for participants in New York, Tokyo, and Sydney. Correct local equivalents are 04:00 EDT in New York, 17:00 JST in Tokyo, and 19:00 AEDT in Sydney.",
+   "entities": [
+    "Christina",
+    "New York",
+    "Tokyo",
+    "Sydney"
+   ],
+   "topic": "meeting scheduling",
+   "time": "2024-03-15..2024-03-15",
+   "sources": [
+    "T0",
+    "T2",
+    "T4",
+    "T5"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Christina described wanting to complete the weather-app MVP by 2024-04-05 and allow two weeks for testing and deployment. On 2024-03-15 the proposed schedule instead reserved only 2024-04-01 through 2024-04-05 for final testing and deployment, including staging on April 3 and production on April 5. The schedule therefore did not provide the two weeks she wanted.",
+   "entities": [
+    "Christina",
+    "weather app"
+   ],
+   "topic": "MVP deadline and schedule",
+   "time": "2024-03-15..2024-04-05",
+   "sources": [
+    "T50",
+    "T51"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Christina was setting up GitHub Pages deployment from 2024-04-08, and on 2024-04-10 asked about the custom domain weather-christina.com, HTTPS, package configuration, and a failing GitHub Actions pipeline. She also asked for deployment details and noted she had never deployed the app to GitHub Pages. A release description gave v1.2.3 at 2024-04-10 14:30 UTC and she said that described last deployment looked good, but it had initially been presented as an example; deployment status and the apparent contradiction remained unresolved in the records.",
+   "entities": [
+    "Christina",
+    "weather-christina.com",
+    "GitHub Pages",
+    "GitHub Actions"
+   ],
+   "topic": "deployment setup and status",
+   "time": "2024-04-08..2024-04-10",
+   "sources": [
+    "T142",
+    "T146",
+    "T144",
+    "T145",
+    "T147",
+    "T195",
+    "T196",
+    "T198"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Technologies Christina used, configured, or discussed for the weather app: vanilla JavaScript/ES2021, HTML5, CSS3, OpenWeather Current Weather API v2.5, Geocoding API v1, Figma v107.4 (wireframe, 2024-03-12); Axios and native fetch/async-await (2024-03-15); CSS Grid and Flexbox (2024-03-15 onward); ESLint v8.39, Airbnb style, Prettier v2.8 (configuration work 2024-03-15 and 2024-03-28); Jest v29 (tests discussed 2024-03-28 onward); Node.js v18.15.0 (upgrade reported 2024-03-28); GitHub Actions, GitHub Pages, Husky v8, Commitlint, and Cypress v12 (deployment/testing work 2024-04-10).",
+   "entities": [
+    "Christina",
+    "JavaScript",
+    "OpenWeather API",
+    "Figma",
+    "ESLint",
+    "Prettier",
+    "Jest",
+    "Node.js",
+    "GitHub Actions",
+    "GitHub Pages",
+    "Husky",
+    "Commitlint",
+    "Cypress"
+   ],
+   "topic": "weather app technologies",
+   "time": "2024-03-12..2024-04-10",
+   "sources": [
+    "T42",
+    "T44",
+    "T58",
+    "T59",
+    "T110",
+    "T111",
+    "T112",
+    "T114",
+    "T124",
+    "T142",
+    "T168",
+    "T169",
+    "T172"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Christina’s repeated weather-app requirements and preferences: temperature in Celsius and metric API data (2024-03-15 onward); lightweight, dependency-light solutions and app size below 2.5 MB; custom client-side autocomplete rather than a third-party autocomplete library; autocomplete suggestions capped at five with a 300 ms debounce; user-friendly error handling that includes relevant HTTP status codes; and automated deployment rather than manual releases. She also wants deployment timestamps whenever discussing release details.",
+   "entities": [
+    "Christina",
+    "weather app"
+   ],
+   "topic": "development preferences and requirements",
+   "time": "2024-03-15..2024-04-10",
+   "sources": [
+    "T10",
+    "T12",
+    "T54",
+    "T64",
+    "T68",
+    "T94",
+    "T124",
+    "T130",
+    "T182",
+    "T192"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Reported API integration/core test coverage changed over time: 65% after the initial test run on 2024-03-27 (reported 2024-03-28), then 78% on 2024-03-28, then 85% across core modules on 2024-04-09. Christina’s stated goal was 100% coverage.",
+   "entities": [
+    "Christina",
+    "weather app"
+   ],
+   "topic": "test coverage changes",
+   "time": "2024-03-27..2024-04-09",
+   "sources": [
+    "T114",
+    "T128",
+    "T148",
+    "T186"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Autocomplete performance figures reported by Christina: more than 100 city inputs tested, 280 ms average API response time, and 95% success on valid inputs (2024-03-28); average input latency was initially about 520 ms and later reported reduced to 290 ms after event-listener and DOM-update optimization. Separately, average weather API response time was reported as 220 ms on 2024-04-10 after caching and code optimization.",
+   "entities": [
+    "Christina",
+    "weather app autocomplete",
+    "weather API"
+   ],
+   "topic": "performance measurements and changes",
+   "time": "2024-03-28..2024-04-10",
+   "sources": [
+    "T80",
+    "T120",
+    "T124",
+    "T150",
+    "T186"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Christina’s stated daily OpenWeather API quota concern changed from 1,000 calls per day (2024-03-15) to 1,200 calls per day later on 2024-03-15. The records do not establish why the figure changed.",
+   "entities": [
+    "Christina",
+    "OpenWeather API"
+   ],
+   "topic": "daily API quota change",
+   "time": "2024-03-15..2024-03-15",
+   "sources": [
+    "T46",
+    "T64",
+    "T65",
+    "T66",
+    "T67"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Uptime/availability reports on 2024-04-10 included 99.9% uptime during the seven days after deployment, with no reported downtime or API quota breaches, and a separate description of 100% availability over the previous seven days. These are distinct reported figures; the records do not reconcile them.",
+   "entities": [
+    "Christina",
+    "weather app"
+   ],
+   "topic": "uptime reports",
+   "time": "2024-04-10..2024-04-10",
+   "sources": [
+    "T152",
+    "T190"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Christina reported that her GitHub Pages site had received more than 1,200 unique visitors since launch and was concerned about staying within a 1 GB/month bandwidth limit (2024-04-10).",
+   "entities": [
+    "Christina",
+    "weather-christina.com",
+    "GitHub Pages"
+   ],
+   "topic": "site visitors and bandwidth concern",
+   "time": "2024-04-10..2024-04-10",
+   "sources": [
+    "T178",
+    "T179"
+   ]
+  }
+ ]
+}

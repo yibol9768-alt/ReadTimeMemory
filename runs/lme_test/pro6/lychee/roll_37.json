@@ -1,0 +1,372 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:collection",
+   "text": "Lavender baking: the user made a lemon-lavender cake for a friend’s birthday on 2023-05-06; on 2023-05-20, they said a new lavender extract from a local gourmet store improved their baking, planned lavender shortbread using turbinado sugar, and expressed interest in lavender-honey crème brûlée and lavender-lemon desserts.",
+   "entities": [
+    "user",
+    "lavender baking",
+    "lemon-lavender cake",
+    "lavender shortbread",
+    "lavender-honey crème brûlée"
+   ],
+   "topic": "Baking and lavender",
+   "time": "2023-05-06..2023-05-20",
+   "sources": [
+    "T9",
+    "T11",
+    "T13"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "University of Tokyo study-abroad interest: on 2023-05-20, the user asked about study-abroad offerings, expressed excitement, and said they would review requirements and work hard to improve their chances. The assistant described several program types and advised preparing application materials; no application or admission outcome is recorded.",
+   "entities": [
+    "user",
+    "University of Tokyo"
+   ],
+   "topic": "Study-abroad plans",
+   "time": "2023-05-20..2023-05-20",
+   "sources": [
+    "T1",
+    "T2",
+    "T3",
+    "T5"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Lewisham Council environmental accountability: on 2023-05-20, the user questioned whether the council followed through effectively, asked for evidence of community impact rather than plans, and considered cited initiatives too small to address systemic problems. The assistant offered general ways to evaluate impact and discussed possible systemic approaches, while noting it lacked verified evidence about the council’s record.",
+   "entities": [
+    "user",
+    "Lewisham Council"
+   ],
+   "topic": "Environmental sustainability and accountability",
+   "time": "2023-05-20..2023-05-20",
+   "sources": [
+    "T19",
+    "T21",
+    "T23",
+    "T25",
+    "T27",
+    "T28"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Film interests and viewing: on 2023-05-20, the user began rewatching the Harry Potter film series, wanted a dark, intense psychological thriller similar to Inception, and was especially interested in Primer and Eternal Sunshine of the Spotless Mind. They had also watched four documentaries at the Tribeca Film Festival by 2023-05-28, including The Last Mountain, and sought documentaries with environmental adventure or climbing themes, including Meru and Valley Uprising.",
+   "entities": [
+    "user",
+    "Harry Potter film series",
+    "Inception",
+    "Primer",
+    "Eternal Sunshine of the Spotless Mind",
+    "The Last Mountain",
+    "Meru",
+    "Valley Uprising"
+   ],
+   "topic": "Films and documentaries",
+   "time": "2023-05-20..2023-05-28",
+   "sources": [
+    "T29",
+    "T31",
+    "T414",
+    "T416",
+    "T418"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Writing projects and interests: by 2023-05-21, the user had written 17 poems in the preceding two weeks; by 2023-05-28, they had written five short stories. On 2023-05-28, they planned a story narrated by a book, subtly connected to their earlier story The Mysterious Neighbor. On 2023-05-30, they reported writing short stories and poetry and participating in a weekly social-media writing challenge; a prompt titled “Forgotten Memories” inspired “The Smell of Old Books.”",
+   "entities": [
+    "user",
+    "poetry",
+    "short stories",
+    "The Mysterious Neighbor",
+    "The Smell of Old Books",
+    "weekly writing challenge"
+   ],
+   "topic": "Creative writing",
+   "time": "2023-05-21..2023-05-30",
+   "sources": [
+    "T59",
+    "T380",
+    "T384",
+    "T386",
+    "T388",
+    "T499"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Writing organization: on 2023-05-21, the user wanted tools to track writing schedules and deadlines, planned to try Pomofocus, and preferred creative-task goals and a short prompt-based warm-up for Pomodoro sessions. On 2023-05-30, they wanted to organize writing by genre and project and planned to try Evernote and Trello for projects, weekly challenge submissions, character profiles, and plot development. No later use or outcome is recorded.",
+   "entities": [
+    "user",
+    "Pomofocus",
+    "Evernote",
+    "Trello"
+   ],
+   "topic": "Writing workflow and organization",
+   "time": "2023-05-21..2023-05-30",
+   "sources": [
+    "T59",
+    "T63",
+    "T65",
+    "T67",
+    "T69",
+    "T499",
+    "T501",
+    "T503",
+    "T505",
+    "T507",
+    "T509"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Photography equipment and practice: the user has owned a Nikon D750 camera body since 2018 and bought a Canon 24-70mm f/2.8 lens on 2023-02-10. They took the Nikon D750 to Yosemite, attended a photography workshop in San Francisco, and on 2023-05-26 wanted to learn about ISO and quickly adjusting settings to changing outdoor light. They are interested in available-light portraits and a new project using low light and wider apertures.",
+   "entities": [
+    "user",
+    "Nikon D750",
+    "Canon 24-70mm f/2.8 lens",
+    "Rachel"
+   ],
+   "topic": "Photography",
+   "time": "2018..2023-05-26",
+   "sources": [
+    "T311",
+    "T313"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Outdoor trips and hiking: the user visited Grand Teton National Park in April 2023 and hiked Hidden Falls Trail. By 2023-05-22, they were planning a California trip and seeking Bay Area hiking suggestions; on 2023-05-23, they were planning a Yellowstone road trip, particularly interested in Mammoth Hot Springs and Beaver Ponds Trail, and contemplated continuing to Mount Washburn after the hike.",
+   "entities": [
+    "user",
+    "Grand Teton National Park",
+    "Hidden Falls Trail",
+    "Bay Area",
+    "Yellowstone National Park",
+    "Beaver Ponds Trail",
+    "Mount Washburn Trailhead"
+   ],
+   "topic": "Hiking and national-park trips",
+   "time": "2023-04..2023-05-23",
+   "sources": [
+    "T151",
+    "T153",
+    "T154",
+    "T161"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Exeter historic-buildings visit: on 2023-05-28, the user called University of Exeter Visitor Services about tours and booked a tour for the week of 2023-06-04 to 2023-06-10. They were especially excited to see the Old Library and Reed Hall and learn about their history and architecture. No attendance outcome is recorded.",
+   "entities": [
+    "user",
+    "University of Exeter",
+    "Old Library",
+    "Reed Hall"
+   ],
+   "topic": "University of Exeter tour",
+   "time": "2023-05-28..2023-06-10",
+   "sources": []
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Cycling and city exploration: after moving to a new apartment, the user was adjusting to a new work commute that provided an extra 30 minutes of morning exercise. They enjoyed cycling waterfront bike lanes, city and bay views, exploring neighborhoods, street art, and cafés, and stopping at The Daily Grind a few times a week. They planned to try a waterfront path to a nearby island and considered buying a bike rack to explore more of the city.",
+   "entities": [
+    "user",
+    "The Daily Grind",
+    "new bike",
+    "bike rack"
+   ],
+   "topic": "Cycling and commuting",
+   "time": "2023-05-22..2023-05-22",
+   "sources": []
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Musical instruments and music hobbies: on 2023-05-28, the user was learning ukulele and wanted to practise more regularly, considering goals, a practice buddy, and a local meetup group found through Meetup.com or Facebook Groups. They had recently ordered guitar strings online, and considered a Yamaha PSR-E263 keyboard for their 10-year-old niece, who takes piano lessons. On 2023-05-29, the user expressed interest in starting DJing and asked about beginner steps.",
+   "entities": [
+    "user",
+    "ukulele",
+    "guitar",
+    "Yamaha PSR-E263",
+    "DJing",
+    "user’s niece"
+   ],
+   "topic": "Music and instruments",
+   "time": "2023-05-28..2023-05-29",
+   "sources": [
+    "T376",
+    "T378",
+    "T438",
+    "T439"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Fitness and weight-loss planning: on 2023-05-28, the user said they were 5 feet 8 inches tall and weighed 170 pounds, wanted to lose 10 pounds over two months, and was willing to exercise three days a week. Their regular schedule was Monday, Wednesday, and Friday morning gym sessions, including cardio and upper-body weights on Monday, yoga on Wednesday, and leg weights on Friday; they reported no injuries or physical limitations. They discussed squat progression and a possible increase of 2.5–5 pounds every two weeks. The user also described eating protein-rich foods and tracking water intake; the assistant gave calorie and macronutrient estimates, which the user did not confirm adopting.",
+   "entities": [
+    "user",
+    "squat training",
+    "gym",
+    "yoga"
+   ],
+   "topic": "Exercise and weight-loss plan",
+   "time": "2023-05-28..2023-05-28",
+   "sources": [
+    "T349",
+    "T351",
+    "T353",
+    "T357",
+    "T358",
+    "T359",
+    "T360"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Family heirlooms and vintage aesthetics: the user has a delicate, intricately patterned vase that belonged to their grandmother and antique silverware belonging to their aunt. On 2023-05-29, the user considered displaying the vase prominently with family photos and other heirlooms while rearranging the living room, and sought vintage décor ideas. They also considered having their grandfather’s antique watch appraised.",
+   "entities": [
+    "user",
+    "grandmother’s vase",
+    "aunt’s antique silverware",
+    "grandfather’s antique watch"
+   ],
+   "topic": "Family heirlooms and home décor",
+   "time": "2023-04-15..2023-05-29",
+   "sources": [
+    "T454",
+    "T456",
+    "T464",
+    "T465"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "University of Tokyo and University of Exeter are recurring education interests: the user explored University of Tokyo study-abroad options on 2023-05-20 and planned to review requirements; separately, the user contacted University of Exeter Visitor Services and booked a historical-buildings tour for the week of 2023-06-04 to 2023-06-10, especially anticipating the Old Library and Reed Hall.",
+   "entities": [
+    "user",
+    "University of Tokyo",
+    "University of Exeter"
+   ],
+   "topic": "University interests",
+   "time": "2023-05-20..2023-06-10",
+   "sources": [
+    "T1",
+    "T2",
+    "T5"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Food and cooking: on 2023-05-23, the user made homemade pizza with homemade sauce, prosciutto, and arugula and said it turned out fantastic. They also wanted to try one-pot pasta, roasted vegetables, and vegetarian quesadillas; they asked how to make roasted vegetables crispy. Earlier that day, they had been interested in beginner-friendly recipes and vegetarian options.",
+   "entities": [
+    "user",
+    "homemade pizza",
+    "prosciutto",
+    "arugula",
+    "one-pot pasta",
+    "roasted vegetables",
+    "vegetarian quesadillas"
+   ],
+   "topic": "Cooking and recipes",
+   "time": "2023-05-23..2023-05-23",
+   "sources": [
+    "T199",
+    "T200"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported writing 17 poems in the two weeks before 2023-05-21 and five short stories by 2023-05-28. These are separate self-reported creative-writing totals, not a combined count.",
+   "entities": [
+    "user",
+    "poems",
+    "short stories"
+   ],
+   "topic": "Writing output",
+   "time": "2023-05-21..2023-05-28",
+   "sources": [
+    "T59",
+    "T380"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user watched four documentaries through the online component of the Tribeca Film Festival from 2023-04-20 to 2023-04-25 and later said they had watched four documentaries at the festival, naming The Last Mountain but not identifying the other three.",
+   "entities": [
+    "user",
+    "Tribeca Film Festival",
+    "The Last Mountain"
+   ],
+   "topic": "Documentary viewing",
+   "time": "2023-04-20..2023-05-28",
+   "sources": [
+    "T414",
+    "T416",
+    "T422"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user described a recurring tendency to overpack: they overpacked clothes on a New York City trip around 2023-05-02 and said they tend to overpack toiletries. For a planned five-day San Francisco trip on 2023-05-23, they wanted to pack light and planned multipurpose outfits, smaller liquid containers, and travel-sized toiletries.",
+   "entities": [
+    "user",
+    "New York City trip",
+    "San Francisco trip"
+   ],
+   "topic": "Packing habits and plans",
+   "time": "2023-05-02..2023-05-23",
+   "sources": [
+    "T175",
+    "T177",
+    "T179",
+    "T181",
+    "T185"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "San Francisco packing plan: on 2023-05-23, the user planned a five-day trip and wanted to avoid repeating the overpacking they experienced on a New York City trip around 2023-05-02. They liked using a 3-4-5 clothing rule and a mix-and-match core outfit, planned to decant toiletries into smaller containers, and intended to pack reliable sneakers and versatile boots. They were unsure whether a lightweight jacket would be warm enough for expected chilly, foggy mornings and evenings; no final packing list is recorded.",
+   "entities": [
+    "user",
+    "San Francisco",
+    "New York City"
+   ],
+   "topic": "Travel packing",
+   "time": "2023-05-02..2023-05-23",
+   "sources": [
+    "T175",
+    "T177",
+    "T179",
+    "T181",
+    "T183",
+    "T185"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user is interested in immigration, language, and cultural history. On 2023-05-22, they discussed Moroccan migration from Casablanca to Paris and the United States, French colonial influence and Moroccan-French linguistic ties, and U.S. language policies and immigrant communities. They said they grew up speaking Spanish and Italian at home and are interested in their linguistic heritage; they also asked about African folktales, their educational role, continuing relevance, and preservation for future generations.",
+   "entities": [
+    "user",
+    "Amira",
+    "Moroccan immigrants",
+    "African folktales",
+    "Spanish",
+    "Italian"
+   ],
+   "topic": "Migration, language, and cultural heritage",
+   "time": "2023-05-22..2023-05-22",
+   "sources": [
+    "T139",
+    "T143",
+    "T145",
+    "T147",
+    "T149"
+   ]
+  }
+ ]
+}

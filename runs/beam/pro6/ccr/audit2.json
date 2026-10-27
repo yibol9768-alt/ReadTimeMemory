@@ -1,0 +1,760 @@
+[
+ {
+  "qid": "b0-contradiction_resolution-0",
+  "ability": "contradiction_resolution",
+  "n_sides": 2,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "You said you had never written Flask routes or handled HTTP requests in this project.",
+    "records": [
+     53
+    ],
+    "slots": [
+     "S0040"
+    ]
+   },
+   {
+    "fact": "You also mentioned having a basic homepage route with Flask.",
+    "records": [
+     62
+    ],
+    "slots": [
+     "S0056",
+     "S0057"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b0-contradiction_resolution-1",
+  "ability": "contradiction_resolution",
+  "n_sides": 3,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "You said you had never integrated Flask-Login or managed user sessions in this project.",
+    "records": [
+     108,
+     116
+    ],
+    "slots": [
+     "S0100"
+    ]
+   },
+   {
+    "fact": "You also said Flask-Login 0.6.2 was integrated for session management.",
+    "records": [
+     61,
+     118
+    ],
+    "slots": [
+     "S0054",
+     "S0055",
+     "S0102"
+    ]
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b0-knowledge_update-0",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "The dashboard API response time was 250 ms after caching tweaks.",
+    "records": [
+     107,
+     115,
+     184
+    ],
+    "slots": [
+     "S0096",
+     "S0174",
+     "S0175"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b0-knowledge_update-1",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "165 commits have been merged into the main branch.",
+    "records": [
+     182
+    ],
+    "slots": [
+     "S0171",
+     "S0172"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b10-contradiction_resolution-0",
+  "ability": "contradiction_resolution",
+  "n_sides": 4,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "There is contradictory information about whether Darryl has worked with Michael on editing timelines.",
+    "records": [
+     33,
+     34,
+     49,
+     93,
+     178
+    ],
+    "slots": [
+     "S0024",
+     "S0025",
+     "S0064",
+     "S0065",
+     "S0146"
+    ]
+   },
+   {
+    "fact": "Darryl said he met Michael and they collaborate weekly on editing timelines.",
+    "records": [
+     33,
+     34,
+     35,
+     36,
+     49
+    ],
+    "slots": [
+     "S0024",
+     "S0025",
+     "S0026",
+     "S0027"
+    ]
+   },
+   {
+    "fact": "Darryl also said he had never met Michael and had never collaborated with him on editing timelines.",
+    "records": [
+     93,
+     178
+    ],
+    "slots": [
+     "S0064",
+     "S0065",
+     "S0146"
+    ]
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b10-contradiction_resolution-1",
+  "ability": "contradiction_resolution",
+  "n_sides": 4,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "There is contradictory information about whether two-factor authentication was implemented for platform access.",
+    "records": [
+     141,
+     166
+    ],
+    "slots": [
+     "S0107",
+     "S0108",
+     "S0139"
+    ]
+   },
+   {
+    "fact": "You said two-factor authentication was implemented for platform access on April 20, 2024.",
+    "records": [
+     141
+    ],
+    "slots": [
+     "S0107",
+     "S0108"
+    ]
+   },
+   {
+    "fact": "You also said you had never implemented two-factor authentication for access to any platform.",
+    "records": [
+     166
+    ],
+    "slots": [
+     "S0139"
+    ]
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b10-knowledge_update-0",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "The webinar was originally scheduled for March 20, 2024; its rescheduled date was unknown.",
+    "records": [
+     80,
+     86,
+     87,
+     88
+    ],
+    "slots": [
+     "S0056",
+     "S0060",
+     "S0061"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b10-knowledge_update-1",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "The AI screening tool achieves 90% accuracy.",
+    "records": [
+     167
+    ],
+    "slots": [
+     "S0101"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b14-contradiction_resolution-0",
+  "ability": "contradiction_resolution",
+  "n_sides": 4,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "There is contradictory information about whether Darryl has met Kyle or attended sneaker expos.",
+    "records": [
+     7,
+     40
+    ],
+    "slots": [
+     "S0011",
+     "S0012",
+     "S0042",
+     "S0043"
+    ]
+   },
+   {
+    "fact": "Darryl said he knew Kyle and met him at a sneaker expo.",
+    "records": [
+     7
+    ],
+    "slots": [
+     "S0011",
+     "S0012"
+    ]
+   },
+   {
+    "fact": "Darryl also said he had never met anyone like Kyle and had never been to sneaker expos.",
+    "records": [
+     40
+    ],
+    "slots": [
+     "S0042",
+     "S0043"
+    ]
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b14-contradiction_resolution-1",
+  "ability": "contradiction_resolution",
+  "n_sides": 4,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "There is contradictory information.",
+    "records": [
+     50,
+     76,
+     113
+    ],
+    "slots": [
+     "S0044",
+     "S0051",
+     "S0080",
+     "S0122"
+    ]
+   },
+   {
+    "fact": "You said you placed an online order for sneakers.",
+    "records": [
+     50
+    ],
+    "slots": [
+     "S0051"
+    ]
+   },
+   {
+    "fact": "You also said you had never placed any online sneaker orders.",
+    "records": [
+     76,
+     113
+    ],
+    "slots": [
+     "S0044",
+     "S0080",
+     "S0122"
+    ]
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b14-knowledge_update-0",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "Plan to visit Foot Locker next Saturday at 4 PM",
+    "records": [
+     37,
+     43
+    ],
+    "slots": [
+     "S0034"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b14-knowledge_update-1",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "Darryl’s annual sneaker budget is $650.",
+    "records": [
+     169,
+     182
+    ],
+    "slots": [
+     "S0170",
+     "S0171",
+     "S0180",
+     "S0181"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b16-contradiction_resolution-0",
+  "ability": "contradiction_resolution",
+  "n_sides": 4,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "There is contradictory information about whether you have declined meetings to protect your writing time.",
+    "records": [
+     46,
+     61
+    ],
+    "slots": [
+     "S0053",
+     "S0054",
+     "S0070"
+    ]
+   },
+   {
+    "fact": "You said you declined a meeting to protect your writing time.",
+    "records": [
+     46
+    ],
+    "slots": [
+     "S0053",
+     "S0054"
+    ]
+   },
+   {
+    "fact": "You also said you had never declined any meetings.",
+    "records": [
+     61
+    ],
+    "slots": [
+     "S0070"
+    ]
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b16-contradiction_resolution-1",
+  "ability": "contradiction_resolution",
+  "n_sides": 2,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "You said you coordinated a location scout with Jeremy.",
+    "records": [
+     77,
+     78
+    ],
+    "slots": [
+     "S0083",
+     "S0084"
+    ]
+   },
+   {
+    "fact": "You also said you had never attended any location scouts with Jeremy.",
+    "records": [
+     115
+    ],
+    "slots": [
+     "S0133"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b16-knowledge_update-0",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "The total budget allocated for post-production software licenses, including additional plugins, was $6,200.",
+    "records": [
+     112
+    ],
+    "slots": [
+     "S0130"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b16-knowledge_update-1",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "Five days",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b17-contradiction_resolution-0",
+  "ability": "contradiction_resolution",
+  "n_sides": 4,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "There is contradictory information about workshop or professional development attendance.",
+    "records": [
+     69,
+     70,
+     291
+    ],
+    "slots": [
+     "S0024",
+     "S0067",
+     "S0068",
+     "S0285"
+    ]
+   },
+   {
+    "fact": "Crystal Lee said she had never attended any workshops or professional development events.",
+    "records": [
+     69
+    ],
+    "slots": [
+     "S0067"
+    ]
+   },
+   {
+    "fact": "Crystal Lee also mentioned being registered for a workshop.",
+    "records": [],
+    "slots": []
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b17-contradiction_resolution-1",
+  "ability": "contradiction_resolution",
+  "n_sides": 4,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "There is contradictory information.",
+    "records": [
+     120,
+     177,
+     178,
+     83
+    ],
+    "slots": [
+     "S0085",
+     "S0086",
+     "S0121",
+     "S0175",
+     "S0176",
+     "S0177"
+    ]
+   },
+   {
+    "fact": "You said you had never delegated any tasks to Greg or other colleagues.",
+    "records": [
+     120,
+     177
+    ],
+    "slots": [
+     "S0121",
+     "S0175"
+    ]
+   },
+   {
+    "fact": "You also mentioned delegating a portion of your editing tasks to Greg.",
+    "records": [
+     83
+    ],
+    "slots": [
+     "S0085",
+     "S0086"
+    ]
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b17-knowledge_update-0",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "Crystal Lee had reduced her March overtime to 4 hours.",
+    "records": [
+     64
+    ],
+    "slots": [
+     "S0052"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b17-knowledge_update-1",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "The application deadline was extended to May 20, 2024.",
+    "records": [
+     114,
+     117
+    ],
+    "slots": [
+     "S0103"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b18-contradiction_resolution-0",
+  "ability": "contradiction_resolution",
+  "n_sides": 4,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "You said you have a meeting planned with attorney Stephanie.",
+    "records": [
+     5,
+     11,
+     27,
+     32
+    ],
+    "slots": [
+     "S0008",
+     "S0009",
+     "S0037"
+    ]
+   },
+   {
+    "fact": "You also mentioned that you've never met Stephanie.",
+    "records": [
+     65
+    ],
+    "slots": [
+     "S0071"
+    ]
+   },
+   {
+    "fact": "There is contradictory information about whether you have met Stephanie.",
+    "records": [
+     5,
+     11,
+     27,
+     32,
+     65
+    ],
+    "slots": [
+     "S0008",
+     "S0009",
+     "S0037",
+     "S0071"
+    ]
+   },
+   {
+    "fact": "Which statement is correct?",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b18-contradiction_resolution-1",
+  "ability": "contradiction_resolution",
+  "n_sides": 3,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "Crystal said she drafted her will with WillMaker Pro and included guardianship details.",
+    "records": [
+     85,
+     86
+    ],
+    "slots": [
+     "S0091",
+     "S0092",
+     "S0093"
+    ]
+   },
+   {
+    "fact": "Crystal also said she had never used WillMaker Pro or any digital software to draft her will.",
+    "records": [
+     129,
+     206
+    ],
+    "slots": [
+     "S0118",
+     "S0128",
+     "S0187"
+    ]
+   },
+   {
+    "fact": "These statements are contradictory; it is unclear which is correct.",
+    "records": [],
+    "slots": []
+   }
+  ]
+ },
+ {
+  "qid": "b18-knowledge_update-0",
+  "ability": "knowledge_update",
+  "n_sides": 2,
+  "all_written": false,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "Montserrat probate usually takes 5–7 months",
+    "records": [],
+    "slots": []
+   },
+   {
+    "fact": "The assistant said probate may be shortened to 5–7 months with preparation",
+    "records": [
+     130
+    ],
+    "slots": [
+     "S0118"
+    ]
+   }
+  ]
+ },
+ {
+  "qid": "b18-knowledge_update-1",
+  "ability": "knowledge_update",
+  "n_sides": 1,
+  "all_written": true,
+  "shared_slot": false,
+  "sides": [
+   {
+    "fact": "The estimated estate tax rate applied to assets above $200,000 is 12%.",
+    "records": [
+     137,
+     141
+    ],
+    "slots": [
+     "S0083",
+     "S0134"
+    ]
+   }
+  ]
+ }
+]

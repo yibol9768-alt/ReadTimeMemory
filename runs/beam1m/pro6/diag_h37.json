@@ -1,0 +1,140 @@
+[
+ {
+  "qid": "b0-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Fine-tuning process and dataset handling",
+  "where": "PRESENT"
+ },
+ {
+  "qid": "b0-summarization-0",
+  "ability": "summarization",
+  "item": "LLM response should contain: Integration examples for both APIs were provided, tailored for React 18.2 frontend and Node.js 18 backend environments.",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b0-summarization-0",
+  "ability": "summarization",
+  "item": "LLM response should contain: API endpoints for contextual memory storage and GPT-4 chatbot core logic were developed with rigorous input validation, error handling, and performance tuning",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b0-summarization-1",
+  "ability": "summarization",
+  "item": "LLM response should contain: The React frontend was enhanced using the Context API to manage user authentication state, with performance optimizations such as memoization to reduce unnecessary re-renders",
+  "where": "ABSENT"
+ },
+ {
+  "qid": "b0-summarization-1",
+  "ability": "summarization",
+  "item": "LLM response should contain: Redis caching strategies for session tokens were improved to handle cache misses atomically and increase hit rates",
+  "where": "ABSENT"
+ },
+ {
+  "qid": "b1-event_ordering-0",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Handling missing user interactions",
+  "where": "PRESENT"
+ },
+ {
+  "qid": "b1-event_ordering-0",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Incorporating user ratings and matrix factorization",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b1-event_ordering-0",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: User feedback collection and error handling",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b1-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Istio service mesh setup with mutual TLS and routing",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b1-summarization-1",
+  "ability": "summarization",
+  "item": "LLM response should contain: Task scheduling for sending daily digest emails was addressed by integrating APScheduler with FastAPI to run jobs at specified times",
+  "where": "ABSENT"
+ },
+ {
+  "qid": "b2-event_ordering-0",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Data availability and uptime",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b2-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Data serialization",
+  "where": "PRESENT"
+ },
+ {
+  "qid": "b2-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: WebSocket multiplexing",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b2-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Service mesh with Istio",
+  "where": "PRESENT"
+ },
+ {
+  "qid": "b2-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Kafka and API performance",
+  "where": "PRESENT"
+ },
+ {
+  "qid": "b3-event_ordering-0",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: API authentication and security",
+  "where": "PRESENT"
+ },
+ {
+  "qid": "b3-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Edit history extension and updates",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b4-event_ordering-0",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Redis Pub/Sub for real-time updates",
+  "where": "PRESENT"
+ },
+ {
+  "qid": "b4-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Lag compensation with interpolation and extrapolation",
+  "where": "PRESENT"
+ },
+ {
+  "qid": "b4-event_ordering-1",
+  "ability": "event_ordering",
+  "item": "LLM response should mention: Platform abstraction layer for input handling and integration",
+  "where": "ABSENT"
+ },
+ {
+  "qid": "b4-information_extraction-1",
+  "ability": "information_extraction",
+  "item": "LLM response should state: separating the network-related tasks from the game state management by creating a dedicated class to handle all network operations",
+  "where": "PARTIAL"
+ },
+ {
+  "qid": "b4-information_extraction-1",
+  "ability": "information_extraction",
+  "item": "LLM response should state: updating your existing class to delegate network actions to this new component",
+  "where": "ABSENT"
+ },
+ {
+  "qid": "b4-summarization-0",
+  "ability": "summarization",
+  "item": "LLM response should contain: you addressed the challenge of frequently changing player skill levels by incorporating real-time skill updates, adaptive buckets, rolling averages, and immediate re-matchmaking",
+  "where": "PARTIAL"
+ }
+]

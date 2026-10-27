@@ -1,0 +1,479 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:collection",
+   "text": "Live-streaming activity: weekly YouTube live streams (reported 2023-05-20); Adobe Photoshop tutorial stream (2023-03-01); joint Twitch stream with another creator (2023-03-31). The user said Instagram Live streams were getting more views than YouTube streams (2023-05-20).",
+   "entities": [
+    "user",
+    "YouTube",
+    "Instagram Live",
+    "Twitch"
+   ],
+   "topic": "live-streaming",
+   "time": "2023-03-01..2023-05-20",
+   "sources": [
+    "T11",
+    "T13",
+    "T15",
+    "T19"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user developed an interest in entrepreneurship and business learning. On 2023-05-20, they planned to read Eric Ries’s The Lean Startup and explore online courses; the same day they discussed business education and professional networking. Latest recorded state: plans to pursue self-study and networking; no later enrollment or completed reading is recorded.",
+   "entities": [
+    "user",
+    "The Lean Startup",
+    "Eric Ries"
+   ],
+   "topic": "entrepreneurship learning",
+   "time": "2023-05-20..2023-05-20",
+   "sources": [
+    "T7",
+    "T8",
+    "T9",
+    "T10"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user fixed kitchen shelves during the weekend of 2023-05-13–2023-05-14 and reported on 2023-05-20 that the kitchen felt more spacious and organized. On 2023-05-21, they said a new IKEA mat made the sink area more functional, a new faucet made washing vegetables easier, and a toaster oven was convenient for reheating leftovers. On 2023-05-30, they described replacing an old toaster with a toaster oven as a major improvement and had decluttered the countertops.",
+   "entities": [
+    "user",
+    "kitchen shelves",
+    "IKEA kitchen mat",
+    "kitchen faucet",
+    "toaster oven"
+   ],
+   "topic": "kitchen improvements",
+   "time": "2023-05-13..2023-05-30",
+   "sources": [
+    "T33",
+    "T41",
+    "T457"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Cooking and baking plans or activities: vegetable stir-fry with broccoli, bell peppers, carrots, onions, mushrooms, garlic, ginger, and homemade peanut sauce (planned 2023-05-20); steamed dumplings to accompany it (planned 2023-05-20); Korean-style beef and kimchi stir-fry (chosen 2023-05-21); radish kimchi, described in the conversation as Danmuji Kimchi (chosen 2023-05-21); spaghetti with black bean and tomato sauce and black bean and sweet potato tacos (planned 2023-05-25); Apple Cinnamon Swirl Bread (planned 2023-05-25); King Arthur Flour Whole Wheat Cinnamon Swirl Bread (considered for 2023-05-27–2023-05-28); Apple, Sausage, and Cheddar Strata with bacon substituted for sausage, plus banana muffins (planned for family brunch 2023-06-03–2023-06-04); toaster-oven breakfast quesadilla and roasted vegetables (ideas the user wanted to try 2023-05-26); kale and butternut squash roasted together (planned 2023-05-26); tomato and mozzarella salad for a dinner party (idea 2023-05-28); homemade tomato pasta sauce (under development 2023-05-28); homemade granola (made during the week before 2023-05-30); espresso desserts, especially tiramisu and espresso brownies (considered 2023-05-30).",
+   "entities": [
+    "user",
+    "King Arthur Flour",
+    "Plan to Eat"
+   ],
+   "topic": "cooking and baking",
+   "time": "2023-05-20..2023-06-04",
+   "sources": [
+    "T35",
+    "T37",
+    "T39",
+    "T41",
+    "T43",
+    "T229",
+    "T230",
+    "T232",
+    "T240",
+    "T242",
+    "T246",
+    "T248",
+    "T250",
+    "T281",
+    "T283",
+    "T285",
+    "T287",
+    "T337",
+    "T339",
+    "T347"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user said they made banana muffins twice during April 2023; they were a hit with the family and described as a family favorite. The user was also considering making banana muffins for a family brunch on 2023-06-03–2023-06-04.",
+   "entities": [
+    "user",
+    "banana muffins"
+   ],
+   "topic": "banana muffin baking",
+   "time": "2023-04-01..2023-06-04",
+   "sources": [
+    "T240",
+    "T250"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Since the week of 2023-04-10, the user had struggled to stay on track with healthy eating and often chose convenient food. By 2023-05-21, they reported eating more fruit and wanted to continue, found component-based meal preparation less overwhelming, and planned to prep vegetables and grains and cook one protein source weekly, preferably on Sundays. They had relied heavily on food-delivery apps on weekends while watching shows; they recalled ordering Domino’s at least three times in the two weeks before 2023-05-21 and Mexican food twice. On 2023-05-22, they were also trying to eat more protein and prepare lunches on Sundays.",
+   "entities": [
+    "user"
+   ],
+   "topic": "healthy eating and meal preparation",
+   "time": "2023-04-10..2023-05-22",
+   "sources": [
+    "T89",
+    "T91",
+    "T93",
+    "T95",
+    "T97",
+    "T99"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "In the two weeks before 2023-05-21, the user recalled ordering Domino’s pizza at least three times and Mexican food twice from a new downtown restaurant, while relying heavily on delivery apps, especially on weekends.",
+   "entities": [
+    "user",
+    "Domino's",
+    "food delivery apps"
+   ],
+   "topic": "food delivery orders",
+   "time": "2023-05-07..2023-05-21",
+   "sources": [
+    "T95"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user returned from a week-long beach vacation and said on 2023-05-22 that they wanted to resume exercise after doing little during the trip. They had recently jogged and cycled frequently and were considering local yoga classes to add variety, flexibility work, and recovery; no location was provided. They also reported taking a 30-minute walk before work and feeling more energized and focused, and waking 15 minutes earlier on Tuesdays and Thursdays to meditate and practice yoga poses.",
+   "entities": [
+    "user"
+   ],
+   "topic": "exercise routine and recovery",
+   "time": "2023-05-22..2023-05-22",
+   "sources": [
+    "T131",
+    "T133",
+    "T154",
+    "T158"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-22, the user planned to meditate for at least 10 minutes daily immediately after their morning walk, using Headspace and Insight Timer and exploring free resources from UCLA’s Mindful Awareness Research Center and Tara Brach’s website. They described themselves as a beginner interested in guided sessions alongside exploring different styles. For the following weeks, they aimed to build consistency and observe effects on calm, focus, well-being, stress, anxiety, and relationships. Earlier that day, they also described meditating and practicing yoga poses on Tuesdays and Thursdays.",
+   "entities": [
+    "user",
+    "Headspace",
+    "Insight Timer",
+    "UCLA Mindful Awareness Research Center",
+    "Tara Brach"
+   ],
+   "topic": "meditation practice",
+   "time": "2023-05-22..2023-05-22",
+   "sources": [
+    "T154",
+    "T158"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user organized their small closet on 2023-05-20 and sought ways to maximize storage. On 2023-05-21, they described hats, scarves, and belts jumbled together on a shelf and wanted them organized and easy to find. On 2023-05-26, after buying a coat and winter boots, they wanted to reorganize the closet, considered storage bins for winter accessories, and asked about keeping shoes and boots organized and protected. Advice discussed included categorizing items, using vertical space and bins, and storing boots upright with support.",
+   "entities": [
+    "user",
+    "closet",
+    "hats",
+    "scarves",
+    "belts",
+    "winter coat",
+    "winter boots"
+   ],
+   "topic": "closet and shoe organization",
+   "time": "2023-05-20..2023-05-26",
+   "sources": [
+    "T77",
+    "T79",
+    "T78",
+    "T80",
+    "T293",
+    "T295",
+    "T297",
+    "T301",
+    "T303",
+    "T294",
+    "T298",
+    "T302",
+    "T304"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user repainted their bedroom light gray in April 2023. On 2023-05-21, they said they were drawn to minimalist art and wanted a bold, contrasting geometric print for the room, especially a hexagon design; they planned to browse suggested artists and marketplaces. They had also recently bought an essential-oil diffuser and said lavender and chamomile was their favorite calming blend.",
+   "entities": [
+    "user",
+    "bedroom",
+    "essential-oil diffuser"
+   ],
+   "topic": "bedroom decor and atmosphere",
+   "time": "2023-04-01..2023-05-21",
+   "sources": [
+    "T69",
+    "T71",
+    "T73",
+    "T74",
+    "T75"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Books the user has read or planned to read: The user planned to begin The Lean Startup by Eric Ries on 2023-05-20; by 2023-05-29, they said they had already read The Power by Naomi Alderman and The Song of Achilles by Madeline Miller. Titles recommended for a prospective book-club discussion about identity, cultural heritage, and belonging on 2023-05-29 included The Namesake by Jhumpa Lahiri, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Joy Luck Club by Amy Tan, The House on Mango Street by Sandra Cisneros, The Buddha in the Attic by Julie Otsuka, The Inheritance of Loss by Kiran Desai, The Leavers by Lisa Ko, and The Best We Could Do by Thi Bui. Further Asian American author recommendations included Pachinko and Free Food for Millionaires by Min Jin Lee; The Incendiaries by R.O. Kwon; The Refugees and The Sympathizer by Viet Thanh Nguyen; Everything I Never Told You and Little Fires Everywhere by Celeste Ng; The Star-Touched Queen by Roshani Chokshi; The Astonishing Color of After by Emily X.R. Pan; and Frankly in Love by David Yoon.",
+   "entities": [
+    "user",
+    "Eric Ries",
+    "Naomi Alderman",
+    "Madeline Miller",
+    "Jhumpa Lahiri",
+    "Junot Díaz",
+    "Amy Tan",
+    "Sandra Cisneros",
+    "Julie Otsuka",
+    "Kiran Desai",
+    "Lisa Ko",
+    "Thi Bui",
+    "Min Jin Lee",
+    "R.O. Kwon",
+    "Viet Thanh Nguyen",
+    "Celeste Ng",
+    "Roshani Chokshi",
+    "Emily X.R. Pan",
+    "David Yoon"
+   ],
+   "topic": "books and reading",
+   "time": "2023-05-20..2023-05-29",
+   "sources": [
+    "T7"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user attended a literary festival on a university campus on January 25 (year unspecified), including readings and a panel on diversity in literature. By 2023-05-29, the user expressed interest in books by authors of color, especially Asian American authors, and in themes of identity, cultural heritage, and belonging. They were considering starting a book club; they had spoken with interested friends and planned to meet for the first time in March, likely March 2024 based on the conversation context. No meeting outcome is recorded.",
+   "entities": [
+    "user",
+    "book club"
+   ],
+   "topic": "book club about authors of color",
+   "time": "2023-05-29..2024-03",
+   "sources": []
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user received an email from HR on 2023-03-10 saying they had been shortlisted for a Senior Marketing Manager position and called it a major milestone. By 2023-05-23, they were preparing for the position by reflecting on past projects and performance, improving time management, identifying patterns, creating an improvement action plan, and developing leadership and communication skills, especially giving specific, actionable feedback. They were interested in making a personal SWOT analysis and said they would try suggested tools and templates. No hiring outcome is recorded.",
+   "entities": [
+    "user",
+    "Senior Marketing Manager"
+   ],
+   "topic": "Senior Marketing Manager preparation",
+   "time": "2023-03-10..2023-05-23",
+   "sources": [
+    "T178",
+    "T174",
+    "T176",
+    "T179",
+    "T180",
+    "T181"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-23, the user introduced the art of imperfection as a framework and asked how to apply it in everyday life. They then requested an essay and a draft proposal, resulting in a framework titled The Art of Imperfection: A Framework for Acceptance and Inclusion, with goals involving self-acceptance, reducing perfectionism, celebrating uniqueness, supportive environments, and appreciating imperfection. The proposal suggested assessing progress through surveys, interviews, or other methods; no implementation or evaluation is recorded.",
+   "entities": [
+    "user",
+    "The Art of Imperfection: A Framework for Acceptance and Inclusion"
+   ],
+   "topic": "art of imperfection framework",
+   "time": "2023-05-23..2023-05-23",
+   "sources": [
+    "T166",
+    "T168",
+    "T169",
+    "T170",
+    "T171",
+    "T172",
+    "T173"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-23, the user said they had returned from a beach trip with more than 1,000 photos and felt overwhelmed. They preferred hierarchical folders with subfolders for days, activities, or locations and tags for specific details such as surfing and sunset. They did not want to keep every photo and planned to remove duplicates and near-duplicates, judge quality and significance, and make quick keep-or-delete decisions. They felt excited to start, but no completed sorting is recorded.",
+   "entities": [
+    "user",
+    "beach-trip photos"
+   ],
+   "topic": "photo organization",
+   "time": "2023-05-23..2023-05-23",
+   "sources": [
+    "T186",
+    "T188",
+    "T190",
+    "T194",
+    "T196"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user had been using Shipt in April 2023 and, on 2023-05-25, said they had plenty of pasta, rice, canned beans, and apples at home. They planned to make spaghetti with black bean and tomato sauce, black bean and sweet potato tacos, and Apple Cinnamon Swirl Bread. They were interested in Plan to Eat because it combines meal planning, grocery lists, recipes, and leftovers, and said they were ready to start using it; actual setup or use was not confirmed. They also wanted to shop more efficiently because they often wandered aisles and forgot items.",
+   "entities": [
+    "user",
+    "Shipt",
+    "Plan to Eat"
+   ],
+   "topic": "meal planning and grocery shopping",
+   "time": "2023-04-01..2023-05-25",
+   "sources": [
+    "T228",
+    "T229",
+    "T230",
+    "T232",
+    "T236",
+    "T238",
+    "T239"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-26, the user said they had replaced an old toaster with a toaster oven and were excited to explore its capabilities. They wanted easy, healthy meal ideas and were especially interested in a breakfast quesadilla and roasted vegetables; later they were excited to try roasting kale with butternut squash. On 2023-05-30, they again described the toaster oven as a major improvement for cooking and reheating. No specific report confirms they tried the suggested dishes.",
+   "entities": [
+    "user",
+    "toaster oven"
+   ],
+   "topic": "exploring toaster-oven cooking",
+   "time": "2023-05-26..2023-05-30",
+   "sources": [
+    "T281",
+    "T283",
+    "T285",
+    "T287",
+    "T289"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-26, the user said they were trying to reduce food waste by using purchased produce, buying pantry staples in bulk, freezing items such as beans, rice, and pasta, and keeping pantry contents visible so expired cans were not hidden. On 2023-05-28, they said they were improving meal planning and grocery shopping and that a backyard compost bin had been helping a lot. They also bought fresh, ripe tomatoes at a farmers market and wanted ways to use them, including a tomato salad and developing a homemade tomato pasta sauce.",
+   "entities": [
+    "user",
+    "backyard compost bin",
+    "farmers market"
+   ],
+   "topic": "food-waste reduction",
+   "time": "2023-05-26..2023-05-28",
+   "sources": [
+    "T287",
+    "T341",
+    "T343",
+    "T337",
+    "T339",
+    "T347"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Dance and movement interests: the user attended a Zumba event on 2023-03-17 and said it was fun; by 2023-05-28, they had attended and enjoyed a Bachata workshop and wanted to improve. They used the YouTube channel Salsa with Maria to work on salsa technique and planned to check Bachata with Ana and Bachata Addiction. They were also considering a dance-themed party with a Zumba session and an energetic playlist.",
+   "entities": [
+    "user",
+    "Salsa with Maria",
+    "Bachata with Ana",
+    "Bachata Addiction"
+   ],
+   "topic": "dance activities and learning",
+   "time": "2023-03-17..2023-05-28",
+   "sources": []
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Pets and related products: the user has two pets, including a cat named Luna. In May 2023, the user bought new cat food and water bowls the previous month and found them easier to clean; they had been using a new Petco store-brand litter scoop and bags since 2023-05-18, liked the scoop’s comfortable grip and the bags’ improved quality, and reported no problems with Luna using them. The user ordered dental chews for Luna from Chewy.com on 2023-05-08; they arrived 2023-05-11, and Luna loves them. The user also sought pet-friendly cleaning products and odor eliminators on 2023-05-29.",
+   "entities": [
+    "user",
+    "Luna",
+    "Chewy.com",
+    "Petco"
+   ],
+   "topic": "pets and pet-care products",
+   "time": "2023-05-01..2023-05-29",
+   "sources": [
+    "T424",
+    "T425",
+    "T426",
+    "T428",
+    "T430",
+    "T432",
+    "T434"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported two cat-related product updates in May 2023: new food and water bowls purchased the previous month and easier to clean, and a Petco store-brand litter scoop and bags in use since 2023-05-18. Luna’s dental-chew order was placed 2023-05-08 and delivered 2023-05-11; the user said Luna loved the chews.",
+   "entities": [
+    "user",
+    "Luna",
+    "cat food and water bowls",
+    "litter scoop and bags",
+    "dental chews"
+   ],
+   "topic": "cat-care product changes",
+   "time": "2023-05-01..2023-05-29",
+   "sources": [
+    "T426",
+    "T428",
+    "T430",
+    "T432",
+    "T434"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2023-05-29, the user was working on a 1/48-scale P-51 Mustang model and asked about painting, airbrushing, and weathering. They had acquired a new airbrush and compressor a couple of weeks earlier and were practicing but still adjusting to its feel and control. They planned to study reference images and develop a weathering approach, and wanted a smooth, even finish on curved surfaces. They had previously built an F-16 model and spent an entire Saturday afternoon assembling its wings and attaching them to the fuselage; no completion status for the P-51 is recorded.",
+   "entities": [
+    "user",
+    "1/48-scale P-51 Mustang model",
+    "F-16 model",
+    "airbrush",
+    "compressor"
+   ],
+   "topic": "scale-model building",
+   "time": "2023-05-15..2023-05-29",
+   "sources": [
+    "T400",
+    "T402",
+    "T404",
+    "T406",
+    "T408",
+    "T410"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "By 2023-05-30, the user had taken online certification courses in Python programming and data visualization and had read books about machine learning and artificial intelligence. They were assessing their math and statistics preparation and considering whether to pursue a full Master’s degree in Data Science, while wanting further courses or certifications in machine learning and deep learning before committing. The assistant recommended courses and practice resources; the user’s decision about graduate study is not recorded.",
+   "entities": [
+    "user",
+    "Data Science",
+    "Python",
+    "machine learning",
+    "deep learning"
+   ],
+   "topic": "data-science education and graduate-study decision",
+   "time": "2023-05-30..2023-05-30",
+   "sources": [
+    "T474",
+    "T476",
+    "T478",
+    "T480",
+    "T479",
+    "T481"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user said they had baked banana muffins twice during April 2023. Separately, they recalled ordering Domino’s pizza at least three times and Mexican food twice during the two weeks before 2023-05-21.",
+   "entities": [
+    "user",
+    "banana muffins",
+    "Domino's pizza",
+    "Mexican food"
+   ],
+   "topic": "reported repeated food activities",
+   "time": "2023-04-01..2023-05-21",
+   "sources": [
+    "T240",
+    "T250",
+    "T95"
+   ]
+  }
+ ]
+}

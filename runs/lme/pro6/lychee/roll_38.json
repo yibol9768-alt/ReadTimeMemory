@@ -1,0 +1,332 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:collection",
+   "text": "Fitness and sport activities: completed a local charity 5K on 2023-04-15 (T47); completed the Run for a Cause 5K at a local park on 2023-06-01; runs at least three times weekly and was increasing running distances as of 2023-05-22 (T136); plays indoor soccer with work colleagues and reported several goals and two assists in the league by 2023-05-22 (T136, T142); trained for a sprint triathlon with runs, Sunday bike rides, occasional post-ride park runs, planned brick workouts, and Tuesday/Thursday strength sessions (T49, T51, T55, T57); used a fitness app to track workouts as of 2023-05-22 (T146).",
+   "entities": [
+    "user"
+   ],
+   "topic": "fitness and sport activities",
+   "time": "2023-04-15..2023-06-01",
+   "sources": [
+    "T47",
+    "T49",
+    "T51",
+    "T55",
+    "T57",
+    "T136",
+    "T142",
+    "T146"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Sprint-triathlon preparation: after completing a local charity 5K on 2023-04-15, the user considered a June 2023 sprint triathlon and was training separately in each discipline by 2023-05-20, running at least three times weekly and doing longer Sunday rides, sometimes followed by a short park run (T47, T49, T51). The user liked a brick-workout progression and planned to fit it in on Wednesdays, usually a running rest day (T49, T50, T51). They planned Tuesday/Thursday strength sessions for core, glutes, and legs, starting with lighter weights and higher repetitions and gradually increasing weight, with warmups and cooldowns (T55, T57). On 2023-06-01, the user reported completing the Run for a Cause 5K. By a later record, the user planned to start a sprint-triathlon program in July 2023, had no swimming experience and expected to take lessons or join a swim program, owned a bike and had ridden casually, and planned to compare local triathlon training groups for structure and peer support.",
+   "entities": [
+    "user",
+    "sprint triathlon",
+    "Run for a Cause 5K"
+   ],
+   "topic": "sprint-triathlon preparation",
+   "time": "2023-04-15..2023-07-31",
+   "sources": [
+    "T47",
+    "T49",
+    "T50",
+    "T51",
+    "T55",
+    "T57",
+    "T136"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Technology owned or considered: bought a Samsung Galaxy S22 Ultra on 2023-02-25 (T65); bought a 256GB Wi-Fi iPad Air from the Apple Store on 2023-03-12 for $749 and used it for videos and games on the commute (T59, T63); chose a Zagg Rugged Book keyboard case for the iPad Air, prioritizing a traditional typing experience, durability, and water resistance (T61, T63); bought a Samsung smartwatch from Best Buy on 2023-02-10 for $200 and said it helped track daily activities (T474, T478); considered a new Dell XPS 13 around $1,000 in May 2023, preferring a new device from a reputable retailer and deciding 256GB storage would suffice, but no completed purchase was established (T474, T476, T478, T480, T482, T483).",
+   "entities": [
+    "user",
+    "Samsung Galaxy S22 Ultra",
+    "iPad Air",
+    "Zagg Rugged Book",
+    "Samsung smartwatch",
+    "Dell XPS 13"
+   ],
+   "topic": "technology owned and considered",
+   "time": "2023-02-10..2023-05-29",
+   "sources": [
+    "T59",
+    "T61",
+    "T63",
+    "T65",
+    "T474",
+    "T476",
+    "T478",
+    "T480",
+    "T482",
+    "T483"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Home and garden plans: on 2023-05-20, the user was considering a new sectional sofa, measuring the room and access routes, and wanted a modern minimalist look with neutral colors, a glass-top coffee table, and a cream Beni Ourain-inspired rug with darker geometric patterns (T27, T29, T33). They also asked about industrial-chic lamps that would not make the living room feel overly themed (T37). The user planted bulbs during the weekend of 2023-05-20–21 and looked forward to spring blooms (T345, T355).",
+   "entities": [
+    "user",
+    "sectional sofa",
+    "glass-top coffee table",
+    "Beni Ourain-inspired rug",
+    "garden bulbs"
+   ],
+   "topic": "home furnishing and garden plans",
+   "time": "2023-05-20..2023-05-21",
+   "sources": [
+    "T27",
+    "T29",
+    "T33",
+    "T34",
+    "T37",
+    "T345",
+    "T355"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Travel experiences and plans: returned from a fifth trip to New York City since January 2023 by 2023-05-21 (T100); went to Hawaii with family for one week in April 2023 and loved it (T174); considered returning to Hawaii, staying in Kailua-Kona, exploring town and coffee farms, and taking a Saturday day trip to Hilo to visit the Hilo Farmers Market and Rainbow Falls and try laulau and kalua pig (T176, T178, T179, T180, T182); planned a solo South Beach, Florida getaway from 2023-06-02 to 2023-06-04, staying in a beachside Airbnb (T278, T279); considered a June 2023 Ireland trip to attend a summer solstice festival and explore Irish heritage (T486, T488); considered a Japan hot-spring trip, preferring to avoid crowds and to choose scenery according to mood (T236, T238, T240).",
+   "entities": [
+    "user",
+    "New York City",
+    "Hawaii",
+    "Kailua-Kona",
+    "Hilo",
+    "South Beach, Florida",
+    "Ireland",
+    "Japan"
+   ],
+   "topic": "travel experiences and plans",
+   "time": "2023-04-01..2023-06-04",
+   "sources": [
+    "T100",
+    "T174",
+    "T176",
+    "T178",
+    "T179",
+    "T180",
+    "T182",
+    "T236",
+    "T238",
+    "T240",
+    "T278",
+    "T279",
+    "T486",
+    "T488"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Hawaii return-trip planning: after a one-week family trip to Hawaii in April 2023 that the user loved (T174), the user considered returning and staying in Kailua-Kona to explore the town and take coffee-farm tours, preferring a laid-back, local atmosphere and lodging suitable for a solo traveler (T176). The user planned a Saturday day trip to Hilo, especially the Hilo Farmers Market and Rainbow Falls, and wanted to try laulau and kalua pig (T178, T179, T180, T182).",
+   "entities": [
+    "user",
+    "Hawaii",
+    "Kailua-Kona",
+    "Hilo"
+   ],
+   "topic": "Hawaii return-trip planning",
+   "time": "2023-04-01..2023-05-22",
+   "sources": [
+    "T174",
+    "T176",
+    "T178",
+    "T179",
+    "T180",
+    "T182"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Ireland heritage and travel plans: on 2023-05-29, the user was planning a summer trip to Ireland in June 2023, hoping to attend a summer solstice festival and find affordable flights and accommodation (T486). The user said they had 27% Irish roots and 17% Italian roots, felt drawn to Ireland as an ancestral homeland, and had begun researching Irish heritage, including plans to visit the National Library of Ireland and Irish Family History Centre in Dublin (T486, T488). They were interested in Irish folklore, traditional music sessions, and learning the jig and reel, and planned to look into musicians and beginner dance classes in Dublin or Galway (T488, T490, T492, T494). They also asked about Italian cultural events and authentic Italian food shops and restaurants in Ireland (T492, T494). No trip booking or selected class was established.",
+   "entities": [
+    "user",
+    "Ireland",
+    "Dublin",
+    "Galway"
+   ],
+   "topic": "Ireland travel and heritage exploration",
+   "time": "2023-05-29..2023-05-29",
+   "sources": [
+    "T486",
+    "T488",
+    "T490",
+    "T492",
+    "T494"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Food interests and meal plans: the user likes Italian food, especially pasta, and wanted to try Venetian dishes (T170); has been experimenting with cumin and sumac, reducing meat, and looking for vegetarian meals, choosing a cumin-spiced quinoa bowl with roasted sweet potato, carrot, and Brussels sprouts for its sweet-and-savory flavors (T128, T130, T132); likes no-bake energy balls and planned to try spicy roasted chickpeas, having lately relied on wasabi peas (T124, T126, T128); made fruit salad with grapes, strawberries, pineapple, and whipped cream on 2023-05-21 (T124); planned bibim naengmyeon with gochujang, soy sauce, gochugaru, garlic, cucumber, pickled radish, green onions, and sesame seeds (T383); planned Cinnamon Apple Oatmeal for breakfast on 2023-05-28 and had oatmeal, trail mix, crackers, rice, and canned black beans stocked from Costco (T333, T335); had ground beef and ingredients for Beef and Black Bean Tacos on 2023-05-27 (T339, T341).",
+   "entities": [
+    "user",
+    "fruit salad",
+    "quinoa bowl",
+    "spicy roasted chickpeas",
+    "bibim naengmyeon",
+    "Cinnamon Apple Oatmeal",
+    "Beef and Black Bean Tacos"
+   ],
+   "topic": "food preferences and meals",
+   "time": "2023-02-22..2023-05-28",
+   "sources": [
+    "T124",
+    "T126",
+    "T128",
+    "T130",
+    "T132",
+    "T170",
+    "T333",
+    "T335",
+    "T339",
+    "T341",
+    "T383"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Japanese cooking and dinner-party planning: the user had been taking Japanese cooking classes since April 2023 and had experimented with ingredients, including mochiko flour. For a dinner party planned for the weekend of 2023-05-27–28, the user was interested in serving Salmon Teriyaki and Chicken Yakitori with steamed vegetables and Japanese rice, and planned Mochi Brownies with a mochiko topping, wanting the topping to have the right consistency.",
+   "entities": [
+    "user",
+    "Japanese cooking classes",
+    "Salmon Teriyaki",
+    "Chicken Yakitori",
+    "Mochi Brownies"
+   ],
+   "topic": "Japanese cooking and dinner-party menu",
+   "time": "2023-04-01..2023-05-28",
+   "sources": [
+    "T255"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Relationship and emotional-wellbeing work: on 2023-05-23, the user said holding grudges made them feel more negative and stressed and that letting go was difficult; they planned to practice empathy, communicate with the person who hurt them, and write notes about their aims and what had caused hurt, then said they felt more confident about the conversation (T196, T198, T202, T204). On 2023-05-24, the user said they had been attending therapy regularly and exploring old emotional wounds for several weeks, felt overwhelmed and self-critical about anxiety, and liked the ideas of reframing negative thoughts and self-compassion (T256, T258, T260). They reported recurring nightmares about their parents’ divorce and anxiety about abandonment in their relationship; delayed responses from their partner could prompt fears of being abandoned or uncared for. They wanted to identify triggers and communicate feelings and needs more openly and respectfully (T261, T262, T264, T266).",
+   "entities": [
+    "user",
+    "user's partner",
+    "user's therapist"
+   ],
+   "topic": "emotional wellbeing and relationship communication",
+   "time": "2023-05-23..2023-05-24",
+   "sources": [
+    "T196",
+    "T198",
+    "T202",
+    "T204",
+    "T256",
+    "T258",
+    "T260",
+    "T261",
+    "T262",
+    "T264",
+    "T266"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Express Detailers writing project: on 2023-05-21, the user requested website and promotional copy for Express Detailers, described as a mobile detailing business serving Orlando, Florida, and asked that the claim “the most affordable mobile detailing company in Orlando, FL” appear only at the end of the paragraph (T106, T108, T109). The user instructed that new writing use active voice, no more than 3% passive voice, be high-quality and readable, and keep bullet points roughly equal in length (T110, T112). Further requested material included benefit bullets, mission/vision/aim, service descriptions for mobile detailing, waxing, ceramic coating and paint protection polishing, reasons to choose the business, sample testimonials, and informational copy about waxing and paint-protection polishing (T110, T111, T112, T113, T114, T115, T116, T117, T118, T119, T120, T121, T122, T123). The user also preferred creative, non-repetitive, non-generic writing. Testimonials and claims supplied by the assistant were generated copy, not verified customer evidence or business facts (T120).",
+   "entities": [
+    "user",
+    "Express Detailers"
+   ],
+   "topic": "Express Detailers website and marketing copy",
+   "time": "2023-05-21..2023-05-21",
+   "sources": [
+    "T106",
+    "T108",
+    "T109",
+    "T110",
+    "T111",
+    "T112",
+    "T113",
+    "T114",
+    "T115",
+    "T116",
+    "T117",
+    "T118",
+    "T119",
+    "T120",
+    "T121",
+    "T122",
+    "T123"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Personal website and marketing development: after attending a digital-marketing webinar a few weeks before 2023-05-29 on SEO and social-media campaigns, the user planned a technical SEO audit of their personal website, to improve its content and structure, search visibility and traffic, and to write more blog posts using skills from a writing workshop attended a few months earlier. The site’s performance was described as okay, but the user wanted greater visibility and traffic (T472). The user had also attended a project-management workshop downtown during the week of 2023-05-22–28, found it informative, and planned to apply Agile methods to a current marketing project at work, including breaking work into smaller tasks and using a Kanban board and metrics (T208, T209). The user planned to use Asana to create a Gantt chart for a current work project.",
+   "entities": [
+    "user",
+    "personal website",
+    "marketing project",
+    "Asana"
+   ],
+   "topic": "marketing and project-management development",
+   "time": "2023-05-22..2023-05-29",
+   "sources": [
+    "T208",
+    "T209",
+    "T472"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Genealogy research planning: on 2023-05-28, the user wanted to research the family history of their grandfather’s side, whose Polish and Russian ancestry was alleged but not established. The user planned to begin by interviewing relatives and gathering family documents, then use Ancestry.com and FamilySearch.org, with a research plan, filing system, and genealogy software to organize findings (T387, T389, T391).",
+   "entities": [
+    "user",
+    "user's grandfather",
+    "Ancestry.com",
+    "FamilySearch.org"
+   ],
+   "topic": "family-history research",
+   "time": "2023-05-28..2023-05-28",
+   "sources": [
+    "T387",
+    "T389",
+    "T391"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported five trips to New York City since January 2023 by 2023-05-21; no other trip count is stated in the records.",
+   "entities": [
+    "user",
+    "New York City"
+   ],
+   "topic": "reported New York City trips",
+   "time": "2023-01-01..2023-05-21",
+   "sources": [
+    "T100"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported earning 20,000 United Airlines miles by 2023-05-21 and was seeking Premier Silver status; the number of miles is a balance, not a count of trips or flights.",
+   "entities": [
+    "user",
+    "United Airlines"
+   ],
+   "topic": "United Airlines mileage balance",
+   "time": "2023-05-21..2023-05-21",
+   "sources": [
+    "T98"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user said a neighborhood cultural festival had people representing more than 20 ethnic backgrounds and described it as amazing.",
+   "entities": [
+    "user",
+    "neighborhood cultural festival"
+   ],
+   "topic": "ethnic backgrounds represented at festival",
+   "time": "2023-05-28..2023-05-28",
+   "sources": [
+    "T383"
+   ]
+  }
+ ]
+}

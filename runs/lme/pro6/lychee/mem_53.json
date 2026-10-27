@@ -1,0 +1,3542 @@
+{
+ "records": [
+  {
+   "type": "plan",
+   "text": "The user is planning a trip to Hawaii in November 2023 and is seeking accommodation advice for eco-lodges or campsites on the Big Island.",
+   "entities": [
+    "User",
+    "Hawaii",
+    "Big Island"
+   ],
+   "topic": "Hawaii trip accommodations",
+   "time": "2023-11",
+   "sources": [
+    "T1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user has been doing a lot of camping recently and previously took a five-day camping trip to Yosemite; the date of the Yosemite trip was not specified.",
+   "entities": [
+    "User",
+    "Yosemite"
+   ],
+   "topic": "Camping history",
+   "time": "",
+   "sources": [
+    "T1"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user is considering hiking on the Big Island and asked for must-see hikes.",
+   "entities": [
+    "User",
+    "Big Island"
+   ],
+   "topic": "Big Island hiking",
+   "time": "2023-11",
+   "sources": [
+    "T3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "The user hiked to the top of Vernal Falls in Yosemite. The user described the hike as really challenging and said the views were amazing; the date was not specified.",
+   "entities": [
+    "User",
+    "Vernal Falls",
+    "Yosemite"
+   ],
+   "topic": "Hiking history",
+   "time": "",
+   "sources": [
+    "T3"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user is considering beginner-friendly snorkeling spots on the Big Island and is looking forward to returning to the ocean.",
+   "entities": [
+    "User",
+    "Big Island"
+   ],
+   "topic": "Big Island snorkeling",
+   "time": "2023-11",
+   "sources": [
+    "T5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "The user recently backpacked the Lost Coast Trail and saw migrating whales along the coast. The user described the experience as amazing; the date was not specified.",
+   "entities": [
+    "User",
+    "Lost Coast Trail",
+    "Whales"
+   ],
+   "topic": "Backpacking history",
+   "time": "",
+   "sources": [
+    "T5"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user is considering exploring Kauai's Na Pali Coast and asked how to get there and what to expect.",
+   "entities": [
+    "User",
+    "Kauai",
+    "Na Pali Coast"
+   ],
+   "topic": "Na Pali Coast visit",
+   "time": "2023-11",
+   "sources": [
+    "T7"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The user feels really grateful for the opportunity to explore many incredible outdoor destinations, including Yosemite and the Lost Coast Trail.",
+   "entities": [
+    "User",
+    "Yosemite",
+    "Lost Coast Trail"
+   ],
+   "topic": "Outdoor adventures",
+   "time": "2023-03-28",
+   "sources": [
+    "T7",
+    "T11"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user is thinking of booking a helicopter tour to see Kauai's Na Pali Coast from the air and asked for operator recommendations and tips about the tour.",
+   "entities": [
+    "User",
+    "Kauai",
+    "Na Pali Coast"
+   ],
+   "topic": "Na Pali Coast helicopter tour",
+   "time": "2023-11",
+   "sources": [
+    "T9",
+    "T11"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user said it was impressive that Lockheed Martin's innovations had affected the aerospace and defense industry, and described its advances in AI and cybersecurity as amazing.",
+   "entities": [
+    "user",
+    "Lockheed Martin"
+   ],
+   "topic": "Lockheed Martin innovation",
+   "time": "2023-03-28",
+   "sources": [
+    "T13",
+    "T15"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user asked about Lockheed Martin's work and breakthroughs in space exploration, including Orion, Mars missions, the Solar Dynamics Observatory, and space-based LIDAR discussed in the conversation.",
+   "entities": [
+    "user",
+    "Lockheed Martin"
+   ],
+   "topic": "space exploration",
+   "time": "2023-03-28",
+   "sources": [
+    "T17",
+    "T18"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user said the possibility of colonies on other planets would be “pretty cool” and found Lockheed Martin's efforts to push the boundaries of space exploration fascinating.",
+   "entities": [
+    "user",
+    "Lockheed Martin"
+   ],
+   "topic": "planetary colonization",
+   "time": "2023-03-28",
+   "sources": [
+    "T19",
+    "T21"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user asked what major challenges must be overcome to make human colonization of other planets possible.",
+   "entities": [
+    "user"
+   ],
+   "topic": "planetary colonization challenges",
+   "time": "2023-03-28",
+   "sources": [
+    "T21"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user said the possibilities of human colonization on other planets were exciting, while wondering how long it would take for the technologies and human settlement to become reality.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Human space colonization timeline",
+   "time": "2023-03-28",
+   "sources": [
+    "T23"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user raised ethical concerns about colonizing other planets, asking how settlement might affect life forms there and whether protecting and preserving extraterrestrial ecosystems should take priority over claiming planets for human use.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Ethics of planetary colonization",
+   "time": "2023-03-28",
+   "sources": [
+    "T25"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the assistant described NASA's goal of sending humans to Mars in the mid-2030s and suggested a full-fledged Mars colony could take several decades or possibly a century; the assistant noted that timelines depend on technology, regulation, and funding. These were presented as estimates, not guaranteed outcomes.",
+   "entities": [
+    "NASA",
+    "Mars",
+    "SpaceX",
+    "Lockheed Martin"
+   ],
+   "topic": "Human space colonization timeline",
+   "time": "2023-03-28",
+   "sources": [
+    "T24"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the assistant said no organisms are known to inhabit Mars or other planets and moons in the solar system, while acknowledging that extraterrestrial life might be discovered. The assistant discussed ethical guidelines addressing environmental protection, cultural preservation, and human rights, and balancing scientific benefits against impacts on planetary ecosystems.",
+   "entities": [
+    "Mars",
+    "Solar System"
+   ],
+   "topic": "Ethics of planetary colonization",
+   "time": "2023-03-28",
+   "sources": [
+    "T26"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user's grandmother's parents immigrated from Poland to the United States in the 1920s and settled in a Polish community in New York City. The user's grandmother has shared vivid stories about her parents' experiences.",
+   "entities": [
+    "User",
+    "User's grandmother",
+    "User's grandmother's parents",
+    "Poland",
+    "New York City"
+   ],
+   "topic": "Family history",
+   "time": "",
+   "sources": [
+    "T27",
+    "T29"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user is trying to learn more about the family's Polish immigration history, especially the journey to the United States and the Polish community in New York City during the 1920s. The user is interested in community-specific archives and online resources, notable cultural and historical events, daily working and living conditions, cultural heritage and identity, and influential Polish-American leaders and organizations.",
+   "entities": [
+    "User",
+    "User's grandmother's parents",
+    "Polish immigrants",
+    "New York City"
+   ],
+   "topic": "Genealogy and Polish-American history",
+   "time": "2023-03-28",
+   "sources": [
+    "T27",
+    "T29",
+    "T31",
+    "T33",
+    "T35",
+    "T37"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user said the information about Polish immigration helped them better understand the arduous journey and daily experiences described in the grandmother's stories, and that the stories were starting to make more sense.",
+   "entities": [
+    "User",
+    "User's grandmother",
+    "User's grandmother's parents"
+   ],
+   "topic": "Family history research",
+   "time": "2023-03-28",
+   "sources": [
+    "T29",
+    "T33",
+    "T35"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked how perceptions of immigrants in Italy had changed over the previous century. The assistant summarized Italy's shift from a country of emigration in the early 20th century to a destination for immigrants after World War II, citing labor migration, growing political contention in the 1990s, and debates over Mediterranean arrivals and border controls.",
+   "entities": [
+    "user",
+    "Italy",
+    "immigrants"
+   ],
+   "topic": "Italian immigration history",
+   "time": "2023-03-28",
+   "sources": [
+    "T39",
+    "T40"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for examples of discrimination against immigrants in Italy. The assistant listed employment and housing discrimination, xenophobic violence, alleged racial profiling by police, and restrictions on undocumented immigrants' access to public services.",
+   "entities": [
+    "user",
+    "Italy",
+    "immigrants"
+   ],
+   "topic": "discrimination in Italy",
+   "time": "2023-03-28",
+   "sources": [
+    "T41",
+    "T42"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user called it funny that Italy had changed from a country of emigration to a country where immigrants face discrimination, and suggested immigrants take jobs from Italians and strain public resources, asking whether Italians could be blamed for this. The assistant replied that economic concerns do not justify discrimination and noted immigrants' potential economic contributions.",
+   "entities": [
+    "user",
+    "Italy",
+    "Italians",
+    "immigrants"
+   ],
+   "topic": "immigration and economic competition",
+   "time": "2023-03-28",
+   "sources": [
+    "T43",
+    "T44"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user asked whether immigrants bring crime and violence to Italy and said Italians' wariness about opening borders to foreigners was understandable. The assistant cautioned against generalizing about immigrants and said perceptions of immigrant crime can be shaped by media and political discourse.",
+   "entities": [
+    "user",
+    "Italy",
+    "Italians",
+    "immigrants"
+   ],
+   "topic": "immigration and crime",
+   "time": "2023-03-28",
+   "sources": [
+    "T45",
+    "T46"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked whether cultural differences between Italians and immigrants would cause conflict and impede integration. The assistant said differences can pose challenges, while language classes, cultural exchange, and social support can promote understanding; it described integration as a two-way process.",
+   "entities": [
+    "user",
+    "Italy",
+    "Italians",
+    "immigrants"
+   ],
+   "topic": "cultural difference and integration",
+   "time": "2023-03-28",
+   "sources": [
+    "T47",
+    "T48"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user said Italy should prioritize its own citizens before opening its borders to foreigners, arguing that Italians should receive a fair share of resources and opportunities before immigrants. The user reiterated that prioritizing immigrants over citizens did not make sense to them. The assistant clarified that it was advocating inclusion rather than prioritizing immigrants, and argued that citizens' and immigrants' well-being need not be a zero-sum tradeoff.",
+   "entities": [
+    "user",
+    "Italy",
+    "Italians",
+    "immigrants"
+   ],
+   "topic": "national priority and allocation of resources",
+   "time": "2023-03-28",
+   "sources": [
+    "T49",
+    "T50",
+    "T51",
+    "T52"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked whether Maastricht had increased its use of renewable energy over the years. The assistant said Maastricht aimed to be climate-neutral by 2030 and described solar-panel initiatives and geothermal energy, while cautioning that current data should be checked.",
+   "entities": [
+    "Maastricht",
+    "user"
+   ],
+   "topic": "Renewable energy use",
+   "time": "2023-03-28",
+   "sources": [
+    "T53",
+    "T54"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked about public initiatives and incentives in Maastricht that help individuals switch to renewable energy. The assistant claimed the municipality offered subsidies for residential solar panels, that tax incentives were available for renewable-energy investment, and that the Maastricht Energy Collective advised residents and negotiated sustainable energy contracts; the assistant noted its information might not be current.",
+   "entities": [
+    "Maastricht",
+    "Maastricht Energy Collective",
+    "user"
+   ],
+   "topic": "Renewable energy incentives",
+   "time": "2023-03-28",
+   "sources": [
+    "T55",
+    "T56"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On 2023-03-28, the user expressed enthusiasm about renewable-energy initiatives and said they would love to learn more about the topic through community events or workshops in Maastricht.",
+   "entities": [
+    "user",
+    "Maastricht"
+   ],
+   "topic": "Renewable energy learning",
+   "time": "2023-03-28",
+   "sources": [
+    "T57"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, in response to the user's question about renewable-energy events and workshops in Maastricht, the assistant said the municipality held energy fairs and workshops and named the Maastricht Sustainability Initiative as a community organization that organized events on renewable energy, sustainability, and climate change. The assistant advised checking organizations' websites and social-media pages for current events and noted that its information might not be up to date.",
+   "entities": [
+    "Maastricht",
+    "Maastricht Sustainability Initiative",
+    "user"
+   ],
+   "topic": "Renewable energy events",
+   "time": "2023-03-28",
+   "sources": [
+    "T57",
+    "T58"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user has been doing a lot of cardio and would like high-tempo workout music; the user said they would check out the suggested playlists.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Workout music",
+   "time": "2023-03-28",
+   "sources": [
+    "T59",
+    "T61"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "The user recently completed a 5K charity run in 34 minutes and 22 seconds and said they were pretty happy with that result. The run took place before 2023-03-28; its exact date is unknown.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Running",
+   "time": "",
+   "sources": [
+    "T61"
+   ]
+  },
+  {
+   "type": "state",
+   "text": "The user is researching the family's Polish-American history, including the grandmother's parents' immigration from Poland in the 1920s and their settlement in a New York City Polish community; the grandmother shared vivid stories. The user wants to learn about NYC Polish communities, archives, events, daily life, identity, leaders, and organizations. On 2023-03-28, the user said this research contextualized the grandmother's stories. The user expressed restrictive, skeptical views about immigration to Italy, citing jobs, resources, crime, cultural differences, and prioritizing Italian citizens. On 2023-03-28, the user asked about renewable energy, incentives, and community events in Maastricht, expressing enthusiasm and interest in learning more. The user does a lot of cardio, wants high-tempo workout music, and recently completed a 5K charity run in 34:22, a result they were happy with.",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "In February 2023, the user completed a first 5K charity run in 34 minutes and 22 seconds and felt proud of finishing.",
+   "entities": [
+    "user",
+    "5K charity run"
+   ],
+   "topic": "running",
+   "time": "2023-02",
+   "sources": [
+    "T69"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user is considering signing up for a triathlon training program that starts in May 2023, and aims to complete a triathlon by the end of summer 2023.",
+   "entities": [
+    "user",
+    "triathlon training program",
+    "triathlon"
+   ],
+   "topic": "triathlon",
+   "time": "2023-05..2023-08",
+   "sources": []
+  },
+  {
+   "type": "opinion",
+   "text": "The user feels nervous but excited about challenging themself to complete a triathlon by the end of summer 2023.",
+   "entities": [
+    "user",
+    "triathlon"
+   ],
+   "topic": "triathlon",
+   "time": "2023-03-28",
+   "sources": [
+    "T65"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user plans to incorporate more swimming and biking into their routine to prepare for triathlon training.",
+   "entities": [
+    "user",
+    "swimming",
+    "biking"
+   ],
+   "topic": "triathlon training",
+   "time": "2023-03-28",
+   "sources": [
+    "T65"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user says they do not have a strong swimming background. They swim at a local pool, practice drills, and use online tutorials and reading to improve swimming technique and endurance.",
+   "entities": [
+    "user",
+    "local pool"
+   ],
+   "topic": "swimming",
+   "time": "2023-03-28",
+   "sources": [
+    "T67"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user plans to ask around for referrals and search online for a swim coach or experienced triathlete in their area, and to observe one or two sessions to assess the instructor's teaching style.",
+   "entities": [
+    "user",
+    "swim coach",
+    "experienced triathlete"
+   ],
+   "topic": "swimming coaching",
+   "time": "2023-03-28",
+   "sources": [
+    "T69"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The user is proud of completing their first 5K charity run in 34 minutes and 22 seconds and asked whether to aim to beat that time at their next 5K; the user had not yet stated a decision to set that goal.",
+   "entities": [
+    "user",
+    "5K charity run"
+   ],
+   "topic": "running goals",
+   "time": "2023-03-28",
+   "sources": [
+    "T69"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user has a wife; the wife's name was not given.",
+   "entities": [
+    "user",
+    "user's wife"
+   ],
+   "topic": "family",
+   "time": "2023-03-28",
+   "sources": [
+    "T73",
+    "T75"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "During a conversation about arithmetic, the user's wife said that 2 plus 7 equals 8. The assistant corrected this to 9, and the user said, \"My wife is always right,\" then asked whether the assistant was sure.",
+   "entities": [
+    "user",
+    "user's wife",
+    "assistant"
+   ],
+   "topic": "arithmetic",
+   "time": "2023-03-28",
+   "sources": [
+    "T71",
+    "T73",
+    "T75",
+    "T77"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked whether mathematical rules might differ if people were in another universe, whether the user could make 2 + 7 equal 8 if the user were Neo in The Matrix, and whether a real world contained within The Matrix would be subject to a new reality.",
+   "entities": [
+    "User",
+    "The Matrix",
+    "Neo"
+   ],
+   "topic": "Simulation theory and mathematics",
+   "time": "2023-03-28",
+   "sources": [
+    "T79",
+    "T81",
+    "T83"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The user explored the possibility that, if perceived reality were contained within a simulation, its rules of physics and mathematics could differ; the user posed this as a speculative question, not a stated conviction.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Simulation theory",
+   "time": "2023-03-28",
+   "sources": [
+    "T83"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked whether the assistant was saying the user's wife was right. The assistant clarified that 2 plus 7 equals 9 in all cases, and the user thanked the assistant.",
+   "entities": [
+    "User",
+    "User's wife"
+   ],
+   "topic": "Arithmetic confirmation",
+   "time": "2023-03-28",
+   "sources": [
+    "T85",
+    "T86",
+    "T87"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user asked how LISP’s dynamic typing compares with static typing in languages such as Java and C++, and whether LISP is better suited to some kinds of programming projects.",
+   "entities": [
+    "User",
+    "LISP"
+   ],
+   "topic": "Programming languages",
+   "time": "2023-03-28",
+   "sources": [
+    "T89",
+    "T91"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user said they were interested in learning LISP. Suggested starting resources included Peter Seibel’s “Practical Common Lisp,” Paul Graham’s “ANSI Common Lisp” and “On Lisp,” Conrad Barski’s “Land of Lisp,” and tools such as Emacs, LispWorks, and Allegro CL.",
+   "entities": [
+    "User",
+    "LISP",
+    "Peter Seibel",
+    "Paul Graham",
+    "Conrad Barski",
+    "Emacs",
+    "LispWorks",
+    "Allegro CL"
+   ],
+   "topic": "Learning LISP",
+   "time": "2023-03-28",
+   "sources": [
+    "T93",
+    "T94"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for a detailed overview of the history and impact of gender-based wage discrimination in the workforce. The assistant discussed its history from the Industrial Revolution through World War II and the 1960s, the U.S. Equal Pay Act of 1963, a reported 2018 U.S. full-time earnings ratio of 82 cents for women per dollar earned by men, and effects on women's income, career advancement, and economic status.",
+   "entities": [
+    "user",
+    "gender-based wage discrimination",
+    "Equal Pay Act of 1963",
+    "National Women's Law Center"
+   ],
+   "topic": "gender-based wage discrimination",
+   "time": "2023-03-28",
+   "sources": [
+    "T95",
+    "T96"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user said it was frustrating that gender-based wage discrimination remained prevalent despite legal protections and expressed hope that more action would ensure equal pay for women.",
+   "entities": [
+    "user",
+    "gender-based wage discrimination",
+    "women"
+   ],
+   "topic": "equal pay",
+   "time": "2023-03-28",
+   "sources": [
+    "T97"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked whether implementing penalties or fines for companies engaging in gender-based wage discrimination would help combat the issue. The assistant said penalties may deter discrimination, while also describing proactive measures such as equal-pay policies, regular pay audits, and pay transparency.",
+   "entities": [
+    "user",
+    "companies",
+    "gender-based wage discrimination"
+   ],
+   "topic": "equal-pay enforcement",
+   "time": "2023-03-28",
+   "sources": [
+    "T99",
+    "T100"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 28, 2023, the user said they hoped to become a student at Smith College.",
+   "entities": [
+    "User",
+    "Smith College"
+   ],
+   "topic": "education",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user loves exploring nature and finding hidden gems.",
+   "entities": [
+    "User"
+   ],
+   "topic": "nature",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "The user said they hoped to experience Smith College's Mountain Day, explore Mount Holyoke, and create fun traditions with friends.",
+   "entities": [
+    "User",
+    "Smith College",
+    "Mountain Day",
+    "Mount Holyoke"
+   ],
+   "topic": "Mountain Day",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "opinion",
+   "text": "The user reacted enthusiastically to Smith College traditions and Mountain Day, saying the event sounded fun and amazing and that they could not wait to experience it.",
+   "entities": [
+    "User",
+    "Smith College",
+    "Mountain Day"
+   ],
+   "topic": "Mountain Day",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The assistant described Smith College traditions and events as including Convocation, Mountain Day, Rally Day, Illumination Night, Otelia Cromwell Day, and the Ada Comstock Scholars Program. The assistant said Mountain Day is a surprise day off, traditionally announced by the college president, and described students hiking Mount Holyoke, picnicking, and doing outdoor activities; it also mentioned the Summit House, Halfway House, and Notch Visitor's Center as Mount Holyoke locations. These were assistant-provided claims, not independently confirmed by the user.",
+   "entities": [
+    "Smith College",
+    "Mountain Day",
+    "Mount Holyoke",
+    "Convocation",
+    "Rally Day",
+    "Illumination Night",
+    "Otelia Cromwell Day",
+    "Ada Comstock Scholars Program",
+    "Summit House",
+    "Halfway House",
+    "Notch Visitor's Center"
+   ],
+   "topic": "Smith College traditions",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The assistant offered Mountain Day suggestions: wear comfortable shoes, bring warm layers and blankets, pack food and drinks, start early, respect the environment and rules, and bring a camera or phone for photos. It also shared purported student activities and anecdotes, including picnics, frisbee, sing-alongs, dancing, a portable grill for burgers, and sledding on cafeteria trays; these were assistant-provided and not confirmed by the user.",
+   "entities": [
+    "Smith College",
+    "Mountain Day",
+    "Mount Holyoke"
+   ],
+   "topic": "Mountain Day advice and anecdotes",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On March 28, 2023, the user said they were trying to become more consistent with their morning routine and described themself as a morning-exercise person.",
+   "entities": [
+    "User"
+   ],
+   "topic": "morning routine and exercise",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "On March 28, 2023, the user was interested in exploring Habitica to track morning exercise habits, schedule workout reminders, and customize exercise logs with details such as exercise type and weight lifted.",
+   "entities": [
+    "User",
+    "Habitica"
+   ],
+   "topic": "exercise tracking apps",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "state",
+   "text": "User is researching Polish-American family history and Polish NYC communities; user's great-grandparents immigrated from Poland in the 1920s and grandmother shared vivid stories. User has expressed restrictive views about immigration to Italy. User has a wife and is frustrated by gender-based wage discrimination, hoping for stronger equal-pay action and asking whether penalties for discriminatory companies could help. On 2023-03-28 user asked about renewable energy and community events in Maastricht, LISP, and Smith College traditions. User hopes to become a Smith student, is excited for Mountain Day, loves nature and finding hidden gems, and hopes to explore Mount Holyoke and create traditions with friends. User is trying to build a consistent morning routine, is a morning exerciser, and is interested in Habitica for exercise scheduling, reminders, and customizable workout tracking.",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked for a video script promoting Fresh Earth Token (FET) to cryptocurrency and blockchain communities, specifically Reddit, Telegram, Discord, and Twitter.",
+   "entities": [
+    "User",
+    "Fresh Earth Token (FET)"
+   ],
+   "topic": "FET video marketing",
+   "time": "2023-03-28",
+   "sources": [
+    "T128"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant drafted a promotional video script describing Fresh Earth Token (FET) as a DAO-driven token offering fractional ownership of environmental assets, with a regenerative model in which token value was said to be linked to those assets. The script claimed FET could offer financial benefits, keep money within the Fresh Earth ecosystem, and support environmental sustainability; it invited viewers to connect on Reddit, Telegram, Discord, and Twitter. These were claims in the proposed script, not independently verified facts.",
+   "entities": [
+    "Fresh Earth Token (FET)"
+   ],
+   "topic": "FET promotional script",
+   "time": "2023-03-28",
+   "sources": [
+    "T129"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user wants to organize farm tasks and set reminders for Luna’s vet visit and vaccinations in April 2023; no appointment date was specified.",
+   "entities": [
+    "User",
+    "Luna"
+   ],
+   "topic": "Farm tasks and veterinary care",
+   "time": "2023-04",
+   "sources": [
+    "T130"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user asked for tips to keep a rooster quiet at night, suggesting rooster noise is a concern on the user’s farm.",
+   "entities": [
+    "User",
+    "rooster"
+   ],
+   "topic": "Farm animals",
+   "time": "",
+   "sources": [
+    "T130"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Luna loves sweet potato horse treats, and the user is looking to order some in bulk online.",
+   "entities": [
+    "Luna",
+    "User"
+   ],
+   "topic": "Horse treats",
+   "time": "2023-03-28",
+   "sources": [
+    "T132"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user recently bought Luna a new saddle for about $500 and spent an additional $100 on a saddle pad and girth.",
+   "entities": [
+    "User",
+    "Luna"
+   ],
+   "topic": "Horse tack",
+   "time": "2023-03-28",
+   "sources": [
+    "T132"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 28, 2023, the user was considering selling extra farm produce at a local farmers’ market and asked what regulations or licenses might apply and how to set prices.",
+   "entities": [
+    "User",
+    "farmers’ market",
+    "farm produce"
+   ],
+   "topic": "Farmers’ market sales",
+   "time": "2023-03-28",
+   "sources": [
+    "T134"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 28, 2023, the user was considering building a separate enclosure so the user’s rooster, Mr. Cluckers, could roam more freely, and asked how to make the enclosure secure and predator-proof.",
+   "entities": [
+    "User",
+    "Mr. Cluckers",
+    "rooster"
+   ],
+   "topic": "Rooster enclosure",
+   "time": "2023-03-28",
+   "sources": [
+    "T136"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 28, 2023, the user was considering selling fresh eggs, goat milk, and horse manure as fertilizer at a local farmers’ market, and asked whether these products could be sold and what regulations or licenses might apply.",
+   "entities": [
+    "User",
+    "fresh eggs",
+    "goat milk",
+    "horse manure",
+    "farmers’ market"
+   ],
+   "topic": "Farm product sales and regulations",
+   "time": "2023-03-28",
+   "sources": [
+    "T138"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user said Luna had a new saddle and the user had spent an additional $100 on a saddle pad and girth to accompany it, considering the expense worthwhile for Luna’s comfort and support.",
+   "entities": [
+    "User",
+    "Luna",
+    "new saddle",
+    "saddle pad",
+    "girth"
+   ],
+   "topic": "Luna's new saddle",
+   "time": "2023-03-28",
+   "sources": [
+    "T140"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for tips to break in Luna’s new saddle and help Luna adjust to it more quickly.",
+   "entities": [
+    "User",
+    "Luna",
+    "new saddle"
+   ],
+   "topic": "Luna's new saddle",
+   "time": "2023-03-28",
+   "sources": [
+    "T140"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the assistant suggested introducing Luna to the new saddle gradually in short sessions, monitoring her behavior for discomfort, checking saddle fit (and consulting a professional saddle fitter if needed), using positive reinforcement, warming up and cooling down, riding in a calm environment, and being patient. The assistant also suggested a specific three-day schedule and a saddle break-in pad.",
+   "entities": [
+    "Luna",
+    "new saddle",
+    "assistant"
+   ],
+   "topic": "Saddle adjustment advice",
+   "time": "2023-03-28",
+   "sources": [
+    "T141"
+   ]
+  },
+  {
+   "type": "interest",
+   "text": "On March 28, 2023, the user was interested in how automakers choose safety features for new vehicle models and in future advances in car safety technology, particularly AI that could predict and prevent accidents.",
+   "entities": [
+    "user",
+    "automotive safety technology",
+    "artificial intelligence"
+   ],
+   "topic": "car safety",
+   "time": "2023-03-28",
+   "sources": [
+    "T142",
+    "T144",
+    "T146"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On March 28, 2023, the user found the potential benefits of self-driving cars exciting, hoped technology would make roads safer for everyone, and looked forward to safety advances becoming reality. The user was especially interested in reducing human error and road accidents.",
+   "entities": [
+    "user",
+    "self-driving cars",
+    "road safety"
+   ],
+   "topic": "autonomous vehicles",
+   "time": "2023-03-28",
+   "sources": [
+    "T146",
+    "T148",
+    "T150"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On March 28, 2023, the user said they were somewhat nervous about fully self-driving cars and asked whether people would always have the option to take control of the vehicle when necessary.",
+   "entities": [
+    "user",
+    "self-driving cars",
+    "human vehicle control"
+   ],
+   "topic": "autonomous vehicles",
+   "time": "2023-03-28",
+   "sources": [
+    "T154"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user has always wanted to attend the Montreux Jazz Festival in Switzerland and wishes they could attend jazz festivals.",
+   "entities": [
+    "User",
+    "Montreux Jazz Festival"
+   ],
+   "topic": "Jazz festivals",
+   "time": "2023-03-28",
+   "sources": [
+    "T158",
+    "T160"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user loves Kamasi Washington's music and finds his saxophone solos powerful.",
+   "entities": [
+    "User",
+    "Kamasi Washington"
+   ],
+   "topic": "music",
+   "time": "2023-03-28",
+   "sources": [
+    "T162"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user recently discovered Snarky Puppy and loves the group's funky jazz-fusion sound.",
+   "entities": [
+    "User",
+    "Snarky Puppy"
+   ],
+   "topic": "music",
+   "time": "2023-03-28",
+   "sources": [
+    "T164"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user loves Herbie Hancock's music and counts his album Head Hunters among their favorite albums.",
+   "entities": [
+    "User",
+    "Herbie Hancock",
+    "Head Hunters"
+   ],
+   "topic": "music",
+   "time": "2023-03-28",
+   "sources": [
+    "T166"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user enjoys Esperanza Spalding's music and finds her bass playing smooth and soulful.",
+   "entities": [
+    "User",
+    "Esperanza Spalding"
+   ],
+   "topic": "music",
+   "time": "2023-03-28",
+   "sources": [
+    "T168"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user said their snake plant had become leggy and they wanted to prune it to encourage bushier growth; the user said they would follow the pruning tips they received.",
+   "entities": [
+    "User",
+    "snake plant"
+   ],
+   "topic": "plant care",
+   "time": "2023-03-28",
+   "sources": [
+    "T170",
+    "T172"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user owns a ficus tree and was considering buying a new planter to complement its shape and size.",
+   "entities": [
+    "User",
+    "ficus tree"
+   ],
+   "topic": "plant care",
+   "time": "2023-03-28",
+   "sources": [
+    "T172"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user has been experimenting with plant fertilizers. The user uses a balanced fertilizer on their snake plant and dracaena, and recently began using an indoor-plant fertilizer on their prayer plant.",
+   "entities": [
+    "User",
+    "snake plant",
+    "dracaena",
+    "prayer plant"
+   ],
+   "topic": "plant care",
+   "time": "2023-03-28",
+   "sources": [
+    "T174",
+    "T176"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user started using an indoor-plant fertilizer on their prayer plant because its appearance was not as vibrant as desired. The user researched prayer plant care, found that prayer plants can be finicky, and hoped the recently started fertilizer would lead to positive changes.",
+   "entities": [
+    "User",
+    "prayer plant"
+   ],
+   "topic": "plant care",
+   "time": "2023-03-28",
+   "sources": [
+    "T178"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user recently bought a peace lily at a nursery on a whim during Saturday-morning errands and later reported having some success with it.",
+   "entities": [
+    "User",
+    "peace lily"
+   ],
+   "topic": "plant care",
+   "time": "2023-03-28",
+   "sources": [
+    "T170",
+    "T180"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user was thinking about propagating the baby plants growing at the ends of their spider plant's stems and asked for tips on doing so successfully.",
+   "entities": [
+    "User",
+    "spider plant"
+   ],
+   "topic": "plant propagation",
+   "time": "2023-03-28",
+   "sources": [
+    "T180"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user is planning a summer outdoor party and is considering serving a large batch of Cucumber Lime Refresher.",
+   "entities": [
+    "User",
+    "summer outdoor party",
+    "Cucumber Lime Refresher"
+   ],
+   "topic": "party planning",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user has been enjoying cucumber lately, including in gazpacho soup the user made the previous weekend.",
+   "entities": [
+    "User",
+    "cucumber",
+    "gazpacho soup"
+   ],
+   "topic": "food and drink preferences",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "The user said they spent all day outdoors on June 15, enjoying sunny skies and warm weather, and felt that summer had officially begun. The conversation date was 2023-03-28; the year of the stated June 15 date is unclear.",
+   "entities": [
+    "User"
+   ],
+   "topic": "outdoor activity",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "The user is considering whether to set out a DIY drink station or simply provide a few pitchers of Cucumber Lime Refresher for guests to serve themselves; the user is concerned about having enough space for a separate station.",
+   "entities": [
+    "User",
+    "summer outdoor party",
+    "Cucumber Lime Refresher"
+   ],
+   "topic": "party planning",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user chose pitcher service for the Cucumber Lime Refresher at a summer party because it is low-key and easy to manage, with garnish options served on the side.",
+   "entities": [
+    "User",
+    "Cucumber Lime Refresher"
+   ],
+   "topic": "Summer party drinks",
+   "time": "2023-03-28",
+   "sources": [
+    "T192"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-03-28, the user agreed that Christmas gift-giving should reflect the holiday’s spirit rather than become focused on consumerism, spending, and material display; the user values expressing love and gratitude through gifts.",
+   "entities": [
+    "user",
+    "Christmas"
+   ],
+   "topic": "Christmas gift-giving and consumerism",
+   "time": "2023-03-28",
+   "sources": [
+    "T196",
+    "T198"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user asked for ideas for meaningful experiences or activities to give as gifts. Suggestions offered included cooking or baking classes, day trips or weekend getaways, show or concert tickets, craft or art workshops, and museum or attraction passes; the advice was to tailor the experience to the recipient’s interests.",
+   "entities": [
+    "user"
+   ],
+   "topic": "experience gifts",
+   "time": "2023-03-28",
+   "sources": [
+    "T198",
+    "T199"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user said they are a developer familiar with Java and want to develop software for reading and writing biometric smart cards.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Biometric smart-card software",
+   "time": "2023-03-28",
+   "sources": [
+    "T200",
+    "T202"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for a JavaCard example and recommendations for a card and reader. The assistant provided a basic PIN-authentication applet example and suggested JavaCard options including NXP JCOP, Infineon SLE78, and Gemalto IDCore 3010, as well as PC/SC readers ACS ACR38, Omnikey 3121, and Identiv SCR3310v2; for contactless testing it mentioned ACR122U and Identiv Cloud 2700 R.",
+   "entities": [
+    "User",
+    "JavaCard",
+    "NXP JCOP",
+    "Infineon SLE78",
+    "Gemalto IDCore 3010",
+    "ACS ACR38",
+    "Omnikey 3121",
+    "Identiv SCR3310v2",
+    "ACR122U",
+    "Identiv Cloud 2700 R"
+   ],
+   "topic": "JavaCard development",
+   "time": "2023-03-28",
+   "sources": [
+    "T202",
+    "T203",
+    "T204",
+    "T205"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked how to develop smart-card software in C++ and requested an example. The assistant described using GlobalPlatform and supplied a sample program that connects to a reader and card, opens a channel, transmits an APDU, then closes the channel and disconnects.",
+   "entities": [
+    "User",
+    "C++",
+    "GlobalPlatform"
+   ],
+   "topic": "Smart-card software development",
+   "time": "2023-03-28",
+   "sources": [
+    "T206",
+    "T207"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user was planning to buy a new skincare set from Sephora for dry skin and was considering Drunk Elephant Moisturizing Cream; the user asked whether it was suitable for daytime use or better for nighttime.",
+   "entities": [
+    "user",
+    "Sephora",
+    "Drunk Elephant Moisturizing Cream"
+   ],
+   "topic": "skincare",
+   "time": "2023-03-28",
+   "sources": [
+    "T208",
+    "T214"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Around 2023-03-07, the user bought a wireless headphone on Amazon during a Lightning Deal for 20% off its original price and had been using it daily as of 2023-03-28. The user did not identify the headphone's brand or model.",
+   "entities": [
+    "user",
+    "Amazon"
+   ],
+   "topic": "headphones",
+   "time": "2023-03-07..2023-03-28",
+   "sources": [
+    "T212"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user said they would stick with their current wireless headphones for now, rather than consider buying another pair.",
+   "entities": [
+    "user"
+   ],
+   "topic": "headphones",
+   "time": "2023-03-28",
+   "sources": [
+    "T214"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the assistant recommended using Drunk Elephant Moisturizing Cream mainly at night because its rich texture may feel heavy during the day and it has no SPF; for daytime use, the assistant suggested applying a small amount and adding sunscreen.",
+   "entities": [
+    "Drunk Elephant Moisturizing Cream"
+   ],
+   "topic": "skincare",
+   "time": "2023-03-28",
+   "sources": [
+    "T215"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user politely ended the conversation, saying they would pass for now, that it was nice chatting, and wishing the assistant a great day.",
+   "entities": [
+    "user"
+   ],
+   "topic": "conversation",
+   "time": "2023-03-28",
+   "sources": [
+    "T218"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 28, 2023, the user said they had collected 15 autographed baseballs over the previous three months and had just added a signed Mike Trout baseball to their sports memorabilia collection.",
+   "entities": [
+    "User",
+    "Mike Trout"
+   ],
+   "topic": "Sports memorabilia",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user is interested in learning about Mike Trout’s baseball career, achievements, awards, and how Trout broke into Major League Baseball during his rookie season.",
+   "entities": [
+    "User",
+    "Mike Trout"
+   ],
+   "topic": "Baseball",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On March 28, 2023, the user said they had recently acquired a 1943 Lincoln Wheat Cent that they described as a copper-planchet error.",
+   "entities": [
+    "User",
+    "1943 Lincoln Wheat Cent"
+   ],
+   "topic": "coin collecting",
+   "time": "2023-03-28",
+   "sources": [
+    "T224"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On March 28, 2023, the user expressed interest in learning more about error coins, including famous examples such as the 1955 Doubled Die Lincoln Cent and the 1937-D Buffalo Nickel with a three-legged buffalo, and how coin dies are made and errors occur during die creation.",
+   "entities": [
+    "User",
+    "1955 Doubled Die Lincoln Cent",
+    "1937-D Buffalo Nickel with a three-legged buffalo"
+   ],
+   "topic": "coin collecting",
+   "time": "2023-03-28",
+   "sources": [
+    "T226",
+    "T228"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked to learn about coin grading and authentication, including the different grading services and the criteria used to assess a coin’s condition and authenticity.",
+   "entities": [
+    "User"
+   ],
+   "topic": "coin collecting",
+   "time": "2023-03-28",
+   "sources": [
+    "T230"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "In response to the user's question, the assistant named four coin grading services: Professional Coin Grading Service (PCGS), founded in 1985; Numismatic Guaranty Corporation (NGC), established in 1987; Independent Coin Graders (ICG), founded in 1990; and American Numismatic Association Certification Service (ANACS), which has graded coins since 1972. The assistant said all use a 1–70 grading scale.",
+   "entities": [
+    "Professional Coin Grading Service (PCGS)",
+    "Numismatic Guaranty Corporation (NGC)",
+    "Independent Coin Graders (ICG)",
+    "American Numismatic Association Certification Service (ANACS)"
+   ],
+   "topic": "coin grading services",
+   "time": "2023-03-28",
+   "sources": [
+    "T231"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant explained that coin graders assess authenticity (including metal, weight, and dimensions), wear and overall condition, surface preservation and originality (including luster, cleaning, tampering, or alteration), strike quality, and eye appeal such as color and tone. The assistant also mentioned rarity and demand as factors in determining value, and cautioned that grading is subjective and services may use slightly different standards.",
+   "entities": [
+    "User"
+   ],
+   "topic": "coin grading and authentication",
+   "time": "2023-03-28",
+   "sources": [
+    "T231"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant described the 1–70 coin grading scale, identifying MS-70 as perfect Mint State and MS-69 through MS-65 as progressively lower Mint State grades. It also listed circulated grades from AU-58 and AU-55 through XF-45, VF-35, F-25, VG-10, G-5, AG-3, and G-1, with progressively greater wear and less remaining detail.",
+   "entities": [
+    "User"
+   ],
+   "topic": "coin grading scale",
+   "time": "2023-03-28",
+   "sources": [
+    "T231"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user asked about common misconceptions regarding asexual identity and how friends or family can support asexual people. The response explained that asexuality is a valid orientation, is not necessarily a phase or caused by trauma, does not preclude romantic relationships or companionship, and is not a choice. Suggested support included listening without judgment, learning about asexuality, not trying to change or “fix” someone, being an ally, communicating openly, and showing love and acceptance.",
+   "entities": [
+    "User",
+    "asexuality"
+   ],
+   "topic": "Asexuality and allyship",
+   "time": "2023-03-28",
+   "sources": [
+    "T232",
+    "T233"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, after asking how to support asexual people, the user requested resources for learning more about asexuality. Suggested resources were the Asexual Visibility and Education Network (AVEN; https://www.asexuality.org/), Asexuality Archive (https://www.asexualityarchive.com/), The Asexuality Blog (https://asexual.blog/), Yasmin Benoit’s TEDx talk on asexuality and aromanticism (https://www.youtube.com/watch?v=9E-HSTSIFkg), and a Psychology Today beginner’s guide titled “Understanding Asexuality” (https://www.psychologytoday.com/us/blog/the-asexuality-archive/201807/understanding-asexuality).",
+   "entities": [
+    "User",
+    "AVEN",
+    "Asexuality Archive",
+    "The Asexuality Blog",
+    "Yasmin Benoit"
+   ],
+   "topic": "Asexuality learning resources",
+   "time": "2023-03-28",
+   "sources": [
+    "T234",
+    "T235"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for books about asexuality and received recommendations including “The Invisible Orientation: An Introduction to Asexuality” by Julie Sondra Decker, “Asexual Erotics: Intimate Readings of Compulsory Sexuality” by Ela Przybylo, “Ace of Hearts” by JC Lillis, “Beyond the Break” by Heather Buchta, and “The ABCs of LGBT+” by Ashley Mardell.",
+   "entities": [
+    "user",
+    "Julie Sondra Decker",
+    "Ela Przybylo",
+    "JC Lillis",
+    "Heather Buchta",
+    "Ashley Mardell"
+   ],
+   "topic": "asexuality books",
+   "time": "2023-03-28",
+   "sources": [
+    "T236",
+    "T237"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user has a friend who recently came out as asexual.",
+   "entities": [
+    "user",
+    "user's friend"
+   ],
+   "topic": "friendship and asexuality",
+   "time": "2023-03-28",
+   "sources": [
+    "T240"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user wants to educate themself about asexuality and be a supportive ally to asexual people, particularly to support the user's friend who recently came out as asexual.",
+   "entities": [
+    "user",
+    "user's friend"
+   ],
+   "topic": "allyship and asexuality",
+   "time": "2023-03-28",
+   "sources": [
+    "T238",
+    "T240"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user said they had exchanged phone numbers with Emily and several other participants at a recent workshop.",
+   "entities": [
+    "User",
+    "Emily"
+   ],
+   "topic": "Workshop contacts",
+   "time": "2023-03-28",
+   "sources": [
+    "T242"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user plans to organize new workshop contacts in a dedicated group and add context notes to their contact entries.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Contact organization",
+   "time": "2023-03-28",
+   "sources": [
+    "T244"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Emily is directing a play scheduled for April 2023; the user wants to add this information as a note to Emily's contact so they do not lose track of her number.",
+   "entities": [
+    "Emily",
+    "User"
+   ],
+   "topic": "Emily's play",
+   "time": "2023-03-28",
+   "sources": [
+    "T244"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user enjoys exploring the theater scene in their area and has a passion for theater.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Theater",
+   "time": "2023-03-28",
+   "sources": [
+    "T248"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user planned to look for new plays to attend in the coming months and said they would check online event calendars, local theater websites, social media, arts organizations, and other suggested sources.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Attending plays",
+   "time": "2023-03-28",
+   "sources": [
+    "T246",
+    "T248"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user looked forward to discovering more local theater productions and meeting new people who share their passion for theater.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Theater community",
+   "time": "2023-03-28",
+   "sources": [
+    "T248"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user planned to message Emily to ask whether she needed help with her play and to find out how the user could assist.",
+   "entities": [
+    "user",
+    "Emily"
+   ],
+   "topic": "Emily's play",
+   "time": "2023-03-28",
+   "sources": [
+    "T250",
+    "T252"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On 2023-03-28, the user wanted advice on phrasing an offer of help to Emily so it would sound professional yet friendly.",
+   "entities": [
+    "user",
+    "Emily"
+   ],
+   "topic": "communication",
+   "time": "2023-03-28",
+   "sources": [
+    "T252"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user said they had had a busy movie month, caught up on some older Marvel movies, and went to the cinema the previous weekend.",
+   "entities": [
+    "user",
+    "Marvel movies",
+    "cinema"
+   ],
+   "topic": "movie watching",
+   "time": "2023-03-28",
+   "sources": [
+    "T254"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 28, 2023, the user estimated they had watched around 12 movies in the past month and said they had consistently tended to watch more movies on weekends lately.",
+   "entities": [
+    "user"
+   ],
+   "topic": "movie-watching habits",
+   "time": "2023-03-28",
+   "sources": [
+    "T256"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user prefers action-packed or intense movies on weekends and lighter romantic comedies or TV series on weekdays to unwind after work.",
+   "entities": [
+    "user"
+   ],
+   "topic": "movie and television preferences",
+   "time": "2023-03-28",
+   "sources": [
+    "T258"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user was intrigued by the South Korean horror-thriller The Wailing and said they would add it to their watchlist.",
+   "entities": [
+    "user",
+    "The Wailing"
+   ],
+   "topic": "movie watchlist",
+   "time": "2023-03-28",
+   "sources": [
+    "T258"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user likes romantic comedies with light-hearted, feel-good stories, witty dialogue, and relatable characters.",
+   "entities": [
+    "user"
+   ],
+   "topic": "romantic comedy preferences",
+   "time": "2023-03-28",
+   "sources": [
+    "T260"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user uses Netflix for TV series and has seen some Netflix original romantic comedies, which they thought were pretty good.",
+   "entities": [
+    "user",
+    "Netflix"
+   ],
+   "topic": "streaming services",
+   "time": "2023-03-28",
+   "sources": [
+    "T260",
+    "T262"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user intended to check out Amazon Prime's offerings but had not yet had time to do so.",
+   "entities": [
+    "user",
+    "Amazon Prime"
+   ],
+   "topic": "streaming services",
+   "time": "2023-03-28",
+   "sources": [
+    "T260",
+    "T262"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user had been meaning to read Frank Herbert's Dune before watching the new film adaptation, but had not had time yet.",
+   "entities": [
+    "user",
+    "Dune",
+    "Frank Herbert"
+   ],
+   "topic": "books and film adaptations",
+   "time": "2023-03-28",
+   "sources": [
+    "T262"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On 2023-03-28, the user said they would love to discuss Dune and asked for fantasy book or series recommendations because they had been stuck in a reading rut and wanted new inspiration. The user did not specify a preferred fantasy style.",
+   "entities": [
+    "User",
+    "Dune"
+   ],
+   "topic": "Fantasy books",
+   "time": "2023-03-28",
+   "sources": [
+    "T264"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the assistant recommended fantasy series and books to the user: The First Law Trilogy by Joe Abercrombie; The Gentlemen Bastards series by Scott Lynch; The Kingkiller Chronicle by Patrick Rothfuss; the Mistborn series by Brandon Sanderson; the Broken Empire series by Mark Lawrence; The Iron Druid Chronicles by Kevin Hearne; The House of Shattered Wings by Aliette de Bodard; The Fifth Season by N.K. Jemisin, first in the Broken Earth trilogy; and The Poppy War by R.F. Kuang.",
+   "entities": [
+    "User",
+    "Joe Abercrombie",
+    "Scott Lynch",
+    "Patrick Rothfuss",
+    "Brandon Sanderson",
+    "Mark Lawrence",
+    "Kevin Hearne",
+    "Aliette de Bodard",
+    "N.K. Jemisin",
+    "R.F. Kuang"
+   ],
+   "topic": "Fantasy book recommendations",
+   "time": "2023-03-28",
+   "sources": [
+    "T265"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On March 28, 2023, the user repeatedly asked for detailed, clearly explained design answers and framed the assistant as an expert designer.",
+   "entities": [
+    "User"
+   ],
+   "topic": "design communication preferences",
+   "time": "2023-03-28",
+   "sources": [
+    "T266",
+    "T268",
+    "T270"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked for a list of 20 trending character illustration styles, ranked from most to least popular. The assistant listed Flat Design, Minimalist, Line Art, Chibi, Semi-Realistic, Pixel Art, Kawaii, Low-Poly, Watercolor, Geometric, Isometric, Grunge, Cel-Shaded, Sketchy, Stylized Realism, Gouache, Cutout, Surrealist, Charcoal, and Ink Wash, and gave brief descriptions of each.",
+   "entities": [
+    "User",
+    "Assistant"
+   ],
+   "topic": "character illustration styles",
+   "time": "2023-03-28",
+   "sources": [
+    "T266",
+    "T267"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked what the illustration style associated with Tintin is called. The assistant identified it as Ligne Claire (Clear Line), associated with Belgian cartoonist Hergé, and described its uniform clean outlines, minimal shading, flat solid colors, simplified but realistic proportions, and detailed backgrounds. The assistant also named Joost Swarte, Yves Chaland, and Ted Benoît as artists influenced by the style.",
+   "entities": [
+    "User",
+    "Assistant",
+    "Hergé",
+    "Tintin",
+    "Joost Swarte",
+    "Yves Chaland",
+    "Ted Benoît"
+   ],
+   "topic": "Ligne Claire illustration",
+   "time": "2023-03-28",
+   "sources": [
+    "T268",
+    "T269"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked for 20 popular comic illustration styles ranked from most to least popular, with detailed descriptions. The assistant's ranking began with Superhero, Manga, Ligne Claire, Gritty Realism, Cartoon/Comic Strip, Noir, Adventure/Action, Caricature, Fantasy, Science Fiction, Steampunk, Webcomic, Furry/Anthropomorphic, Horror, Abstract, Romance, Satirical, Surrealist, Historical Fiction, and Western. The assistant described the first 16 styles in the available transcript; the response is cut off during the Abstract description, so descriptions for the remaining styles are unavailable.",
+   "entities": [
+    "User",
+    "Assistant"
+   ],
+   "topic": "comic illustration styles",
+   "time": "2023-03-28",
+   "sources": [
+    "T270",
+    "T271"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user reported occasional back pain that they believed was related to their job, which involves long hours sitting and typing.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Back pain and desk work",
+   "time": "2023-03-28",
+   "sources": [
+    "T272"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user planned to change their workspace setup and daily routine to help with back pain, and to consider seeing a chiropractor or physical therapist if the pain persisted. Later that day, the user said they felt ready to schedule an appointment with a chiropractor or physical therapist.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Back pain treatment",
+   "time": "2023-03-28",
+   "sources": [
+    "T274",
+    "T276",
+    "T280"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user sought advice on finding a chiropractor or physical therapist in their area and preparing for a first appointment; the user did not specify their area.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Finding and preparing for a healthcare provider",
+   "time": "2023-03-28",
+   "sources": [
+    "T276",
+    "T278"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On 2023-03-28, the user appreciated advice about reducing the health risks of prolonged sitting and typing, and said they would keep the suggested preparation tips in mind for a first chiropractor or physical therapist appointment.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Desk-job health and healthcare preparation",
+   "time": "2023-03-28",
+   "sources": [
+    "T278",
+    "T280"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked in Malay for the name of the battle that took place during the last 100 days of World War I. The assistant answered that it was the Battle of Amiens, fought August 8–11, 1918, describing it as an important Allied victory that marked the beginning of the end of the war.",
+   "entities": [
+    "User",
+    "Battle of Amiens",
+    "World War I"
+   ],
+   "topic": "World War I history",
+   "time": "2023-03-28",
+   "sources": [
+    "T284",
+    "T285"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user started a text-based fantasy adventure game in which cats are trying to take over the world. The user instructed the assistant to describe what the character sees in response to commands, not to explain or issue commands unless asked; the user would put out-of-game messages in curly brackets.",
+   "entities": [
+    "user",
+    "assistant",
+    "text-based fantasy adventure game"
+   ],
+   "topic": "fantasy game",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "In the cat-takeover fantasy adventure, the character stood in a bustling city where cats were organizing and causing chaos, then searched for a weapon. The character chose to go to an abandoned construction site and picked up hammers from a pile of rusty, dusty tools. A group of cats approached the site after noticing the character.",
+   "entities": [
+    "user",
+    "assistant",
+    "cats",
+    "construction site",
+    "hammers"
+   ],
+   "topic": "fantasy game",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked how Hartford, Connecticut's economy had evolved historically. The assistant described a shift from manufacturing (including firearms and textiles) toward insurance in the 19th and early 20th centuries, aerospace, defense, manufacturing, and finance in the mid-20th century, followed by manufacturing decline and continued importance of insurance alongside healthcare, education, and technology.",
+   "entities": [
+    "Hartford, Connecticut",
+    "user"
+   ],
+   "topic": "Hartford economic history",
+   "time": "2023-03-28",
+   "sources": [
+    "T294",
+    "T295"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On March 28, 2023, the user said Hartford's economic shifts over time were interesting and wondered whether the city would undergo major economic changes in the future.",
+   "entities": [
+    "user",
+    "Hartford, Connecticut"
+   ],
+   "topic": "Hartford economic future",
+   "time": "2023-03-28",
+   "sources": [
+    "T296"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked what specific strategies Hartford uses to attract new businesses. The assistant said it lacked up-to-date information about Hartford's specific strategies, then described general approaches cities may use, such as tax incentives, infrastructure investment, workforce development, promotion, and partnerships with universities and business organizations.",
+   "entities": [
+    "user",
+    "Hartford, Connecticut"
+   ],
+   "topic": "Business attraction",
+   "time": "2023-03-28",
+   "sources": [
+    "T298",
+    "T299"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On March 28, 2023, the user said Hartford's startup community would be interesting to follow, particularly given the city's proximity to Boston and New York, and asked whether initiatives support entrepreneurship and innovation.",
+   "entities": [
+    "user",
+    "Hartford, Connecticut",
+    "Boston",
+    "New York City"
+   ],
+   "topic": "Startups and entrepreneurship",
+   "time": "2023-03-28",
+   "sources": [
+    "T300"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the assistant described Hartford entrepreneurship initiatives, including the reSET Business Incubator, which it said supports socially responsible startups, and the InsurTech Accelerator, which it said supports InsurTech startups. The assistant also mentioned funding and financing programs, networking, and partnerships with local universities and corporations.",
+   "entities": [
+    "Hartford, Connecticut",
+    "reSET Business Incubator",
+    "Hartford InsurTech Accelerator"
+   ],
+   "topic": "Startup initiatives",
+   "time": "2023-03-28",
+   "sources": [
+    "T301"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user developed marketing copy for a new fashion house called Protest-Ant, whose aesthetic is minimalist, grimly severe, austere, and opposed to frivolity.",
+   "entities": [
+    "Protest-Ant",
+    "user"
+   ],
+   "topic": "fashion-brand marketing",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "For Protest-Ant's marketing, the user asked not to mention Calvinists or refer directly to Puritans; the user preferred the adjective “puritanical” instead. The user liked the phrase “sinful indulgence” and wanted it retained.",
+   "entities": [
+    "Protest-Ant",
+    "user"
+   ],
+   "topic": "fashion-brand marketing",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "Handmade craftsmanship is an essential part of Protest-Ant's values; the user asked for it to be included in the fashion house's marketing blurb.",
+   "entities": [
+    "Protest-Ant",
+    "user"
+   ],
+   "topic": "fashion-brand values",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user worked on promotional copy for Protest-Ant, a fashion house described as combining minimalism, puritanical severity, and an austere approach to style.",
+   "entities": [
+    "Protest-Ant"
+   ],
+   "topic": "fashion-brand copy",
+   "time": "2023-03-28",
+   "sources": [
+    "T308",
+    "T309"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "While editing Protest-Ant promotional copy, the user asked to remove an extra instance of “handmade craftsmanship,” then asked to retain “craftsmanship” but use it only once. The user also asked the writer to avoid reusing the same words and phrases. The user responded positively to the successive drafts, saying the copy was getting better and better.",
+   "entities": [
+    "Protest-Ant"
+   ],
+   "topic": "writing preferences",
+   "time": "2023-03-28",
+   "sources": [
+    "T308",
+    "T310",
+    "T312"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user edited a fictional story about a mother cleaning up her toddler daughter after a diaper blowout. The daughter had been wearing cartoon-print overalls and a cute, colorful shirt. After changing her, the mother dressed her in a yellow sundress with white flowers, matching sandals, and a white undershirt with fluffy ruffles.",
+   "entities": [
+    "User",
+    "fictional mother",
+    "fictional toddler daughter"
+   ],
+   "topic": "Story edits: clothing and cleanup",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "For the fictional cleanup story, the user wanted the overalls and colorful shirt flushed separately, with the toilet only just managing to take the bulky overalls. The user asked for the mother to feel satisfied after the shirt went down and explicitly said not to have her use a plunger.",
+   "entities": [
+    "User",
+    "fictional mother"
+   ],
+   "topic": "Story-editing preferences",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked for 10 bad consequences of overworked employees. The assistant listed burnout, reduced productivity, poor health, increased absenteeism, lower job satisfaction, reduced creativity, more errors, communication breakdowns, lower morale, and worse work-life balance.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Employee overwork",
+   "time": "2023-03-28",
+   "sources": [
+    "T323",
+    "T324"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user had just set up a room called the “nerd cave” and began storing collectibles there, including vinyl records, cameras, posters, and prints.",
+   "entities": [
+    "User",
+    "nerd cave",
+    "vinyl records",
+    "cameras",
+    "posters",
+    "prints"
+   ],
+   "topic": "collectibles and room setup",
+   "time": "2023-03-28",
+   "sources": [
+    "T325"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user decided to store vinyl records in wooden crates with dividers, to be extra cautious and keep the records organized.",
+   "entities": [
+    "User",
+    "vinyl records",
+    "wooden crates",
+    "dividers"
+   ],
+   "topic": "vinyl record storage",
+   "time": "2023-03-28",
+   "sources": [
+    "T327",
+    "T329"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user planned to display favorite cameras on a shelf, grouping similar cameras together, using risers for height variation, and adding vintage camera straps and lens caps for a nostalgic look.",
+   "entities": [
+    "User",
+    "cameras",
+    "shelf",
+    "risers",
+    "vintage camera straps",
+    "lens caps",
+    "nerd cave"
+   ],
+   "topic": "camera display",
+   "time": "2023-03-28",
+   "sources": [
+    "T329",
+    "T331"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user planned to frame posters and prints and hang them around the nerd cave, using a mix of wooden, metal, and plastic frames in different shapes and sizes. The user also planned to consider custom framing for unusual posters and prints.",
+   "entities": [
+    "User",
+    "posters",
+    "prints",
+    "wooden frames",
+    "metal frames",
+    "plastic frames",
+    "nerd cave"
+   ],
+   "topic": "framing and displaying posters and prints",
+   "time": "2023-03-28",
+   "sources": [
+    "T331",
+    "T333"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user realized they needed archival-quality storage materials for cameras, vinyl records, and posters when those items were not on display, and asked for recommendations for suppliers or online stores.",
+   "entities": [
+    "User",
+    "cameras",
+    "vinyl records",
+    "posters",
+    "archival-quality storage materials"
+   ],
+   "topic": "archival storage",
+   "time": "2023-03-28",
+   "sources": [
+    "T335"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user planned to cook a meal for a family in need during the weekend of 2023-04-01 to 2023-04-02, choosing pasta with tomato sauce and fresh fruit cups for dessert.",
+   "entities": [
+    "user",
+    "family in need"
+   ],
+   "topic": "meal preparation",
+   "time": "2023-04-01..2023-04-02",
+   "sources": [
+    "T337",
+    "T341",
+    "T343"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user planned to garnish the individually packaged fresh fruit cups with a few fresh mint leaves.",
+   "entities": [
+    "user",
+    "fresh fruit cups"
+   ],
+   "topic": "dessert presentation",
+   "time": "2023-04-01..2023-04-02",
+   "sources": [
+    "T345"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user volunteered at a local food bank, sorting and packaging donations for families in need. The user described the experience as great and said that giving a few hours of time can make a difference in the community.",
+   "entities": [
+    "user",
+    "local food bank",
+    "families in need"
+   ],
+   "topic": "volunteering",
+   "time": "2023-03-28",
+   "sources": [
+    "T337",
+    "T345"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user prepared pasta and fresh fruit cups for a family and planned to deliver the meal as a community-helping gesture. The assistant wished the user well with the delivery and hoped the family would enjoy the food.",
+   "entities": [
+    "User",
+    "family"
+   ],
+   "topic": "community meal delivery",
+   "time": "2023-03-28",
+   "sources": [
+    "T348"
+   ]
+  },
+  {
+   "type": "state",
+   "text": "The user researches Polish-American family history and Polish NYC communities; the user's great-grandparents immigrated from Poland in the 1920s, and the user's grandmother shared vivid stories. The user has expressed restrictive views about immigration to Italy. The user has a wife, is frustrated by gender-based wage discrimination, hopes for stronger equal-pay action, and asked whether penalties for discriminatory companies could help. On 2023-03-28, the user initiated a text-based fantasy adventure about cats taking over the world; the character searched for a weapon, went to an abandoned construction site, picked up hammers, and was approached by cats. The user has shown interest in Hartford, Connecticut's economic history and future business-attraction strategies. On 2023-03-28, the user prepared pasta and fresh fruit cups to deliver to a family as a community-helping gesture.",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user was planning a weekend Napa Valley trip to celebrate the user's sister's engagement. The user said Napa Valley sounded perfect because the sister would enjoy wine tastings and vineyard tours, liked the suggested itinerary, and said they would book wine tastings and tours in advance.",
+   "entities": [
+    "User",
+    "User's sister",
+    "Napa Valley"
+   ],
+   "topic": "Sister's engagement trip",
+   "time": "2023-03-28",
+   "sources": [
+    "T349",
+    "T351",
+    "T353"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user said they would definitely book a private wine blending session for the user's sister and her fiancé at Conn Creek Winery in Napa Valley. The couple are both wine enthusiasts, and the user considers a blending session a unique, memorable experience for them.",
+   "entities": [
+    "User",
+    "User's sister",
+    "Sister's fiancé",
+    "Conn Creek Winery"
+   ],
+   "topic": "Sister's engagement trip",
+   "time": "2023-03-28",
+   "sources": [
+    "T357",
+    "T359"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user wanted a romantic dinner recommendation for the user's sister and her fiancé after the wine blending session, preferably somewhere with a beautiful view or a cozy atmosphere. The assistant recommended The Grill at Meadowood in St. Helena and also mentioned The French Laundry, Bistro Don Giovanni, and Ox & Cart; the user did not confirm a restaurant choice or reservation.",
+   "entities": [
+    "User",
+    "User's sister",
+    "Sister's fiancé",
+    "The Grill at Meadowood",
+    "The French Laundry",
+    "Bistro Don Giovanni",
+    "Ox & Cart",
+    "St. Helena"
+   ],
+   "topic": "Sister's engagement trip",
+   "time": "2023-03-28",
+   "sources": [
+    "T359",
+    "T360"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested a three-day Napa Valley itinerary featuring a stay at Milliken Creek Inn or Montage Yountville; visits to Castello di Amorosa, Domaine Carneros, Silver Oak Cellars, and Opus One; a hot-air balloon ride; spa time; and meals at The French Laundry, Bistro Jeanty, Ox & Cart, and Bottega Napa Valley. The user said the itinerary sounded perfect but did not confirm bookings for these specific activities or venues.",
+   "entities": [
+    "User",
+    "User's sister",
+    "Napa Valley",
+    "Milliken Creek Inn",
+    "Montage Yountville",
+    "Castello di Amorosa",
+    "Domaine Carneros",
+    "Silver Oak Cellars",
+    "Opus One",
+    "The French Laundry",
+    "Bistro Jeanty",
+    "Ox & Cart",
+    "Bottega Napa Valley"
+   ],
+   "topic": "Sister's engagement trip",
+   "time": "2023-03-28",
+   "sources": [
+    "T352",
+    "T353"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user said they celebrated their 30th birthday on 2023-03-15 and felt young and energetic. This places the user's 30th birthday on 2023-03-15.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Age and birthday",
+   "time": "2023-03-15",
+   "sources": [
+    "T355"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for a simple explanation of quantum computing. The explanation described classical bits as 0 or 1 and qubits as able to represent 0, 1, or a superposition of both; it noted that superposition and entanglement can help quantum computers with certain problems, including chemical-reaction simulation and codebreaking, while reliable, scalable quantum computers remain difficult to build.",
+   "entities": [
+    "User",
+    "quantum computing"
+   ],
+   "topic": "Quantum computing",
+   "time": "2023-03-28",
+   "sources": [
+    "T365",
+    "T366"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user was meal-prepping for the week and planned to make Lemon Garlic Chicken Breast, a large batch of rice, and roasted vegetables. The user chose the baking-soda-and-water method to clean the oven after baking the chicken.",
+   "entities": [
+    "user",
+    "Lemon Garlic Chicken Breast",
+    "rice",
+    "oven",
+    "baking soda and water"
+   ],
+   "topic": "meal prep and oven cleaning",
+   "time": "2023-03-28",
+   "sources": [
+    "T367",
+    "T369",
+    "T371",
+    "T373"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "At the user's family's Christmas dinner around Christmas 2022, the user's sister helped the user cook a large feast with all the trimmings. The cooking made a huge mess in the kitchen, but the user felt it was worth it. The family usually exchanges gifts, watches a movie together, and enjoys each other's company.",
+   "entities": [
+    "user",
+    "user's sister",
+    "user's family"
+   ],
+   "topic": "Christmas family traditions",
+   "time": "2022-12-25",
+   "sources": [
+    "T371",
+    "T373"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user liked the idea of Lemon Garlic Chicken Breast, Garlic Roasted Broccoli, and roasted sweet potatoes, describing the broccoli as delicious-sounding and sweet potatoes as versatile.",
+   "entities": [
+    "user",
+    "Lemon Garlic Chicken Breast",
+    "Garlic Roasted Broccoli",
+    "sweet potatoes"
+   ],
+   "topic": "food preferences",
+   "time": "2023-03-28",
+   "sources": [
+    "T369",
+    "T373",
+    "T375"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-03-28, the user said the last time they cleaned the oven was around Christmas, after a family dinner that left the kitchen very messy.",
+   "entities": [
+    "user",
+    "oven",
+    "user's family"
+   ],
+   "topic": "oven cleaning",
+   "time": "2022-12-25..2023-03-28",
+   "sources": [
+    "T371"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user was considering roasting vegetables to accompany chicken and rice and asked how to store roasted vegetables in the refrigerator or freezer to keep them fresh longer.",
+   "entities": [
+    "user",
+    "roasted vegetables",
+    "refrigerator",
+    "freezer"
+   ],
+   "topic": "meal prep and food storage",
+   "time": "2023-03-28",
+   "sources": [
+    "T373",
+    "T375"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user was thinking of cooking a large batch of chicken breast and using some of it to make chicken salad for lunch; the user asked for simple chicken salad recipes.",
+   "entities": [
+    "User",
+    "chicken breast",
+    "chicken salad"
+   ],
+   "topic": "meal preparation",
+   "time": "2023-03-28",
+   "sources": [
+    "T377"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the assistant suggested a classic chicken salad with 1 cup diced cooked chicken breast, 1/2 cup each diced celery and onion, 1/4 cup mayonnaise, 1 tablespoon Dijon mustard, salt and pepper, and optional parsley or dill. Suggested variations included Greek (feta, Kalamata olives, parsley), spicy (extra Dijon, cayenne, red bell pepper), avocado (avocado and lemon juice), and curry (curry powder, cashews, apple). The assistant said chicken salad keeps refrigerated in an airtight container for up to 3 days.",
+   "entities": [
+    "chicken salad",
+    "chicken breast"
+   ],
+   "topic": "recipes",
+   "time": "2023-03-28",
+   "sources": [
+    "T378"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user bought soup, bread, and fresh fruit for their neighbor, Mrs. Johnson, who was recovering from surgery; the groceries cost about $40.",
+   "entities": [
+    "User",
+    "Mrs. Johnson"
+   ],
+   "topic": "Helping neighbor",
+   "time": "2023-03-28",
+   "sources": [
+    "T379"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user planned to make roasted carrot and ginger soup for a friend who was not feeling well, adding a small amount of heavy cream for richness and fresh herbs such as parsley or cilantro for color and freshness.",
+   "entities": [
+    "User",
+    "User's friend"
+   ],
+   "topic": "Soup for a sick friend",
+   "time": "2023-03-28",
+   "sources": [
+    "T379",
+    "T383",
+    "T385",
+    "T387"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user planned to deliver the soup to their sick friend in a reusable glass container with a lid, decorated with a ribbon or gift tag, alongside crusty bread, fresh fruit, and a sweet treat such as a cookie or muffin.",
+   "entities": [
+    "User",
+    "User's friend"
+   ],
+   "topic": "Soup delivery",
+   "time": "2023-03-28",
+   "sources": [
+    "T385",
+    "T387",
+    "T389"
+   ]
+  },
+  {
+   "type": "state",
+   "text": "The user researches Polish-American family history and Polish NYC communities; the user's great-grandparents immigrated from Poland in the 1920s, and the user's grandmother shared vivid stories. The user has expressed restrictive views about immigration to Italy. The user has a wife, is frustrated by gender-based wage discrimination, hopes for stronger equal-pay action, and asked whether penalties for discriminatory companies could help. On 2023-03-28, the user began a text-based fantasy adventure about cats taking over the world; the character searched for a weapon, went to an abandoned construction site, picked up hammers, and was approached by cats. The user has shown interest in Hartford, Connecticut's economic history and future business-attraction strategies. The user turned 30 on 20",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The user got a new internet router on 2023-01-15; it significantly improved Wi-Fi signal strength, but the user still needs to figure out how to set up its guest network.",
+   "entities": [
+    "User",
+    "Internet router"
+   ],
+   "topic": "Home internet",
+   "time": "2023-01-15",
+   "sources": [
+    "T391"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "As of 2023-03-28, the user was experiencing slow internet speeds, especially while working from home. Restarting the router did not fix the slow speeds, and the user checked for reported local outages but found none.",
+   "entities": [
+    "User",
+    "Internet service provider"
+   ],
+   "topic": "Home internet speed",
+   "time": "2023-03-28",
+   "sources": [
+    "T391",
+    "T393",
+    "T395"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "The user paid their internet bill on 2023-01-25; this reminded the user to call the internet provider to negotiate a better deal.",
+   "entities": [
+    "User",
+    "Internet service provider"
+   ],
+   "topic": "Internet bill and negotiation",
+   "time": "2023-01-25",
+   "sources": [
+    "T395"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user planned to check whether their current internet plan suits their work-from-home needs, optimize the router's placement, and compare other internet providers and plans for better speeds or pricing. The user would consider switching providers if dissatisfied with the current provider.",
+   "entities": [
+    "User",
+    "Internet service provider"
+   ],
+   "topic": "Internet service options",
+   "time": "2023-03-28",
+   "sources": [
+    "T393",
+    "T395"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user intended to call the current internet provider to negotiate a better deal, motivated by slow speeds while working from home and the possibility that the current plan is unsuitable.",
+   "entities": [
+    "User",
+    "Internet service provider"
+   ],
+   "topic": "Internet service negotiation",
+   "time": "2023-03-28",
+   "sources": [
+    "T395"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user said they use a smart speaker to play music, set reminders, and make hands-free calls; the speaker’s brand and model were not specified.",
+   "entities": [
+    "user",
+    "smart speaker"
+   ],
+   "topic": "smart speaker",
+   "time": "2023-03-28",
+   "sources": [
+    "T397"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user wanted to explore more smart-speaker features and learn how to create custom routines, including turning off lights when leaving home and locking doors at night.",
+   "entities": [
+    "user",
+    "smart speaker"
+   ],
+   "topic": "smart speaker routines",
+   "time": "2023-03-28",
+   "sources": [
+    "T397",
+    "T399"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user said they needed to reorder smart-speaker batteries because the batteries were running low.",
+   "entities": [
+    "user",
+    "smart speaker batteries"
+   ],
+   "topic": "smart speaker supplies",
+   "time": "2023-03-28",
+   "sources": [
+    "T399"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "The user ordered cable organizers online on 2023-01-28, and as of 2023-03-28 they had not arrived. The user was frustrated by the cord and cable mess and said finding the right charger every day was driving them crazy.",
+   "entities": [
+    "user",
+    "cable organizers",
+    "chargers"
+   ],
+   "topic": "home organization",
+   "time": "2023-01-28..2023-03-28",
+   "sources": [
+    "T401"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user worked on an article about progress payments under the NSW HIA Lump Sum Contract, asking for progressively shorter versions of its introduction and then for draft sections on what progress payments are (under 200 words), the importance of payment schedules (under 200 words), and calculating progress payments (under 150 words).",
+   "entities": [
+    "User",
+    "NSW HIA Lump Sum Contract"
+   ],
+   "topic": "Article drafting: NSW construction progress payments",
+   "time": "2023-03-28",
+   "sources": [
+    "T404",
+    "T406",
+    "T408",
+    "T410",
+    "T412"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for the article section “VI. The Final Progress Claim and Its Importance,” with a limit of fewer than 180 words. The assistant drafted a section about the final payment under the NSW HIA Lump Sum Contract, checking completed work and defects before payment, and possible consequences of nonpayment.",
+   "entities": [
+    "User",
+    "NSW HIA Lump Sum Contract"
+   ],
+   "topic": "Article drafting: final progress claim",
+   "time": "2023-03-28",
+   "sources": [
+    "T414",
+    "T415"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for the article section “VII. Standard Progress Payment Schedule under the NSW HIA Lump Sum Contract,” with a limit of fewer than 180 words. The assistant drafted a section covering deposits, milestone-based progress payments, contract terms, homeowner payment obligations, and resolving disputes.",
+   "entities": [
+    "User",
+    "NSW HIA Lump Sum Contract"
+   ],
+   "topic": "Article drafting: progress payment schedule",
+   "time": "2023-03-28",
+   "sources": [
+    "T416",
+    "T417"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked for the article section “VIII. Security of Payment Act 1999 (NSW) and Its Impact on Progress Payment Schedules,” with a limit of fewer than 180 words. The assistant drafted a section about payment claims, supporting statements, payment schedules, deadlines, and parties’ obligations under the Act.",
+   "entities": [
+    "User",
+    "Security of Payment Act 1999 (NSW)"
+   ],
+   "topic": "Article drafting: NSW Security of Payment Act",
+   "time": "2023-03-28",
+   "sources": [
+    "T418",
+    "T419"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-02-10, the user finally set up a smart thermostat after procrastinating for weeks and described it as a game-changer.",
+   "entities": [
+    "User",
+    "smart thermostat"
+   ],
+   "topic": "Smart home",
+   "time": "2023-02-10",
+   "sources": [
+    "T420"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user subscribes to XYZ Internet’s 500 Mbps plan. The user got a new router on 2023-01-15, which significantly improved Wi-Fi signal strength, but still needed to figure out how to set up its guest network.",
+   "entities": [
+    "User",
+    "XYZ Internet",
+    "router"
+   ],
+   "topic": "Internet service and home network",
+   "time": "2023-03-28",
+   "sources": [
+    "T422"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user has around 5–6 devices connected to the home network, including a laptop, smart TV, and smart speaker. The user works from a home office about 10–15 feet from the router, usually connects over Wi-Fi, and has an Ethernet cable available.",
+   "entities": [
+    "User",
+    "laptop",
+    "smart TV",
+    "smart speaker",
+    "router"
+   ],
+   "topic": "Home network setup",
+   "time": "2023-03-28",
+   "sources": [
+    "T422"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user reported a speed test result of 350 Mbps download, 20 Mbps upload, and 25 ms ping on the 500 Mbps XYZ Internet plan.",
+   "entities": [
+    "User",
+    "XYZ Internet"
+   ],
+   "topic": "Internet speed",
+   "time": "2023-03-28",
+   "sources": [
+    "T424"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "The user paid the internet bill on 2023-01-25 and said this reminded them to call the provider to negotiate a better deal.",
+   "entities": [
+    "User",
+    "XYZ Internet"
+   ],
+   "topic": "Internet bill and plan negotiation",
+   "time": "2023-01-25",
+   "sources": [
+    "T424"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user has recently experienced slow internet speeds, particularly while working from home and during peak usage hours when family members use devices simultaneously. The user also reported difficulty connecting a new, unspecified streaming service to the smart TV.",
+   "entities": [
+    "User",
+    "family members",
+    "smart TV"
+   ],
+   "topic": "Internet troubleshooting",
+   "time": "2023-03-28",
+   "sources": [
+    "T426",
+    "T428"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user frequently uses an unspecified smart speaker and suspects it consumes bandwidth in the background.",
+   "entities": [
+    "User",
+    "smart speaker"
+   ],
+   "topic": "Home network usage",
+   "time": "2023-03-28",
+   "sources": [
+    "T428"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user wanted guidance on accessing router analytics or logs and recommendations for network-monitoring tools or apps to track bandwidth usage. No router model or monitoring tool selection was provided.",
+   "entities": [
+    "User",
+    "router"
+   ],
+   "topic": "Network monitoring",
+   "time": "2023-03-28",
+   "sources": [
+    "T430"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked whether the assistant knew about the Princesses in Clash Royale. The assistant incorrectly claimed there were Ice Princess and Dark Princess variants; the user corrected the assistant, saying neither exists. The assistant acknowledged the mistake and clarified that Clash Royale has a single Princess card.",
+   "entities": [
+    "User",
+    "Clash Royale",
+    "Princess card"
+   ],
+   "topic": "Clash Royale",
+   "time": "2023-03-28",
+   "sources": [
+    "T432",
+    "T433",
+    "T434",
+    "T435"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-03-28, the user was imagining the Clash Royale Princesses hosting a Christmas event in real life, not an in-game event, and asked what outdoor activities they might host.",
+   "entities": [
+    "User",
+    "Clash Royale Princesses"
+   ],
+   "topic": "Imagined real-life Christmas event",
+   "time": "2023-03-28",
+   "sources": [
+    "T438",
+    "T440",
+    "T442"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On 2023-03-28, the user asked not to involve Supercell in discussing a hypothetical event featuring Clash Royale Princesses.",
+   "entities": [
+    "User",
+    "Supercell",
+    "Clash Royale Princesses"
+   ],
+   "topic": "Clash Royale hypothetical",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The user specified that the hypothetical Christmas event featuring Clash Royale Princesses was located in Rovaniemi, Finland.",
+   "entities": [
+    "User",
+    "Clash Royale Princesses",
+    "Rovaniemi",
+    "Finland"
+   ],
+   "topic": "Christmas event setting",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-28, the user asked what outdoor activities could be included in a hypothetical Christmas event hosted by Clash Royale Princesses in Rovaniemi, Finland. Suggestions in the discussion included snowmobile or reindeer-sleigh rides, snowshoeing, cross-country skiing, ice fishing, ice sculpting, igloo building, and sauna followed by swimming in an ice hole.",
+   "entities": [
+    "User",
+    "Clash Royale Princesses",
+    "Rovaniemi",
+    "Finland"
+   ],
+   "topic": "Outdoor Christmas activities",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-03-28, the user said they were assembling four medium-length text components into a long composite text and wanted to edit its structure before elaborating subsections. They requested sections, subsections, and paragraph headings, with each paragraph represented by a one-sentence summary of the corresponding input.",
+   "entities": [
+    "User"
+   ],
+   "topic": "Composite-text editing",
+   "time": "2023-03-28",
+   "sources": [
+    "T450"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The first text component was titled “The Intricacies of Theories and Phenomena: A Deeper Look at the Scientific Method.” It covered the relationship between theories and phenomena; prediction (deriving a finding from a theory before observing the phenomenon) and explanation (observing first, then deriving a finding); theories’ general regularities and the role of empirical situations and boundary conditions; the deductive-nomological method and Hempel-Oppenheim model; theories as sets of propositions; stochastic sampling; and the distinction between raw data and study findings. Examples included population differences in mean reaction times estimated from finite human samples and a questionnaire study of Big Five traits and political attitudes, where correlations derived through analysis are findings and participants’ responses are data.",
+   "entities": [
+    "The Intricacies of Theories and Phenomena: A Deeper Look at the Scientific Method",
+    "Hempel-Oppenheim model",
+    "deductive-nomological method",
+    "Big Five personality traits"
+   ],
+   "topic": "Scientific method article component",
+   "time": "2023-03-28",
+   "sources": [
+    "T450"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "The assistant organized the first text component into a title and five main sections: I. Introduction; II. The Scientific Method: Predictions and Explanations, with subsections on prediction and explanation; III. The Role of Boundary Conditions and the Hempel-Oppenheim Model, with subsections on theories and empirical situations, the deductive-nomological link, and the model; IV. The Complexities: Sets of Propositions, Stochastic Sampling, and the Difference Between Findings and Data, with subsections on theories as multiple propositions, stochastic sampling, and data versus findings; and V. Conclusion. The introduction and conclusion were each summarized with a single bullet sentence.",
+   "entities": [
+    "User",
+    "The Intricacies of Theories and Phenomena: A Deeper Look at the Scientific Method",
+    "Assistant"
+   ],
+   "topic": "Composite-text outline",
+   "time": "2023-03-28",
+   "sources": [
+    "T451"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user’s museum membership expired in December 2022.",
+   "entities": [
+    "User",
+    "museum membership"
+   ],
+   "topic": "Museum membership",
+   "time": "2022-12",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "The user is considering renewing the museum membership because it would make visits to the Modern Art Museum more convenient and cost-effective; the user wants to see the “Contemporary Photography” exhibit there.",
+   "entities": [
+    "User",
+    "Modern Art Museum",
+    "Contemporary Photography exhibit"
+   ],
+   "topic": "Museum visit",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user has been interested in photography for a while and is especially looking forward to seeing the variety of photography styles and techniques and how different artists approach the medium.",
+   "entities": [
+    "User",
+    "photography"
+   ],
+   "topic": "Photography",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "In early February 2023, the user volunteered as a museum ambassador for a school field trip at the Children’s Museum and helped facilitate a LEGO building station and a mini-grocery store where children practiced shopping. The user described the experience as great.",
+   "entities": [
+    "User",
+    "Children’s Museum",
+    "school field trip"
+   ],
+   "topic": "Volunteering",
+   "time": "2023-02",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "The user is thinking of visiting the Modern Art Museum with the user’s sister, who will soon be visiting from out of town, to see the “Contemporary Photography” exhibit.",
+   "entities": [
+    "User",
+    "User's sister",
+    "Modern Art Museum",
+    "Contemporary Photography exhibit"
+   ],
+   "topic": "Museum visit",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "A few weeks before March 28, 2023, the user and the user’s sister visited the “Impressionist Masters” exhibition and had a great time together.",
+   "entities": [
+    "User",
+    "User's sister",
+    "Impressionist Masters exhibition"
+   ],
+   "topic": "Museum visit",
+   "time": "2023-03",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "The user is thinking of having lunch with the user’s sister at the museum café during their planned Modern Art Museum visit, as they did during their previous visit to the “Impressionist Masters” exhibition.",
+   "entities": [
+    "User",
+    "User's sister",
+    "Modern Art Museum café"
+   ],
+   "topic": "Museum visit",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user found the museum café’s quiche really delicious and appreciates the convenience of eating at the museum rather than finding a restaurant outside.",
+   "entities": [
+    "User",
+    "Modern Art Museum café",
+    "quiche"
+   ],
+   "topic": "Food",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The user asked whether the Modern Art Museum would have special events or workshops related to the “Contemporary Photography” exhibit and whether the exhibit is temporary or how long it will run; the user has not established the answers.",
+   "entities": [
+    "User",
+    "Modern Art Museum",
+    "Contemporary Photography exhibit"
+   ],
+   "topic": "Exhibit information",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-03-28, the user had been taking cooking classes at a local culinary school on Saturday mornings for three months.",
+   "entities": [
+    "User",
+    "local culinary school"
+   ],
+   "topic": "cooking classes",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user likes the umami flavor of soy sauce and has been using soy sauce frequently in cooking classes.",
+   "entities": [
+    "User",
+    "soy sauce"
+   ],
+   "topic": "cooking preferences",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "The user planned to make a shrimp-and-vegetable stir-fry using frozen shrimp, thawed properly and patted dry, with a simple soy sauce and ginger seasoning. The user planned to serve it with jasmine rice and was considering making garlic bread alongside it.",
+   "entities": [
+    "User",
+    "shrimp-and-vegetable stir-fry",
+    "frozen shrimp",
+    "soy sauce",
+    "ginger",
+    "jasmine rice",
+    "garlic bread"
+   ],
+   "topic": "dinner",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The user recently learned to make homemade pasta from scratch in cooking classes and had been making it for dinner at least once a week since learning.",
+   "entities": [
+    "User",
+    "homemade pasta",
+    "local culinary school"
+   ],
+   "topic": "cooking",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user is interested in cooking more often at home, experimenting with new recipes, and applying skills learned in cooking classes to quick weeknight meals.",
+   "entities": [
+    "User"
+   ],
+   "topic": "cooking preferences",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "In the story, the mother disposed of the daughter’s clothing, including her overalls, after a diaper blowout by putting the soiled clothes into the toilet and flushing them. The assistant said the overalls were no longer in the daughter’s possession or accessible.",
+   "entities": [
+    "the mother",
+    "the daughter",
+    "the daughter’s overalls"
+   ],
+   "topic": "Story clothing disposal",
+   "time": "2023-03-28",
+   "sources": [
+    "T476",
+    "T478"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "In a story discussed on March 28, 2023, a mother flushed her daughter’s soiled overalls down the toilet; the overalls barely fit and disappeared with a final splash. The conversation did not establish whether they reached a wastewater treatment plant or became stuck in pipes.",
+   "entities": [
+    "mother in the story",
+    "daughter in the story",
+    "overalls"
+   ],
+   "topic": "Story about flushing clothing",
+   "time": "2023-03-28",
+   "sources": [
+    "T480",
+    "T482"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant told the user that flushing children’s clothing is uncommon and generally not recommended because it can clog pipes; soiled clothing can usually be cleaned or put in the trash. The assistant also said the story’s overalls appeared to have flushed away, but their final destination could not be known for certain.",
+   "entities": [
+    "user",
+    "assistant",
+    "children’s clothing",
+    "overalls"
+   ],
+   "topic": "Disposal of clothing",
+   "time": "2023-03-28",
+   "sources": [
+    "T482",
+    "T484"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant advised that soiled diapers generally should be put in the trash, not flushed, because diaper materials do not break down easily in water and may clog pipes. The assistant said some parents might flush diapers anyway, but that this is not recommended and should be avoided.",
+   "entities": [
+    "assistant",
+    "parents",
+    "children’s diapers"
+   ],
+   "topic": "Diaper disposal",
+   "time": "2023-03-28",
+   "sources": [
+    "T486",
+    "T488"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "In the story discussed on March 28, 2023, Emma’s mother flushed a soiled diaper, the wipes used to clean up a diaper blowout, Emma’s soiled shirt, and Emma’s soiled overalls down the toilet. The assistant said the overalls could not be retrieved after flushing and that the story did not specify what kind of overalls Emma had been wearing.",
+   "entities": [
+    "Emma",
+    "Emma's mother",
+    "soiled diaper",
+    "wipes",
+    "soiled shirt",
+    "soiled overalls"
+   ],
+   "topic": "Story about a diaper blowout and flushed items",
+   "time": "2023-03-28",
+   "sources": [
+    "T489",
+    "T490",
+    "T491",
+    "T492",
+    "T493",
+    "T494"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked to return to the last version of a story before it was changed into a script, then asked to see the whole story again. The story described a mother whose daughter has a diaper blowout that soils her clothes. The mother flushes the diaper and most of the child's outfit down the toilet one piece at a time; the toilet does not clog. The mother puts the daughter in a new diaper and outfit, they finish cleaning up, and both are happy afterward.",
+   "entities": [
+    "User",
+    "mother",
+    "daughter"
+   ],
+   "topic": "Story version before script adaptation",
+   "time": "2023-03-28",
+   "sources": [
+    "T495",
+    "T496",
+    "T497",
+    "T498"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 28, 2023, the user was preparing a presentation for an upcoming meeting and sought market-research information about current technology-industry trends in the Bay Area, especially information from the prior year.",
+   "entities": [
+    "user"
+   ],
+   "topic": "Bay Area tech market research presentation",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The user said they had worked as a Marketing Coordinator for 3 years before moving into their current role, and had spent 2 years in that current role as of March 28, 2023. The user said this experience helped them understand the industry and feel more confident in their analysis.",
+   "entities": [
+    "user"
+   ],
+   "topic": "career experience",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "In response to the user's Bay Area tech-market research request, the assistant cited these purported recent statistics: Bay Area tech-industry growth of 3.4% in 2022 and 23% of U.S. tech employment (CompTIA Cyberstates 2022); 345,000 tech workers in San Francisco–Oakland–Hayward (CBRE Scoring Tech Talent 2022); 25% of U.S. AI/ML startups in the Bay Area (PwC 2022); $44.8 billion in Bay Area startup venture funding in 2022, or 35% of U.S. VC investments, and $2.4 billion in seed-stage funding (attributed to PitchBook and CB Insights); 55% of residents with a bachelor's degree or higher (U.S. Census Bureau 2020 ACS); 71% of tech companies reporting hiring difficulty (Bay Area Council 2022); San Francisco office rent averaging $84.44 per square foot in 2022 (CBRE); and 15% of San Francisco office space devoted to coworking (Colliers). The assistant also claimed the Bay Area represented 20% of the global cybersecurity market, attributing this to Cybersecurity Ventures' 2022 report.",
+   "entities": [
+    "user",
+    "Bay Area",
+    "CompTIA",
+    "CBRE",
+    "PwC",
+    "PitchBook",
+    "CB Insights",
+    "U.S. Census Bureau",
+    "Bay Area Council",
+    "Colliers International",
+    "Cybersecurity Ventures"
+   ],
+   "topic": "market research statistics supplied in conversation",
+   "time": "2022..2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "When the user asked which Bay Area tech skills were in high demand but hard to find, the assistant listed software engineering (Java, Python, JavaScript, cloud, AI/ML), data science and analytics (machine learning, deep learning, Tableau, Power BI, D3.js), cybersecurity (threat analysis, penetration testing, security architecture, CISSP/CEH), DevOps and cloud (Docker, Kubernetes, CI/CD), and digital marketing (SEO, PPC, social media, content, Marketo/Pardot). It named full-stack developers, AI/ML engineers, cloud architects, cybersecurity consultants, and technically oriented product managers as difficult roles, and cited competition, cost of living, a skills gap, and lack of diversity as contributing factors.",
+   "entities": [
+    "user",
+    "Bay Area"
+   ],
+   "topic": "Bay Area tech talent demand",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user expressed particular interest in digital marketing, saying their prior Marketing Coordinator experience gave them a solid foundation in the area. The user asked about digital-marketing trends and required skills, especially in the Bay Area.",
+   "entities": [
+    "user"
+   ],
+   "topic": "digital marketing interest",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The assistant described digital-marketing trends as AI-powered marketing, omnichannel customer experience, voice-search optimization, video marketing, influencer marketing, data-driven marketing, and account-based marketing. It listed skills including analytics tools such as Google Analytics, Adobe Analytics, and Mixpanel; content creation; SEO/SEM and PPC; social media and influencer campaigns; email automation and segmentation; marketing automation platforms such as Marketo, Pardot, and HubSpot; and data analysis and visualization. It characterized Bay Area audiences as tech-savvy and the market as competitive and innovative, requiring experimentation.",
+   "entities": [
+    "user",
+    "Bay Area"
+   ],
+   "topic": "digital marketing trends and skills",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user showed particular interest in AI-powered marketing and asked how it is used in the Bay Area and what skills are needed to work in the field.",
+   "entities": [
+    "user",
+    "Bay Area"
+   ],
+   "topic": "AI-powered marketing interest",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The assistant described AI applications in marketing as predictive analytics for behavior and churn, personalization, chatbots and conversational AI, automated content generation, real-time ad targeting and optimization, customer segmentation, and sentiment analysis. It said relevant skills include data analysis and interpretation, AI/ML fundamentals, Python/R/SQL, marketing strategy, data visualization, cross-functional communication, and ongoing learning. The assistant characterized the Bay Area as having AI-marketing startups and tech companies investing in the field, naming HubSpot, Marketo, Optimizely, Google, Facebook, and Salesforce.",
+   "entities": [
+    "user",
+    "Bay Area",
+    "HubSpot",
+    "Marketo",
+    "Optimizely",
+    "Google",
+    "Facebook",
+    "Salesforce"
+   ],
+   "topic": "AI-powered marketing applications and skills",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user asked for more detail about how data analysis and interpretation inform AI-powered marketing strategies and what skills are required to work in this area.",
+   "entities": [
+    "user"
+   ],
+   "topic": "data analysis in AI-powered marketing",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The assistant outlined an AI-marketing data workflow of collecting customer, website, social-media, and CRM data; cleaning and preparing it; applying statistical and machine-learning methods; interpreting results; and using insights to guide personalization, targeted advertising, and content. It named predictive modeling for churn, purchase propensity, and lead scoring; segmentation and clustering; A/B testing; customer-journey analysis; and ROI analysis. Skills listed included statistics (regression, hypothesis testing, confidence intervals), machine learning, visualization, Python/R/SQL, marketing knowledge, communicating insights to nontechnical stakeholders, and domain expertise.",
+   "entities": [
+    "user"
+   ],
+   "topic": "data analysis in AI-powered marketing",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "The user asked for more detail about the role of machine learning in AI-powered marketing, its marketing applications, and the skills required to work in the area.",
+   "entities": [
+    "user"
+   ],
+   "topic": "machine learning in marketing",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The assistant described machine-learning applications in marketing as predictive modeling for churn, purchase propensity, and lead scoring; customer segmentation; personalization and recommendations; content generation; and chatbots. It listed supervised, unsupervised, reinforcement, and deep-learning techniques, and said relevant skills include ML fundamentals, Python/R/Julia, data analysis and interpretation, marketing and domain knowledge, and communicating findings to nontechnical stakeholders.",
+   "entities": [
+    "user"
+   ],
+   "topic": "machine learning in marketing",
+   "time": "2023-03-28",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On March 28, 2023, the user said they had recently finished reading “The Hate U Give” by Angie Thomas for a book club meeting held about two weeks earlier. The user had been the only book-club member who had not finished the book on time, but completed it a few days before the meeting.",
+   "entities": [
+    "User",
+    "The Hate U Give",
+    "Angie Thomas",
+    "User's book club"
+   ],
+   "topic": "reading",
+   "time": "2023-03-28",
+   "sources": [
+    "T511"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user is trying to read more diversely and enjoys a mix of fiction genres and styles. The user said they loved “The Seven Husbands of Evelyn Hugo” by Taylor Jenkins Reid, “The Silent Patient” by Alex Michaelides, and “The Nightingale” by Kristin Hannah, which they finished over the weekend of March 25–26, 2023.",
+   "entities": [
+    "User",
+    "The Seven Husbands of Evelyn Hugo",
+    "Taylor Jenkins Reid",
+    "The Silent Patient",
+    "Alex Michaelides",
+    "The Nightingale",
+    "Kristin Hannah"
+   ],
+   "topic": "reading preferences",
+   "time": "2023-03-25..2023-03-26",
+   "sources": [
+    "T513"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user has recently started listening to audiobooks during their daily commute. By March 28, 2023, the user had finished two audiobooks: “Sapiens: A Brief History of Humankind” by Yuval Noah Harari and “Daisy Jones and The Six” by Taylor Jenkins Reid.",
+   "entities": [
+    "User",
+    "Sapiens: A Brief History of Humankind",
+    "Yuval Noah Harari",
+    "Daisy Jones and The Six",
+    "Taylor Jenkins Reid"
+   ],
+   "topic": "audiobooks",
+   "time": "2023-03-28",
+   "sources": [
+    "T515"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "The user prefers full-cast audiobook narrations, especially for novels with multiple characters and dialogue-heavy scenes, because full casts make listening more immersive and help the user track who is speaking. The user also enjoys single-narrator audiobooks when the narrator brings a distinctive tone and style.",
+   "entities": [
+    "User"
+   ],
+   "topic": "audiobook narration",
+   "time": "2023-03-28",
+   "sources": [
+    "T517"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The user considers narration crucial to audiobooks: a good narrator can elevate a story and make it engaging and immersive, while a poor narrator can detract from it. The user believes a narrator’s tone, pace, and inflection influence how listeners interpret stories and characters. The user felt the narration of “The Hate U Give” helped keep them engaged, connect with the characters, and understand their emotions, making the story more relatable and impactful.",
+   "entities": [
+    "User",
+    "The Hate U Give",
+    "Angie Thomas"
+   ],
+   "topic": "audiobook narration",
+   "time": "2023-03-28",
+   "sources": [
+    "T519"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The user believes audiobook narration can significantly shape a listener’s emotional response. The user thinks a skilled narrator can convey emotional depth, strengthen empathy and connection, and use tone, pace, and inflection to create an atmosphere such as urgency in a thriller or longing and nostalgia in a romance.",
+   "entities": [
+    "User"
+   ],
+   "topic": "audiobook narration and emotion",
+   "time": "2023-03-28",
+   "sources": [
+    "T521"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The Workplace Assessments service uses qualitative research to understand organizations’ current state of work, workplace utilization and performance, and employees’ workplace experience. Its methods include observational research, interviews, shadowing and employee journeys, and focus groups, conducted both at the office and at home. The research identifies what is working, what is not, and opportunities for innovation.",
+   "entities": [
+    "Workplace Assessments"
+   ],
+   "topic": "service description",
+   "time": "2023-03-28",
+   "sources": [
+    "T523"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "For a promotional video about Workplace Assessments, the assistant proposed opening on a stressed, overwhelmed person at a desk, then showing an interviewer observing employees and taking notes, an employee being shadowed, and a satisfied customer interview. Voiceover would explain that qualitative research methods—including observational research, employee journeys, and focus groups—help organizations understand workplace utilization and performance, identify what works and what needs improvement, and inform innovation. The video would also show an employee working comfortably from home to emphasize research across office and home settings, then return to the opening person now relieved and satisfied. The suggested closing voiceover invites viewers to contact the service.",
+   "entities": [
+    "Workplace Assessments"
+   ],
+   "topic": "promotional video scene strategy",
+   "time": "2023-03-28",
+   "sources": [
+    "T524"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked about artificial intelligence’s impact on medicine. The assistant described potential benefits including improved diagnostic accuracy, treatment planning and patient outcomes, workflow efficiency, personalized medicine, and predictive analytics.",
+   "entities": [
+    "User",
+    "artificial intelligence",
+    "medical field"
+   ],
+   "topic": "AI in medicine",
+   "time": "2023-03-28",
+   "sources": [
+    "T525",
+    "T526"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked how widely AI was being used in medicine and whether all medical facilities used it. The assistant said adoption varied: AI was used in areas such as research, drug discovery, imaging analysis, and diagnosis, but not by all facilities. It cited resources, facility size, data availability, and ethical and legal concerns—including bias and personal-data safety—as factors affecting adoption.",
+   "entities": [
+    "User",
+    "artificial intelligence",
+    "healthcare facilities"
+   ],
+   "topic": "AI adoption in healthcare",
+   "time": "2023-03-28",
+   "sources": [
+    "T527",
+    "T528"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On March 28, 2023, when the user asked whether AI could completely replace doctors in diagnosis, the assistant said it could not reliably do so at that time. The assistant characterized AI as a support tool for clinicians, noting risks of errors and bias, limits to the data on which algorithms are trained, and the importance of patient history, symptoms, human judgment, and personalized care.",
+   "entities": [
+    "User",
+    "artificial intelligence",
+    "doctors",
+    "medical diagnosis"
+   ],
+   "topic": "AI and doctors",
+   "time": "2023-03-28",
+   "sources": [
+    "T529",
+    "T530"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked whether diagnostic AI could cause further medical job losses and how to prevent them. The assistant said automation could reduce some routine work but expected AI to change work and create opportunities rather than replace medical jobs in the near future. It recommended retraining and upskilling, collaboration among administrators, health practitioners, and policymakers, and frameworks supporting ethical adoption and equitable access.",
+   "entities": [
+    "User",
+    "artificial intelligence",
+    "medical professionals",
+    "healthcare administrators",
+    "policymakers"
+   ],
+   "topic": "AI and healthcare employment",
+   "time": "2023-03-28",
+   "sources": [
+    "T531",
+    "T532"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 28, 2023, the user asked about ethical implications and risks of AI in medical diagnosis. The assistant identified biased training data and discriminatory outcomes, limited transparency and accountability, privacy and security threats involving sensitive patient data, and uncertainty over responsibility and medical liability when AI-assisted diagnoses are wrong. It called for ethical frameworks, clear guidelines, transparency about AI decisions and data use, and policies establishing accountability throughout AI development and use.",
+   "entities": [
+    "User",
+    "artificial intelligence",
+    "medical diagnosis",
+    "patients",
+    "healthcare professionals"
+   ],
+   "topic": "Ethics and risks of medical AI",
+   "time": "2023-03-28",
+   "sources": [
+    "T533",
+    "T534"
+   ]
+  }
+ ],
+ "segments": 76
+}

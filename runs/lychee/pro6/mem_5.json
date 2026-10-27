@@ -1,0 +1,4804 @@
+{
+ "records": [
+  {
+   "type": "event",
+   "text": "Andrew started a new job as a Financial Analyst during the week of 2023-03-20, and described it as quite a change from his previous job.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Employment",
+   "time": "2023-03-20..2023-03-26",
+   "sources": [
+    "D1:2"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey has had her dogs for three years as of 2023-03-27. Audrey named the dogs Pepper, Precious, and Panda, and said she cannot live without them. Audrey mentioned three dogs, although the shared photo showed two dogs.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda"
+   ],
+   "topic": "Pets",
+   "time": "2023-03-27",
+   "sources": [
+    "D1:5",
+    "D1:7"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-03-27, Audrey shared a photo showing two dogs standing in grass with their mouths open, wearing their new collars. Audrey had also gotten new tags for her dogs.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda"
+   ],
+   "topic": "Pets and photo",
+   "time": "2023-03-27",
+   "sources": [
+    "D1:3",
+    "D1:5",
+    "D1:7"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey lives in a city with her dogs. She and her dogs often explore new parks and trails and go on adventures together; Audrey said the dogs bring her happiness.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda"
+   ],
+   "topic": "Pets and outings",
+   "time": "2023-03-27",
+   "sources": [
+    "D1:9",
+    "D1:11"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew said he currently has no pets, but loves animals.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Pets",
+   "time": "2023-03-27",
+   "sources": [
+    "D1:12"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Andrew has always been awed by birds and admires their ability to soar and explore new places. Eagles have always mesmerized him; he described them as strong and graceful. Andrew shared a photo of two birds flying in the sky with the sun shining behind them.",
+   "entities": [
+    "Andrew",
+    "Eagles"
+   ],
+   "topic": "Birds",
+   "time": "2023-03-27",
+   "sources": [
+    "D1:14",
+    "D1:16"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew has not specifically gone bird-watching, but spots birds while hiking. His favorite hiking spots were not stated; Audrey asked about them.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Bird-watching and hiking",
+   "time": "2023-03-27",
+   "sources": [
+    "D1:17",
+    "D1:18",
+    "D1:19"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew recommended Fox Hollow as a great trail for weekend hikes, saying it has awesome views.",
+   "entities": [
+    "Andrew",
+    "Fox Hollow"
+   ],
+   "topic": "hiking recommendation",
+   "time": "2023-03-27",
+   "sources": [
+    "D1:20"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey said she would try hiking at Fox Hollow and let Andrew know how she liked it.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Fox Hollow"
+   ],
+   "topic": "hiking",
+   "time": "2023-03-27",
+   "sources": [
+    "D1:21",
+    "D1:22",
+    "D1:23"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-04-02, Audrey told Andrew that she and her household had adopted a puppy named Pixie. Audrey shared a photo of a small white dog sitting on a carpet and described Pixie as very cute.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pixie"
+   ],
+   "topic": "Pixie adoption",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-04-02, Audrey had not yet visited Fox Hollow, the hiking spot Andrew had recommended, because caring for newly adopted puppy Pixie had kept her busy.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pixie",
+    "Fox Hollow"
+   ],
+   "topic": "Fox Hollow hike",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:2",
+    "D2:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Pixie took a few days to get used to Audrey's other dogs, but by 2023-04-02 she was fitting in well and playing and exploring the house with them. Audrey shared a photo of a dog playing with a group of other dogs.",
+   "entities": [
+    "Audrey",
+    "Pixie",
+    "Pepper",
+    "Precious",
+    "Panda"
+   ],
+   "topic": "Dogs getting along",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:4",
+    "D2:5"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Pepper initially needed time to get used to Pixie, but by 2023-04-02 Pepper and Pixie were always together. Audrey shared a photo of two dogs standing in grass near a fence.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Pixie"
+   ],
+   "topic": "Pepper and Pixie",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:6",
+    "D2:7"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-04-02, Andrew said he was considering getting a dog but found it challenging to find a dog-friendly place in the city. He asked Audrey for tips on finding housing that allows dogs.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Andrew considering a dog",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:8"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said she and her household found a suitable dog-friendly place using websites with filters for properties that allow dogs. She shared a photo of a dog sitting in a field of flowers.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Finding dog-friendly housing",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:9"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-04-02, Andrew was looking for a dog-friendly apartment and hoped to get a dog soon; he was excited about finding both a place and a furry companion. Audrey wished Andrew luck and hoped he would find a great apartment and furry friend.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Finding a dog-friendly apartment and dog",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:10",
+    "D2:11",
+    "D2:12",
+    "D2:13",
+    "D2:14",
+    "D2:24",
+    "D2:25"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew said he would try the housing websites Audrey recommended, which have pet filters.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Pet-friendly housing websites",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:10"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew shared a photo of his family's dog sitting on a couch in a living room.",
+   "entities": [
+    "Andrew",
+    "Andrew's family dog"
+   ],
+   "topic": "Shared photo",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:16"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey shared a photo of one of her dogs lying on a couch with a pillow; the dog was not identified.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Shared photo",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:17"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew said he looked forward to cuddling and spending time with a dog, and that dogs make great companions.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Companionship with dogs",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:14",
+    "D2:16"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew shared a photo of a man walking a dog on a trail and said he missed exploring nature trails with his family's dog and the peaceful moments outdoors.",
+   "entities": [
+    "Andrew",
+    "Andrew's family dog"
+   ],
+   "topic": "Hiking and shared photo",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:18"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew said hiking with a dog is fun and a great way to bond and make memories; he shared a photo of a man sitting on a rock with a dog.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Hiking with dogs",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:20"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey agreed that exploring nature with dogs and making memories is enjoyable, and said the conversation made her want to hike with her dogs.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Hiking with dogs",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:19",
+    "D2:21"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew planned to keep looking for a dog-friendly place so he could get back to exploring outdoors with a dog; Audrey hoped Andrew and his future dog would find the perfect dog-friendly place to make new memories.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Dog-friendly place and hiking",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:22",
+    "D2:23",
+    "D2:24",
+    "D2:25"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-04-02, Andrew told Audrey he would keep her posted, then ended the conversation with “Ttyl, Bye!”",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Follow-up and conversation closing",
+   "time": "2023-04-02",
+   "sources": [
+    "D2:26"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-04-08, Andrew and his girlfriend tried a new café in the city. Andrew enjoyed the outing but felt sad not to be in nature and said he missed the peacefulness of hiking.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "City café and missing nature",
+   "time": "2023-04-08",
+   "sources": [
+    "D3:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew feels deeply connected to nature, describing it as a home for his soul and a soothing reset when life feels chaotic. He misses the connection and companionship of being outdoors and sometimes feels he is missing out while living in the city.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Nature and city life",
+   "time": "2023-04-08",
+   "sources": [
+    "D3:3",
+    "D3:5",
+    "D3:7",
+    "D3:9"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey finds that taking her dogs for walks in the park helps her feel centered and recharged. Audrey said nature brings people back down to earth and reminds them they are part of something bigger.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Nature and wellbeing",
+   "time": "2023-04-08",
+   "sources": [
+    "D3:4",
+    "D3:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew and his girlfriend enjoy discovering new places to eat around town, as a way to try something new and unwind after a long week. They recently found a café with appealing pastries.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "Eating out",
+   "time": "2023-04-08",
+   "sources": [
+    "D3:11",
+    "D3:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Andrew shared a photo of a bakery display with pastries and coffee. Andrew said he and his girlfriend had croissants, muffins, and tarts at the café.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "Café pastries",
+   "time": "2023-04-08",
+   "sources": [
+    "D3:15",
+    "D3:17"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey said she made some of her favorite treats the previous week and shared a photo of a muffin pan filled with blueberries and muffins.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Baking",
+   "time": "2023-04-08",
+   "sources": [
+    "D3:18"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey proposed that she and Andrew have a pastry party sometime; Andrew enthusiastically agreed. Audrey said her dogs would come along, and both looked forward to Andrew spending time with all of them. No specific date or location was set.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Pastry party",
+   "time": "",
+   "sources": [
+    "D3:18",
+    "D3:19",
+    "D3:20",
+    "D3:21",
+    "D3:22",
+    "D3:23"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey shared a photo showing one dog running with three other dogs in the background. Audrey said her dogs bring her great joy and that she cannot imagine life without them; Andrew responded that their happy faces must mean a lot to her.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Audrey's dogs",
+   "time": "2023-04-08",
+   "sources": [
+    "D3:24",
+    "D3:25"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey has tattoos of her dogs on her arm. She shared a photo of a woman with a tattoo depicting a dog and sunflowers, and said the tattoo represents her love for her pups and the beauty of nature. Audrey said she got the tattoo a while ago.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog and nature tattoo",
+   "time": "",
+   "sources": [
+    "D3:26",
+    "D3:28"
+   ]
+  },
+  {
+   "type": "state",
+   "text": "Audrey and Andrew are conversation participants; no further identity details known. Audrey has dogs Pepper, Precious, Panda, and puppy Pixie, who took days to adjust and is especially close to Pepper. Andrew had no pets as of 2023-04-02, sought dog-friendly housing, and hoped to get a dog. Audrey recommended pet-filter housing websites. Andrew recommended Fox Hollow for hiking; Audrey had not gone because she was caring for Pixie. Andrew missed hiking with his family's dog and shared photos of that dog on a couch, a man walking a dog on a trail, and a man sitting on a rock with a dog. Audrey shared a photo of an unidentified dog relaxing on a couch. Andrew has a girlfriend; on 2023-04-08 they visited a city café, and Andrew missed nature and hiking. He and his girlfriend enjoy trying restaurants. Audrey enjoys walking her dogs in the park. Andrew shared a café pastry photo; Audrey shared blueberry muffins she baked. Audrey and Andrew agreed to an unscheduled pastry party with Audrey's dogs. Audrey shared a photo of one dog running with three dogs behind it, and a photo of a woman with a dog-and-sunflower tattoo; Audrey says her arm tattoo represents her pups and nature. On 2023-04-02, Andrew said he would keep Audrey posted and signed off.",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-04-16, Audrey said she had a tattoo because she has always felt a strong bond with her dogs, who make her very happy; she wanted to see their happy faces even when they are not with her.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Tattoo and dogs",
+   "time": "2023-04-16",
+   "sources": [
+    "D3:29",
+    "D3:30"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-04-16, Andrew said he was glad Audrey's dogs brought so much joy into her life and called her bond with them awesome.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Audrey's dogs",
+   "time": "2023-04-16",
+   "sources": [
+    "D3:31"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-04-24..2023-04-30, Audrey went on a hike and saw a hummingbird darting around; she described watching its wings as a cool experience. Audrey shared a photo of a hummingbird perched on a branch with its wings spread.",
+   "entities": [
+    "Audrey",
+    "hummingbird"
+   ],
+   "topic": "hiking and wildlife",
+   "time": "2023-04-24..2023-04-30",
+   "sources": [
+    "D4:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By 2023-05-03, Andrew had found a nearby open space where he could hike, which felt refreshing after he had been feeling down about not getting outdoors more. Andrew shared a photo of a lake and mountains at sunset.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "hiking",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:2"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew usually tries to escape the city to hike at least once each weekend and considers it a much-needed break.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "hiking routine",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:3",
+    "D4:4"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew finds being in nature therapeutic, peaceful, and invigorating, especially being surrounded by greenery or standing on a mountain and breathing fresh air. He enjoys capturing special moments and sharing them to help others find peace and motivation; spreading positivity brings him joy and calm. Andrew shared a photo of a mountain range at sunset.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "nature photography and positivity",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:6",
+    "D4:8",
+    "D4:10",
+    "D4:12",
+    "D4:14"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey agreed that sharing peaceful experiences and small gestures can bring happiness and motivation to others, and that spreading positivity can also make the person sharing feel good.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "sharing positivity",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:7",
+    "D4:9",
+    "D4:11",
+    "D4:13"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-05-03, Audrey said she was busy caring for her pets and spending time with them, which she found fulfilling. She shared a photo of a group of dogs sitting in a lush green field.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "pets",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:15"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey's dogs love going on hikes: they enjoy exploring new scents and being in nature, and Audrey can see their excitement in their wagging tails and expressions. Audrey shared a photo of one dog running in a field with other dogs.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs and hiking",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:16",
+    "D4:17"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey prioritizes her dogs' safety outdoors and said she got them special gear that looks funny but works. She shared a photo of a dog wearing shoes and a leash.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog safety",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:18",
+    "D4:19"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey plays fetch with her dogs using a ball or frisbee and arranges dog playdates at the park, where the dogs can meet other dogs while Audrey chats with their owners. Audrey shared a photo of a dog catching a frisbee in a field.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog activities and socializing",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:20",
+    "D4:21"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her dogs have lots of energy, enjoy meeting new pals at playdates, and get excited when she brings out their play items. She shared a photo of a dog wearing a party hat on a couch and said the hats do not bother the dogs; they wear them for fun and treats. Audrey recommended the dog park as a good place to begin finding playdates, and shared a photo of a dog jumping through a ring in a park.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog playdates",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:23",
+    "D4:24",
+    "D4:25"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said the spot she had recommended is right by the park where Audrey and Andrew usually walk. It has lots of trees and benches where they can watch the dogs play.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Dog-walking spot",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:27"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew said he would check out the spot Audrey recommended and let Audrey know how it goes.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Visiting recommended spot",
+   "time": "2023-05-03",
+   "sources": [
+    "D4:28",
+    "D4:29",
+    "D4:30"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-05-06, Andrew said he had been looking for a dog to adopt by browsing websites, visiting shelters, and asking friends; he found the search both fun and annoying. Andrew shared a photo of a dog looking through a cage at the camera.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Dog adoption search",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-05-06, Audrey shared a photo of two dogs running in a field with a ball in one dog’s mouth.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Dog photos",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:2"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew said that people choosing a dog should consider their living space and the breed’s exercise needs. Because Andrew lives in an apartment, he thought a smaller dog would suit him; he said active people might consider a dog that enjoys playing and running.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Dog adoption considerations",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:3"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-05-06, Andrew found it difficult to find pet-friendly housing and was contacting landlords and checking neighborhoods. Andrew wanted a home near a park or woods, both to stay close to nature and to give a future dog a large open space to run.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Pet-friendly housing",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:5",
+    "D5:7"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey said she was lucky to have a park near her home for walking her puppy. On Friday, 2023-05-05, Audrey took a road trip with her dogs to a beautiful national park, where the dogs had a great time. Audrey shared a photo of three dogs running through a grassy field.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Road trip with dogs",
+   "time": "2023-05-05",
+   "sources": [
+    "D5:8"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey takes her dogs on road trips about once every couple of months because she sees the trips as a way for the dogs to explore and stay active.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Road trips with dogs",
+   "time": "",
+   "sources": [
+    "D5:10"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey said that road trips with furry companions are fun and exciting, and encouraged Andrew to look forward to taking a future dog on a trip.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Road trips with dogs",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew said that taking a road trip with a dog was on his bucket list and that he looked forward to doing so once he had a dog. As of 2023-05-06, Andrew was still searching for the right dog to adopt.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Future road trip and dog adoption",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:13",
+    "D5:15"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Audrey wished Andrew luck finding the right dog and said she was glad to help with his search; Andrew thanked Audrey for her help.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Support with dog adoption search",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:14",
+    "D5:15",
+    "D5:16"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-05-06, Andrew said he was going to visit another animal shelter soon while looking for a dog to adopt.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Adopting a dog",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:21"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-05-06, Audrey offered Andrew suggestions or help and said she would be expecting a picture of his dog soon; Andrew said he appreciated her support and was looking forward to it.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Support with adopting a dog",
+   "time": "2023-05-06",
+   "sources": [
+    "D5:18",
+    "D5:19",
+    "D5:20"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 6–7, 2023, Andrew went hiking with friends and his girlfriend at the nearby hiking spot they had recently found. Andrew found nature peaceful and relaxing. He shared a photograph of a dirt path leading to a grassy hill.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "hiking",
+   "time": "2023-05-06..2023-05-07",
+   "sources": [
+    "D6:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 11, 2023, Audrey said she had spent most of her free time caring for her four dogs and keeping them happy and healthy. She shared a photograph of a group of dogs with a yellow circle.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs",
+   "time": "2023-05-11",
+   "sources": [
+    "D6:2"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey signed up for a positive-reinforcement training class about bonding with pets, scheduled for June 2023. Audrey found out about the workshop from a flyer at her local pet store and was looking forward to learning how to train her dogs better and strengthen her bond with them.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog training workshop",
+   "time": "2023-06",
+   "sources": [
+    "D6:2",
+    "D6:4",
+    "D6:6"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "While visiting her local pet store, Audrey met a male dog belonging to a volunteer. Audrey described the dog as friendly and playful; the volunteer let her meet him.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "pets",
+   "time": "2023-05-11",
+   "sources": [
+    "D6:4"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey believes positive reinforcement is important for teaching pets good behavior and that punishment is never the right way to train them. Audrey said the thought of hurting any of her dogs causes her pain. Andrew agreed that he would not want to be punished, let alone puppies or dogs.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "dog training",
+   "time": "2023-05-11",
+   "sources": [
+    "D6:12",
+    "D6:13",
+    "D6:14"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey expects her dogs to learn quickly because they are quick learners and love rewards.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog training",
+   "time": "2023-05-11",
+   "sources": [
+    "D6:6"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey promised to update Andrew about the workshop and her dogs’ progress, and to share training tips for Andrew’s future dog. Andrew said he would look into the classes.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "dog training",
+   "time": "2023-05-11",
+   "sources": [
+    "D6:7",
+    "D6:8",
+    "D6:15"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-06-01, Audrey took her dogs to a park, where they ran and played off leash. Audrey said seeing their happiness brought her joy and peace.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs at the park",
+   "time": "2023-06-01",
+   "sources": [
+    "D7:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By 2023-06-02, Audrey had taken her dogs hiking at a national park the previous week and reached a beautiful peak at sunset. She described the scenery as stunning and like a slice of paradise, with a nice breeze and birds chirping, while her dogs ran around.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "National park hike",
+   "time": "2023-05-22..2023-05-28",
+   "sources": [
+    "D7:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-06-02, Audrey said she had taken a bunch of photos during her recent national park hike and shared one of her favorites. The shared photo showed two horses in a field with a fence; Andrew praised the sunset and scenery.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Hiking photos",
+   "time": "2023-06-02",
+   "sources": [
+    "D7:4",
+    "D7:5",
+    "D7:6"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-06-02, Andrew shared a photo showing a sunset over a mountain range with a horse grazing.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Shared photo",
+   "time": "2023-06-02",
+   "sources": [
+    "D7:2"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey said nature always cheers her up and makes her feel grateful.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Nature",
+   "time": "2023-06-02",
+   "sources": [
+    "D7:7"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-06-02, Andrew was still looking for a dog to adopt and pet-friendly housing in the city. He had checked several places without success, felt somewhat discouraged, but remained determined to find the right place and dog.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Dog adoption and housing search",
+   "time": "2023-06-02",
+   "sources": [
+    "D7:7",
+    "D7:8"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-06-02, Audrey offered to help Andrew find a suitable pet-friendly place and asked him to email her his criteria. Andrew thanked her for the assistance; Audrey said they would keep searching and encouraged him to stay positive.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Housing search assistance",
+   "time": "2023-06-02",
+   "sources": [
+    "D7:11",
+    "D7:12",
+    "D7:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On Sunday, 2023-06-11, Andrew took a rock-climbing class with friends, reached the top, and found the experience challenging but satisfying. Andrew was proud of the achievement and said friends’ support and encouragement helped him, despite being a beginner.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "rock climbing",
+   "time": "2023-06-11",
+   "sources": [
+    "D8:1",
+    "D8:3",
+    "D8:5"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-06-13, Andrew shared a photo of the view from the top of the rock he climbed during a class, as well as a photo depicting a man climbing a rock face.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "shared photos",
+   "time": "2023-06-13",
+   "sources": [
+    "D8:3"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "After enjoying his 2023-06-11 rock-climbing class, Andrew said he wanted to try more outdoor activities regularly, including kayaking and possibly bungee jumping.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "outdoor activities",
+   "time": "2023-06-13",
+   "sources": [
+    "D8:1",
+    "D8:7"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew said nature pushes him out of his comfort zone and can refresh the mind and provide a different outlook; he turns to nature when he needs a reset. Audrey said nature makes people feel alive and centered.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "nature",
+   "time": "2023-06-13",
+   "sources": [
+    "D8:7",
+    "D8:25",
+    "D8:27",
+    "D8:28"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "During the week before 2023-06-13, Audrey found a small park with a tree-surrounded trail that she liked for walking her dogs and thought her dogs liked it too.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog walks",
+   "time": "2023-06-05..2023-06-11",
+   "sources": [
+    "D8:8"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-06-13, Audrey invited Andrew to join her and her dogs for a walk at the small park with a tree-surrounded trail. Andrew accepted and said he looked forward to meeting the dogs and strolling in the park; Audrey said her dogs enjoy meeting new people.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "park walk",
+   "time": "2023-06-13",
+   "sources": [
+    "D8:8",
+    "D8:9",
+    "D8:10",
+    "D8:11"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said she usually walks her dogs for about an hour, varying the duration by the day, and lets them explore at their own pace. She said the dogs need exercise and exploration, return home happy and tired, and brighten up when she gets ready for their favorite part of the day: a walk.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog walks",
+   "time": "2023-06-13",
+   "sources": [
+    "D8:13",
+    "D8:14",
+    "D8:16",
+    "D8:18"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-06-13, Audrey shared a photo from a park walk showing two dogs running in a field with a ball in their mouths.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "shared photos",
+   "time": "2023-06-13",
+   "sources": [
+    "D8:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-06-13, Audrey shared a photo of two of her dogs playing with a frisbee in a meadow.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "shared photos",
+   "time": "2023-06-13",
+   "sources": [
+    "D8:22"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey said being outdoors with her dogs is her happy place and feels peaceful and inspiring; dogs and nature bring her joy and peace. Andrew agreed that nature makes people and pets happy.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "nature and dogs",
+   "time": "2023-06-13",
+   "sources": [
+    "D8:19",
+    "D8:20",
+    "D8:24",
+    "D8:25"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-06-26, Audrey said she had moved to a new place with a bigger backyard for her dogs. She shared a photo showing two dogs sitting on the grass in front of a house.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "New home",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey's dogs loved the spacious backyard at her new place, where they could run, explore, and sniff new smells.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs and backyard",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:2",
+    "D9:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By 2023-06-26, Audrey had set up a dog play area in her backyard with agility equipment and toys. Her dogs were enjoying it.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog play area",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:4",
+    "D9:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-06-26, Andrew shared a photo of several dogs playing with a ball in a large indoor area at a doggy daycare near Andrew.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Doggy daycare",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:6",
+    "D9:8"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-06-26, Audrey said she would look into visiting the doggy daycare near Andrew with her dogs sometime soon.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog-friendly places",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:7",
+    "D9:9"
+   ]
+  },
+  {
+   "type": "offer",
+   "text": "On 2023-06-26, Andrew offered to help Audrey find more places for dogs.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Dog-friendly places",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:10"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-06-26, Audrey expressed appreciation for having friends who understand her love for pets. Audrey and Andrew agreed that animals and dogs bring joy; Audrey said she could not imagine life without animals.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Love of animals",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:11",
+    "D9:12",
+    "D9:13"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew and Audrey both appreciate pets; Audrey said she does not understand people who hate or hurt pets because pets are family to many people.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "pets"
+   ],
+   "topic": "Pets",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:14",
+    "D9:15"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Andrew shared a photo of a neighborhood park flower bed filled with many different colored flowers.",
+   "entities": [
+    "Andrew",
+    "neighborhood park",
+    "flower bed"
+   ],
+   "topic": "Nature and photos",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey was moving to a new house and unpacking her boxes.",
+   "entities": [
+    "Audrey",
+    "new house",
+    "moving boxes"
+   ],
+   "topic": "Moving house",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:17"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On Friday, June 23, 2023, Andrew hiked with friends in pleasant weather. He enjoyed being outdoors, hearing birdsong and smelling the trees. He had taken photographs but had not yet reviewed them; he hoped to explore more because he missed his connection with nature and the peace it brings.",
+   "entities": [
+    "Andrew",
+    "Andrew's friends"
+   ],
+   "topic": "Hiking and nature",
+   "time": "2023-06-23",
+   "sources": [
+    "D9:18",
+    "D9:20"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Andrew misses connecting with nature and finds being outdoors, birdsong, and the smell of trees peaceful; he looks forward to exploring more.",
+   "entities": [
+    "Andrew",
+    "nature"
+   ],
+   "topic": "Nature",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:20"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey shared a photo showing a person's feet resting on a rock overlooking a lake. She said she wanted to do something like that at the time.",
+   "entities": [
+    "Audrey",
+    "lake",
+    "rock"
+   ],
+   "topic": "Nature and photos",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:21"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "A few years before June 26, 2023, Audrey and her friends hiked and came across a beautiful mountain lake. They sat by the lake, talked, and admired nature's peacefulness. Audrey shared a photo of a person sitting on a rock overlooking the lake.",
+   "entities": [
+    "Audrey",
+    "Audrey's friends",
+    "mountain lake"
+   ],
+   "topic": "Hiking and nature",
+   "time": "",
+   "sources": [
+    "D9:23"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey finds nature and lakes calming and soothing, and said the mountain-lake visit was exactly what she needed. She values appreciating life's small things and not taking anything for granted.",
+   "entities": [
+    "Audrey",
+    "nature",
+    "lake"
+   ],
+   "topic": "Nature and gratitude",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:25",
+    "D9:27"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew described Audrey's experience by the mountain lake as peaceful and calming, and said he was glad she could appreciate life's beauty.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "mountain lake"
+   ],
+   "topic": "Nature and gratitude",
+   "time": "2023-06-26",
+   "sources": [
+    "D9:26"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-03, Audrey said she was taking a challenging but rewarding dog-training course, which was taking up much of her time; her dogs were already doing better.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog training",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:1",
+    "D10:3"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-07-03, Audrey's four dogs—Pepper, Precious, Panda, and Pixie—were all three years old. They were all mixed-breed dogs: two were Jack Russell mixes and two were Chihuahua mixes. Audrey did not specify which named dogs belonged to each breed grouping.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:7",
+    "D10:9"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her dogs most enjoy running and playing fetch. A photo she shared showed two dogs running in a field with a ball in one dog's mouth.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs' activities",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:5",
+    "D10:6",
+    "D10:7"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey said her four dogs were a great pack and had a doggy playdate on Friday, 2023-06-30. She described the playdate as a bit crazy but lots of fun. She shared a photo of two dogs lying on a couch under a blanket.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog playdate",
+   "time": "2023-06-30",
+   "sources": [
+    "D10:9"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her dogs give her much love and happiness and are her universe. She finds nature calming and restorative with her dogs, and said seeing them enjoy being outdoors makes her happy. She shared a photo of two dogs curled up in a dog bed.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Audrey's dogs and nature",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:5",
+    "D10:7",
+    "D10:11"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-07-03, Andrew still could not find dog-friendly rental housing and was disappointed about the search. He had been unable to hike and was settling for urban adventures.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "housing and hiking",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:2",
+    "D10:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-07-03, Andrew had been exploring new hobbies because he could not hike; he was cooking more and trying new recipes, which he enjoyed.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "cooking",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:12"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey loves cooking, and her favorite recipe is chicken pot pie. She described it as cozy and delicious, especially on a cold day, and offered to share the recipe with Andrew. She shared a photo of a pie on a wooden board with a knife.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "cooking",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-03, Audrey shared a photo of a pie with a lattice top and said the pie recipe was a family recipe passed down for years. Its flavors reminded Audrey of her grandmother’s kitchen and conversations at the table. Audrey offered to send Andrew the recipe shortly.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Audrey's grandmother"
+   ],
+   "topic": "Family recipe",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:15"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey enjoys cooking, trying new recipes, and experimenting in the kitchen. Audrey finds cooking an escape, a way to de-stress and express creativity, and a therapeutic form of self-care. Audrey likes playing music, pouring a glass of wine, and improvising while cooking; Audrey also finds it rewarding to eat the food afterward.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Cooking",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:17",
+    "D10:19"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew said cooking helps him de-stress and be creative. Andrew described himself as a rookie cook who enjoys experimenting, and said cooking is becoming one of his favorite hobbies because it is relaxing, offers an escape, and lets him try new things and express creativity.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Cooking",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:16",
+    "D10:18"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-03, Audrey shared a photo of a plate of food with many vegetables. Audrey and Andrew agreed that cooking can be calming and rewarding.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Cooking",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:19",
+    "D10:20"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey’s go-to cooking ingredient is garlic; Audrey likes its smell and the taste it adds to dishes.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Cooking ingredients",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:21"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-03, Audrey said roasted chicken is one of her favorite dishes and shared a photo of a pan of chicken and potatoes on a stove. Audrey offered to send Andrew the recipe shortly. Audrey said the recipe reflects her love of Mediterranean flavors and is easy to make, tasty, and contains chicken, garlic, lemon, and herbs. Audrey described it as her favorite comfort meal.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Roasted chicken recipe",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:23",
+    "D10:25"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew said he was eager to make Audrey’s roasted chicken recipe and thanked her for sharing it. Audrey asked Andrew to let her know how it turns out.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Roasted chicken recipe",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:24",
+    "D10:26",
+    "D10:27"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-07-03, Andrew told Audrey he would keep her posted about an unspecified matter they had discussed.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Follow-up",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:28"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-07-03, Audrey said she was excited to hear more from Andrew about the unspecified matter they had discussed.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Follow-up",
+   "time": "2023-07-03",
+   "sources": [
+    "D10:29"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-07, Andrew had a picnic with his girlfriend and described it as amazing and fun. Andrew shared a photo of a picnic table with assorted snacks and drinks.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "Picnic",
+   "time": "2023-07-07",
+   "sources": [
+    "D11:1"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew finds spending time in nature refreshing and joyful.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Nature",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On or shortly before 2023-07-08, Audrey took her dogs for a walk and said it felt really good. Audrey said her dogs make her happy.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog walk",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:2"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew wants to get a dog but has difficulty finding a suitable place that allows dogs and finding the right dog. Andrew has found some parks where dogs can be walked on leash, but would prefer an open area where a dog can run and play.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Getting a dog",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:3",
+    "D11:5"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said she was lucky to find a nearby breeder with the dogs she wanted. Audrey also said that finding places that allow dogs is difficult. Audrey shared a photo of a dog in a sweater sitting in grass; the conversation does not establish whose dog it was.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Dogs and dog-friendly places",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:3",
+    "D11:4"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey proposed joining Andrew for a hike with her dogs so they could run freely. Andrew agreed, and they planned to go sometime in August 2023, when the weather would be more pleasant. Andrew shared a photo of a woman walking up a steep hill with an ocean view, which he presented as a possible trail, and later shared a map showing a park with many trees. The specific trail and location were not named.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Hike planning",
+   "time": "2023-08",
+   "sources": [
+    "D11:5",
+    "D11:6",
+    "D11:7",
+    "D11:8",
+    "D11:9",
+    "D11:10"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey wants a hike location with a great view and plenty of room for her dogs to explore and run freely. Audrey emphasized that dog safety is the top priority when the dogs are outside running around; Andrew agreed the trail should be safe for them.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Hiking and dog safety",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:8",
+    "D11:10",
+    "D11:11",
+    "D11:12"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-08, Audrey shared a photo of three dogs sitting on the floor with leashes and said they were ready for their next outdoor adventure. The photo showed three dogs; it does not identify which of Audrey's four dogs were pictured.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:14",
+    "D11:15",
+    "D11:16"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her dogs bring her much joy, are energetic, and keep her from getting bored. Audrey shared a photo of two dogs running in a field with balls in their mouths, and Andrew commented that they appeared to be playing in a park. Audrey said seeing her dogs happy and bouncy makes her happy.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs and happiness",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:20",
+    "D11:21",
+    "D11:22",
+    "D11:23",
+    "D11:24"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey shared a photo of one of her dogs playing with a group of other dogs at a local park and said her dogs were already happy there. Andrew said he enjoys the outdoors and seeing others enjoy it.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs at a local park",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:28",
+    "D11:29"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-08, Audrey shared a photo from a hike she took the previous year, showing a person standing on a mountain beneath a visible sky at sunset. Audrey described the sunset as pretty; the photo description does not identify the person or the location.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Past hike",
+   "time": "2022-01-01..2022-12-31",
+   "sources": [
+    "D11:30"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "In 2022, Audrey hiked to a location about a three-hour drive from her home and watched an amazing sunset. The exact location was not stated.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "hike and sunset",
+   "time": "2022",
+   "sources": [
+    "D11:32"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-08, Audrey shared a photo showing a lake and mountains at sunset. She described the colors as vibrant and the moment as peaceful.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "shared photo",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:34"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey finds nature’s vibrant colors and unexpected beauty peaceful and breathtaking. She feels grateful for such moments and believes taking time to appreciate them makes life better.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "nature and gratitude",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:34",
+    "D11:36",
+    "D11:38"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew said that nature can bring awesome surprises and that life is pretty awesome when people take time to appreciate such moments.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "appreciating nature",
+   "time": "2023-07-08",
+   "sources": [
+    "D11:35",
+    "D11:37"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-11, Andrew introduced his puppy Toby, saying he could not resist taking Toby home despite living in the city. Andrew shared a photo of Toby sitting on a leash in a room.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "new puppy",
+   "time": "2023-07-11",
+   "sources": [
+    "D12:1"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-07-11, Audrey said Toby looked adorable and congratulated Andrew on his new puppy, expressing happiness for Andrew.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "new puppy",
+   "time": "2023-07-11",
+   "sources": [
+    "D12:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-11, Andrew said work had been piling up, he had been stuck inside, and he missed the peace and freedom of hiking. Andrew described work as stressful and said he needed a break.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "work stress and hiking",
+   "time": "2023-07-11",
+   "sources": [
+    "D12:3",
+    "D12:5"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-07-11, Andrew said he planned to go hiking in August 2023 and invited Audrey and Audrey's dogs to join him. Audrey accepted and said her dogs could come. The planned hike was intended as a chance to enjoy nature and have fun together; no specific location was given.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "hiking plan",
+   "time": "2023-08",
+   "sources": [
+    "D12:4",
+    "D12:5",
+    "D12:6"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-07-11, Audrey showed Andrew a photo of a group of wooden keychains with engraved names. Audrey described them as personalized tags she had made for her dogs; the engraved names are not specified.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie",
+    "Andrew"
+   ],
+   "topic": "personalized dog tags",
+   "time": "2023-07-11",
+   "sources": [
+    "D12:6",
+    "D12:7"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-07-11, Audrey said she made her pets’ tags herself, putting care into making each tag special and suited to the pet’s personality. Audrey wants her pets to feel seen and loved.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "handmade pet tags",
+   "time": "2023-07-11",
+   "sources": [
+    "D12:8",
+    "D12:10"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey and Andrew agreed that small acts of love show care for pets, and that pets bring people joy and deserve to be shown how special they are.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "caring for pets",
+   "time": "2023-07-11",
+   "sources": [
+    "D12:11",
+    "D12:12",
+    "D12:13"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey and Andrew were looking forward to going on a hike together and having Andrew’s dog Toby meet Audrey’s four dogs: Pepper, Precious, Panda, and Pixie. They described it as an adventure and a chance to make a great memory; no hike date or location was specified. Audrey said she needed to get the dogs ready soon.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "hike and dog introduction",
+   "time": "",
+   "sources": [
+    "D12:13",
+    "D12:14",
+    "D12:15",
+    "D12:16"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Toby is Andrew’s dog.",
+   "entities": [
+    "Toby",
+    "Andrew"
+   ],
+   "topic": "pet ownership",
+   "time": "",
+   "sources": [
+    "D12:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On Monday, 2023-07-24, Andrew and his girlfriend volunteered at a pet shelter. Andrew said the experience was joyful, rewarding, and a way to give back and improve the animals’ lives.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend",
+    "pet shelter"
+   ],
+   "topic": "volunteering",
+   "time": "2023-07-24",
+   "sources": [
+    "D13:1",
+    "D13:13",
+    "D13:15"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey has never volunteered at an animal shelter, but said she would like to do so someday.",
+   "entities": [
+    "Audrey",
+    "animal shelters"
+   ],
+   "topic": "volunteering",
+   "time": "2023-07-27",
+   "sources": [
+    "D13:2",
+    "D13:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her four dogs are more important to her than anything. She shared a photo of herself kissing a dog at a park during a fun day out; the dog’s identity was not specified.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs",
+   "time": "2023-07-27",
+   "sources": [
+    "D13:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey described her four dogs by birth order: the oldest is relaxed, like a wise old sage; the second is always ready to play; the third can be naughty but enjoys cuddling; and the youngest is lively and adventurous. She adores their distinct personalities.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs",
+   "time": "2023-07-27",
+   "sources": [
+    "D13:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey’s childhood dog was named Max. Max was energetic and loved playing fetch. Audrey shared a photo of Max sitting on the floor with a tennis ball.",
+   "entities": [
+    "Audrey",
+    "Max"
+   ],
+   "topic": "childhood pet",
+   "time": "2023-07-27",
+   "sources": [
+    "D13:7",
+    "D13:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "As a child, Audrey took long neighborhood walks with Max, exploring new paths while Max sniffed and marked his territory. Audrey grew close to Max and shared her worries and hopes with him; she remembers him as a good listener and those walks as some of her favorite memories.",
+   "entities": [
+    "Audrey",
+    "Max"
+   ],
+   "topic": "childhood memories",
+   "time": "",
+   "sources": [
+    "D13:10"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey believes pets offer nonjudgmental listening and unconditional love, helping people feel seen and understood. She is grateful for the joy, comfort, and love pets bring.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "pets",
+   "time": "2023-07-27",
+   "sources": [
+    "D13:12"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew and Audrey expressed that animals’ love, energy, and companionship bring joy and comfort, brighten people’s days, and create lasting memories.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "pets",
+   "time": "2023-07-27",
+   "sources": [
+    "D13:7",
+    "D13:9",
+    "D13:11",
+    "D13:13",
+    "D13:14"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew planned to go camping with his girlfriend and his dog Toby during the weekend of August 5–6, 2023. Andrew shared a photo of a woman setting up a tent on a rocky hill; the woman’s identity was not specified.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend",
+    "Toby"
+   ],
+   "topic": "Camping",
+   "time": "2023-08-05..2023-08-06",
+   "sources": [
+    "D14:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey had recently started agility classes with her dogs at a dog park. She enjoyed watching them learn, build relationships with other dogs, and face and overcome challenges, which warmed her heart. Audrey shared a photo of a dog in a field of flowers and grass.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog agility",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:2"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew thought it was amazing to watch Audrey’s dogs grow together and found it impressive and cool to see them overcome obstacles. Andrew shared a photo of a dog jumping through a ring in the air.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog agility",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey said her dogs had come a long way in agility training, enjoyed the activity, and got a good physical and mental workout from it. She took them to the park twice a week to practice, describing it as a bonding experience. Audrey shared a photo of a group of dogs sitting on a dirt road.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog agility",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Andrew asked Audrey how agility training was going and shared a photo of a dirt path in the woods with rocks and trees, saying it showed a trail he had just visited.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Hiking",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey said agility training had been tough at times but was going well overall, and that she and her dogs were growing together. Audrey shared a photo of herself walking her dogs down a trail.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog agility and hiking",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:6"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey said a hike with her dogs took two hours and was stunning, with many amazing views; she enjoyed exploring nature. The trail’s location and distance were not specified.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Hiking",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:7",
+    "D14:8"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Andrew said hiking was his favorite outdoor activity. He enjoys trees, fresh air, and reaching the top of a challenging trail, which makes his worries seem to vanish.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Hiking",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:11"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew said being in nature calms him and relaxes his mind, offering a break from the craziness of city living. Audrey agreed that nature refreshes people and is beautiful to appreciate; she described it as a refuge from busy city life.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Nature",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:9",
+    "D14:10",
+    "D14:12",
+    "D14:13"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her pets had been loyal companions through tough times, made her very happy, and meant a great deal to her. She feels blessed to have them and said they make her days better. Audrey shared a photo of a dog lying in a dog bed in a living room.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Bond with pets",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:14",
+    "D14:16"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew agreed that sharing enjoyable experiences and having close bonds bring joy and love. He told Audrey her dogs were lucky to have her and hoped to develop a deep bond with Toby. Andrew shared a photo of a stream running through a lush green forest.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "Toby"
+   ],
+   "topic": "Human-animal bonds",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:15",
+    "D14:17"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey asked Andrew what breed Toby is. Toby’s breed was not stated in this conversation. Audrey shared a photo of three dogs sitting on a wooden floor and looking up; the dogs’ identities were not specified.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Toby's breed",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:18"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-08-04, Andrew said his dog Toby is a German Shepherd and described German Shepherds as smart and loyal.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Toby's breed",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:19"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-08-04, Audrey agreed that German Shepherds are smart and loyal, and told Andrew he would form an amazing connection with one.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "German Shepherds"
+   ],
+   "topic": "German Shepherds",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:20"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-08-04, Andrew said he hoped to take Toby hiking because he thought German Shepherds would make smart, loyal hiking companions. Andrew shared a photo of a dog sitting on a rock in the woods; the conversation did not explicitly identify the pictured dog.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Hiking with Toby",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:21"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-08-04, Audrey said German Shepherds enjoy new journeys and exploring outdoors, and imagined Andrew and his dog conquering trails together. Audrey shared a photo of a dog sitting on a trail with a view of a city; the conversation did not explicitly identify the pictured dog.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "German Shepherds"
+   ],
+   "topic": "Hiking with dogs",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:22"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-08-04, Andrew said it would be great to have a hiking companion who enjoys similar activities and asked Audrey for advice for city-dwellers who own a dog.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "City dog ownership",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:23"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-08-04, Audrey advised city-dwellers to ensure they have enough time and energy for a dog, since dogs need lots of attention and walks. Audrey said Toby, as a German Shepherd, would need to expend a lot of energy.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "City dog ownership",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:24"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-08-04, Andrew said he wanted to support Toby’s growth while making sure he took Toby outside often enough.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Toby's care",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:25"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-08-04, Andrew said he was about to take Toby for a short hike on a local trail, then sign off.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Hiking",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:27"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-08-04, Audrey wished Andrew good luck with Toby and encouraged him to prepare and give Toby love.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Toby's care",
+   "time": "2023-08-04",
+   "sources": [
+    "D14:26"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-08-16, Audrey said she had gotten another tattoo of her four dogs on her arm because they mean a lot to her and she wanted them with her wherever she goes. She shared a photo showing a person with a tattoo on their hand.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs and tattoo",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Andrew said that he had recently gone to a farm with his girlfriend to get fresh vegetables for dinner and enjoyed the outing.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "Farm outing",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:2"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey would like to have more dogs someday, but said four dogs are enough for now because they keep her busy and she wants to give each dog the attention they deserve.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog ownership",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:2",
+    "D15:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey took all four of her dogs to the vet for checkups. She described the visit as hectic and said she would bring the dogs one at a time next time. She shared a photo showing a group of people walking dogs in a park.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Veterinary care",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:3"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said Pepper's favorite place to relax is the couch, Pixie's is her bed, Precious's is her chair, and Panda's is his rug.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Pixie",
+    "Precious",
+    "Panda"
+   ],
+   "topic": "Dogs' favorite resting spots",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Andrew shared a photo of his dog Toby lying on a fluffy blanket on the floor and described it as Toby's favorite spot.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Toby's favorite resting spot",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:6"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey shared a photo of two of her dogs snuggling together on her favorite blanket on a couch. She said her dogs always sleep cuddled together, especially when napping, and described them as best friends.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs sleeping together",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:7",
+    "D15:8",
+    "D15:9"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey said her dogs are always there for one another and that seeing them together makes her very happy. She said they mean the world to her and she cannot imagine life without them; she considers pets family.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Bond with dogs",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:11",
+    "D15:13",
+    "D15:15"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Andrew shared a photo of himself lying on a couch with Toby. Audrey shared a photo of herself sitting in a field with two of her dogs; she said they had a great day and lots of fun outside, and that she would always cherish those moments.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Time outdoors with dogs",
+   "time": "2023-08-16",
+   "sources": [
+    "D15:14",
+    "D15:15",
+    "D15:17",
+    "D15:19"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-08-18, Andrew took a break from work and checked out a new cafe; he said the change was nice and reminded him that the outdoors offers peace.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Cafe visit",
+   "time": "2023-08-18",
+   "sources": [
+    "D16:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-08-19, Andrew shared a photo from a recent hike showing a sunset over a mountain with a church on top; he described the scene as serene.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Hiking photo",
+   "time": "2023-08-19",
+   "sources": [
+    "D16:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "In August 2023, Audrey learned dog grooming and said grooming her dogs herself made her feel closer to them. Audrey said she took a dog grooming course and learned many techniques.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog grooming",
+   "time": "2023-08",
+   "sources": [
+    "D16:2",
+    "D16:6"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-08-19, Audrey shared a photo of a dog standing on a table in a room after grooming; Audrey described the dogs as soft, fluffy, and cute after grooming. The photo description identifies one dog, without specifying which of Audrey’s four dogs it is.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog grooming photo",
+   "time": "2023-08-19",
+   "sources": [
+    "D16:4"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey’s dog-grooming advice is to groom slowly and gently, pay attention to sensitive areas such as ears and paws, and remain patient and positive throughout the process.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Dog grooming advice",
+   "time": "",
+   "sources": [
+    "D16:8"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Andrew referred to grooming Toby, indicating that Toby is a dog Andrew might groom; no further details about Toby were given.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Andrew's dog",
+   "time": "",
+   "sources": [
+    "D16:9"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey planned to take her four dogs for a stroll in the park during the weekend of 2023-08-19 to 2023-08-20. Audrey said the dogs love the park strolls and that the walks are good exercise for them and her.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Weekend plans",
+   "time": "2023-08-19..2023-08-20",
+   "sources": [
+    "D16:12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew planned to visit a nature reserve during the weekend of 2023-08-19 to 2023-08-20 to reconnect with the outdoors. Andrew said he would take photos to show Audrey afterward.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Weekend plans",
+   "time": "2023-08-19..2023-08-20",
+   "sources": [
+    "D16:13",
+    "D16:15"
+   ]
+  },
+  {
+   "type": "state",
+   "text": "Audrey and Andrew are conversation participants; no further identity details known. Audrey has four dogs: Pepper, Precious, Panda, and Pixie. As of 2023-07-03, all were three-year-old mixed breeds: two Jack Russell mixes and two Chihuahua mixes, with no breed-to-name mapping. Pixie took days to adjust and is especially close to Pepper. Audrey's tattoos reflect her bond with her dogs; on 2023-08-16 she got another tattoo of all four on her arm. Audrey enjoys nature and hiking with her dogs. On 2023-08-04 she said she started dog agility classes and practiced at a dog park twice weekly. On 2023-08-16 she said she'd like more dogs someday, but four are enough for now; she took them to the vet and plans to take them one at a time next visit. Pepper's favorite spot is the couch, Pixie's her bed. In August 2023 Audrey took a dog-grooming course and learned to groom her dogs; her advice is to go slowly and gently, mind sensitive areas like ears and paws, and stay patient and positive. A photo she shared on 2023-08-19 shows one dog standing on a table after grooming, but its identity is unspecified. Andrew referred to grooming his dog Toby. On 2023-08-18 Andrew visited a new cafe during a work break. On 2023-08-19 he shared a hike photo of a sunset over a mountain with a church on top. For the 2023-08-19..20 weekend, Audrey planned a park stroll with her dogs; Andrew planned to visit a nature reserve and take photos for Audrey.",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-08-19, Audrey shared a photo showing two dogs running in a field, each with a ball in its mouth; the dogs’ identities were not specified.",
+   "entities": [
+    "Audrey",
+    "dogs"
+   ],
+   "topic": "shared photo",
+   "time": "2023-08-19",
+   "sources": [
+    "D16:18"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-08-19, Andrew said he wanted to save the moment and would show Audrey the pictures when he returned.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "photos",
+   "time": "2023-08-19",
+   "sources": [
+    "D16:17",
+    "D16:19"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-08-19, Audrey told Andrew to take care and have fun, and said her dogs would be waiting too.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs",
+   "time": "2023-08-19",
+   "sources": [
+    "D16:18"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On the weekend of 2023-08-19 to 2023-08-20, Andrew went fishing with his girlfriend at a nearby lake. They caught a few fish and enjoyed the outing.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "Fishing",
+   "time": "2023-08-19..2023-08-20",
+   "sources": [
+    "D17:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-08-24, Audrey had never been fishing. Audrey had visited lakes simply to relax, including a peaceful lake in the mountains with friends a few years earlier.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Fishing and lakes",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey shared a photo from a lake trip with a friend. The photo showed a group of dogs standing on a rock near a lake.",
+   "entities": [
+    "Audrey",
+    "Audrey's friend",
+    "Audrey's dogs"
+   ],
+   "topic": "Shared photo",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:2"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said regular grooming keeps her dogs looking good and healthy: daily brushing, regular baths, nail trims, and lots of love.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog care and grooming",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey takes caring for her dogs seriously. She said the responsibility can be tough but is very rewarding, and caring for the dogs makes her happy.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog care and feelings",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said she loves her dogs, wants to make them as happy as possible, feels a strong bond with them, and considers herself lucky to have them; they mean the world to her.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Bond with dogs",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:8",
+    "D17:10"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew has a dog named Toby and hopes to develop a stronger bond with Toby. Andrew shared a photo of Toby sleeping in a dog bed on the floor.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Andrew's dog",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:9",
+    "D17:11"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey offered to give Andrew tips on caring for Toby if Andrew needs them.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Dog-care advice",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew has a dog named Toby. On 2023-08-24, Andrew shared a photo of Toby, a small dog sitting on a floor with a leash; Audrey said Toby looked happy.",
+   "entities": [
+    "Andrew",
+    "Toby",
+    "Audrey"
+   ],
+   "topic": "Toby",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:17",
+    "D17:18"
+   ]
+  },
+  {
+   "type": "advice",
+   "text": "On 2023-08-24, Audrey advised Andrew to give a bond time to form and not to rush it. Andrew thanked Audrey for the reminder and said he would try to figure things out on his own first.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Building a bond",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:13",
+    "D17:14",
+    "D17:15"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew plans to explore outdoors with Toby and is looking forward to their adventures together.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Outdoor activities",
+   "time": "2023-08-24",
+   "sources": [
+    "D17:20",
+    "D17:21"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-09-06, Andrew told Audrey that work had been tough and stressful, causing his outdoor activities to take a backseat, and that he was struggling to find balance.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "work stress and outdoor activities",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:1"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-09-06, Audrey encouraged Andrew to take care of himself, manage stress, and hang in there while dealing with demanding work and difficulty finding balance.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "support and stress",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-09-06, Andrew asked Audrey how she makes enough time for herself. Audrey said she makes sure to do at least one self-care activity each day, such as treating herself to something nice, and advised Andrew to take care of himself and have fun.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "self-care",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:3",
+    "D18:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew said that he had been adding simple activities to his day, such as getting morning coffee and taking a walk at lunch, which help him recharge and relax.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "self-care",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey organized a playdate for her dogs with the neighbors' dogs. She said seeing the dogs wag their tails and play together made her happy. A photo Audrey shared showed two dogs playing in a fenced-in area; the photo does not establish which dogs they were.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog playdate",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:6",
+    "D18:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "During the week before 2023-09-06, Audrey bought new beds for her dogs to provide extra comfort as the weather cooled. She said the dogs were happy with the beds. A photo Audrey shared showed a dog lying on a dog bed in a living room; it does not identify the dog by name.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog beds",
+   "time": "2023-08-28..2023-09-03",
+   "sources": [
+    "D18:10",
+    "D18:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her dogs love their new beds and curl up and snuggle in them as if they were in a cloud.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dog beds",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:14"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "During the weekend before 2023-09-06, Andrew went hiking to get away from the city and found it a relief. Andrew described the view in a shared photo as a beautiful sunset; the photo description showed a person on a mountain with a view of the city.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "hiking",
+   "time": "2023-09-02..2023-09-03",
+   "sources": [
+    "D18:15"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On 2023-09-06, Audrey asked Andrew whether he was planning to hike with Toby someday, indicating Toby is someone Audrey associates with Andrew; the exchange does not explicitly identify Toby as Andrew's dog.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "hiking with Toby",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:16"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew has a pet named Toby, who was still very young on 2023-09-06.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Pet",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:17"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "As of 2023-09-06, Andrew was still searching for a dog-friendly place to live and had not found one; he described the search as challenging and intended to keep looking for a suitable place for dogs.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Housing",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:18",
+    "D18:19",
+    "D18:21"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Audrey remembered Andrew had previously mentioned needing a dog-friendly place to live; she encouraged him to keep searching and reassured him that he would find a suitable place for his pet.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Housing support",
+   "time": "2023-09-06",
+   "sources": [
+    "D18:18",
+    "D18:20",
+    "D18:22"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-09-22, one of Audrey’s dogs pulled so hard at a park that the leash broke after the dog saw something. Audrey chased the dog and caught her before she could run off or get hurt. Audrey shared a photo of a red retractable leash with a black handle.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Dog leash broke at park",
+   "time": "2023-09-22",
+   "sources": [
+    "D19:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "After catching her dog at the park, Audrey petted and hugged her, spoke calmly, and slowly walked with her to help her relax. Audrey felt that experiences like this strengthened their bond. Audrey shared a photo of a dog lying on a bed with its head on a pillow. Andrew referred to the dog as Precious, and Audrey did not correct him.",
+   "entities": [
+    "Audrey",
+    "Precious"
+   ],
+   "topic": "Comforting Precious",
+   "time": "2023-09-22",
+   "sources": [
+    "D19:3",
+    "D19:4"
+   ]
+  },
+  {
+   "type": "advice",
+   "text": "Audrey said that building trust with dogs takes patience and regular training; people should give dogs time and love and praise their successes.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Building trust with dogs",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:5",
+    "D19:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey works on obedience with her dogs and teaches them tricks including sit, stay, shake, and roll over. She finds training fun and rewarding for both herself and the dogs.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog training",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:7",
+    "D19:8"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey takes her dogs for walks multiple times a day, describing the walks as exercise for the dogs and bonding time for her and them. She shared a photo of two dogs sitting beside each other on a beach.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog walks",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:9",
+    "D19:10"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey reiterated that all four of her dogs are mixed breeds: two are Jack Russell mixes and two are Chihuahua mixes. She believes some breeds bond better than others. She shared a photo of several dogs leashed together on a brick walkway.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs’ breeds and bonding",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:11",
+    "D19:12"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey said her dogs bring a great deal of joy into her life. She shared a photo of three small dogs sitting on a couch with white fur.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Audrey’s dogs",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:13",
+    "D19:14"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey has a small garden and said that caring for something like Andrew’s balcony flowers relaxes her and brings her peace. Andrew shared a photo of a balcony covered with flowers.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Gardening",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:15",
+    "D19:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-09-24, Audrey said her flowers were looking great and her vegetable patch was coming along. Audrey said it was fun to watch the plants grow and felt accomplishing.",
+   "entities": [
+    "Audrey",
+    "flowers",
+    "vegetable patch"
+   ],
+   "topic": "Gardening",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:18"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-09-24, Audrey shared a photo of a cactus plant with two white flowers.",
+   "entities": [
+    "Audrey",
+    "cactus",
+    "white flowers"
+   ],
+   "topic": "Gardening",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:18"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-09-24, Andrew complimented the flowers in Audrey’s shared photo and asked what kind they were; the kind was not identified in this exchange.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "flowers"
+   ],
+   "topic": "Gardening",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:19"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-09-24, Audrey said her flowers are Peruvian lilies, which she described as awesome, brightly colored, and having delicate petals.",
+   "entities": [
+    "Audrey",
+    "Peruvian lilies"
+   ],
+   "topic": "flowers",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:20"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-09-24, Audrey said Peruvian lilies are easy to care for: she waters them and makes sure they get enough sun.",
+   "entities": [
+    "Audrey",
+    "Peruvian lilies"
+   ],
+   "topic": "flower care",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:22"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-09-24, Audrey shared a photo depicting a dog lying on a wooden dock in a pond.",
+   "entities": [
+    "Audrey",
+    "dog"
+   ],
+   "topic": "shared photo",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:22"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-09-24, Audrey said her dogs enjoy the garden, running around, exploring, and having a good time. She shared a photo depicting two dogs running in a grassy field.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs and garden",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:24"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-09-24, Audrey said her dogs play only with her own dogs, not with other furry companions. She shared a photo depicting a dog and a teddy bear sleeping on a couch.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie",
+    "teddy bear"
+   ],
+   "topic": "dogs and companions",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:26"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-09-24, Audrey said her dogs make everything much better, mean everything to her, and she cannot imagine life without them; she described them as bringing her loads of love and happiness.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "bond with dogs",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:28",
+    "D19:30"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-09-24, Audrey shared a photo depicting three dogs sitting on a couch, with a laptop in the background.",
+   "entities": [
+    "Audrey",
+    "dogs",
+    "laptop"
+   ],
+   "topic": "shared photo",
+   "time": "2023-09-24",
+   "sources": [
+    "D19:28"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew and his girlfriend plan to go to the beach with Toby in November 2023. Andrew shared a photo of a sunset over the ocean with waves.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend",
+    "Toby"
+   ],
+   "topic": "Beach trip",
+   "time": "2023-11",
+   "sources": [
+    "D20:1"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey and Andrew are looking forward to going on a hike with Audrey's dogs together in November 2023; they said it has been a long time since they were all in nature together.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Hiking",
+   "time": "2023-11",
+   "sources": [
+    "D20:2",
+    "D20:3",
+    "D20:7"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey said that her dogs always put a smile on her face and that life is not the same without them. She enjoys being in nature, walking her dogs in a park to clear her mind and find peace, and exploring new trails with them; she finds nature outside the city refreshing. Audrey said things have been tough lately, and time outdoors helps.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs, nature, and wellbeing",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:2",
+    "D20:4",
+    "D20:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On Saturday, September 30, 2023, Audrey took her dogs to a nearby dog park with a large grassy play area and shaded places for her to relax. The dogs had a great time. Audrey shared a photo showing a group of dogs sitting on a lush green field.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dog park",
+   "time": "2023-09-30",
+   "sources": [
+    "D20:4",
+    "D20:5",
+    "D20:6"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey and Andrew enjoy nature and appreciate birds’ graceful, free flight. Audrey said she wishes she had the freedom birds have.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Birds and nature",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:9",
+    "D20:10",
+    "D20:11",
+    "D20:12",
+    "D20:13"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey wants to try birdwatching and said it sounds peaceful and calming. She is using a birdwatching guidebook and plans to check her schedule before getting back to Andrew about arranging a trip together. Andrew offered birdwatching advice and suggested they could go together. Audrey shared a photo of a birdwatching guidebook page featuring birds, including a bird.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Birdwatching",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:14",
+    "D20:15",
+    "D20:16",
+    "D20:17",
+    "D20:18",
+    "D20:19"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey shared a photo of binoculars beside a book, saying she should learn some common birds in her area. Andrew said he would bring binoculars and a notebook to log birds on their planned birdwatching trip; he shared a photo showing a pen, notebook, and camera. Andrew enjoys watching birds in nature and has read books about ecological systems.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Birdwatching preparation",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:20",
+    "D20:21",
+    "D20:22",
+    "D20:23"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew learned about animals, plants, and ecosystems from books and finds it fascinating how they work together.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Reading and nature",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:25"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew believes nature is interconnected and people should take care of it for future generations.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Environmental values",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:27",
+    "D20:29",
+    "D20:31"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey compared caring for nature to caring for a home and said people should preserve natural resources for future generations.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Environmental values",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:28",
+    "D20:30"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew asked Audrey whether she recycles and shared a photo of a trash can sitting in the middle of a park.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Recycling",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:31"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey recycles and considers recycling an important way to do her part for the environment.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Recycling",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:32"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew suggested reducing carbon footprints by biking or using public transport, noting that biking also trains the body. He shared a photo of a man riding a bike down a street.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Sustainable transportation",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:33",
+    "D20:35"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey usually takes public transport and thinks biking sounds like a fun way to reduce carbon emissions.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Sustainable transportation",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:34"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey would like to try biking sometime and asked Andrew about good routes nearby. Andrew said he enjoys routes near the river and offered to show Audrey the best routes in the area; Audrey eagerly agreed to check them out and enjoy the scenery.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Biking routes",
+   "time": "2023-10-01",
+   "sources": [
+    "D20:36",
+    "D20:37",
+    "D20:38",
+    "D20:39",
+    "D20:40"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Over the weekend before 2023-10-04, Audrey took her four dogs—Pepper, Precious, Panda, and Pixie—to the beach. Audrey said the dogs had a blast swimming and playing in the ocean.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs at the beach",
+   "time": "2023-09-30..2023-10-01",
+   "sources": [
+    "D21:2",
+    "D21:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-10-04, Andrew shared a photo from his last beach trip showing a person walking on the beach with a surfboard.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "shared beach photo",
+   "time": "2023-10-04",
+   "sources": [
+    "D21:3"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of 2023-10-04, Andrew had not been to the beach in a while. He used to hike often, but said his work-life balance and living in the city made it harder to find open spaces and spend time outdoors. Exploring nature had been an escape that brought him peace, and he felt a void without it.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "outdoors and nature",
+   "time": "2023-10-04",
+   "sources": [
+    "D21:5",
+    "D21:7"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "After Audrey suggested getting plants for his home or visiting a park on weekends, Andrew said he would look into getting more plants. He acknowledged that plants could bring peace, though he preferred being outside.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "plants and finding peace",
+   "time": "2023-10-04",
+   "sources": [
+    "D21:8",
+    "D21:9"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey offered Andrew help or advice about plants, saying that plants can make a home peaceful. Andrew thanked Audrey and said he would reach out if he needed help or advice.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "offering support",
+   "time": "2023-10-04",
+   "sources": [
+    "D21:10",
+    "D21:11"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On 2023-10-04, Andrew asked Audrey to say hi to her dogs for him; Audrey said she would.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "friendly relationship",
+   "time": "2023-10-04",
+   "sources": [
+    "D21:15",
+    "D21:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey previously had a knee injury that prevented her from walking her dogs. After she started walking again, she took a photo of two of her dogs running in a field with a ball in one dog’s mouth.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Knee injury and walking dogs",
+   "time": "",
+   "sources": [
+    "D22:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her dogs bring her a great deal of joy, and she felt great when she was able to walk them again after her knee injury. Audrey said the dogs seemed eager to go out and that dogs remind people to appreciate life’s little pleasures and see the world differently.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs and appreciating life",
+   "time": "2023-10-06",
+   "sources": [
+    "D22:1",
+    "D22:3"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey loves making jewelry from recycled materials, including bottle caps, buttons, and broken jewelry. She values creativity and sustainability and enjoys turning discarded objects into one-of-a-kind pieces with their own stories and appeal.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Recycled jewelry",
+   "time": "2023-10-06",
+   "sources": [
+    "D22:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Audrey shared a photo of a woman wearing a colorful necklace and earrings; Audrey described the necklace as one of her favorite pieces of jewelry made from recycled materials.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Recycled jewelry photo",
+   "time": "2023-10-06",
+   "sources": [
+    "D22:5"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey began making jewelry as a hobby and later started selling it. She donates a portion of her profits to an animal shelter that is important to her.",
+   "entities": [
+    "Audrey",
+    "animal shelter"
+   ],
+   "topic": "Jewelry business and charitable giving",
+   "time": "2023-10-06",
+   "sources": [
+    "D22:7",
+    "D22:9"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of October 6, 2023, Audrey could no longer volunteer at the animal shelter, but she continued supporting its work by donating part of her jewelry profits. Audrey said she was finding other ways to help and adapting to challenging circumstances.",
+   "entities": [
+    "Audrey",
+    "animal shelter"
+   ],
+   "topic": "Animal shelter support",
+   "time": "2023-10-06",
+   "sources": [
+    "D22:9",
+    "D22:10",
+    "D22:11"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey believes any hobby can make a positive impact when used well, and that it is important to adapt, stay strong, and keep helping others through difficult times.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "Making a difference",
+   "time": "2023-10-06",
+   "sources": [
+    "D22:9",
+    "D22:11",
+    "D22:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On Tuesday, 2023-10-10, Andrew, his girlfriend, and Andrew’s dog Toby had a fun night playing board games. Andrew described the evening as a nice break; he also referred to a Friday-night board-game session, without clarifying whether that was the same or a separate session.",
+   "entities": [
+    "Andrew",
+    "Toby",
+    "Andrew's girlfriend"
+   ],
+   "topic": "board games",
+   "time": "2023-10-10",
+   "sources": [
+    "D23:1",
+    "D23:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-10-13, Andrew planned to visit a cozy cafe over the weekend. He shared a photo of a group of people sitting around a table indoors.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "cafe outing",
+   "time": "2023-10-13..2023-10-15",
+   "sources": [
+    "D23:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-10-13, Audrey said she had recently made goodies to thank her neighbors for having pup-friendly homes. She shared a photo of a pan of cookies on a wooden table.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "neighbors and baking",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:2"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-10-13, Andrew recommended a newly opened spot with a good view and atmosphere, though he was unsure whether it was suitable for Audrey’s dogs. Andrew suggested getting coffee and taking it to a nearby dog park together; Audrey agreed that exploring new places is an adventure for her dogs.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "Audrey's dogs"
+   ],
+   "topic": "coffee and dog park",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:5",
+    "D23:6",
+    "D23:7",
+    "D23:8"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her four dogs love going to the dog park, socializing with other dogs, exercising, running, and sniffing around. They enjoy fetch and frisbee and can run for hours. Audrey shared photos showing a dog wearing a sweater in grass and two dogs playing frisbee in a field.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs and dog park",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:8",
+    "D23:10",
+    "D23:14"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said her dogs dislike snow and were confused when she took them to a snowy dog park the previous winter; they prefer sunny days in the grass. Audrey shared a photo of a dog wearing a shirt indoors on a hardwood floor.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs and weather",
+   "time": "2022-12-01..2023-02-28",
+   "sources": [
+    "D23:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew said his dog Toby is a German Shepherd, is very active, and loves cute sweaters. Andrew told a funny story about Toby excitedly chasing a squirrel around a tree while the squirrel watched from the branches. Andrew shared photos of a dog playing frisbee in a field and a dog sitting at a chessboard with a chess set in front of him.",
+   "entities": [
+    "Andrew",
+    "Toby"
+   ],
+   "topic": "Toby",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:1",
+    "D23:11",
+    "D23:13"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey said seeing her dogs happy fills her heart with joy. She described them as her little family and said she cannot imagine life without them because they make her smile and give her love and companionship. She shared a photo of a dog and a teddy bear sleeping on a couch.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Audrey's bond with her dogs",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:16",
+    "D23:18"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-10-13, Audrey said she had visited a tattoo parlor and added more drawings to the tattoo of her four dogs. She shared a photo showing a flower tattoo on a wrist; the conversation does not establish whether the flower was one of the new drawings.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "tattoo",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:18"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-10-13, Audrey said she currently has enough tattoos and might get another tattoo someday if she gets another dog.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "tattoos",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:20"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-10-13, Audrey shared a photo showing a woman with a dog-and-sunflowers tattoo; the conversation did not establish that the woman was Audrey or that the tattoo was hers.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "tattoos and shared photos",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:20"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-10-13, Audrey said her dogs bring her joy and that experiencing their unconditional love feels great.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs and feelings",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:22"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew said he lives in a city and misses nature. When he can, he visits nearby parks or goes hiking, which he finds peaceful and joyful. Andrew shared a photo of a woman walking up a steep hill with an ocean view; the photo was not identified as Andrew.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "nature and hiking",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:23"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-10-13, Audrey said life had been busy and she had not taken her dogs for a walk in a while. She enjoys taking them into nature and finds those moments relaxed and happy; she described her dogs as excellent companions for exploring outdoors.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs and outdoor activities",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:24"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-10-13, Audrey said she needed to go hiking with her dogs and expected it to feel therapeutic.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "hiking",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:26"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-10-13, Audrey recalled going on hiking trips with her dogs and described those memories as good times.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "hiking memories",
+   "time": "2023-10-13",
+   "sources": [
+    "D23:28"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-10-16, Audrey bought toys and other items for her four dogs at a pet store. Audrey said seeing the dogs excited when she brought the toys home made her realize how much she loves them and how much joy they bring her. Audrey shared a photo of a box filled with toys and other items.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "Dogs and pet toys",
+   "time": "2023-10-16",
+   "sources": [
+    "D24:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By 2023-10-19, Andrew had recently adopted a male puppy from a shelter and named him Buddy. Andrew said Buddy was doing well but was still adjusting to his new home and to Toby; Toby also needed time to get along with Buddy. Andrew shared a photo of a dog sitting on a couch with a bowl of food; the conversation does not explicitly identify the pictured dog as Buddy.",
+   "entities": [
+    "Andrew",
+    "Buddy",
+    "Toby"
+   ],
+   "topic": "Adopting Buddy",
+   "time": "2023-10-19",
+   "sources": [
+    "D24:2",
+    "D24:4",
+    "D24:5",
+    "D24:6"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew said pets bring happiness, joy, and companionship to people’s lives. Audrey agreed that her dogs bring her joy.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Pets and companionship",
+   "time": "2023-10-19",
+   "sources": [
+    "D24:1",
+    "D24:4"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Andrew enjoys taking Buddy for walks to spend time together and get fresh air. Andrew said Buddy enjoys exploring new hiking trails and showing interest in nature.",
+   "entities": [
+    "Andrew",
+    "Buddy"
+   ],
+   "topic": "Walking and hiking with Buddy",
+   "time": "2023-10-19",
+   "sources": [
+    "D24:7",
+    "D24:8",
+    "D24:10"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew said he planned to take Buddy and Toby to hiking trails together soon.",
+   "entities": [
+    "Andrew",
+    "Buddy",
+    "Toby"
+   ],
+   "topic": "Hiking with both dogs",
+   "time": "2023-10-19",
+   "sources": [
+    "D24:12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey and Andrew planned to hike together with their dogs in November 2023. Audrey said she would research and find a particularly good trail spot, ideally somewhere as appealing as a remote countryside location Andrew had shown. Andrew welcomed Audrey’s offer to look for a spot.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie",
+    "Buddy",
+    "Toby"
+   ],
+   "topic": "Joint dog hike",
+   "time": "2023-11",
+   "sources": [
+    "D24:13",
+    "D24:17",
+    "D24:18",
+    "D24:19",
+    "D24:20",
+    "D24:21",
+    "D24:22"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-10-19, Andrew shared a photo of a man walking a dog on a trail, a photo of a dirt road with a cow standing in the middle, and a photo of a red truck driving down a road through a field. Andrew said the countryside road was nowhere near the city and wished he could take his dogs somewhere like that; the photos’ exact locations and the identities of the pictured man and dog are unknown.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "Countryside and trail photos",
+   "time": "2023-10-19",
+   "sources": [
+    "D24:11",
+    "D24:14",
+    "D24:15",
+    "D24:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "During the week of 2023-10-16 to 2023-10-22, Audrey had an accident while playing with her dogs at a park and injured an arm, which was shown in a photo with the arm in a cast. Audrey said caring for her dogs with one arm was tricky but manageable, and that she was feeling better each day by 2023-10-24.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "arm injury and recovery",
+   "time": "2023-10-16..2023-10-22",
+   "sources": [
+    "D25:2",
+    "D25:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On the weekend of 2023-10-21 to 2023-10-22, Andrew and his girlfriend attended a wine tasting. Andrew said they tried many unique wines, learned a lot, and he was surprised by how much he enjoyed it; he described trying new things as a reminder to step outside his comfort zone.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "wine tasting",
+   "time": "2023-10-21..2023-10-22",
+   "sources": [
+    "D25:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By 2023-10-24, Andrew had recently tried a new sushi restaurant in town and enjoyed it. He had never tried sushi before and said he was curious to try it after hearing good things. Andrew shared photos of sushi, including a plate of sushi and vegetables, a tray with varied toppings, sushi with sauce, and a person eating sushi on a wooden board; the photos are not confirmed to show Andrew.",
+   "entities": [
+    "Andrew"
+   ],
+   "topic": "trying sushi",
+   "time": "2023-10-24",
+   "sources": [
+    "D25:3",
+    "D25:5",
+    "D25:9"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey said she loves sushi and enjoys its many types and flavors. On 2023-10-24, Audrey planned to order sushi for dinner after seeing Andrew's sushi photo; Audrey also shared photos of sushi plates, including sushi with vegetables, sauce, avocado, and shrimp.",
+   "entities": [
+    "Audrey"
+   ],
+   "topic": "sushi",
+   "time": "2023-10-24",
+   "sources": [
+    "D25:3",
+    "D25:4",
+    "D25:6",
+    "D25:8",
+    "D25:10",
+    "D25:14"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Audrey recommended that a sushi beginner start with a California roll or salmon roll, then try different sauces and dips. Audrey encouraged Andrew to experiment rather than limit himself to his comfort zone, and said he might need time to get used to sushi but would likely come to love it.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "sushi recommendations",
+   "time": "2023-10-24",
+   "sources": [
+    "D25:6",
+    "D25:8",
+    "D25:10",
+    "D25:12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew said he would try a California roll or salmon roll with different sauces, try more sushi, and take photos to show Audrey how his sushi adventure went.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "sushi plans",
+   "time": "2023-10-24",
+   "sources": [
+    "D25:7",
+    "D25:9",
+    "D25:11",
+    "D25:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-10-25, Audrey took her four dogs—Pepper, Precious, Panda, and Pixie—to an animal behaviorist because they had not been acting normally. The appointment was hectic at first; the behaviorist examined the dogs, asked questions, and gave Audrey tips and suggested routine changes to address their problems.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie",
+    "animal behaviorist"
+   ],
+   "topic": "dogs' behavior",
+   "time": "2023-10-25",
+   "sources": [
+    "D26:1",
+    "D26:3",
+    "D26:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "As of 2023-10-28, Audrey was using positive reinforcement and changes to her dogs’ routine based on the animal behaviorist’s advice. Audrey said Pepper, Precious, Panda, and Pixie seemed to be responding well and that she was seeing progress, though the problems were not fixed yet.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "dogs' behavior",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:5",
+    "D26:7"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey said her dogs mean everything to her, are very special to her, and that she is devoted to keeping them healthy and happy and wants the best for them.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "bond with dogs",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:9",
+    "D26:11"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-10-28, Audrey shared a photo described as showing two dogs running in a field with a ball in their mouths, having fun last summer. The photo was presented as a picture of her dogs, but the two dogs were not identified by name.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "shared photo",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:11"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-10-28, Audrey said all four of her dogs are mixed breeds: Pepper and Panda are Labrador mixes, while Precious and Pixie are Chihuahua mixes.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "dogs and breeds",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:13"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Andrew expressed sympathy about Audrey's dogs not acting normally, encouraged Audrey to continue her efforts, and wished Audrey and her dogs well.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "Pepper",
+    "Precious",
+    "Panda",
+    "Pixie"
+   ],
+   "topic": "support",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:2",
+    "D26:8",
+    "D26:10",
+    "D26:12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey and Andrew agreed to go hiking together with their dogs on Saturday, November 4, 2023. They planned to bring snacks and explore a dog-friendly trail near a lake with scenic views; the exact trail and location were not specified.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Audrey's dogs",
+    "Andrew's dog"
+   ],
+   "topic": "Hiking plan",
+   "time": "2023-11-04",
+   "sources": [
+    "D26:18",
+    "D26:19",
+    "D26:20",
+    "D26:21",
+    "D26:25",
+    "D26:26",
+    "D26:27",
+    "D26:28",
+    "D26:29"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Audrey and Andrew discussed visiting a nearby forest trail on a future trip to see the autumn colors and take photos with their dogs. They did not set a date.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Audrey's dogs",
+    "Andrew's dog"
+   ],
+   "topic": "Future hiking plan",
+   "time": "",
+   "sources": [
+    "D26:34",
+    "D26:35",
+    "D26:36",
+    "D26:37",
+    "D26:38"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew shared photos from previous outdoor outings: a man hiking up a mountain with a backpack, a man walking a dog on a leash, and Andrew with his dog on a trail. Andrew said the trail was nearby, dog-friendly, and had excellent views; he also said a lake was near it.",
+   "entities": [
+    "Andrew",
+    "Andrew's dog"
+   ],
+   "topic": "Hiking and photos",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:14",
+    "D26:16",
+    "D26:18",
+    "D26:26",
+    "D26:42"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey shared a photo of a dog lying on the ground with an ocean view, a photo of a lake with a boat and forest in the background that she found online, and a photo of a dog chasing another dog in a park. Andrew shared a photo of a dog eating from a bowl on the ground and a photo of a forest with yellow trees under a blue sky.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Shared photos",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:23",
+    "D26:27",
+    "D26:31",
+    "D26:32",
+    "D26:34"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Audrey and Andrew both enjoy spending time outdoors in nature with their dogs. Audrey said she feels lucky to have a friend like Andrew who shares her interest in exploring outdoors with dogs; both looked forward to the hike and making memories and taking photos with their dogs.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Audrey's dogs",
+    "Andrew's dog"
+   ],
+   "topic": "Outdoor interests and friendship",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:31",
+    "D26:32",
+    "D26:33",
+    "D26:37",
+    "D26:39",
+    "D26:40",
+    "D26:41",
+    "D26:43",
+    "D26:44",
+    "D26:45"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew said he was going on a picnic date with his girlfriend on Sunday, October 29, 2023.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "Personal plans",
+   "time": "2023-10-29",
+   "sources": [
+    "D26:20"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On 2023-10-28, Andrew said he was getting ready to head out soon and signed off; Audrey agreed to talk later.",
+   "entities": [
+    "Andrew",
+    "Audrey"
+   ],
+   "topic": "Leaving the conversation",
+   "time": "2023-10-28",
+   "sources": [
+    "D26:46",
+    "D26:47"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-11-04, Andrew said he and his girlfriend had gone on a bike ride and discovered a park outside town, enjoying time in nature away from the city. Andrew shared a photo of two people riding bikes on a paved path.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend"
+   ],
+   "topic": "Bike ride and park",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-11-04, Audrey said that the previous weekend had been fun for her and her four dogs, who got to run around and enjoy fresh air. Audrey shared photos of a group of people and dogs in a park.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Dogs and park outing",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:2",
+    "D27:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey recently joined a dog owners group to learn how to take better care of her dogs. She tries to meet other dog owners once a week to exchange tips and let the dogs play together.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Dog owners group",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:2",
+    "D27:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Andrew has two dogs, Toby and Buddy, and said that caring for two dogs already takes a lot of effort. After Audrey advised him to focus on keeping Toby and Buddy happy and healthy before considering another dog, Andrew agreed to take good care of his current dogs first.",
+   "entities": [
+    "Andrew",
+    "Toby",
+    "Buddy",
+    "Audrey"
+   ],
+   "topic": "Andrew's dogs and possible additional dog",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:5",
+    "D27:6",
+    "D27:7"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey advised Andrew that keeping dogs active is important when caring for them in the city, and recommended daily socialization and exercise as well as mental stimulation. Audrey shared a photo of two dogs playing with a frisbee in a park while reassuring Andrew that he did not need more dogs to make his dogs happy.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Toby",
+    "Buddy"
+   ],
+   "topic": "Dog care in the city",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:8",
+    "D27:9",
+    "D27:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey said she keeps her dogs entertained at home with toys and games; she shared a photo of a basket of stuffed animals on a wooden floor. Audrey also described using puzzles, training, and hide-and-seek for mental stimulation, and shared a photo of a dog playing with a frisbee indoors.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Dog enrichment activities",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:10",
+    "D27:14"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Audrey shared a photo of a dog running in a park with a tennis ball in its mouth, illustrating fetch as an activity her dogs enjoy.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Fetch",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew said he would try Audrey's suggestions for mentally stimulating his dogs, including puzzles, training, and hide-and-seek, and Audrey invited him to let her know how it went.",
+   "entities": [
+    "Andrew",
+    "Audrey",
+    "Toby",
+    "Buddy"
+   ],
+   "topic": "Dog enrichment activities",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:13",
+    "D27:14",
+    "D27:15",
+    "D27:16"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Audrey described Andrew and herself as friends, said their friendship meant a lot to her, and offered ongoing support with caring for his dogs. Andrew said Audrey's advice and support meant a lot to him.",
+   "entities": [
+    "Audrey",
+    "Andrew"
+   ],
+   "topic": "Friendship and support",
+   "time": "2023-11-04",
+   "sources": [
+    "D27:16",
+    "D27:17",
+    "D27:18"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On 2023-11-17, Audrey took her four dogs—Pepper, Panda, Precious, and Pixie—to a pet salon for grooming. The dogs were excited, wagging their tails, and took a while to calm down; they behaved well despite Audrey's worry about them being in a new place. Audrey said they looked cute with shiny coats and felt glad to see them happy and settled.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Dog grooming",
+   "time": "2023-11-17",
+   "sources": [
+    "D28:1",
+    "D28:3",
+    "D28:5"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-11-22, Audrey shared a photo while describing her dogs as freshly groomed. The visible image showed one dog standing on a table with a leash; Audrey described the dogs' coats as shiny and said they had behaved well at the salon.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Shared photo",
+   "time": "2023-11-22",
+   "sources": [
+    "D28:3"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On 2023-11-22, Audrey said the dogs' happiness and settling into new places meant she was doing a good job as a dog mom.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Dog ownership",
+   "time": "2023-11-22",
+   "sources": [
+    "D28:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Andrew said on 2023-11-22 that he and his girlfriend had recently adopted another dog, named Scout, after taking time to choose a name that suited Scout's adventurous spirit. Andrew shared a photo of a woman feeding a dog hay in a barn; the conversation presents it as a photo of the new dog, though the image description does not independently identify the dog.",
+   "entities": [
+    "Andrew",
+    "Scout",
+    "Andrew's girlfriend"
+   ],
+   "topic": "Dog adoption",
+   "time": "2023-11-22",
+   "sources": [
+    "D28:6",
+    "D28:7",
+    "D28:8"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Andrew planned to take Scout, Toby, and Buddy to a nearby small park for fresh air and fun. Andrew said Scout would stay leashed while getting used to being outdoors. Andrew and his girlfriend had obtained a bed, toys, and puppy pads to provide Scout with comfort, entertainment, and a safe space.",
+   "entities": [
+    "Andrew",
+    "Andrew's girlfriend",
+    "Scout",
+    "Toby",
+    "Buddy"
+   ],
+   "topic": "Introducing Scout to the outdoors",
+   "time": "2023-11-22",
+   "sources": [
+    "D28:10",
+    "D28:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-11-22, Audrey advised Andrew to start Scout's outings small, gradually increase Scout's exposure, keep Scout leashed, and introduce Scout to Toby and Buddy slowly so the dogs could get used to one another.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Scout",
+    "Toby",
+    "Buddy"
+   ],
+   "topic": "Dog introduction and safety",
+   "time": "2023-11-22",
+   "sources": [
+    "D28:11",
+    "D28:13"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-11-22, Audrey shared a photo of a dog running with a tennis ball in its mouth, which Andrew described as a cute picture of Audrey's dog at the park. The conversation did not identify which of Audrey's four dogs was pictured.",
+   "entities": [
+    "Audrey",
+    "Andrew",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Shared photo",
+   "time": "2023-11-22",
+   "sources": [
+    "D28:11",
+    "D28:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On 2023-11-22, Audrey said her dogs were doing well, exploring and meeting new people, and felt loved and safe. She said she was glad they were part of her life and family.",
+   "entities": [
+    "Audrey",
+    "Pepper",
+    "Panda",
+    "Precious",
+    "Pixie"
+   ],
+   "topic": "Dogs and family",
+   "time": "2023-11-22",
+   "sources": [
+    "D28:15",
+    "D28:17"
+   ]
+  },
+  {
+   "type": "state",
+   "text": "Audrey and Andrew are conversation participants; no further identity details are known. Audrey has four dogs: Pepper and Panda are Labrador mixes; Precious and Pixie are Chihuahua mixes. Pixie took days to adjust and is especially close to Pepper. Audrey's tattoos reflect her bond with her dogs; she got a tattoo of all four on her arm on 2023-08-16 and added drawings by 2023-10-13. Audrey enjoys nature and hiking with her dog. During the week of 2023-10-16, Audrey injured an arm in an accident while playing with her dogs at a park; on 2023-10-24 she had a cast and said recovery was improving. Audrey and Andrew planned a dog-friendly lakeside hike for 2023-11-04; location unspecified. They discussed a future autumn-color trail trip, date unspecified. On 2023-11-17 Audrey took Pepper, Panda, Precious, and Pixie to a pet salon; they were excited, behaved well, and were groomed. Andrew and his girlfriend recently adopted Scout, joining Toby and Buddy. They planned a small nearby-park outing with Scout leashed, and had a bed, toys, and puppy pads. Audrey advised gradual exposure and slow introductions to Toby and Buddy. Audrey shared an unidentified dog-at-park photo showing a dog running with a tennis ball. Andrew shared a photo described as a woman feeding a dog hay in a barn, presented as Scout's photo. Audrey said her dogs were happy, exploring, meeting people, loved, and safe.",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  }
+ ],
+ "segments": 50
+}

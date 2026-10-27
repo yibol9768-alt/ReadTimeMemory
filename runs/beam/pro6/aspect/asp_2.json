@@ -1,0 +1,335 @@
+{
+ "aspects": [
+  {
+   "name": "Scheduling and time zones",
+   "records": [
+    0,
+    1
+   ],
+   "first": "2024-03-15",
+   "digest": "Scheduling first came up on 2024-03-15: a meeting was set for 09:00 AM CET, with plans to convert and share local times. The assistant gave Sydney as 06:00 PM AEST (CET UTC+1, AEST UTC+10), but Sydney was observing AEDT (UTC+11), making the correct local time 07:00 PM."
+  },
+  {
+   "name": "Portfolio structure, content, and navigation",
+   "records": [
+    2,
+    3,
+    5,
+    18,
+    19,
+    27,
+    28,
+    55,
+    56,
+    57
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig, a Colour Technologist, began a single-page HTML5/CSS3/Bootstrap 5.3 portfolio for desktop, with About, Skills, Projects and Contact sections; skills listed HTML5, CSS3, Bootstrap, plus three placeholder projects and craig@example.com. He sought a centered six-item Flexbox gallery and a 150×150 circular profile image (45 KB). Latest direction: accessible, responsive Bootstrap 5.3 navbar using semantic HTML5, linking those sections; suggested structure also used main, sections, project articles and footer."
+  },
+  {
+   "name": "Portfolio styling and Sass",
+   "records": [
+    4,
+    20,
+    21,
+    22,
+    23,
+    24,
+    71,
+    72,
+    155,
+    133,
+    134,
+    135,
+    136,
+    137,
+    156,
+    157
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig considered Sass 1.56.1 for modular portfolio CSS and asked about reusable components; examples covered partials, variables, mixins, imports, compilation, and a project gallery. He also wanted a hex-to-five-shades palette tool and Bootstrap web version. 2024-04-10: sought consistent Bootstrap/custom form and button styling. 2024-05-03 review approved with naming comments; by May 5 he’d cut CSS from 450 to 320 lines, used Bootstrap 5.3.0, and was investigating critical CSS, PostCSS, and bundle size. Suggested `.cb-` prefixes; changes weren’t confirmed."
+  },
+  {
+   "name": "Semantic markup and SEO",
+   "records": [
+    6,
+    45,
+    88,
+    89
+   ],
+   "first": "2024-03-15",
+   "digest": "On 2024-03-15, Craig wanted correct semantic HTML5, especially header, section, and footer, to improve accessibility and SEO. The assistant suggested description, keywords, and author meta tags, using John Doe only as an example. On 2024-04-10, after adding a gallery and contact form, Craig asked about descriptions, keywords, and Open Graph tags and shared sample markup. The assistant suggested a fuller head with metadata, Open Graph fields, Bootstrap 5.3.0, and custom CSS; descriptions may aid click-through, keywords have less impact, and Open Graph controls social previews."
+  },
+  {
+   "name": "Bootstrap integration and upgrades",
+   "records": [
+    7,
+    48,
+    50,
+    60,
+    61,
+    138,
+    140
+   ],
+   "first": "2024-03-15",
+   "digest": "Bootstrap integration began 2024-03-15: Craig chose v5.3.0 via CDN for a responsive portfolio, targeting a combined bundle under 150KB and considering dynamic imports. On 2024-04-10, modal issues traced to Bootstrap 4 attributes/classes and deprecated `card-deck`; advice updated these for Bootstrap 5. On 2024-05-05, he tried v5.3.1 for an accessibility bug; replacing the CDN link caused issues, and the proposed fix retained incompatible jQuery modal code and had a centering typo."
+  },
+  {
+   "name": "Portfolio planning and project management",
+   "records": [
+    8,
+    11,
+    35,
+    36,
+    37,
+    38,
+    49,
+    53,
+    54,
+    82
+   ],
+   "first": "2024-03-15",
+   "digest": "On 2024-03-15, Craig planned a three-sprint, six-week portfolio MVP: responsive navbar, six-project gallery, and validated contact form. Sprint 1 was first due 2024-04-01, then changed to 2024-04-05 to allow accessibility work; Trello priorities and workflow were revised. By 2024-04-10, he was in Sprint 2, due 2024-04-20, prioritizing SEO basics and contact-form integration and validation."
+  },
+  {
+   "name": "Portfolio layout and responsive design",
+   "records": [
+    9,
+    10,
+    14,
+    15,
+    43,
+    44,
+    47,
+    58,
+    59,
+    111
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig worked on mobile-first portfolio columns at Bootstrap breakpoints; `.col-xs-12` was corrected to `.col-12`, then `.col-sm-6`, `.col-md-4`, `.col-lg-3`. He also debugged navbar expansion and responsive layout with DevTools and device emulation. 2024-04-10: For a three-card Bootstrap 5.3 gallery, advice covered row/column layout, `mb-4`, responsive images with `card-img-top`, and avoiding deprecated card-deck; `col-md-3` was suggested for four columns on medium screens and up."
+  },
+  {
+   "name": "Forms and validation",
+   "records": [
+    12,
+    13,
+    51,
+    52,
+    65,
+    66,
+    83,
+    92,
+    109,
+    115,
+    116,
+    125,
+    126
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig built vanilla-JS/HTML5 validation for name, email and message; server submission was initially TODO, then used `fetch` to `/submit`. Advice: separate validation/submission, clear custom errors and show feedback. 2024-04-10: Bootstrap validation gained field-specific checks; Craig explored Formspree, dynamic fields and reusable scripts. Test POST returned 200, but error handling remained. 2024-05-05: CSRF block; assistant recommended Flask-WTF tokens and `validate_on_submit()`."
+  },
+  {
+   "name": "Portfolio gallery and image handling",
+   "records": [
+    16,
+    17,
+    41,
+    42,
+    62,
+    63,
+    64,
+    76,
+    77,
+    94,
+    110,
+    112,
+    113,
+    175
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig aimed for portfolio images under 200 KB and a page load under 1.5s on 4G; discussed Pillow compression and simple native lazy loading. 2024-04-10: ImageOptim cut images from 300 to 180 KB and load time from 2.3 to 1.4s. Gallery grew to 10 cards; image 404s and a 400 ms modal delay prompted path checks and deferred modal-image loading. 2024-05-05: planned WebP and responsive srcset for prominent gallery images."
+  },
+  {
+   "name": "JavaScript and asset loading",
+   "records": [
+    25,
+    26,
+    67,
+    68,
+    69,
+    70
+   ],
+   "first": "2024-03-15",
+   "digest": "On 2024-03-15, Craig asked how to avoid null `classList` errors with Bootstrap 5.3.0 navbar elements; advice was to check for null, use optional chaining, and reserve try/catch for unexpected errors. On 2024-04-10, he reported `validateForm is not defined` despite trying several script paths. Guidance covered load order, linking paths relative to `index.html`, matching paths to the folder structure, and checking browser console errors. Actual structure was unspecified."
+  },
+  {
+   "name": "Accessibility",
+   "records": [
+    30,
+    31,
+    39,
+    40,
+    29,
+    73,
+    74,
+    75,
+    78,
+    79,
+    80,
+    81,
+    90,
+    91,
+    93,
+    108,
+    117,
+    127,
+    128
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig’s accessibility checklist covered semantic HTML, alt text, keyboard access and JS-disabled readability; peer-review guidance expanded to WCAG 2.1 AA forms, contrast, focus, tables, media and testing. 2024-04-02: Planned review. 2024-04-10: Worked on accessible Bootstrap modals and form validation; reported cross-browser focus-trap issues. Advised against positive tabindex, with focus management and trapping. 2024-05-05: Added skip link and focus styling; still had modal focus-visibility issues."
+  },
+  {
+   "name": "Site enhancements and tooling",
+   "records": [
+    32,
+    141,
+    164,
+    165
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig preferred Bootstrap 5.3.0 over Foundation for its documentation and community. 2024-05-05: He reported a portfolio favicon 404 despite trying relative and root paths; asked about smooth navigation and a scroll-to-top button, for which smooth CSS scrolling and JavaScript were recommended; and reported Font Awesome 6.4.0 icons missing, advised to use brand classes and verify the CDN stylesheet. No fix was confirmed."
+  },
+  {
+   "name": "portfolio website",
+   "records": [
+    33,
+    34
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig requested a responsive, single-page Bootstrap 5.3.0 portfolio with About, Skills, Projects, and Contact sections, an expand-lg navbar, six projects, and a validated contact form, designed for 1200×800 and smaller screens. The assistant provided a responsive example with Home and the requested section links, six placeholder cards, required name/email/message fields, and basic JavaScript submission handling."
+  },
+  {
+   "name": "Testing and code review",
+   "records": [
+    46,
+    114,
+    107,
+    144,
+    148,
+    174
+   ],
+   "first": "2024-03-15",
+   "digest": "2024-03-15: Craig planned Chrome 112/Firefox 110 manual responsive tests at 1200×800, 768×1024 and 360×640, covering layout, navigation, media, forms and typography. 2024-04-10–15: requested detailed debugging errors and prepared an accessibility/API peer review (Bootstrap modals, Formspree, WCAG 2.1 AA). 2024-05-05: debugged Cypress 12.3 tests; advice covered field typing, base-URL assertions, retrying modal checks, intercepts and screenshots. 2024-05-06–12: planned colleague review and ESLint/Stylelint checks."
+  },
+  {
+   "name": "Performance optimization and testing",
+   "records": [
+    84,
+    95,
+    96,
+    97,
+    118,
+    120,
+    145,
+    146,
+    147,
+    149,
+    150,
+    161,
+    171,
+    172,
+    176
+   ],
+   "first": "2024-04-10",
+   "digest": "Performance work began 2024-04-10: Craig targeted under 1.5 s on 4G and a bundle under 100 KB; images shrank from 300 to 180 KB, and he explored lazysizes gallery loading for a 350 ms initial-load reduction. By 2024-05-05, page size fell 1.8 to 1.2 MB, repeat load 1.2 s to 400 ms, and TTI 3.5 to 2.1 s. A 10-minute memory test found no leaks, but was not conclusive. Lighthouse, GTmetrix and WebPageTest were planned; no results yet. Report only measured figures."
+  },
+  {
+   "name": "Formspree integration and reliability",
+   "records": [
+    85,
+    86,
+    87,
+    99,
+    100,
+    103,
+    104,
+    105,
+    106,
+    158,
+    159,
+    160
+   ],
+   "first": "2024-04-10",
+   "digest": "On 2024-04-10, Craig tested Formspree with HTTP 200/250 ms but saw browser CORS errors; advice clarified that CORS must be allowed by the server. He sought Axios retries and 100% test reliability; advice covered up to three retries, logging, test coverage, and Nock mocks with delays. On 2024-05-05, intermittent 500s persisted: his handler bypassed retryFetch. Advice corrected Fetch retry and response.ok handling and proposed backoff and user feedback, but did not address duplicate POST risk or enforce the 5,000 ms cap."
+  },
+  {
+   "name": "Miscellaneous",
+   "records": [
+    98
+   ],
+   "first": "",
+   "digest": "Craig is a Colour Technologist from Port Michael building his first single-page portfolio with semantic, accessible, SEO-conscious responsive HTML5, CSS3, and Bootstrap 5.3.0. Sections: About, Skills, Projects, Contact; target desktop 1200×800. Skills: HTML5, CSS3, Bootstrap; email craig@example.com; project placeholders. Wants palette generator, five-column grid, hex-to-RGB, and Bootstrap version of Python/Tkinter tool. Sprint 1 deadline revised to 2024-04-05; deliverables navbar, six-item gallery, validated form. On 2024-04-10 working Sprint 2 due 2024-04-20: SEO and contact integration; considering Formspree API v2 instead of Flask; POST tested 200 in 250ms; performance goal <1.5s on 4G; gallery images reduced 300KB to 180KB with ImageOptim; asked about retries/error handling. On 2024-04-10 also asked about reusable validation for future forms; refactored gallery JS from 120 to 85 lines and sought WCAG 2.1 AA improvements; modal image loading delay 400ms and lazy-loading approaches; using/considering lazysizes v5.3.2, seeking 350ms initial-load reduction and bundle under 100KB."
+  },
+  {
+   "name": "Deployment, hosting, and domain setup",
+   "records": [
+    101,
+    102,
+    119,
+    142,
+    143,
+    162,
+    166,
+    167,
+    168,
+    169,
+    170
+   ],
+   "first": "2024-04-10",
+   "digest": "2024-04-10: Craig requested GitHub Actions deployment to GitHub Pages on `main`, using `peaceiris/actions-gh-pages` v2.4.1. By 2024-05-05, he reported the pipeline was set up with 99.9% uptime, but chose Netlify for built-in SSL and easier DNS, ahead of a planned May 10 launch. He configured `craigbaker.dev`, DNS, and a Let’s Encrypt certificate but was unsure how to verify ownership. His proposed Netlify build publishes `dist`; the last record suggests daily Netlify deployments with API-token and site-ID secrets."
+  },
+  {
+   "name": "Security headers and configuration",
+   "records": [
+    121,
+    122,
+    123,
+    124,
+    163
+   ],
+   "first": "2024-05-05",
+   "digest": "On 2024-05-05, Craig asked how to clear OWASP ZAP HTTP-header warnings; after manually setting headers failed, the assistant recommended Flask-Helmet and explained configuring security headers there while adding unrelated custom headers to Flask responses. It later showed an `Analytics-Header` example. That day Craig also reported Netlify build issues exposing `SENTRY_DSN` to Sentry v7.3.0; no resolution is recorded."
+  },
+  {
+   "name": "Analytics and measurement",
+   "records": [
+    129,
+    130,
+    131,
+    132,
+    173
+   ],
+   "first": "2024-05-05",
+   "digest": "2024-05-05: Craig wanted GA4 on his portfolio to track sessions and keep bounce rate below 40%, with anonymized IPs. The assistant showed a JavaScript setup, noting GA4 anonymizes IPs by default, and called his Python example hypothetical. It incorrectly advised creating a “Bounce” event and goal; for alerts above 40%, suggested Looker Studio/Sheets and a 15-minute Apps Script email check. Craig later reported bounce rate consistently below 35% after UX improvements."
+  },
+  {
+   "name": "Modal implementation and debugging",
+   "records": [
+    139
+   ],
+   "first": "2024-05-05",
+   "digest": "Craig shared modal code that initializes #myModal with jQuery's $('#myModal').modal({keyboard: true, backdrop: 'static'}), customizes .modal positioning and display in CSS, and sets the modal-dialog's margin-top on shown.bs.modal based on the window and modal heights. Bootstrap 5 does not provide the old jQuery modal plugin by default, so this initialization is incompatible unless an additional compatibility layer is used; Bootstrap 5's JavaScript Modal API should be used instead."
+  },
+  {
+   "name": "Cookie consent and privacy",
+   "records": [
+    151,
+    152,
+    153,
+    154
+   ],
+   "first": "2024-05-05",
+   "digest": "On 2024-05-05, Craig Baker asked how to audit explicit cookie consent for GDPR and show a consent banner on his portfolio. The advice covered persistent consent records, ISO timestamps, audit logs and clear Accept/Reject choices. A portfolio example used a fixed banner, checked for a `cookie_consent` cookie, and saved the choice and timestamp in cookies for 365 days."
+  }
+ ]
+}

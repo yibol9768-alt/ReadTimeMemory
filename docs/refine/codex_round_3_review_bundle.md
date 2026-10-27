@@ -1,0 +1,12 @@
+[Round 3 re-evaluation — final round]
+
+I revised the proposal again based on your round-2 review (round-2-review.md in /mnt/c/Users/liuyibo/Desktop/auto-llm-driving/ReadTimeMemory/docs/refine/).
+Key changes:
+1. Slot semantics fixed: one slot = one mutable proposition (a question with one answer at a time that can change or be stated inconsistently); event threads are explicitly out of scope (event ordering reported but not targeted). Stable IDs + canonical statement; encoder sees a bounded candidate table (embedding top-20 by similarity to the segment + 10 most recent); reuse/create rules; max 2 slots per record; entity disambiguation kept separate from truth adjudication; two-directional audit (split and merge rates).
+2. Packing contract made honest: only complete chains that fit are admitted (skip-and-continue, exclusions reported); conditional guarantee stated; metadata counted in budget; utterance vs event time separated; endpoint fallback removed.
+3. Related work rewritten with TRACE, Graphiti/Zep, Mem0, LeanMem, TOKI; claim narrowed to "a minimal proposition-key interface without write-time validity is sufficient on BEAM and not worse (better on contradictions) than write-time validity labeling", to be shown, not asserted.
+4. Validation on ONE frozen slot-annotated ledger with identical planning and seed ranking: A seed-flat, B closure-flat, C CCR chains (same IDs as B), D write-time validity labels (TRACE/Graphiti-like, history retained), E latest-only (labeled lossy ablation), F generic compression over B's expanded set with the same metadata; identical reader prompt for all; 3 generations, clustered paired tests, token accounting incl. registry tokens; explicit stop gate (C-A < +3 and no contradiction gain => abandon CCR).
+
+Revised proposal path: /mnt/c/Users/liuyibo/Desktop/auto-llm-driving/ReadTimeMemory/docs/refine/round-2-refinement.md
+
+Please re-score the same 7 dimensions and overall (same weights), state anchor preserved/drifted, whether the contribution is sharper, simpler/overbuilt, frontier leverage, and give your honest view on whether this can be a method-first ICML main-track paper if the results come out positive, or whether it is more likely a strong workshop/analysis paper. Same output format: scores, overall, verdict (READY/REVISE/RETHINK), drift warning, simplification, modernization, remaining action items. Read-only; do not modify files.

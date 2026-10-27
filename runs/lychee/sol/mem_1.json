@@ -1,0 +1,3244 @@
+{
+ "records": [
+  {
+   "type": "event",
+   "text": "Jon lost Jon's job as a banker on 19 January 2023.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "employment loss",
+   "time": "2023-01-19",
+   "sources": [
+    "D1:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina lost Gina's job at Door Dash during January 2023, on or before 20 January 2023.",
+   "entities": [
+    "Gina",
+    "Door Dash"
+   ],
+   "topic": "employment loss",
+   "time": "2023-01-01..2023-01-20",
+   "sources": [
+    "D1:3"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "After losing a banking job, Jon decided to start a business: a dance studio where Jon could share a passion for dancing and teach others the joy dancing brings Jon.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "dance studio business",
+   "time": "2023-01-20",
+   "sources": [
+    "D1:2",
+    "D1:4",
+    "D1:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon has been interested in dancing since childhood and considers dancing a passion and an escape.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "personal connection to dance",
+   "time": "",
+   "sources": [
+    "D1:6"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Gina uses dance as a go-to activity for stress relief.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "dance and stress relief",
+   "time": "",
+   "sources": [
+    "D1:7"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Jon loves all dance styles, but contemporary dance is Jon's favorite because Jon finds contemporary dance expressive and powerful.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "favorite dance style",
+   "time": "",
+   "sources": [
+    "D1:8"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Gina's favorite dance style is contemporary dance; Gina finds contemporary dance expressive and graceful and feels contemporary dance speaks to Gina.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "favorite dance style",
+   "time": "",
+   "sources": [
+    "D1:9"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon suggested attending a dance class with Gina, and Gina agreed to explore new dance moves. Gina and Jon agreed to a dance session on Friday, 27 January 2023, when Jon offered to show Gina Jon's dance moves. Both expressed enthusiasm about the session.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "shared dance session",
+   "time": "2023-01-27",
+   "sources": [
+    "D1:10",
+    "D1:11",
+    "D1:12",
+    "D1:13",
+    "D1:14"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared a photograph showing a man in a suit performing a dance. The man in the photograph was not explicitly identified.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "shared dance photograph",
+   "time": "2023-01-20",
+   "sources": [
+    "D1:14"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon's dance crew won first place in a local dance competition in 2022. Jon identified the previously shared photo of an unidentified man in a suit dancing as a photo from that competition. Jon remembered being on stage as amazing and wanted to share that intensity with other people.",
+   "entities": [
+    "Jon",
+    "Jon's dance crew"
+   ],
+   "topic": "Dance competition victory",
+   "time": "2022-01-01..2022-12-31",
+   "sources": [
+    "D1:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina previously participated in several dance competitions and shows. Gina's favorite memory was winning first place with Gina's team at a regional competition when Gina was fifteen; Gina described the victory as an awesome feeling of accomplishment. The team's winning performance was an emotional and powerful contemporary piece titled \"Finding Freedom.\" The calendar date of the competition is unknown.",
+   "entities": [
+    "Gina",
+    "Gina's dance team",
+    "Finding Freedom"
+   ],
+   "topic": "Gina's dance history and favorite achievement",
+   "time": "",
+   "sources": [
+    "D1:17",
+    "D1:19"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina shared a photo showing a couple of people standing next to each other while discussing Gina's team's regional dance competition victory.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Shared dance-related photo",
+   "time": "2023-01-20",
+   "sources": [
+    "D1:17"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina shared a photo showing a large open porch with a fireplace and a view of the water while discussing the contemporary dance piece \"Finding Freedom.\"",
+   "entities": [
+    "Gina",
+    "Finding Freedom"
+   ],
+   "topic": "Shared waterfront porch photo",
+   "time": "2023-01-20",
+   "sources": [
+    "D1:19"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Jon's ideal dance studio is by the water. Jon shared a photo of a room with an ocean view and a few yoga mats as an example of the ideal studio. Jon hoped to find a similarly inspiring place. Gina liked the setup and especially the view.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Ideal waterfront dance studio",
+   "time": "2023-01-20",
+   "sources": [
+    "D1:20",
+    "D1:21",
+    "D1:22"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon rehearsed after work with a small group of dancers. Jon's group practices multiple dance styles, including contemporary and hip-hop.",
+   "entities": [
+    "Jon",
+    "Jon's dance group"
+   ],
+   "topic": "Dance rehearsals and styles",
+   "time": "",
+   "sources": [
+    "D1:24"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "As of January 20, 2023, Jon's dance group had several projects in progress and was finishing choreography for a performance at a nearby festival in February 2023. Jon was excited about the performance and glad to be involved.",
+   "entities": [
+    "Jon",
+    "Jon's dance group"
+   ],
+   "topic": "Upcoming festival performance",
+   "time": "2023-02-01..2023-02-28",
+   "sources": [
+    "D1:24",
+    "D1:28"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared a photo of a group of dancers wearing white dresses on a stage and confirmed that the pictured dancers would perform at the upcoming February 2023 festival. Jon said the dancers had practiced hard and would impress with grace and skill. Gina described the dancers as graceful and looked forward to seeing the festival performance.",
+   "entities": [
+    "Jon",
+    "Gina",
+    "Jon's dance group"
+   ],
+   "topic": "Festival dancers photo and encouragement",
+   "time": "2023-01-20",
+   "sources": [
+    "D1:24",
+    "D1:25",
+    "D1:26",
+    "D1:27"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By January 29, 2023, Gina had started a clothing store and had just launched an advertising campaign to grow the business. Gina shared a photo of a clothing store with a variety of clothes on display.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing store and advertising",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:1"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina found starting a clothing store and taking risks both scary and rewarding. Gina was excited about the store's future and delighted to see Gina's vision become reality.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Feelings about entrepreneurship",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:1",
+    "D2:3"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon thought Gina's clothing store looked great, congratulated Gina, and said Gina's hard work had paid off.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Support for Gina's store",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:2"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "As of January 29, 2023, Jon was still searching for the ideal location for a dance studio, evaluating different places and imagining the studio layout. Jon had found a potential downtown location with great natural light and easy access, but still needed to check the space's size and floor quality.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio location search",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:4",
+    "D2:6"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon visited Paris on January 28, 2023, and described the visit as very cool. While discussing the studio search and Paris visit on January 29, 2023, Jon shared a photo of a bathroom with a blue floor and a pink wall; the bathroom's location was not specified.",
+   "entities": [
+    "Jon",
+    "Paris"
+   ],
+   "topic": "Paris visit and shared photo",
+   "time": "2023-01-28..2023-01-29",
+   "sources": [
+    "D2:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of January 29, 2023, Gina had never visited Paris and had visited Rome once; the date of Gina's Rome visit was unspecified.",
+   "entities": [
+    "Gina",
+    "Paris",
+    "Rome"
+   ],
+   "topic": "Travel history",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:5"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Jon wanted a dance floor with enough bounce for Jon and Jon's students to dance safely. Jon preferred Marley flooring for the planned dance studio because Marley provides grip while allowing movement, is durable, and is easy to clean.",
+   "entities": [
+    "Jon",
+    "Marley flooring"
+   ],
+   "topic": "Dance studio flooring",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:6",
+    "D2:8"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina believed dance floors help prevent injuries and make dancing more enjoyable. Gina endorsed Marley flooring for its balance of grip and movement and looked forward to seeing Jon's completed dance studio.",
+   "entities": [
+    "Gina",
+    "Jon",
+    "Marley flooring"
+   ],
+   "topic": "Dance flooring and studio encouragement",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:7",
+    "D2:9"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon felt both excited and nervous about finding a dance studio location and preparing the studio, but was determined to make the project work and believed the effort would be worthwhile.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Feelings about opening a dance studio",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:10"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Gina and Jon supported each other's entrepreneurial goals on January 29, 2023. Gina encouraged Jon to believe in Jon's abilities, persevere, take breaks, and dance to relieve stress. Jon appreciated Gina's support, acknowledged the need to make time to dance and vent, and encouraged Gina to persevere. Both expressed optimism about achieving their goals.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Mutual support and stress relief",
+   "time": "2023-01-29",
+   "sources": [
+    "D2:11",
+    "D2:12",
+    "D2:13",
+    "D2:14",
+    "D2:15",
+    "D2:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On February 1, 2023, Jon said pursuing dance had been bumpy but Jon remained determined to make the pursuit work and was still searching for a location to open a dance studio.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio search and dance career",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:1"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina expressed happiness that Jon was continuing to pursue dance and called Jon's persistence inspiring.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Support for Jon's dance career",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina emailed several wholesalers, and one wholesaler replied with a yes on February 1, 2023. Gina was over the moon because the response would allow Gina to expand Gina's clothing store and get closer to customers.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing store expansion",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina shared a photograph of a shopping mall with a glass entrance and a sign while discussing Gina's clothing store expansion. Jon called the location the perfect spot for Gina's store and said Gina's hard work was paying off; Gina agreed that the location was great.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Clothing store location and shared photo",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:2",
+    "D3:3",
+    "D3:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared a photograph of a room with a mirror and a wooden floor on February 1, 2023. Jon did not explicitly identify the room or its location.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared room photo",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:3"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina designed a space for Gina's clothing store and described the space as cozy and inviting, suited to customers browsing trendy clothing. Gina shared a photograph of a clothing store with many clothes on display as a peek at the designed space.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing store design and shared photo",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina spent time designing Gina's clothing store to reflect Gina's own style and make customers feel cozy. Gina selected furniture for both appearance and comfort and chose a chandelier that adds glamour while matching the store's style.",
+   "entities": [
+    "Gina",
+    "Gina's clothing store"
+   ],
+   "topic": "Store interior design",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:5",
+    "D3:6"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Gina wants Gina's clothing store to be comfortable and inviting, like a cool oasis, and to offer a special shopping experience that encourages customers to return. Gina considers creating this experience challenging but is willing to work hard on it.",
+   "entities": [
+    "Gina",
+    "Gina's clothing store"
+   ],
+   "topic": "Customer experience goals",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:8",
+    "D3:10"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon praised the appearance of Gina's clothing store and thought customers would feel comfortable there. Jon believes a special customer experience helps customers feel welcome and encourages repeat visits, and expressed confidence that Gina can create the space Gina imagines.",
+   "entities": [
+    "Jon",
+    "Gina",
+    "Gina's clothing store"
+   ],
+   "topic": "Support for Gina's store",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:5",
+    "D3:7",
+    "D3:9"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Jon and Gina encouraged each other in pursuing Gina's clothing store and Jon's dance studio. Jon promised ongoing support, which Gina said means a lot. Gina encouraged Jon to stay positive and persist, and Jon said Gina's encouragement means a lot. Jon reported staying positive and pushing forward and expressed confidence that both would achieve the dreams into which both had put their hearts.",
+   "entities": [
+    "Gina",
+    "Jon",
+    "Gina's clothing store",
+    "Jon's dance studio"
+   ],
+   "topic": "Mutual encouragement",
+   "time": "2023-02-01",
+   "sources": [
+    "D3:10",
+    "D3:11",
+    "D3:12",
+    "D3:13",
+    "D3:14"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On February 4, 2023, Gina reported that Gina's clothing store was doing great and described running the store as a wild ride.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "clothing store progress",
+   "time": "2023-02-04",
+   "sources": [
+    "D4:2"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On February 4, 2023, Jon was putting substantial work into Jon's dance-studio business despite obstacles. Finding a suitable dance studio location remained difficult, but Jon was determined to find the right spot and believed the rest of the business would follow.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "dance studio business and location search",
+   "time": "2023-02-04",
+   "sources": [
+    "D4:3",
+    "D4:9"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Gina offered Jon full support through business setbacks, praised Jon's skills, passion, drive, and commitment, and encouraged Jon not to give up. Jon said Gina's encouragement meant a lot, helped Jon cope with setbacks, and strengthened Jon's determination to pursue Jon's dreams.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "friendship and encouragement",
+   "time": "2023-02-04",
+   "sources": [
+    "D4:4",
+    "D4:5",
+    "D4:6",
+    "D4:7",
+    "D4:8",
+    "D4:10",
+    "D4:15",
+    "D4:16",
+    "D4:18",
+    "D4:19"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On February 4, 2023, Jon was developing new dance routines and rehearsing hard for an upcoming performance while also working on Jon's business. Jon described dancing as a passion that brought Jon great joy and fulfillment.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "dance practice and fulfillment",
+   "time": "2023-02-04",
+   "sources": [
+    "D4:11"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On February 4, 2023, Jon shared a photo showing a woman in a gray dress performing a trick. The woman's identity and the photo's location were not specified. Gina responded by praising Jon's talent and asking about Jon's planned show.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "shared dance photo",
+   "time": "2023-02-04",
+   "sources": [
+    "D4:11",
+    "D4:12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "As of February 4, 2023, Jon was preparing for a dance competition near Jon's location in March 2023. Jon was very excited about the opportunity to demonstrate Jon's skills and hoped to earn recognition from the dance community. Gina expressed confidence in Jon's hard work and talent and wished Jon good luck.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "March dance competition",
+   "time": "2023-03-01..2023-03-31",
+   "sources": [
+    "D4:13",
+    "D4:14"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina found a cool new fashion piece for Gina's clothing store and was excited to share the piece with customers. Gina shared a photo of a group of women posing with a giant balloon; the photo did not identify the fashion piece.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing store and shared photo",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By February 8, 2023, Jon had performed at the previously mentioned festival. Jon described the performance as awesome, with many attendees complimenting Jon's dance moves. The experience reminded Jon why Jon is passionate about dancing and how much joy dancing brings Jon. The exact performance date was not stated.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Festival dance performance",
+   "time": "",
+   "sources": [
+    "D5:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared a photo of a group of young girls in a dance studio. Gina responded that the scene looked great and that Jon looked badass on stage, although the supplied photo description did not identify Jon or describe a stage.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Dance photo and encouragement",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:2",
+    "D5:3"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Jon said Jon loves running Jon's own dance studio, particularly the freedom to create a space where dancers of all ages and levels can express themselves. Jon finds dancing every day and seeing students progress thrilling and fulfilling.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Running a dance studio",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina had been working hard on Gina's online clothing store and had teamed up with an unnamed local artist to create new designs. Gina shared a photo of a clothing rack with a coat and a dress.",
+   "entities": [
+    "Gina",
+    "unnamed local artist"
+   ],
+   "topic": "Online store design collaboration",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:5"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina's new clothing designs were inspired by a fashion magazine. Gina noticed few similar designs were available and collaborated with a local artist to bring the idea to life. Gina aims to stay ahead of trends and offer customers something different.",
+   "entities": [
+    "Gina",
+    "unnamed local artist"
+   ],
+   "topic": "Fashion design inspiration and strategy",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:7"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon admired Gina's business commitment and creativity, willingness to take risks, readiness to tackle challenges, and desire to try new things. Jon found Gina's approach inspiring.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Admiration for Gina's entrepreneurship",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:6",
+    "D5:8"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina considers taking risks scary but necessary for growth and part of the journey to success. Jon agreed that taking risks is key to success and said risk-taking had helped Jon grow and leave Jon's secure nine-to-five banking job.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Risk-taking and career change",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:9",
+    "D5:10"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon is determined to turn Jon's passion for dancing into a business. Jon acknowledged that the process has been difficult and said Jon would keep working and remain optimistic.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance business ambitions",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:10",
+    "D5:12"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Gina reassured Jon that starting a business is tough but that Jon can make the dance studio work, and promised continued support. Jon said Gina's help means a lot.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Support for Jon's dance studio",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:11",
+    "D5:12"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared an image of a cartoon character with a quote about fear. The exact quote was not provided. Gina said the quote had kept Gina positive through tough times and that Gina had gotten a tattoo as a reminder of the quote; the tattoo's wording, design, and location were not specified.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Fear quote and Gina's tattoo",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:12",
+    "D5:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina shared a photo of a woman standing on a balcony wearing a blue dress. The woman's identity was not specified, and the photo description did not mention a visible tattoo.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Shared balcony photo",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:13"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina acquired Gina's tattoo a few years before February 8, 2023; the exact date is unknown. The tattoo stands for freedom, particularly dancing without worrying about what other people think, and reminds Gina to follow Gina's passions and express herself.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Tattoo meaning and history",
+   "time": "",
+   "sources": [
+    "D5:14",
+    "D5:15"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon values freedom and self-expression without worry and describes dance as an escape that allows Jon to be himself. Gina agrees that dancing enables self-expression and gives an incomparable feeling.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Dance and self-expression",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:16",
+    "D5:17"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared a photo of a woman in a tutu posing for a picture. The woman's identity was not specified.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared dance photo",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:16"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Gina finds Jon's dedication to Jon's dance studio inspiring and encourages Jon to pursue Jon's dreams. Jon says Gina's support and pep talk mean a great deal and appreciates having Gina in Jon's corner. Gina affirms being there for Jon and emphasizes pursuing dreams and helping each other.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Mutual encouragement and support",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:17",
+    "D5:18",
+    "D5:21",
+    "D5:22",
+    "D5:23"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon intends to continue working hard toward making Jon's passion for dance a success and refuses to give up on dreams involving Jon's dance studio and business ventures.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio and business ambitions",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:18",
+    "D5:22"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared a photo of a trophy with a glass globe on top. Jon did not specify the trophy's owner or the award represented.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared trophy photo",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:18"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon finds balancing dancing and running Jon's business tricky but rewarding and fun. Both require hard work and energize each other: dancing motivates Jon to tackle business goals, while business successes strengthen Jon's drive to keep pursuing dance dreams.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Balancing dance and business",
+   "time": "2023-02-08",
+   "sources": [
+    "D5:19",
+    "D5:20"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon started going to the gym during the week of March 6–12, 2023, to stay on track with Jon's dance-business venture.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Gym and dance business",
+   "time": "2023-03-06..2023-03-12",
+   "sources": [
+    "D6:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 16, 2023, Jon described life as hectic and said Jon was still figuring out how to balance gym attendance and the dance-business venture, but things were going well.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Work-life balance",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 16, 2023, Gina said Gina had been experiencing tough times since losing the Door Dash job.",
+   "entities": [
+    "Gina",
+    "Door Dash"
+   ],
+   "topic": "Job loss and hardship",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:2",
+    "D6:4"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On March 16, 2023, Jon expressed sympathy for Gina's difficulties and offered to help; Gina thanked Jon and appreciated the offer.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Mutual support",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:3",
+    "D6:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 16, 2023, Gina announced having good news to share but did not yet disclose the news. Jon responded enthusiastically and said Jon could not wait to hear it.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Undisclosed good news",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:4",
+    "D6:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 16, 2023, Gina announced that Gina's online clothing store was open, fulfilling a long-held dream. Gina was excited to see what would happen and shared a photo of a computer screen showing a book and a pair of shoes.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Online clothing store launch",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:6"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Gina is passionate about fashion trends and finding unique pieces. Gina started an online clothing store to blend Gina's love of dance with Gina's love of fashion.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Fashion interests and store inspiration",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 16, 2023, Jon congratulated Gina on opening Gina's online clothing store, praised the combination of dance and fashion, and wished Gina success. Jon shared a photo of three young girls standing next to each other with trophies; the girls' identities and the trophies' awards were not specified.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Store congratulations and trophy photo",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:7",
+    "D6:9"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On March 16, 2023, Jon said losing Jon's job had been hard, but Jon felt Jon was now living Jon's dreams by starting a business. Starting the business had been tough and brought continuing new challenges, but Jon was determined to succeed and believed the effort would be worthwhile. Jon shared a photo of a laptop computer on a table.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Business challenges and determination",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:11"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On March 16, 2023, Gina described starting and running Gina's own business as having ups and downs but being an amazing ride.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Experience of entrepreneurship",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:12"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On March 16, 2023, Jon said Gina's success and determination inspired Jon to keep pushing forward. Gina found Jon's words encouraging and was glad Gina's journey inspired others. Gina and Jon valued mutual support while pursuing different business paths and facing similar challenges; Jon compared the support to having a dance partner.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Mutual encouragement in business",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:13",
+    "D6:14",
+    "D6:15",
+    "D6:16"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 16, 2023, Gina and Jon agreed to keep pursuing their dreams, supporting each other, celebrating achievements, and striving for success together.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Continued mutual support",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:17",
+    "D6:18",
+    "D6:19"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 16, 2023, Jon thanked Gina for supporting Jon and toasted taking on new heights and accompanying trials. Jon shared a photo of two glasses of champagne with a bottle of wine in the background.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Celebratory toast photo",
+   "time": "2023-03-16",
+   "sources": [
+    "D6:19"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 23, 2023, Gina described running Gina's online clothing store as a roller coaster but rewarding. Gina said the store was going well and required a lot of work, which Gina was really enjoying.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Online clothing store progress",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:2",
+    "D7:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina keeps up with fashion trends to offer the best clothing pieces to customers of Gina's online clothing store.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing store product selection",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:4"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina believes starting a business takes courage and encouraged Jon to hang in there with Jon's business.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Business encouragement",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 23, 2023, Jon said building Jon's business had been tough but expressed determination to make it happen. Jon praised Gina's work with Gina's online clothing store, and Gina appreciated Jon's kind words.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Business progress and mutual support",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:3",
+    "D7:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 23, 2023, Gina asked Jon for advice or tips on running a successful business.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Business advice request",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:4"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon advised Gina that a distinctive brand identity, strong customer relationships that demonstrate care, positivity, and motivating others are important for Gina's online clothing store; Jon believes positive energy is contagious.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Business advice for Gina's clothing store",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:5"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina said Gina continually works on building customer relationships and creating a strong brand image for Gina's online clothing store, and agreed that staying positive is key.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing store brand and customer relationships",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon is motivated to run Jon's dance studio by seeing students succeed and by helping students learn and reach goals. Jon also said Gina's support means a lot and helps Jon stay motivated.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Dance studio motivation",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:7",
+    "D7:9",
+    "D7:11",
+    "D7:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared a photograph showing a group of women doing a dance routine, describing the photograph as showing Jon's group during a dance class. Individual people in the photograph were not identified.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared dance class photograph",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:7"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Gina expressed happiness about supporting Jon's dance studio journey and dreams, promised continued encouragement, and urged Jon to believe in Jon's abilities and never give up, even during difficulties. Jon expressed gratitude, said Gina's support made a huge difference, and said Gina's words motivated Jon to keep going.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Gina's encouragement and Jon's gratitude",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:8",
+    "D7:9",
+    "D7:10",
+    "D7:11",
+    "D7:12",
+    "D7:13",
+    "D7:14",
+    "D7:15",
+    "D7:16",
+    "D7:17"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon committed to continuing with Jon's dance studio business rather than quitting and to continuing to believe in Jon's abilities.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Persistence with dance studio business",
+   "time": "2023-03-23",
+   "sources": [
+    "D7:15",
+    "D7:17"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By April 3, 2023, Jon had shut down Jon's bank account for the sake of Jon's business. Jon found the decision difficult but believed closing the account would help the business grow; adapting to the changes was hard, but Jon was staying positive and looking ahead.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Business finances and resilience",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:1",
+    "D8:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina introduced new offers and promotions at Gina's online clothing store to attract new customers. On April 3, 2023, Gina reported that customers loved the offers and promotions, sales were increasing, and people seemed to like Gina's designs. Starting the business had been a wild ride, but Gina was determined not to give up.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Online clothing store progress",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:4",
+    "D8:10"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Gina uses dance for stress relief and finds that fashion fuels Gina's creativity. Discovering new trends for Gina's online clothing store motivates Gina to keep growing, and Gina continually searches for unique, trendy pieces.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Dance, fashion, and motivation",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:6",
+    "D8:10"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina shared a picture described as Gina's favorite dance session on April 3, 2023. The photo showed a man and a woman doing a yoga pose; neither person's identity was specified.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Shared dance-session photo",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina combines Gina's passions for dance and fashion in Gina's clothing business to express creativity and share those passions with others. This combination also allows Gina to add dance-inspired items to the online store.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing store creative direction",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:8"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On April 3, 2023, Gina said growing the online clothing store's customer base was Gina's main focus. Gina was considering collaborations with fashion bloggers and influencers over the next few months after April 3, 2023, and planned to run more advertisements to reach more people. Gina wanted the store to become a top destination for fashion fans and felt excited to see the business coming together.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing store marketing plans",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:10",
+    "D8:12"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 3, 2023, Jon was expanding Jon's dance studio's social media presence and offering workshops and classes to local schools and centers. Jon reported seeing progress and excitement among the dancers, and felt fulfilled by providing a place for people to express themselves through dance.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio outreach and progress",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:13"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon planned to host a dance competition in May 2023 to showcase local talent and bring more attention to Jon's dance studio. Jon's studio and other schools would participate in a night of performances and judging, which Jon expected to be creative and fun. No exact date or venue was specified.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "May 2023 dance competition",
+   "time": "2023-05-01..2023-05-31",
+   "sources": [
+    "D8:13",
+    "D8:15",
+    "D8:17"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Gina expressed pride in Jon's dance studio's progress and encouraged Jon to keep going. Jon said Gina's support meant a lot and helped Jon continue trying to make the business plan work despite difficulties. Jon also praised Gina's persistence in business.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Mutual business encouragement",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:5",
+    "D8:14",
+    "D8:15"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon invited Gina to the May 2023 dance competition. Gina said Gina would love to join in and show support, and asked what would happen at the event; Jon explained that Jon's dance studio and other schools would present performances with judging.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Gina's interest in attending dance competition",
+   "time": "2023-05-01..2023-05-31",
+   "sources": [
+    "D8:15",
+    "D8:16",
+    "D8:17"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "While inviting Gina to the May 2023 event on April 3, 2023, Jon shared a photo of a group of people on a stage with a projector screen. The people and location were not identified.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Shared stage photo",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:15"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "While describing the planned May 2023 dance competition on April 3, 2023, Jon shared a photo of a group of dancers on a stage with a man in the middle of the group. No individual in the photo was identified.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared dancers-on-stage photo",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:17"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On April 3, 2023, Gina confirmed that Gina would attend Jon's upcoming show, associated with Jon's May 2023 event. Jon said Jon could not wait to see Gina, and Gina said Gina would see Jon at the event.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Attendance at Jon's show",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:18",
+    "D8:19",
+    "D8:20"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 3, 2023, Gina shared a photo of a woman in a tutu posing for a picture and a photo of a group of young girls wearing tutus and ballet shoes. Jon shared a photo of two women doing handstands in a room. The people in these photos were not identified.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Shared dance photos",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:18",
+    "D8:19",
+    "D8:20"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 3, 2023, Jon wished Gina good luck with Gina's clothing store and shared a photo of a dress with a sign reading 'june bunty.' Gina thanked Jon and expressed appreciation for Jon's kind words.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Support for Gina's clothing store",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:21",
+    "D8:22"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 3, 2023, Jon shared a photo of a street light on a sidewalk in front of a building.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared street photo",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:23"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On April 3, 2023, Jon told Gina that Jon was always there for Gina. Gina said Jon's support meant a lot, affirmed Gina's intention to keep pursuing Gina's goals, and encouraged Jon to do the same. Jon said Jon would not quit pursuing Jon's dreams and that Gina's words were motivating. Gina ended the conversation by encouraging Jon to believe in Jon's abilities and keep pushing.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Mutual support and motivation",
+   "time": "2023-04-03",
+   "sources": [
+    "D8:23",
+    "D8:24",
+    "D8:25",
+    "D8:26"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On April 9, 2023, Jon said Jon had invested a great deal of time in the dance studio, that Jon's students were already performing very well, and that Jon was learning alongside the students.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio progress",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:1"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon is determined to make Jon's dance studio succeed. Jon described losing Jon's job as tough but said the loss provided the push to pursue Jon's love of dance as a business.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Career change and motivation",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:1",
+    "D9:3"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon said dancing makes Jon happy, allows Jon to express Jon's true self, and is Jon's happy place. Sharing dance with others and watching Jon's students improve brings Jon joy. Jon previously feared other people's judgments but learned to prioritize Jon's own happiness, describing the journey as tough but also the best thing ever.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance, happiness, and self-expression",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:5",
+    "D9:7"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina recalled dance classes and said Gina used to love spending time in the studio. A dance photo Jon shared on April 9, 2023, brought back many memories for Gina.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Dance memories",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:8"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon loved taking dance lessons with friends when Jon was younger and considers those memories precious. On April 9, 2023, Jon expressed gratitude for still being able to enjoy dance through Jon's own studio.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Childhood dance memories",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:9"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On April 9, 2023, Gina praised Jon for turning a passion for dance into a business and encouraged Jon to express Jon's true self and keep dancing. Jon thanked Gina for always being there, and Gina affirmed that Gina supports Jon. Both described dance as a means of self-expression and happiness.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Mutual support through dance",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:2",
+    "D9:4",
+    "D9:6",
+    "D9:9",
+    "D9:10"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina owns a trophy from a dance contest. On April 9, 2023, Gina shared a photo of the trophy, which has a glass globe on top, and described the trophy as a reminder of dance's hard work, dedication, and joy.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Dance contest trophy",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:10"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 9, 2023, Jon shared a photo of a group of dancers on a stage with a red background while discussing Jon's successful dance students. Jon also shared a photo of a woman pole dancing in a dance studio; the woman's identity was not established.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared dance photos",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:1",
+    "D9:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 9, 2023, Gina shared photos showing a display of a dress and a flamingo, a red dress with gold accents on a mannequin, and a group of young women in ballet attire. The women in the ballet photo were not identified.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Shared fashion and ballet photos",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:2",
+    "D9:4",
+    "D9:8"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon said something looked awesome and expressed that Gina's support meant a lot to Jon; the object Jon praised was not identified in this segment.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Appreciation and support",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:11"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina told Jon that Jon deserved praise for Jon's hard work and encouraged Jon to keep going, saying Jon was almost there without specifying a goal.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Encouragement for Jon's progress",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:12",
+    "D9:14"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon intended to keep pushing and working hard and declared that Jon would not let anything hold Jon back.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Determination to pursue goals",
+   "time": "2023-04-09",
+   "sources": [
+    "D9:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 24, 2023, Jon attended a fair to promote Jon's dance studio. Jon found the experience both stressful and great and obtained some possible business leads.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio promotion",
+   "time": "2023-04-24",
+   "sources": [
+    "D10:1"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon said running a business is difficult and self-confidence is important for business success.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Entrepreneurship and confidence",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 25, 2023, Jon shared a photo of a group of women performing a dance on a stage while discussing promotion of Jon's dance studio at a fair.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared dance photo",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina had recently started an online clothing store. After losing Gina's job, Gina wanted to take control of Gina's own destiny and regarded starting the store as the perfect way to do so. Gina described the journey as tough but very rewarding. Jon remembered the store and said the store looked great.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Gina's online clothing business",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:2",
+    "D10:3",
+    "D10:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On April 25, 2023, Gina shared a photograph of a laptop with a sale advertisement on the screen while discussing Gina's online clothing store.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Shared clothing store photo",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon told Gina that Jon was having trouble with a business project and had recently felt low in confidence. Jon said running a business without faith in oneself was hard and asked Gina for advice on staying motivated during difficult times and maintaining business confidence.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Business difficulties and advice",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:5",
+    "D10:7"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon suggested setbacks can help people reach their potential. Gina viewed challenges as opportunities for learning and growth.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Attitudes toward setbacks",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:5",
+    "D10:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina stays motivated by remembering the big goal and the reasons for pursuing the goal, seeking help from supportive people, and dancing. Gina builds business confidence by recalling successes and progress and relying on a good support system.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Motivation and confidence strategies",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:6",
+    "D10:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina encouraged Jon to remember that Jon started the dance business out of love, focus on Jon's successes and progress, and believe in Jon's abilities. Gina expressed faith in Jon and described Jon as incredibly talented and passionate about dance. Jon said Gina's advice and support meant a lot and affirmed that loving the business would help maintain Jon's confidence.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Encouragement and dance business confidence",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:8",
+    "D10:9",
+    "D10:10",
+    "D10:11"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon resolved to keep pursuing Jon's dreams despite obstacles. Gina and Jon agreed to continue encouraging each other along their entrepreneurial paths, with Gina emphasizing that Gina and Jon were in this together.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Perseverance and mutual support",
+   "time": "2023-04-25",
+   "sources": [
+    "D10:11",
+    "D10:12",
+    "D10:13",
+    "D10:14"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 11, 2023, Jon reported that Jon was still working on the dance studio and that things were looking up. Jon shared a photo showing a woman in a short skirt with her hands on her hips; the woman's identity was not specified.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio progress and shared photo",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon said that losing Jon's job provided the push to start Jon's dream business, a dance studio. Owning a dance studio and teaching others feels to Jon like living a dream, although stepping into the unknown is a bit scary.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Motivation for opening a dance studio",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:3",
+    "D11:5",
+    "D11:9"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Jon loves dancing and has used dance to relieve stress since childhood. Jon described dancing as second nature, the activity that makes Jon feel most alive, and an essential part of Jon's life.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance and emotional well-being",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:5",
+    "D11:7",
+    "D11:9"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Gina uses dancing to relieve stress and said that Gina's worries vanish as soon as Gina starts dancing. Gina sees dance as integral to Gina's identity, cannot imagine life without dance, and likened dance to air. Gina values enjoyable activities as a way to support mental health.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Dance and mental health",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:6",
+    "D11:8"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon wants Jon's dance studio to provide a place where people can dance and express themselves, fulfilling a longstanding dream.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio mission",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:11"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina finds Jon inspiring for opening a dance studio and believes Jon's determination, drive, and positive outlook will help the studio succeed. Gina believes that providing a place for self-expression through dance is important and that Jon's studio will inspire others and make a significant difference to many people.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Encouragement and confidence in the dance studio",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:2",
+    "D11:4",
+    "D11:10",
+    "D11:12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon told Gina that Gina's help means a lot to Jon and promised to keep Gina informed about the dance studio's progress.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Support and studio updates",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:13"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On May 11, 2023, Gina thanked Jon for keeping Gina informed about Jon's dance studio project and expressed excitement about hearing more and watching the project come to life.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Jon's dance studio",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:14"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina interviewed for a design internship on May 10, 2023. Gina described the interview as very cool and said the interview went great.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Design internship interview",
+   "time": "2023-05-10",
+   "sources": [
+    "D11:14",
+    "D11:16"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On May 11, 2023, Jon expressed excitement, acknowledged that taking a risk was scary, and said Jon was confident that following Jon's dreams would pay off in the end.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Pursuing dreams and taking risks",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:15"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of May 11, 2023, Jon (surname unknown) had been practicing dance routines lately; practicing kept Jon's mind focused and Jon motivated.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance practice and well-being",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:17"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On May 11, 2023, Gina (surname unknown) said dancing was awesome for staying focused and expressed pride in Jon (surname unknown).",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Encouragement and benefits of dance",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:18",
+    "D11:20"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On May 11, 2023, Gina (surname unknown) asked to see one of Jon's dance routines and agreed to watch a video. Jon (surname unknown) initially asked Gina to say when Gina had time, then promised to send the video soon. Gina was eager to see the video; no video was shared in this segment.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Dance routine video",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:18",
+    "D11:19",
+    "D11:20",
+    "D11:21",
+    "D11:22"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On May 11, 2023, Jon (surname unknown) told Gina (surname unknown) that Gina's help meant a lot to Jon. Gina reassured Jon that Gina was always available to help.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Mutual support",
+   "time": "2023-05-11",
+   "sources": [
+    "D11:21",
+    "D11:22"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 27, 2023, Gina told Jon that Gina had been accepted for a part-time fashion internship in the fashion department of an international company. The company's name and location were not specified.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Gina's fashion internship",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:1",
+    "D12:3"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina felt excited, nervous, and scared about entering fashion through the internship, describing the internship as a big change. Gina was trying to stay upbeat and learn as much as possible.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Gina's feelings about fashion internship",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:3",
+    "D12:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 27, 2023, Gina shared a photo of a laptop computer with a logo on the screen while discussing Gina's fashion internship; the logo was not identified.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Shared internship photo",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon congratulated Gina on the fashion internship and expressed enthusiasm for Gina's success. Jon asked about Gina's future plans and shared a photo of a book with a yellow and green cover; no book title was provided.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Support and shared book photo",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:2",
+    "D12:4"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On May 27, 2023, Jon was reading \"The Lean Startup\" to find tips for Jon's dance studio business.",
+   "entities": [
+    "Jon",
+    "The Lean Startup"
+   ],
+   "topic": "Business reading",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:6",
+    "D12:7",
+    "D12:8"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Inspired by \"The Lean Startup,\" Jon planned to build a focused, efficient dance studio business and adapt and refine the business using customer feedback.",
+   "entities": [
+    "Jon",
+    "The Lean Startup"
+   ],
+   "topic": "Dance studio business strategy",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:8"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On May 27, 2023, Jon shared a photo of a whiteboard with a list of dates. Jon explained that the whiteboard tracks ideas and milestones, visualizes progress, and helps Jon stay organized. Gina praised the whiteboard's ideas and said visual tools can support organization and motivation.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Whiteboard and business organization",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:8",
+    "D12:9",
+    "D12:10",
+    "D12:11"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of May 27, 2023, Jon was finishing the dance studio business plan and seeking investors. Jon said passion for the project and belief in the project's success provided motivation.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio business development",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On May 27, 2023, Jon described the search for investors as difficult but remained hopeful and said the process was teaching Jon a great deal. Gina expressed admiration for Jon's commitment and encouraged continued learning and persistence. Jon appreciated Gina's support and vowed to keep going and never quit.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Investor search and encouragement",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:13",
+    "D12:14",
+    "D12:15",
+    "D12:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 27, 2023, Jon shared a photo of a pink sign bearing a message; the message's wording was not provided.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared sign photo",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 27, 2023, Gina encouraged Jon to keep going, saying obstacles are inevitable but Jon can do awesome things.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Encouragement amid obstacles",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:17",
+    "D12:19"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 27, 2023, Jon thanked Gina for encouragement, said Gina's words meant a lot to Jon, and affirmed that Jon would not let anything get Jon down.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Gratitude and determination",
+   "time": "2023-05-27",
+   "sources": [
+    "D12:18"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On June 13, 2023, Jon thanked Gina for supporting and believing in Jon, saying Gina's support meant a lot. Gina said Gina was always available for Jon and was proud of Jon for starting a business.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Friendship and emotional support",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:1",
+    "D13:2",
+    "D13:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 13, 2023, Jon said Jon was preparing for the dance studio more than ever and described opening the studio as a great experience. Working with young dancers and seeing the dancers' passion and commitment inspired Jon.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio development",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:3",
+    "D13:5"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon wanted the dance studio to be a place of support and encouragement for all dancers. As of June 13, 2023, Jon was offering dance classes, workshops, one-on-one mentoring, and training to help dancers reach their full potential.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio services and mission",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:5",
+    "D13:7"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By June 13, 2023, Gina had developed a video presentation teaching how to style Gina's fashion pieces. Jon asked to see the presentation, and Gina promised to send the presentation to Jon later.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Fashion styling video presentation",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:4",
+    "D13:5",
+    "D13:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina had a mentor when Gina was learning to dance; the date of that mentorship was not specified. Gina mentioned this experience to Jon on June 13, 2023.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Dance mentorship experience",
+   "time": "",
+   "sources": [
+    "D13:8"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On June 13, 2023, Gina described Jon's studio as more than a business: a place for dancers to grow. Gina believed Jon's one-on-one mentoring and training would help dancers reach their goals. Jon agreed that mentors, guidance, and support can help dancers shine.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Value of dance mentorship",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:6",
+    "D13:8",
+    "D13:9"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 13, 2023, Gina shared three photos with Jon: a group of young girls in blue outfits posing for a picture, a skeleton and a trophy on a black cloth, and a group of people in a dance class.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Shared photos",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:4",
+    "D13:6",
+    "D13:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 13, 2023, Jon shared a photo of a clipboard with a notepad attached. Gina asked how Jon had been using the clipboard and notepad; no answer appears in this segment.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Clipboard and notepad photo",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:9",
+    "D13:10"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon uses a notebook organizational system to stay organized and motivated, set goals, track achievements, and identify areas for improvement. On June 13, 2023, Jon shared a photo of a notebook with a calendar on it, answering Gina's earlier question about the organizational materials.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Goal tracking and organization",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:11"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina praised Jon's organizational system as really cool and said being organized is key to getting things done. Gina asked how Jon keeps up with goals and progress.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Goal tracking and organization",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon also uses a whiteboard to stay on track, visualize goals, and, in Jon's words, 'tokenize successes.' Jon said the whiteboard keeps Jon motivated and focused. On June 13, 2023, Jon shared a photo of a group of markers sitting on a white surface.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Goal tracking and organization",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:13"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon color-codes achievements to track progress and stay motivated. Jon said the system also reminds Jon why Jon is pursuing the dance studio.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Goal tracking and motivation",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:15",
+    "D13:17"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina praised color-coding as a great way to track progress and stay motivated, and encouraged Jon to keep using the system.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Goal tracking and motivation",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina shared a photo showing a cork board with pictures and words on the board.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Shared cork board photo",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 13, 2023, Gina endorsed Jon's idea and shared a photo of a person holding a paper bag featuring a picture of a bird and a birdie.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Encouragement and shared photo",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:18"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On June 13, 2023, Gina emphasized to Jon that staying positive is very important and encouraged Jon to pursue dreams without quitting. Gina also shared a photo of a quote on a white sheet with a rainbow of light.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Positivity and perseverance",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:20",
+    "D13:22"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On June 13, 2023, Jon thanked Gina for support, described Gina's support as awesome, and committed to not giving up and continuing to work toward making Jon's dreams happen.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Perseverance and appreciation",
+   "time": "2023-06-13",
+   "sources": [
+    "D13:21",
+    "D13:23"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon received mentoring from an unnamed businessman on June 15, 2023. Jon found the experience very inspiring and felt even more motivated to pursue Jon's dreams.",
+   "entities": [
+    "Jon",
+    "unnamed business mentor"
+   ],
+   "topic": "business mentoring",
+   "time": "2023-06-15",
+   "sources": [
+    "D14:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 16, 2023, Gina was working on Gina's online clothing store and expanding the customer base. Gina described the work as tough but remained determined.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "online clothing store growth",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:2",
+    "D14:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 16, 2023, Jon reported promoting Jon's dance business and persevering despite a challenging experience. Jon asked Gina for marketing tips.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "dance business marketing",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:3"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina advised Jon to market Jon's business through social media channels and collaborations with influencers to reach more people.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "marketing advice",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By June 16, 2023, Jon had started using social media to promote Jon's dance business and had posted dance videos that were generating some attention. Gina encouraged Jon to continue.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "dance videos and social media promotion",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:5",
+    "D14:6"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina became an entrepreneur and opened an online clothing store after losing Gina's job. On June 16, 2023, Gina described the store experience as great and the major leap into entrepreneurship as worthwhile.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "entrepreneurship after job loss",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:8",
+    "D14:10"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Gina enjoys being Gina's own boss and doing work Gina loves through Gina's online clothing store.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "entrepreneurship",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:8"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina advised beginning entrepreneurs, including Jon, to remain passionate, focused, and resilient; believe in themselves through challenges; keep going; and remain open to learning and improving. Jon agreed that resilience and focus were key.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "entrepreneurial advice",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:9",
+    "D14:10",
+    "D14:11",
+    "D14:12"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Jon told Gina that Gina's help and encouragement motivated Jon to persevere. On June 16, 2023, Jon declared that Jon would not quit, no matter what.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "encouragement and perseverance",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:7",
+    "D14:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 16, 2023, Gina shared a photo from Gina's dancing days showing a group of young women posing for a picture. Gina described Gina's dance journey as tough but worthwhile and encouraged Jon by saying that failures lead closer to success.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "dance photo and encouragement",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:14"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 16, 2023, Jon praised the group photo Gina had shared from Gina's dancing days, saying the people looked great and passionate about dancing. The photo reminded Jon how much Jon loves performing, and Jon thanked Gina for sharing it.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Dance group photo and love of performing",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:15"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On June 16, 2023, Gina encouraged Jon to keep pursuing Jon's dreams and assured Jon that Gina was there to support Jon. Jon said Gina's help meant a lot, that knowing Gina supported Jon helped Jon keep going, and that Jon would not give up or let Gina down.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Support for Jon's dreams",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:16",
+    "D14:17",
+    "D14:18",
+    "D14:19"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On June 16, 2023, Gina told Jon that Jon's determination and passion for dance were inspiring and encouraged Jon to keep going.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Jon's determination and passion for dance",
+   "time": "2023-06-16",
+   "sources": [
+    "D14:20"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon (surname unknown) took a short trip to Rome during June 12–18, 2023, to clear Jon's mind while continuing to work on opening a dance studio.",
+   "entities": [
+    "Jon",
+    "Rome"
+   ],
+   "topic": "Travel and dance studio preparations",
+   "time": "2023-06-12..2023-06-18",
+   "sources": [
+    "D15:1",
+    "D15:3"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon (surname unknown) scheduled the official opening night and grand opening of Jon's dance studio for June 20, 2023. On June 19, Jon was working hard to make everything just right and was excited to see everything come together.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio grand opening",
+   "time": "2023-06-20",
+   "sources": [
+    "D15:5",
+    "D15:7",
+    "D15:13"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 19, 2023, Jon (surname unknown) shared a photo of a group of young dancers in a dance studio. Gina (surname unknown) said the studio looked amazing, congratulated Jon, and expressed excitement for the June 20 launch.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Dance studio photo and congratulations",
+   "time": "2023-06-19",
+   "sources": [
+    "D15:5",
+    "D15:6"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On June 19, 2023, Gina (surname unknown) told Jon (surname unknown) that Jon had come far, that the long nights of work were worth it, and that Jon should savor the studio opening and the magical joy and thrill of dance. Gina said Gina was always proud of Jon.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Encouragement and pride",
+   "time": "2023-06-19",
+   "sources": [
+    "D15:8",
+    "D15:10"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On June 19, 2023, Jon (surname unknown) described the path to opening Jon's dance studio as a wild ride, said Jon felt good and ready to give the opening Jon's best, and wanted to savor the good feelings after putting so much into the studio. Gina's pride and continuing support meant a lot to Jon.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Feelings about studio opening and support",
+   "time": "2023-06-19",
+   "sources": [
+    "D15:7",
+    "D15:9",
+    "D15:11"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Gina and Jon (surnames unknown) planned to celebrate together at Jon's dance studio grand opening on June 20, 2023. Gina promised to be right by Jon's side, and both looked forward to having fun and making great memories.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Grand opening celebration together",
+   "time": "2023-06-20",
+   "sources": [
+    "D15:11",
+    "D15:12",
+    "D15:13",
+    "D15:14",
+    "D15:15",
+    "D15:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 19, 2023, Gina (surname unknown) shared a photo of a group of people in a dance studio while expressing excitement about celebrating Jon's studio opening.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Shared dance studio photo",
+   "time": "2023-06-19",
+   "sources": [
+    "D15:12"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 19, 2023, Jon (surname unknown) shared a photo of a man in a native costume giving another man a high five while discussing making memories at the dance studio grand opening.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared high-five photo",
+   "time": "2023-06-19",
+   "sources": [
+    "D15:13"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Gina (surname unknown) loves being around friends and having a great time.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Social enjoyment",
+   "time": "2023-06-19",
+   "sources": [
+    "D15:16"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Gina plans to attend Jon's dance studio grand opening on June 20, 2023. On June 19, 2023, Gina and Jon both expressed excitement about the opening; Jon said Jon could not wait for Gina to be there and wanted to make the day unforgettable.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Dance studio grand opening",
+   "time": "2023-06-20",
+   "sources": [
+    "D15:18",
+    "D15:19",
+    "D15:20",
+    "D15:21",
+    "D15:22"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 21, 2023, Gina told Jon that Gina had acquired new, unique pieces for Gina's clothing store and shared a photo of a woman wearing a black hoodie and posing for a picture.",
+   "entities": [
+    "Gina",
+    "Jon",
+    "Gina's clothing store"
+   ],
+   "topic": "New store pieces and shared photo",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:1"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On June 21, 2023, Jon congratulated Gina on Gina's clothing store, expressed happiness for Gina, described the pictured item as looking 'sick,' and asked whether the item was a unique piece Gina was selling.",
+   "entities": [
+    "Jon",
+    "Gina",
+    "Gina's clothing store"
+   ],
+   "topic": "Jon's support for Gina's store",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:2"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina clarified that the black hoodie pictured on June 21, 2023, was from Gina's own collection and was not for sale.",
+   "entities": [
+    "Gina",
+    "black hoodie"
+   ],
+   "topic": "Gina's personal clothing collection",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:1",
+    "D16:3"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "During June 12–18, 2023, Gina made a limited-edition clothing line to showcase Gina's style and creativity. Gina described making the line as tough but worth it. On June 21, 2023, Gina shared a photo of a hoodie with a camouflage print while discussing the line.",
+   "entities": [
+    "Gina",
+    "limited-edition clothing line",
+    "camouflage-print hoodie"
+   ],
+   "topic": "Gina's clothing design work",
+   "time": "2023-06-12..2023-06-18",
+   "sources": [
+    "D16:3"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina said the design under discussion reminded Gina of the grit needed to stand out and face challenges.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing design inspiration",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:4",
+    "D16:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon chose on June 20, 2023, to go to networking events to make things happen for Jon's business. Jon described the process as tough but remained determined and focused; Gina praised the courage and drive involved.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Business networking",
+   "time": "2023-06-20",
+   "sources": [
+    "D16:6",
+    "D16:7"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon said life had been tough since losing Jon's job, but Jon believed investing time in Jon's business would eventually pay off. Jon appreciated Gina's help.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Business perseverance after job loss",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina offered Jon help and shared a photo of a notepad with pens.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Support and shared photo",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:9"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Jon was writing down all Jon's plans and goals on paper. Seeing the goals written down helped Jon stay motivated and focused on necessary tasks. Gina encouraged tracking plans and goals as a way to see progress.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Written plans and motivation",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:10",
+    "D16:11",
+    "D16:12"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina encouraged Jon to persevere, work hard, believe in Jon's own abilities, and not quit. Gina shared a photo of a sign reading 'never give up never give up never.' Jon said the sign was a reminder to keep going despite difficulties.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Encouragement and motivational sign",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:13",
+    "D16:14",
+    "D16:15"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon reported feeling confident and determined not to give up, said Gina's support meant a great deal to Jon, and shared a photo of a bulletin board containing pictures of people and words.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Confidence and shared bulletin-board photo",
+   "time": "2023-06-21",
+   "sources": [
+    "D16:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "During July 2–8, 2023, Gina was noticed by fashion editors. Gina described the attention as amazing, exciting, and somewhat scary, with considerable pressure to keep progressing.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Fashion recognition and pressure",
+   "time": "2023-07-02..2023-07-08",
+   "sources": [
+    "D17:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 9, 2023, Gina shared a photo of a mannequin in a room with a wood wall while discussing recognition from fashion editors.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Shared mannequin photo",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On July 9, 2023, Jon described dance practice as fun and exhausting.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance practice",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:2"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On July 9, 2023, Jon said Jon intended to pursue the dance business full-time, remain determined, and make an independent path.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Full-time dance business",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 9, 2023, Jon began learning marketing and analytics tools to advance the business. Jon found learning the tools tricky but welcomed the challenge and was determined to make the business work.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Business marketing and analytics",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:4"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon viewed losing the banker job as upsetting but also as the push that led Jon to pursue business dreams.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Job loss as a catalyst",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:4"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On July 9, 2023, Jon expressed excitement about guiding and mentoring aspiring dancers in pursuing dance dreams.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Mentoring aspiring dancers",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:6"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina believed Jon would be an excellent mentor and guide, and that Jon's positivity and determination would make the dance studio successful. Gina considered loving one's work and bringing joy to others rewarding.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Confidence in Jon's dance studio",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:7"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 9, 2023, Gina shared a photo of a drawing of a couple dancing while encouraging Jon's dance studio and mentoring ambitions.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Shared dancing-couple drawing",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:7"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Jon believed dance can bring people together and create sweet moments. Such moments reminded Jon why Jon was pursuing the dance dream and motivated Jon through struggles.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Meaning of dance",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:8"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "On July 9, 2023, Gina repeatedly encouraged Jon to persevere, described obstacles as potential opportunities, and assured Jon that a supportive community, including Gina, was cheering Jon on. Jon said Gina's encouragement and the community's support were deeply meaningful and motivating, and thanked Gina for being a great friend.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Friendship and encouragement",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:3",
+    "D17:5",
+    "D17:9",
+    "D17:10",
+    "D17:11",
+    "D17:12",
+    "D17:13",
+    "D17:15",
+    "D17:16",
+    "D17:17"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On July 9, 2023, Jon repeatedly pledged not to quit despite difficulties, not to let anything or anyone prevent progress, and to make the business dreams a reality.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Commitment to perseverance",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:12",
+    "D17:14",
+    "D17:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 9, 2023, Jon shared a photo of a chalkboard with a written quote. The quote's wording was not provided.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Shared chalkboard quote photo",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:16"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 9, 2023, Jon thanked Gina for supporting Jon and said Jon was glad Gina was on Jon's side. Jon shared a photo of a drawing of a smiley face floating in water.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Support and shared photo",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:18"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 9, 2023, Gina and Jon exchanged goodbyes; Gina ended the exchange with a winking emoticon (;)).",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Conversation farewell",
+   "time": "2023-07-09",
+   "sources": [
+    "D17:19",
+    "D17:20",
+    "D17:21"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina built a new website for customers to place clothing-store orders during July 10–16, 2023. Gina described the experience as a wild ride and said Gina was loving it.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing-store ordering website",
+   "time": "2023-07-10..2023-07-16",
+   "sources": [
+    "D18:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon reported that the dance studio was on tenuous ground and that Jon had obtained a temporary job to cover expenses while searching for investors. Jon remained positive and determined to make the business work.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance-studio finances and temporary employment",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:2",
+    "D18:4"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Gina encouraged Jon through the dance studio's setbacks, expressing belief in Jon's passion and experience and urging Jon to keep pursuing investors.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Support for Jon's business",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:3"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Gina had struggled to source trendy pieces for Gina's clothing store. Research and networking helped Gina overcome the sourcing hurdle and discover amazing products that Gina might otherwise have missed.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Clothing sourcing and networking",
+   "time": "",
+   "sources": [
+    "D18:5"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina advised Jon to seek help and contacts from people in Jon's field, describing networking as a lifesaver for Gina's own business.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Business networking advice",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:5"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon reported recent networking successes and described the latest networking event as awesome. Jon met investors, received useful advice, and found the event's energy motivating for pursuing business goals. Jon shared a photo of a group of people standing in a room and another photo of a man signing a card at a table.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Networking event and shared photos",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:6",
+    "D18:8"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina shared a photo of a clothing store with a wall of pictures and clothes during a discussion of networking with Jon.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Clothing-store photo",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:7"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon was improving the dance studio's business plan, refining the pitch to investors, and working on an online platform to showcase the dance studio's offerings.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance-studio investment and online platform",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:10"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon asked Gina for marketing advice on reaching the dance studio's target audience and raising awareness. Gina recommended Instagram and TikTok to reach younger people, posting dance clips or other dance-related content, and collaborating with local influencers or dance communities.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Dance-studio marketing strategies",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:12",
+    "D18:13"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Gina offered to help create content and manage Jon's dance-studio social media accounts. Jon accepted Gina's help with both content creation and social-media management and proposed getting together to work on the studio's presentation; no meeting date was specified.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Social-media collaboration",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:13",
+    "D18:14"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Jon shared a photo of a room containing a mirror and a desk while agreeing to collaborate with Gina on dance-studio marketing.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Room photo",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:14"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On July 21, 2023, Gina proposed creating content and managing social media accounts for Jon's dance studio. Jon welcomed Gina's support, and Gina and Jon enthusiastically committed to collaborating to promote the studio.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Dance studio content and social media collaboration",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:15",
+    "D18:16",
+    "D18:17",
+    "D18:18",
+    "D18:19"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Gina and Jon expressed a shared ambition for their dance collaboration to make a positive impact, showcase their abilities, and inspire others to chase their dreams. Jon thanked Gina for supporting Jon.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Dance collaboration goals and mutual support",
+   "time": "2023-07-21",
+   "sources": [
+    "D18:19",
+    "D18:20",
+    "D18:21",
+    "D18:22"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 23, 2023, Jon told Gina that Jon had been rehearsing hard and working on business plans. Jon found the work stressful, but dancing had kept Jon going. Jon noted that Jon and Gina had not talked in a few days.",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Dance rehearsals and business planning",
+   "time": "2023-07-23",
+   "sources": [
+    "D19:1"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 23, 2023, Gina encouraged Jon with a motivational quotation attributed by Gina to Shia LaBeouf: \"Remember, just do it! You should get to the point where anyone else would quit and you're not going to stop there. No, what are you waiting for? Do it! Just do it!\" Jon laughed, thanked Gina, and asked who the familiar words belonged to before Gina identified Shia LaBeouf.",
+   "entities": [
+    "Gina",
+    "Jon",
+    "Shia LaBeouf"
+   ],
+   "topic": "Encouragement and motivational quotation",
+   "time": "2023-07-23",
+   "sources": [
+    "D19:2",
+    "D19:3",
+    "D19:4"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 23, 2023, Gina shared with Jon a photo showing a group of dancers on a stage with their arms in the air.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Shared dance photo",
+   "time": "2023-07-23",
+   "sources": [
+    "D19:2"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina attended dance class with a group of friends on Friday, July 21, 2023, and felt the importance of having a creative space for dancers.",
+   "entities": [
+    "Gina"
+   ],
+   "topic": "Dance class and creative spaces",
+   "time": "2023-07-21",
+   "sources": [
+    "D19:6"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Gina shared a photo showing three girls in ballet costumes sitting on a desk while encouraging Jon about Jon's dance studio.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Shared dance photo",
+   "time": "2023-07-23",
+   "sources": [
+    "D19:6"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Gina believes creative spaces for dancers are very important and that Jon's studio will become a go-to place for self-expression. Gina encouraged Jon to keep working and remember Jon's passion for dance.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Support for Jon's dance studio",
+   "time": "2023-07-23",
+   "sources": [
+    "D19:6"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon looks forward to Jon's dance studio welcoming dancers of all ages and backgrounds.",
+   "entities": [
+    "Jon"
+   ],
+   "topic": "Dance studio inclusivity",
+   "time": "2023-07-23",
+   "sources": [
+    "D19:7"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "Jon said Gina's encouragement keeps Jon motivated and that Gina's help and support mean a lot and will help Jon realize the dance studio dream. Gina was happy to motivate Jon and reiterated a commitment to supporting Jon.",
+   "entities": [
+    "Gina",
+    "Jon"
+   ],
+   "topic": "Mutual encouragement",
+   "time": "2023-07-23",
+   "sources": [
+    "D19:7",
+    "D19:8",
+    "D19:9",
+    "D19:10"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Jon vowed not to quit and to keep pursuing Jon's dream regardless of obstacles. Gina repeated 'Just do it!' and Jon enthusiastically responded, 'JUST DOING IT!'",
+   "entities": [
+    "Jon",
+    "Gina"
+   ],
+   "topic": "Persistence with dance studio",
+   "time": "2023-07-23",
+   "sources": [
+    "D19:11",
+    "D19:12",
+    "D19:13"
+   ]
+  }
+ ],
+ "segments": 39
+}

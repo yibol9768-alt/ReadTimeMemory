@@ -1,0 +1,785 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:thread",
+   "text": "The user studied permutations and combinations on 2024-01-10, working on whether order matters, repeated elements, factorial calculations, and practical applications. They reported a quiz score improving from 60% to 78% after three hours of study, and later reported solving 15 problems with accuracy rising from 65% to 87%. They planned to practice both distinct-object and repetition-allowed problems. They continued with inclusion–exclusion and multinomial coefficients on 2024-01-26 and 2024-02-05, and then studied Bayes’ theorem, conditional probability, expectation, and variance on 2024-02-05 and 2024-02-20. Across these topics, they repeatedly sought step-by-step worked examples, verification, practical applications, and help choosing methods.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "mathematics study",
+   "time": "2024-01-10..2024-02-20",
+   "sources": [
+    "T30",
+    "T31",
+    "T120",
+    "T122",
+    "T123",
+    "T124",
+    "T126",
+    "T186",
+    "T190",
+    "T192",
+    "T246",
+    "T247",
+    "T282",
+    "T294",
+    "T334",
+    "T341",
+    "T420",
+    "T421",
+    "T516",
+    "T546",
+    "T548",
+    "T549"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2024-01-26, the user studied inclusion–exclusion and multinomial coefficients, initially struggling with triple intersections and the distinction between distinct and identical objects. Worked examples, factorial calculations, and Venn diagrams helped; the user identified forgetting the triple-intersection term as a source of difficulty and reported increased confidence. They reported 80% accuracy after 8 inclusion–exclusion problems and 85% after 12 problems; in multinomial practice, they reported improving accuracy from 70% to 85% after 10 problems and solving 5 problems in 30 minutes, described as a 40% speed improvement. On 2024-02-05, they continued applying inclusion–exclusion and multinomial coefficients, including checking the 74 integers from 1 to 100 divisible by 2, 3, or 5 and the coefficient 210 of x^3y^2z^2 in (x+y+z)^7.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "inclusion-exclusion and multinomial theorem",
+   "time": "2024-01-26..2024-02-05",
+   "sources": [
+    "T190",
+    "T192",
+    "T196",
+    "T246",
+    "T247",
+    "T282",
+    "T294",
+    "T324",
+    "T326",
+    "T327",
+    "T328",
+    "T330",
+    "T331",
+    "T350",
+    "T351",
+    "T384",
+    "T385",
+    "T398"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2024-02-05, the user practiced Bayes’ theorem and clinical-test probabilities, including distinguishing P(disease | positive test) from P(positive test | disease), deriving the denominator with the law of total probability, and interpreting sensitivity, specificity, and positive predictive value. With prevalence 1%, sensitivity 95%, and specificity 90%, they verified P(positive)=0.1085 and P(disease | positive)≈8.75%. They also scheduled a conditional-probability and Bayes’ theorem quiz for 2024-02-12 and said four one-hour study sessions had substantially improved their understanding. On 2024-02-20, they returned to Bayes’ theorem and asked for further step-by-step guidance for clinical-risk examples.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Bayes’ theorem and clinical risk assessment",
+   "time": "2024-02-05..2024-02-20",
+   "sources": [
+    "T402",
+    "T403",
+    "T404",
+    "T405",
+    "T406",
+    "T407",
+    "T472",
+    "T486",
+    "T487",
+    "T490",
+    "T491",
+    "T492",
+    "T586",
+    "T587",
+    "T588",
+    "T590",
+    "T591"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2024-02-20, the user studied discrete random variables, expectation, variance, linearity of expectation, probability mass functions, and indicator variables. Worked examples clarified weighted-average expectation and variance, including a fair die with E(X)=3.5 and Var(X)=35/12≈2.9167, and a two-die sum with expectation 7. The user corrected a variance mistake after forgetting to square deviations and later said they understood linearity even for dependent variables. They also reported completing 5 probability problems in 40 minutes and requested checks of their expectation and variance methods.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "expectation and variance",
+   "time": "2024-02-20..2024-02-20",
+   "sources": [
+    "T516",
+    "T518",
+    "T522",
+    "T523",
+    "T524",
+    "T525",
+    "T526",
+    "T527",
+    "T528",
+    "T546",
+    "T548",
+    "T549",
+    "T550",
+    "T551",
+    "T552",
+    "T554",
+    "T556",
+    "T610",
+    "T611",
+    "T612",
+    "T618",
+    "T619",
+    "T620"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user repeatedly studied these mathematics topics: permutations and combinations, including repeated elements and factorials (2024-01-10); probability rules, card draws, conditional probability, and set operations (2024-01-10); inclusion–exclusion and multinomial coefficients/theorem (2024-01-26 and 2024-02-05); Bayes’ theorem, diagnostic testing, and clinical risk assessment (2024-02-05 and 2024-02-20); discrete random variables, expectation, variance, and indicator variables (2024-02-20).",
+   "entities": [
+    "the user"
+   ],
+   "topic": "recurring study subjects",
+   "time": "2024-01-10..2024-02-20",
+   "sources": [
+    "T0",
+    "T56",
+    "T80",
+    "T135",
+    "T161",
+    "T168",
+    "T186",
+    "T304",
+    "T334",
+    "T402",
+    "T516",
+    "T522",
+    "T618"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user found concrete worked examples and detailed step-by-step explanations helpful across mathematics study. They sought immediate feedback and calculation verification, practical real-world scenarios, and guidance choosing a formula or method. For inclusion–exclusion, they specifically found Venn diagrams and visual explanations helpful; for probability, they often requested clinical-testing examples.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "learning preferences",
+   "time": "2024-01-10..2024-02-20",
+   "sources": [
+    "T140",
+    "T150",
+    "T76",
+    "T78",
+    "T80",
+    "T82",
+    "T196",
+    "T208",
+    "T286",
+    "T326",
+    "T327",
+    "T328",
+    "T330",
+    "T336",
+    "T342",
+    "T346",
+    "T464",
+    "T466",
+    "T557"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported several study-performance changes: a basic permutations-and-combinations quiz improved from 60% to 78% after three hours of study (2024-01-10); accuracy across 15 permutation-and-combination problems rose from 65% to 87% after two weeks of practice (2024-01-10); inclusion–exclusion accuracy was 80% after 8 problems and later 85% after 12 problems (2024-01-26); multinomial accuracy rose from 70% to 85% after 10 problems, and the user reported solving 5 multinomial problems in 30 minutes, a 40% speed improvement (2024-01-26).",
+   "entities": [
+    "the user"
+   ],
+   "topic": "reported study progress",
+   "time": "2024-01-10..2024-01-26",
+   "sources": [
+    "T30",
+    "T31",
+    "T120",
+    "T190",
+    "T246",
+    "T247",
+    "T282",
+    "T294",
+    "T324"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user described study plans at multiple points: a five-week advanced probability and combinatorics plan spanning 2023-12-04 through 2024-01-10; a 10-problem practice goal over two weeks with a target of 90% accuracy (2024-01-10); four 45-minute sessions and, separately, five 45-minute sessions for factorials and probability rules (2024-01-10); three one-hour sessions for multinomial theorem and inclusion–exclusion (2024-01-26); and four one-hour sessions for Bayes’ theorem (2024-02-05).",
+   "entities": [
+    "the user"
+   ],
+   "topic": "study plans and sessions",
+   "time": "2023-12-04..2024-02-05",
+   "sources": [
+    "T14",
+    "T34",
+    "T35",
+    "T68",
+    "T148",
+    "T149",
+    "T260",
+    "T261",
+    "T420",
+    "T472"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Probability and expectation/variance study: on 2024-02-20, the user began a planned four-session, 50-minute study sequence, reviewed expectation and variance, worked discrete, Bernoulli, binomial, and dice examples, and reported 88% accuracy on 6 problems; on 2024-03-05, the user continued applying these ideas to dice, clinical risk, and Markov chains, including expectation and variance for a two-dice sum; on 2024-03-20, the user applied expectation and variance to fair dice and betting games and asked to connect the material to real-world problems. Elapsed time from the initial study plan to the later applications: 29 days.",
+   "entities": [
+    "user"
+   ],
+   "topic": "probability and expectation/variance study",
+   "time": "2024-02-20..2024-03-20",
+   "sources": [
+    "T622",
+    "T623",
+    "T624",
+    "T625",
+    "T626",
+    "T627",
+    "T628",
+    "T629",
+    "T630",
+    "T631",
+    "T632",
+    "T634",
+    "T635",
+    "T636",
+    "T638",
+    "T639",
+    "T640",
+    "T666",
+    "T678",
+    "T679",
+    "T684",
+    "T692",
+    "T694",
+    "T695",
+    "T696",
+    "T698",
+    "T710",
+    "T711",
+    "T712",
+    "T802",
+    "T803",
+    "T804",
+    "T805",
+    "T806",
+    "T938",
+    "T939"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Markov-chain learning and modeling: on 2024-03-05, the user studied transition matrices, state distributions, steady states, matrix powers, and possible psychology applications involving strategy switching and patient states; the user planned to collect transition observations and refine the model with empirical data. The user also scheduled three one-hour study sessions and described having completed four one-hour sessions by 2024-03-20. On 2024-03-20, the user continued seeking an explanation of steady-state distributions and wanted to model sequential processes in psychology experiments. On 2024-04-03, the user again requested step-by-step steady-state methods and verification. Elapsed time from the initial modeling discussion to the latest recorded request: 29 days. For P=[[0.5,0.3,0.2],[0.1,0.6,0.3],[0.4,0.2,0.4]], the correct stationary row distribution is (6/19,22/57,17/57), and the user explicitly requested that every transition-matrix row be checked to sum to 1.",
+   "entities": [
+    "user"
+   ],
+   "topic": "Markov-chain study and psychology modeling",
+   "time": "2024-03-05..2024-04-03",
+   "sources": [
+    "T718",
+    "T720",
+    "T721",
+    "T722",
+    "T732",
+    "T792",
+    "T793",
+    "T794",
+    "T795",
+    "T862",
+    "T863",
+    "T868",
+    "T884",
+    "T898",
+    "T914",
+    "T915",
+    "T930",
+    "T974",
+    "T975"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Multinomial study: on 2024-04-03, the user studied the multinomial PMF, its relation to the binomial distribution, category probabilities, count vectors, coefficients, and applications to dice, urns, genetics, surveys, and indistinguishable groups. The user reported accuracy improving from 75% to 90% after 12 problems, continued to struggle with multinomial coefficients, and sought faster problem-solving methods. On the same date, the user also reported wanting to solve 5 problems in 35 minutes and improve speed by 25%, from 7 minutes to about 5.25 minutes per problem.",
+   "entities": [
+    "user"
+   ],
+   "topic": "multinomial-distribution study",
+   "time": "2024-04-03..2024-04-03",
+   "sources": [
+    "T1032",
+    "T1033",
+    "T1034",
+    "T1036",
+    "T1037",
+    "T1038",
+    "T1039",
+    "T1042",
+    "T1043",
+    "T1044",
+    "T1045",
+    "T1064",
+    "T1065",
+    "T1066",
+    "T1067",
+    "T1088",
+    "T1089",
+    "T1096",
+    "T1097",
+    "T1134",
+    "T1135",
+    "T1136",
+    "T1137",
+    "T1138",
+    "T1139",
+    "T1140",
+    "T1141",
+    "T1143"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Game-probability practice: on 2024-03-20, the user worked on poker, dice, conditional probability, expected value, and game strategy, and reported completing 6 problems in 45 minutes with a 35% improvement in speed. The user later reported accuracy rising from 80% to 92% after 10 practice problems and said familiar games such as poker and blackjack remained difficult to analyze. On 2024-04-03, the user continued practicing poker counts and dice-game expected values. Elapsed time between these recorded practice dates: 14 days.",
+   "entities": [
+    "user"
+   ],
+   "topic": "game probability and expected-value practice",
+   "time": "2024-03-20..2024-04-03",
+   "sources": [
+    "T910",
+    "T912",
+    "T936",
+    "T946",
+    "T947",
+    "T982",
+    "T983",
+    "T984",
+    "T985",
+    "T986",
+    "T987",
+    "T1004",
+    "T1005",
+    "T1026",
+    "T1027",
+    "T1050",
+    "T1051",
+    "T1052",
+    "T1053"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Probability and mathematics topics studied: expectation and variance, including discrete random variables, Bernoulli and binomial models, and linearity of expectation (2024-02-20); Bayes’ theorem and clinical testing, inclusion–exclusion, and counting (2024-02-20); Markov chains, transition matrices, and steady-state distributions (2024-03-05); poker-hand probabilities, conditional probability, dice outcomes, and game expected value (2024-03-20); multinomial distributions and their applications to dice, urns, genetics, and surveys (2024-04-03).",
+   "entities": [
+    "user"
+   ],
+   "topic": "mathematics topics studied",
+   "time": "2024-02-20..2024-04-03",
+   "sources": [
+    "T646",
+    "T647",
+    "T652",
+    "T653",
+    "T668",
+    "T669",
+    "T670",
+    "T671",
+    "T672",
+    "T718",
+    "T720",
+    "T888",
+    "T889",
+    "T890",
+    "T892",
+    "T893",
+    "T894",
+    "T895",
+    "T1032",
+    "T1034",
+    "T1036",
+    "T1140",
+    "T1143"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Learning preferences and study practices: the user values detailed step-by-step examples and checking calculations (2024-02-20); prefers concrete numerical examples such as dice rolls (2024-02-20); asks that variance explanations distinguish variance from standard deviation (2024-02-20); requests that Markov-chain problems include checking every transition-matrix row sums to 1 (2024-03-05); wants independence assumptions explained for card and dice probability problems and prefers familiar games to make abstract ideas tangible (2024-03-20); prefers dice and urn models for visualizing multinomial outcomes (2024-04-03).",
+   "entities": [
+    "user"
+   ],
+   "topic": "learning preferences",
+   "time": "2024-02-20..2024-04-03",
+   "sources": [
+    "T696",
+    "T698",
+    "T712",
+    "T884",
+    "T1028",
+    "T1029",
+    "T1030",
+    "T1031",
+    "T1140"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Recurring probability examples: fair six-sided dice, including single-die expectation 3.5 and variance 35/12 (2024-02-20; 2024-03-05; 2024-03-20; 2024-04-03); fair-coin head counts, including 10 tosses with expectation 5 and variance 2.5 (2024-02-20; 2024-03-05; 2024-03-20); clinical-test Bayes examples with 1% prevalence, 95% sensitivity, and 90% specificity, yielding about 8.75% disease probability after a positive result (2024-02-20; 2024-03-05; 2024-03-20; 2024-04-03); five-card full-house counting, with 3,744 hands among 2,598,960 (2024-03-20; 2024-04-03); exactly three aces in five cards, modeled hypergeometrically (2024-03-20; 2024-04-03); and the three-state Markov matrix [[0.5,0.3,0.2],[0.1,0.6,0.3],[0.4,0.2,0.4]], whose correct stationary distribution is (6/19,22/57,17/57) (2024-03-05; 2024-03-20; 2024-04-03).",
+   "entities": [
+    "user"
+   ],
+   "topic": "recurring probability examples",
+   "time": "2024-02-20..2024-04-03",
+   "sources": [
+    "T626",
+    "T627",
+    "T639",
+    "T641",
+    "T731",
+    "T740",
+    "T741",
+    "T742",
+    "T743",
+    "T888",
+    "T889",
+    "T890",
+    "T935",
+    "T938",
+    "T939",
+    "T958",
+    "T959",
+    "T1046",
+    "T1047",
+    "T1048",
+    "T1049",
+    "T836",
+    "T878",
+    "T879",
+    "T880",
+    "T881",
+    "T882",
+    "T883",
+    "T885",
+    "T886",
+    "T887",
+    "T974",
+    "T975"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Expectation-and-variance practice accuracy increased from 88% on 6 problems (2024-02-20) to 92% on 8 problems (2024-02-20); both results were reported on the same date, so the records do not establish a dated interval for the change.",
+   "entities": [
+    "user"
+   ],
+   "topic": "expectation and variance practice accuracy",
+   "time": "2024-02-20..2024-02-20",
+   "sources": [
+    "T710",
+    "T711"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Game-probability practice accuracy was reported as 80% before improving to 92% after 10 practice problems (2024-03-20); the user also reported 95% accuracy on 10 game-probability problems on 2024-03-20. These are separate reported results from the same date, not a clearly ordered progression.",
+   "entities": [
+    "user"
+   ],
+   "topic": "game-probability accuracy",
+   "time": "2024-03-20..2024-03-20",
+   "sources": [
+    "T982",
+    "T1026",
+    "T1027"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Multinomial practice accuracy rose from 75% to 90% after 12 problems on 2024-04-03; the user still reported difficulty with multinomial coefficients.",
+   "entities": [
+    "user"
+   ],
+   "topic": "multinomial practice accuracy",
+   "time": "2024-04-03..2024-04-03",
+   "sources": [
+    "T1134",
+    "T1135"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Permutation-and-combination practice accuracy improved from 60% to 78% by 2024-03-20.",
+   "entities": [
+    "user"
+   ],
+   "topic": "permutations and combinations accuracy",
+   "time": "2024-03-20..2024-03-20",
+   "sources": [
+    "T936"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported completing four one-hour Markov-chain study sessions by 2024-03-20; on 2024-03-05, the user had also scheduled three one-hour sessions for studying Markov-chain theory and applications.",
+   "entities": [
+    "user"
+   ],
+   "topic": "Markov-chain study sessions",
+   "time": "2024-03-05..2024-03-20",
+   "sources": [
+    "T792",
+    "T930"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported solving 6 game-probability problems in 45 minutes and a 35% improvement in speed on 2024-03-20; on 2024-04-03, the user set a target to solve 5 multinomial problems in 35 minutes, aiming to reduce average time from 7 minutes to about 5.25 minutes per problem.",
+   "entities": [
+    "user"
+   ],
+   "topic": "probability problem-solving speed",
+   "time": "2024-03-20..2024-04-03",
+   "sources": [
+    "T946",
+    "T1096",
+    "T1097"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user developed understanding of multinomial distributions through repeated worked examples. On 2024-04-03, they asked for intuitive explanations and examples, practiced dice and survey problems, and reported wanting to improve accuracy from 75% to 95% (their reported accuracy had reached 90%). On 2024-04-18, they compared multinomial calculations with repeated binomial or sequence-based approaches, concluded multinomial methods were more efficient for multiple categories, and planned to practice genetics before survey sampling. They also studied the distinction between multinomial sampling and sampling without replacement. On 2024-05-02, they continued applying multinomial reasoning to dice, allele counts, urns, and poker, while focusing on checking assumptions and calculations. By 2024-05-18, they were still asking for step-by-step multinomial explanations and related probability practice. Key milestones: 2024-04-03 to 2024-04-18, 15 days; 2024-04-18 to 2024-05-02, 14 days; 2024-05-02 to 2024-05-18, 16 days.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Learning multinomial distributions",
+   "time": "2024-04-03..2024-05-18",
+   "sources": [
+    "T1180",
+    "T1154",
+    "T1210",
+    "T1216",
+    "T1232",
+    "T1236",
+    "T1348",
+    "T1370",
+    "T1440",
+    "T1514",
+    "T1534"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user worked to understand Bayes’ theorem, conditional probability, and sequential updating across multiple hypotheses. On 2024-04-18, they sought intuitive real-world examples, practiced disease testing and box-source hypotheses, and asked how to update probabilities sequentially; they planned to build confidence with simpler examples before more complex Bayesian networks. They later studied multi-hypothesis updates and explicitly valued normalized posterior probabilities and stepwise calculations. On 2024-05-02, they focused on error checking, distinguishing priors, likelihoods, and posteriors, and independently verified calculations. On 2024-05-18, they continued applying Bayes’ theorem to clinical risk and defective-item examples, and asked about conditioning Markov-chain state probabilities on observations. Key milestones: 2024-04-18 to 2024-05-02, 14 days; 2024-05-02 to 2024-05-18, 16 days.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Bayes’ theorem and conditional-probability learning",
+   "time": "2024-04-18..2024-05-18",
+   "sources": [
+    "T1190",
+    "T1202",
+    "T1268",
+    "T1282",
+    "T1384",
+    "T1404",
+    "T1422",
+    "T1442",
+    "T1476",
+    "T1528",
+    "T1588",
+    "T1608",
+    "T1629"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user developed a systematic approach to checking probability work. On 2024-05-02, they were working on complex probability projects and wanted methods for detecting errors, checking assumptions, retaining precision, and verifying results by alternative methods and probability-sum or reasonableness checks. They practiced identifying arithmetic and modeling errors, sought ways to avoid omitting terms in inclusion–exclusion, and planned three one-hour sessions focused on error analysis and verification. They later reported completing verification exercises and improving error detection. On 2024-05-09, they were preparing for a test on error analysis and verification. Key milestones: 2024-05-02 to 2024-05-09, 7 days.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Probability error analysis and verification",
+   "time": "2024-05-02..2024-05-09",
+   "sources": [
+    "T1520",
+    "T1544",
+    "T1546",
+    "T1560",
+    "T1568",
+    "T1580",
+    "T1581"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user studied Markov chains through transition matrices, multi-step probabilities, stationary distributions, and observation-based updating. On 2024-04-18, they worked through two-step transition probabilities and asked about steady states and clinical-psychology applications. On 2024-05-02, they asked how to avoid errors in larger matrix calculations and continued practicing matrix powers and stationary distributions. On 2024-05-18, they asked about four-step transitions, steady states, changing deck composition, and conditioning state probabilities on observations. Several assistant-provided numerical examples in this thread were later identified as incorrect, so reported matrix results should be checked against the stated matrix. Key milestones: 2024-04-18 to 2024-05-02, 14 days; 2024-05-02 to 2024-05-18, 16 days.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Markov-chain learning and applications",
+   "time": "2024-04-18..2024-05-18",
+   "sources": [
+    "T1298",
+    "T1334",
+    "T1360",
+    "T1372",
+    "T1522",
+    "T1536",
+    "T1538",
+    "T1582",
+    "T1586",
+    "T1594",
+    "T1610",
+    "T1620",
+    "T1628"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user practiced inclusion–exclusion with detailed counting examples. On 2024-04-18, they studied counting integers divisible by 2, 3, and 5 from 1 to 100, then requested further examples with different ranges and divisors. On 2024-05-02 and 2024-05-18, they revisited the 1-to-100 example, checked the pairwise and triple intersections, and asked how to avoid forgetting intersection terms. The user benefits from listing each term and checking the result for completeness and plausibility. Key milestones: 2024-04-18 to 2024-05-02, 14 days; 2024-05-02 to 2024-05-18, 16 days.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Inclusion–exclusion practice",
+   "time": "2024-04-18..2024-05-18",
+   "sources": [
+    "T1302",
+    "T1314",
+    "T1316",
+    "T1318",
+    "T1319",
+    "T1378",
+    "T1446",
+    "T1542",
+    "T1568"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported several probability-practice performance measures over time: on 2024-04-03, accuracy on multinomial problems had risen from 75% to 90%, with a goal of 95%; on 2024-04-18, they reported 9 problems practiced and estimated 90% accuracy, while describing multi-hypothesis Bayes as new; on 2024-05-02, they reported 7 multi-hypothesis Bayes problems at 88% accuracy. Separately, error-detection reports changed from 60% to 85% after 10 verification exercises, and from 60% to 90% after 12 verification exercises. These are reports about different practice measures, not necessarily directly comparable.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Reported practice accuracy and error-detection changes",
+   "time": "2024-04-03..2024-05-02",
+   "sources": [
+    "T1180",
+    "T1418",
+    "T1462",
+    "T1580",
+    "T1581"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user studied probability and combinatorics on 2024-05-18, including hypergeometric probabilities for drawing aces, multinomial probabilities for dice rolls, binomial probabilities, permutations and combinations, inclusion–exclusion, expectation and variance, conditional probability, and Bayes’ theorem. The user also worked on poker-hand counting and distributions of items into boxes or groups.",
+   "entities": [
+    "user",
+    "probability",
+    "combinatorics"
+   ],
+   "topic": "mathematics studied",
+   "time": "2024-05-18..2024-05-18",
+   "sources": [
+    "T1757",
+    "T1758",
+    "T1764",
+    "T1772",
+    "T1776",
+    "T1778",
+    "T1740",
+    "T1744"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user studied Markov chains on 2024-05-18, including transition matrices and multi-step probabilities, steady-state distributions, time-dependent transitions, Bayesian updating of transition probabilities, and network reliability modeling.",
+   "entities": [
+    "user",
+    "Markov chains"
+   ],
+   "topic": "Markov-chain topics studied",
+   "time": "2024-05-18..2024-05-18",
+   "sources": [
+    "T1658",
+    "T1653",
+    "T1786",
+    "T1789",
+    "T1792"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user repeatedly worked on card-draw problems involving a standard 52-card deck on 2024-05-18: exactly 2 aces in 5 cards; exactly 3 aces in 6 or 7 cards; expected aces in 5 or 6 cards; and updating deck composition and next-draw probabilities without replacement. The correct probability of exactly 2 aces in 5 cards is C(4,2)C(48,3)/C(52,5) ≈ 0.03993; the expected number of aces in 5 cards is 5/13.",
+   "entities": [
+    "user",
+    "standard 52-card deck",
+    "aces"
+   ],
+   "topic": "card-draw probability problems",
+   "time": "2024-05-18..2024-05-18",
+   "sources": [
+    "T1764",
+    "T1766",
+    "T1768",
+    "T1686",
+    "T1697"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user worked to improve accuracy and systematic verification in probability problem solving. On 2024-05-09, the user was preparing for an error-analysis and verification test and reported an error-detection rate of 60%. After completing 12 verification exercises, the reported rate had risen to 90% by 2024-05-18. Elapsed time between the dated milestones: 9 days.",
+   "entities": [
+    "user",
+    "error detection",
+    "verification exercises"
+   ],
+   "topic": "improving mathematical error detection",
+   "time": "2024-05-09..2024-05-18",
+   "sources": [
+    "T1654",
+    "T1655"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "On 2024-05-18, the user described study plans involving four 1.5-hour sessions, initially focused on integrated problem solving and review. A later record says the user had extended the plan to five sessions of 1.5 hours each, focusing on integrated problems including Markov chains and combinatorial probability. The recorded change was from four to five sessions; the date records do not establish elapsed time between the plans.",
+   "entities": [
+    "user",
+    "study plan"
+   ],
+   "topic": "study-session plan",
+   "time": "2024-05-18..2024-05-18",
+   "sources": [
+    "T1694",
+    "T1695",
+    "T1798"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "By 2024-05-18, the user was preparing for a final assessment scheduled for 2024-05-25, with particular focus on permutations, conditional probability, Bayes’ theorem, and Markov chains. The plan included review, practice, four one-hour study sessions, and a 10-problem self-assessment on the assessment date. Time from planning date to assessment: 7 days.",
+   "entities": [
+    "user",
+    "final assessment"
+   ],
+   "topic": "preparing for final assessment",
+   "time": "2024-05-18..2024-05-25",
+   "sources": [
+    "T1760",
+    "T1761"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported completing 12 verification exercises and improving error detection from 60% to 90%, a gain of 30 percentage points. These milestones were recorded from 2024-05-09 to 2024-05-18.",
+   "entities": [
+    "user",
+    "verification exercises",
+    "error detection rate"
+   ],
+   "topic": "error-detection improvement",
+   "time": "2024-05-09..2024-05-18",
+   "sources": [
+    "T1654",
+    "T1655"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:thread",
+   "text": "Craig’s personal budget-tracker project progressed from initial planning to reported implementation and release. On November 1, 2023, a proposed schedule began with Flask setup and database design, followed by authentication, transaction management, analytics, and testing/deployment milestones through March 15, 2024; a later proposed plan extended final work to an April 15, 2024 MVP deadline. On March 15, 2024, Craig described a locally developed Flask and SQLite application with income and expense tracking, login, and basic analytics as MVP goals. His first sprint, initially due March 29 and then revised to March 31, focused on authentication; on April 5, he reported it completed March 29 with authentication and basic transaction CRUD. Sprint 2 targeted analytics by April 19. On April 5, Craig said registration and login were complete and he was working on transaction CRUD and analytics; on April 25, he reported a v1.0.0 tag created April 20 and pushed. The stated April 15 MVP deadline and April 19 analytics target are plans, not evidence those milestones were met.",
+   "entities": [
+    "Craig",
+    "personal Flask budget tracker"
+   ],
+   "topic": "budget tracker development timeline",
+   "time": "2023-11-01..2024-04-25",
+   "sources": [
+    "T2",
+    "T3",
+    "T8",
+    "T9",
+    "T28",
+    "T52",
+    "T53",
+    "T60",
+    "T66",
+    "T86",
+    "T87",
+    "T148"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Craig’s budget tracker performance work had several reported measurements. On March 15, 2024, he asked about a 320 ms page-load target and reported a static homepage response around 150 ms; he also sought transaction API responses below 250 ms, but no result was confirmed then. On April 5, he reported reducing a query from 450 ms to 120 ms after adding separate date and type indexes. He also reported reducing dashboard API response time from an initial 800 ms to 300 ms through query optimization and 60-second caching, and later reported 250 ms after caching changes, with a target below 200 ms. On April 25, he reported eager loading had reduced an N+1 issue by 70%, while further performance work remained. These are reported observations and goals, not independently verified benchmarks.",
+   "entities": [
+    "Craig",
+    "budget tracker query performance",
+    "budget tracker dashboard API"
+   ],
+   "topic": "performance optimization and measurements",
+   "time": "2024-03-15..2024-04-25",
+   "sources": [
+    "T18",
+    "T19",
+    "T24",
+    "T25",
+    "T40",
+    "T41",
+    "T66",
+    "T68",
+    "T69",
+    "T108",
+    "T114",
+    "T146"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Craig’s authentication and account-security work evolved over time. On March 15, 2024, he requested help building registration and login, initially from scratch, with Werkzeug password hashing, validation, and sessions; a March 15 sprint plan also included authentication work. On April 5, he reported registration and login completed, but separately said Flask-Login 0.6.2 had not yet been integrated and he was starting that integration. On April 25, he reported switching password hashing from bcrypt to Argon2 with Flask-Argon2 0.3.0; he had earlier described bcrypt login as taking about 500 ms. He was also implementing Redis 7.0 lockout after five failed attempts with a one-hour lockout, reported about 80% coverage for auth.py and security.py while aiming for 90%, and asked about long inputs and frontend limits. He requested that security best practices always be included for authentication or authorization questions and prefers pragmatic security improvements that preserve usability and responsiveness.",
+   "entities": [
+    "Craig",
+    "Flask budget tracker authentication",
+    "Flask-Login 0.6.2",
+    "Flask-Argon2 0.3.0",
+    "Redis 7.0"
+   ],
+   "topic": "authentication and security evolution",
+   "time": "2024-03-15..2024-04-25",
+   "sources": [
+    "T16",
+    "T17",
+    "T28",
+    "T29",
+    "T58",
+    "T59",
+    "T66",
+    "T108",
+    "T109",
+    "T114",
+    "T128",
+    "T129",
+    "T150",
+    "T151",
+    "T154",
+    "T155",
+    "T156",
+    "T157",
+    "T158",
+    "T159",
+    "T178",
+    "T184",
+    "T186"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Craig planned and then prepared to deploy his Flask budget tracker. On April 25, 2024, he reported preparing a Render.com deployment with Gunicorn 20.1.0, three workers, production DATABASE_URL and SECRET_KEY environment values, and an intended port of 10000; deployment failed with a bind-to-port error, and setting PORT=10000 had not fixed it. He asked about Render domains, HTTPS, Let’s Encrypt, Flask-Talisman 1.0.0, Docker certificate handling, and Gunicorn configuration. He said he would try gevent and expand edge-case and security tests; this was an intention, not a confirmed change. On the same date, he reported integration tests for authentication, transaction CRUD, and analytics with a 95% pass rate, and said he had never deployed to a cloud platform or used Gunicorn in production. Recommendations about Render TLS and certificates were not confirmed as implemented.",
+   "entities": [
+    "Craig",
+    "Flask budget tracker",
+    "Render.com",
+    "Gunicorn 20.1.0"
+   ],
+   "topic": "production deployment preparation",
+   "time": "2024-04-25..2024-04-25",
+   "sources": [
+    "T118",
+    "T119",
+    "T120",
+    "T121",
+    "T122",
+    "T123",
+    "T124",
+    "T125",
+    "T126",
+    "T127",
+    "T134",
+    "T135",
+    "T136",
+    "T137",
+    "T182"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Craig repeatedly specified the technology and design choices for his personal budget tracker: Python 3.11 (including 3.11.2), Flask 2.3.1, SQLite 3.39 for local development, Jinja2, Bootstrap 5.3, SQLAlchemy (2.0.19 specified April 25), and Chart.js 4.3.0. He described a monolithic MVC application, with auth, transactions, and analytics blueprints planned; preferred keeping the app lightweight and easy to maintain, and later explicitly decided against microservices for version 1.0 stability and simplicity. An April 5 proposed dependency list included Flask-Login 0.6.2, Flask-SQLAlchemy 3.0.3, Flask-Caching 1.11.1, Flask-WTF 1.0.1, Flask-Migrate 4.0.3, Werkzeug 2.3.1, Jinja2 3.1.2, and Marshmallow 3.19.0; those were suggestions and are not confirmation of installation. On April 25 he planned a move from SQLite to PostgreSQL 15 on Render.com to improve concurrent-user support from 10 to 100.",
+   "entities": [
+    "Craig",
+    "personal budget tracker",
+    "Python 3.11",
+    "Flask 2.3.1",
+    "SQLite 3.39",
+    "PostgreSQL 15"
+   ],
+   "topic": "application stack and architecture",
+   "time": "2024-03-15..2024-04-25",
+   "sources": [
+    "T10",
+    "T12",
+    "T34",
+    "T35",
+    "T66",
+    "T111",
+    "T132",
+    "T142",
+    "T160",
+    "T166",
+    "T167",
+    "T180",
+    "T186"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Craig reported or pursued these budget-tracker analytics and transaction capabilities: income and expense entry and tracking; transaction CRUD; monthly income-versus-expense summaries and category spending; yearly trends, top expense categories, and category budgets proposed as Sprint 2 priorities; category-based charts with Chart.js; server-rendered initial pages with JavaScript charts for dynamic analytics; and transaction categories, including a requested nullable category column defaulting to “Uncategorized.” On April 5, he said he was working on transaction CRUD and analytics integration. The broader Sprint 2 feature list was suggested rather than confirmed as adopted.",
+   "entities": [
+    "Craig",
+    "budget tracker transactions",
+    "budget tracker analytics",
+    "Chart.js 4.3.0"
+   ],
+   "topic": "transaction and analytics features",
+   "time": "2024-03-15..2024-04-05",
+   "sources": [
+    "T4",
+    "T8",
+    "T12",
+    "T60",
+    "T66",
+    "T72",
+    "T76",
+    "T77",
+    "T78",
+    "T79",
+    "T86",
+    "T87",
+    "T92",
+    "T93",
+    "T106",
+    "T107"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Craig reported a sequence of dashboard API performance figures: 800 ms initially, then 300 ms after query optimization and 60-second caching, and subsequently around 250 ms after caching changes. On April 5 he stated a target below 200 ms; no achievement of that target is recorded. Separately, a transaction query reportedly improved from 450 ms to 120 ms after adding separate indexes on date and type.",
+   "entities": [
+    "Craig",
+    "budget tracker dashboard API",
+    "SQLite transaction query"
+   ],
+   "topic": "reported performance changes",
+   "time": "2024-04-05..2024-04-25",
+   "sources": [
+    "T68",
+    "T108",
+    "T114"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Craig reported completing first-sprint authentication and basic transaction CRUD on March 29, 2024, despite an earlier revised target of March 31. He reported integration tests with a 95% pass rate on April 25. In separate test-coverage reports, he aimed first for 85% function coverage for auth.py tests and later reported about 80% coverage across auth.py and security.py, aiming for 90%. These are distinct reported measures and should not be treated as one continuous test result.",
+   "entities": [
+    "Craig",
+    "Sprint 1",
+    "budget tracker tests",
+    "auth.py",
+    "security.py"
+   ],
+   "topic": "development and test progress counts",
+   "time": "2024-03-29..2024-04-25",
+   "sources": [
+    "T52",
+    "T53",
+    "T86",
+    "T94",
+    "T118",
+    "T154"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Craig described several code-size or engagement changes in the budget-tracker project: by April 5, he wanted to move analytics into a separate blueprint and reduce main.py by 20%; by April 25, he reported that refactoring initial sprints had reduced main.py by 30%. He also reported a 15% improvement in user engagement during beta tests after a dashboard redesign. The 20% reduction was a goal, while the 30% reduction and engagement improvement were reported outcomes.",
+   "entities": [
+    "Craig",
+    "budget tracker main.py",
+    "budget tracker dashboard redesign"
+   ],
+   "topic": "code-size and engagement changes",
+   "time": "2024-04-05..2024-04-25",
+   "sources": [
+    "T152",
+    "T160"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Craig’s recurring development workflow and quality practices included using Git from the command line, creating feature branches, staging and committing changes, merging into main, pushing to origin, and creating annotated release tags; he reported a v1.0.0 tag created April 20, 2024 and pushed. He worked on pytest and unittest coverage, reported integration tests for authentication, transaction CRUD, and analytics at a 95% pass rate, and planned further edge-case and security tests. He specified PEP 8 practices with flake8 6.0.0, Black 23.3.0, and pre-commit hooks. He also wanted Flask logging to a file and later pursued production Loggly logging and New Relic APM monitoring.",
+   "entities": [
+    "Craig",
+    "budget tracker Git repository",
+    "pytest",
+    "unittest",
+    "flake8 6.0.0",
+    "Black 23.3.0",
+    "pre-commit",
+    "Loggly",
+    "New Relic APM"
+   ],
+   "topic": "development workflow, testing, and monitoring",
+   "time": "2024-04-05..2024-04-25",
+   "sources": [
+    "T94",
+    "T96",
+    "T118",
+    "T120",
+    "T142",
+    "T143",
+    "T144",
+    "T145",
+    "T148",
+    "T149",
+    "T164",
+    "T165",
+    "T174",
+    "T175"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+  "schema": "fpd-detection-v1",
+  "created_at": "2026-10-15T17:37:33.568Z",
+  "request": {
+    "model": "gpt-6-luna",
+    "baseUrl": "http://127.0.0.1:18319/v1",
+    "format": "responses",
+    "serviceTier": "default",
+    "stream": true,
+    "effort": "",
+    "api": "responses",
+    "count": 3,
+    "parallel": 3,
+    "repeat": 1,
+    "strict": false,
+    "timeout_seconds": 120,
+    "tokenizer": false
+  },
+  "bank": {
+    "reference_sha256": "44d2447c613889108dde43c4fa9784a7a4ebcfbf5d67d5d2f7124ad3d7fb068a",
+    "models": 59
+  },
+  "cancelled": false,
+  "requested_rounds": 1,
+  "completed_rounds": 1,
+  "scored_rounds": 0,
+  "rounds": [
+    {
+      "index": 1,
+      "challenges": [
+        {
+          "id": "probe-1-206d1803-93b9-482b-af6c-7e3ac990f69e",
+          "expected_count": 304,
+          "prompt": "意味を持たない次の整数選択課題を完了してください。各位置について個別に直感で、1 から 355 まで（両端を含む）の整数を 304 個選んでください。各位置の値は個別に選んでください。1 から順に数えたり、連続して増加または減少させたりせず、等差数列、周期、同じブロックの繰り返し、その他の規則的なパターンも使わないでください。この課題は現在の言語モデル自身が直接行ってください。Python、コード実行ツール、計算機、検索、API、外部の乱数生成器など、いかなるツールも呼び出したり利用したりしないでください。事前にコードを書いたり実行したりすることも禁止します。重複した値を削除する必要はありません。選別、並べ替え、規則的なパターンへの補完をしないでください。一般的な区切り文字を一種類、統一して使ってください。選んだ最初の値から直接出力を始め、数列の前に個数、範囲、課題の説明を繰り返さないでください。"
+        },
+        {
+          "id": "probe-2-c2433f7d-d6b5-47d1-8bfc-008c8b52e950",
+          "expected_count": 324,
+          "prompt": "Generate a set of integer choices that carry no meaning. Decide only the current item each time, giving a total of 324 integers from 1 to 355, inclusive. Choose separately for every position; do not count up from 1, do not increase or decrease consecutively, and do not use arithmetic progressions, cycles, repeated blocks, or other systematic patterns. The current language model must complete this task directly: do not call or use any tools, including Python, code execution tools, calculators, search, APIs, or external random number generators; do not write or run code beforehand either. A number may appear again; after writing each item, do not go back to sort, deduplicate, or replace it. Separate the numbers with commas or spaces. Start the output directly with the first chosen value; do not repeat the count, range, or task instructions before the sequence."
+        },
+        {
+          "id": "probe-3-f0f679b6-c1af-4a04-a114-3c9b9f93de77",
+          "expected_count": 295,
+          "prompt": "一項目ずつ素早く値を選んでください。毎回その時点の一項目だけを決めて、1 から 355 まで（両端を含む）の整数を 295 個選んでください。各位置の値は個別に選んでください。1 から順に数えたり、連続して増加または減少させたりせず、等差数列、周期、同じブロックの繰り返し、その他の規則的なパターンも使わないでください。この課題は現在の言語モデル自身が直接行ってください。Python、コード実行ツール、計算機、検索、API、外部の乱数生成器など、いかなるツールも呼び出したり利用したりしないでください。事前にコードを書いたり実行したりすることも禁止します。重複した値を削除する必要はありません。選別、並べ替え、規則的なパターンへの補完をしないでください。一般的な区切り文字を一種類、統一して使ってください。選んだ最初の値から直接出力を始め、数列の前に個数、範囲、課題の説明を繰り返さないでください。"
+        }
+      ],
+      "outputs": [
+        {
+          "text": "",
+          "expected_count": 304
+        },
+        {
+          "text": "",
+          "expected_count": 324
+        },
+        {
+          "text": "",
+          "expected_count": 295
+        }
+      ],
+      "startedAt": 1792085853569,
+      "samples": [
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 304,
+          "startedAt": 1792085853569,
+          "error": "HTTP 503: auth_unavailable: no auth available (providers=codex, model=gpt-6-luna; last upstream error: auth_unavailable: Encountered invalidated oauth token: [REDACTED]",
+          "finishedAt": 1792085853582
+        },
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 324,
+          "startedAt": 1792085853572,
+          "error": "HTTP 503: auth_unavailable: no auth available (providers=codex, model=gpt-6-luna; last upstream error: auth_unavailable: Encountered invalidated oauth token: [REDACTED]",
+          "finishedAt": 1792085853583
+        },
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 295,
+          "startedAt": 1792085853572,
+          "error": "HTTP 503: auth_unavailable: no auth available (providers=codex, model=gpt-6-luna; last upstream error: auth_unavailable: Encountered invalidated oauth token: [REDACTED]",
+          "finishedAt": 1792085853584
+        }
+      ],
+      "error": "No valid samples. This round cannot be scored.",
+      "finishedAt": 1792085853584
+    }
+  ],
+  "challenges": [
+    {
+      "id": "probe-1-206d1803-93b9-482b-af6c-7e3ac990f69e",
+      "expected_count": 304,
+      "prompt": "意味を持たない次の整数選択課題を完了してください。各位置について個別に直感で、1 から 355 まで（両端を含む）の整数を 304 個選んでください。各位置の値は個別に選んでください。1 から順に数えたり、連続して増加または減少させたりせず、等差数列、周期、同じブロックの繰り返し、その他の規則的なパターンも使わないでください。この課題は現在の言語モデル自身が直接行ってください。Python、コード実行ツール、計算機、検索、API、外部の乱数生成器など、いかなるツールも呼び出したり利用したりしないでください。事前にコードを書いたり実行したりすることも禁止します。重複した値を削除する必要はありません。選別、並べ替え、規則的なパターンへの補完をしないでください。一般的な区切り文字を一種類、統一して使ってください。選んだ最初の値から直接出力を始め、数列の前に個数、範囲、課題の説明を繰り返さないでください。"
+    },
+    {
+      "id": "probe-2-c2433f7d-d6b5-47d1-8bfc-008c8b52e950",
+      "expected_count": 324,
+      "prompt": "Generate a set of integer choices that carry no meaning. Decide only the current item each time, giving a total of 324 integers from 1 to 355, inclusive. Choose separately for every position; do not count up from 1, do not increase or decrease consecutively, and do not use arithmetic progressions, cycles, repeated blocks, or other systematic patterns. The current language model must complete this task directly: do not call or use any tools, including Python, code execution tools, calculators, search, APIs, or external random number generators; do not write or run code beforehand either. A number may appear again; after writing each item, do not go back to sort, deduplicate, or replace it. Separate the numbers with commas or spaces. Start the output directly with the first chosen value; do not repeat the count, range, or task instructions before the sequence."
+    },
+    {
+      "id": "probe-3-f0f679b6-c1af-4a04-a114-3c9b9f93de77",
+      "expected_count": 295,
+      "prompt": "一項目ずつ素早く値を選んでください。毎回その時点の一項目だけを決めて、1 から 355 まで（両端を含む）の整数を 295 個選んでください。各位置の値は個別に選んでください。1 から順に数えたり、連続して増加または減少させたりせず、等差数列、周期、同じブロックの繰り返し、その他の規則的なパターンも使わないでください。この課題は現在の言語モデル自身が直接行ってください。Python、コード実行ツール、計算機、検索、API、外部の乱数生成器など、いかなるツールも呼び出したり利用したりしないでください。事前にコードを書いたり実行したりすることも禁止します。重複した値を削除する必要はありません。選別、並べ替え、規則的なパターンへの補完をしないでください。一般的な区切り文字を一種類、統一して使ってください。選んだ最初の値から直接出力を始め、数列の前に個数、範囲、課題の説明を繰り返さないでください。"
+    }
+  ],
+  "outputs": [
+    {
+      "text": "",
+      "expected_count": 304
+    },
+    {
+      "text": "",
+      "expected_count": 324
+    },
+    {
+      "text": "",
+      "expected_count": 295
+    }
+  ]
+}

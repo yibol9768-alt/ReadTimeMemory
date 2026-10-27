@@ -1,0 +1,129 @@
+{
+  "schema": "fpd-detection-v1",
+  "created_at": "2026-10-16T17:37:57.957Z",
+  "request": {
+    "model": "gpt-6-luna",
+    "baseUrl": "http://127.0.0.1:18319/v1",
+    "format": "responses",
+    "serviceTier": "default",
+    "stream": true,
+    "effort": "",
+    "api": "responses",
+    "count": 3,
+    "parallel": 3,
+    "repeat": 1,
+    "strict": false,
+    "timeout_seconds": 120,
+    "tokenizer": false
+  },
+  "bank": {
+    "reference_sha256": "44d2447c613889108dde43c4fa9784a7a4ebcfbf5d67d5d2f7124ad3d7fb068a",
+    "models": 59
+  },
+  "cancelled": false,
+  "requested_rounds": 1,
+  "completed_rounds": 1,
+  "scored_rounds": 0,
+  "rounds": [
+    {
+      "index": 1,
+      "challenges": [
+        {
+          "id": "probe-1-18ceb531-3cc1-442d-9be3-a74267672eb2",
+          "expected_count": 292,
+          "prompt": "This is an independent record of numerical choices. Give, each by first instinct, 292 integers from 1 to 355, inclusive. Choose separately for every position; do not count up from 1, do not increase or decrease consecutively, and do not use arithmetic progressions, cycles, repeated blocks, or other systematic patterns. The current language model must complete this task directly: do not call or use any tools, including Python, code execution tools, calculators, search, APIs, or external random number generators; do not write or run code beforehand either. Accidental repetitions are valid; do not rearrange or correct items already written. Separate the numbers with commas or spaces. Start the output directly with the first chosen value; do not repeat the count, range, or task instructions before the sequence."
+        },
+        {
+          "id": "probe-2-ee28c4ab-6813-46f7-a804-3f070d445472",
+          "expected_count": 332,
+          "prompt": "This is an independent record of numerical choices. Choose directly, one by one, 332 integers from 1 to 355, inclusive. Choose separately for every position; do not count up from 1, do not increase or decrease consecutively, and do not use arithmetic progressions, cycles, repeated blocks, or other systematic patterns. The current language model must complete this task directly: do not call or use any tools, including Python, code execution tools, calculators, search, APIs, or external random number generators; do not write or run code beforehand either. The same value may appear again; do not organize or rewrite earlier items while producing the output. Separate the numbers with commas or spaces. Start the output directly with the first chosen value; do not repeat the count, range, or task instructions before the sequence."
+        },
+        {
+          "id": "probe-3-02a6a6ca-dcec-4f6f-a95c-0b899166bf1c",
+          "expected_count": 330,
+          "prompt": "의미를 담지 않은 정수 선택을 한 세트 생성하세요. 항목별로 1부터 355까지(양 끝 포함)의 정수 330개를 고르세요. 각 위치의 값은 따로 고르세요. 1부터 차례로 세지 말고, 연속으로 증가하거나 감소하지 말며, 등차수열, 순환, 반복되는 블록 또는 그 밖의 규칙적인 패턴도 사용하지 마세요. 이 과제는 현재 언어 모델이 직접 수행해야 합니다. Python, 코드 실행기, 계산기, 검색, API, 외부 난수 생성기를 포함한 어떤 도구도 호출하거나 이용하지 마세요. 미리 코드를 작성하거나 실행하지도 마세요. 중복된 값을 지울 필요는 없습니다. 걸러 내거나 다시 배열하거나 어떤 규칙에 맞춰 채우지 마세요. 일반적인 구분 기호 하나를 일관되게 사용하세요. 고른 첫 번째 값부터 바로 출력하고, 수열 앞에 개수, 범위 또는 과제 설명을 반복하지 마세요."
+        }
+      ],
+      "outputs": [
+        {
+          "text": "",
+          "expected_count": 292
+        },
+        {
+          "text": "",
+          "expected_count": 332
+        },
+        {
+          "text": "",
+          "expected_count": 330
+        }
+      ],
+      "startedAt": 1792172277958,
+      "samples": [
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 292,
+          "startedAt": 1792172277959,
+          "error": "HTTP 503: auth_unavailable: no auth available (providers=codex, model=gpt-6-luna; last upstream error: auth_unavailable: Encountered invalidated oauth token: [REDACTED]",
+          "finishedAt": 1792172277971
+        },
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 332,
+          "startedAt": 1792172277961,
+          "error": "HTTP 503: auth_unavailable: no auth available (providers=codex, model=gpt-6-luna; last upstream error: auth_unavailable: Encountered invalidated oauth token: [REDACTED]",
+          "finishedAt": 1792172277971
+        },
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 330,
+          "startedAt": 1792172277961,
+          "error": "HTTP 503: auth_unavailable: no auth available (providers=codex, model=gpt-6-luna; last upstream error: auth_unavailable: Encountered invalidated oauth token: [REDACTED]",
+          "finishedAt": 1792172277972
+        }
+      ],
+      "error": "No valid samples. This round cannot be scored.",
+      "finishedAt": 1792172277972
+    }
+  ],
+  "challenges": [
+    {
+      "id": "probe-1-18ceb531-3cc1-442d-9be3-a74267672eb2",
+      "expected_count": 292,
+      "prompt": "This is an independent record of numerical choices. Give, each by first instinct, 292 integers from 1 to 355, inclusive. Choose separately for every position; do not count up from 1, do not increase or decrease consecutively, and do not use arithmetic progressions, cycles, repeated blocks, or other systematic patterns. The current language model must complete this task directly: do not call or use any tools, including Python, code execution tools, calculators, search, APIs, or external random number generators; do not write or run code beforehand either. Accidental repetitions are valid; do not rearrange or correct items already written. Separate the numbers with commas or spaces. Start the output directly with the first chosen value; do not repeat the count, range, or task instructions before the sequence."
+    },
+    {
+      "id": "probe-2-ee28c4ab-6813-46f7-a804-3f070d445472",
+      "expected_count": 332,
+      "prompt": "This is an independent record of numerical choices. Choose directly, one by one, 332 integers from 1 to 355, inclusive. Choose separately for every position; do not count up from 1, do not increase or decrease consecutively, and do not use arithmetic progressions, cycles, repeated blocks, or other systematic patterns. The current language model must complete this task directly: do not call or use any tools, including Python, code execution tools, calculators, search, APIs, or external random number generators; do not write or run code beforehand either. The same value may appear again; do not organize or rewrite earlier items while producing the output. Separate the numbers with commas or spaces. Start the output directly with the first chosen value; do not repeat the count, range, or task instructions before the sequence."
+    },
+    {
+      "id": "probe-3-02a6a6ca-dcec-4f6f-a95c-0b899166bf1c",
+      "expected_count": 330,
+      "prompt": "의미를 담지 않은 정수 선택을 한 세트 생성하세요. 항목별로 1부터 355까지(양 끝 포함)의 정수 330개를 고르세요. 각 위치의 값은 따로 고르세요. 1부터 차례로 세지 말고, 연속으로 증가하거나 감소하지 말며, 등차수열, 순환, 반복되는 블록 또는 그 밖의 규칙적인 패턴도 사용하지 마세요. 이 과제는 현재 언어 모델이 직접 수행해야 합니다. Python, 코드 실행기, 계산기, 검색, API, 외부 난수 생성기를 포함한 어떤 도구도 호출하거나 이용하지 마세요. 미리 코드를 작성하거나 실행하지도 마세요. 중복된 값을 지울 필요는 없습니다. 걸러 내거나 다시 배열하거나 어떤 규칙에 맞춰 채우지 마세요. 일반적인 구분 기호 하나를 일관되게 사용하세요. 고른 첫 번째 값부터 바로 출력하고, 수열 앞에 개수, 범위 또는 과제 설명을 반복하지 마세요."
+    }
+  ],
+  "outputs": [
+    {
+      "text": "",
+      "expected_count": 292
+    },
+    {
+      "text": "",
+      "expected_count": 332
+    },
+    {
+      "text": "",
+      "expected_count": 330
+    }
+  ]
+}

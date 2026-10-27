@@ -1,0 +1,691 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:thread",
+   "text": "Jamie’s differential-equations study progressed from first-order ODEs to second-order equations and numerical methods. On 2024-01-10, Jamie studied separable and linear first-order ODEs for a quiz, aimed for 85%, and reported practice scores including 70%, 80%, and 75%; later that day, an integrating-factors quiz score had risen from 70% to 82%. On 2024-01-24, Jamie reported a separable-ODE quiz score rising from 82% to 88%, and worked on homogeneous equations, Euler’s method, and nonhomogeneous linear equations. On 2024-02-07, Jamie worked on characteristic equations, undetermined coefficients, variation of parameters, and RK4; reports included 5/6 separable problems correct, 85% average accuracy on five second-order problems, and later 92% accuracy on seven second-order problems. On 2024-02-21, Jamie worked extensively on variation of parameters and forced oscillators; one report said four problems at 88% average, but Jamie later clarified they had never actually solved a variation-of-parameters problem. A later report gave a test-score increase from 78% to 92%. On 2024-03-06, Jamie reported mastering Euler and RK4 and practicing logistic models and error analysis. Elapsed time from first dated study record to latest dated study record: 56 days.",
+   "entities": [
+    "Jamie",
+    "ordinary differential equations",
+    "numerical methods"
+   ],
+   "topic": "differential-equations learning",
+   "time": "2024-01-10..2024-03-06",
+   "sources": [
+    "T4",
+    "T10",
+    "T54",
+    "T176",
+    "T177",
+    "T244",
+    "T328",
+    "T366",
+    "T544",
+    "T630",
+    "T636",
+    "T660"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Recurring population models Jamie studied: exponential growth dP/dt=kP, including k=0.03 with P(0)=1000 and prediction P(10)≈1349.9 (2024-01-10), and k=0.035 (2024-01-10); logistic growth dP/dt=rP(1−P/K), including a research example with r=0.05, K=1000, P(0)=100 (2024-01-10), r=0.1 and K=5000 (2024-01-24 and 2024-02-07), and r=0.5, K=1000, P(0)=100 (2024-03-06); exponential decay dN/dt=−0.05N with N(0)=500 (2024-01-10); and population change with constant input, dN/dt=−0.04N+20 (2024-01-24 and 2024-02-21). Jamie also explored logistic growth with harvesting, dP/dt=0.02P(1−P/1000)−5, P(0)=800 (2024-02-21), and logistic harvesting with K=1000 and h=30, for which r was not specified (2024-03-06).",
+   "entities": [
+    "Jamie",
+    "exponential growth model",
+    "logistic growth model",
+    "exponential decay model",
+    "population harvesting model"
+   ],
+   "topic": "population models studied",
+   "time": "2024-01-10..2024-03-06",
+   "sources": [
+    "T24",
+    "T25",
+    "T40",
+    "T42",
+    "T99",
+    "T100",
+    "T101",
+    "T146",
+    "T147",
+    "T178",
+    "T182",
+    "T306",
+    "T307",
+    "T338",
+    "T339",
+    "T636",
+    "T637",
+    "T619",
+    "T620",
+    "T650",
+    "T651",
+    "T498",
+    "T499"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Jamie repeatedly studied first-order ODE methods: separation of variables, including dy/dx=y sin x, dy/dx=2x/(3y), and dy/dx=3x²/(2y) (2024-01-10, 2024-01-24, 2024-02-07); integrating factors, including y′+2y=4, y′+y=eˣ, and population equations (2024-01-10 through 2024-02-07); and the homogeneous substitution v=y/x for dy/dx=(x²+y²)/(xy) (2024-01-24 and 2024-02-07). Jamie also practiced second-order constant-coefficient equations, including y″−3y′+2y=0, y″+y=cos(2x), and y″+4y=tan(2x) (2024-02-07 and 2024-02-21). Numerical methods repeatedly studied included Euler’s method and RK4, with step-size and error comparisons (2024-01-24, 2024-02-07, 2024-02-21, and 2024-03-06).",
+   "entities": [
+    "Jamie",
+    "separation of variables",
+    "integrating factors",
+    "homogeneous substitution",
+    "characteristic equation",
+    "undetermined coefficients",
+    "variation of parameters",
+    "Euler’s method",
+    "RK4"
+   ],
+   "topic": "ODE methods practiced",
+   "time": "2024-01-10..2024-03-06",
+   "sources": [
+    "T18",
+    "T19",
+    "T28",
+    "T29",
+    "T148",
+    "T152",
+    "T170",
+    "T171",
+    "T220",
+    "T221",
+    "T298",
+    "T299",
+    "T310",
+    "T311",
+    "T456",
+    "T470",
+    "T500",
+    "T501",
+    "T660"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Jamie’s variation-of-parameters learning developed through repeated work on y″+4y=tan(2x). On 2024-02-21, Jamie asked for help finding the Wronskian and repeatedly sought detailed integral guidance; the correct basis is cos(2x), sin(2x), with W=2, and a correct particular solution is −(1/4)cos(2x)ln|sec(2x)+tan(2x)|. Several assistant attempts contained errors, subsequently corrected in the record. On 2024-02-21, Jamie clarified that despite an earlier report of six completed problems, they had never actually solved a variation-of-parameters problem and requested a simpler introduction using y″+y=sec x. That example’s solution is y=C₁cos x+C₂sin x−cos x ln|cos x|+x sin x, on intervals where cos x≠0. Elapsed time between the first recorded request and clarification: 0 days.",
+   "entities": [
+    "Jamie",
+    "variation of parameters",
+    "y″+4y=tan(2x)",
+    "y″+y=sec x"
+   ],
+   "topic": "learning variation of parameters",
+   "time": "2024-02-21..2024-02-21",
+   "sources": [
+    "T578",
+    "T579",
+    "T622",
+    "T623",
+    "T628",
+    "T630",
+    "T631"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Jamie repeatedly worked on accuracy and step-size choices for numerical ODE methods. On 2024-01-24, Jamie reported Euler practice error improving from 8% to 3%, with 12% error at h=1 and 1.2% at h=0.1; Jamie requested error-percentage comparisons. On 2024-02-21, Jamie reported RK4 error falling from 7% to 2% when changing h from 0.2 to 0.1, and later reported reducing error from 5% to 0.5% by refining the step size. On 2024-03-06, Jamie reported completing seven numerical-method problems and reducing average error from 6% to 1.5%, while comparing h=0.05 and h=0.2. Elapsed time from the first to latest dated report: 42 days.",
+   "entities": [
+    "Jamie",
+    "Euler’s method",
+    "RK4",
+    "step size",
+    "numerical error"
+   ],
+   "topic": "numerical-method accuracy",
+   "time": "2024-01-24..2024-03-06",
+   "sources": [
+    "T202",
+    "T203",
+    "T212",
+    "T504",
+    "T505",
+    "T508",
+    "T509",
+    "T660",
+    "T670"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Recorded study-score changes: integrating-factors quiz score rose from 70% to 82% on 2024-01-10; separable-ODE quiz score rose from 82% to 88% on 2024-01-24; second-order ODE quiz score rose from 75% to 90% on 2024-02-07; variation-of-parameters test score rose from 78% to 92% on 2024-02-21. These are separately reported score changes, not a single continuous assessment series.",
+   "entities": [
+    "Jamie",
+    "integrating-factors quiz",
+    "separable-ODE quiz",
+    "second-order ODE quiz",
+    "variation-of-parameters test"
+   ],
+   "topic": "reported assessment-score improvements",
+   "time": "2024-01-10..2024-02-21",
+   "sources": [
+    "T54",
+    "T176",
+    "T177",
+    "T544"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Jamie repeatedly requested step-by-step mathematical explanations: clear integral calculations for separable equations were requested on 2024-01-10 and reaffirmed later; detailed integral steps for variation of parameters were explicitly requested on 2024-02-21. Jamie also preferred conceptual understanding over memorizing formulas, analytical methods before numerical verification for complex forcing, error-percentage comparisons in numerical-method answers, and graphical solution sketches when discussing second-order ODE behavior.",
+   "entities": [
+    "Jamie"
+   ],
+   "topic": "learning and explanation preferences",
+   "time": "2024-01-10..2024-02-21",
+   "sources": [
+    "T66",
+    "T68",
+    "T144",
+    "T146",
+    "T518",
+    "T628",
+    "T630"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Jamie’s recurring numerical-method applications and comparisons included Euler’s method for logistic population growth with r=0.1 and K=5000, using illustrative P(0)=1000 and h=0.1 or h=0.25 (2024-01-24 and 2024-02-07); Euler and exact-solution comparisons for y′=0.03y, y(0)=1000, through t=5 (2024-01-24); Euler versus exact solutions for dN/dt=−0.04N+20, illustrated with N(0)=400 and h=0.1 (2024-01-24 and 2024-02-21); and RK4 calculations for y′=−2y+sin(t), y(0)=1, including h=0.2 (2024-02-21 and 2024-03-06). Jamie also studied RK4 for y′=y−x²+1, y(0)=0.5, h=0.1 (2024-02-07 and 2024-02-21).",
+   "entities": [
+    "Jamie",
+    "Euler’s method",
+    "RK4",
+    "logistic population growth",
+    "numerical-versus-exact comparisons"
+   ],
+   "topic": "numerical-method examples",
+   "time": "2024-01-24..2024-03-06",
+   "sources": [
+    "T200",
+    "T201",
+    "T212",
+    "T213",
+    "T245",
+    "T498",
+    "T499",
+    "T342",
+    "T343",
+    "T500",
+    "T501",
+    "T656",
+    "T657"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user repeatedly studied ODE models and applications: logistic growth and harvesting (2024-03-06..2024-04-17); exponential radioactive decay and Newton’s law of cooling, including time-varying ambient temperature (2024-03-06); predator–prey and Lotka–Volterra systems, including equilibria, stability, simulations, and phase portraits (2024-03-20..2024-04-17); SIR disease spread (2024-04-17); RLC circuits and damped oscillators (2024-03-20..2024-04-17); forced oscillators, resonance, and a proposed psychological stress-response model (2024-04-03..2024-04-17); and separable and homogeneous first-order equations (2024-03-06..2024-03-20).",
+   "entities": [
+    "user",
+    "logistic growth",
+    "harvesting model",
+    "radioactive decay",
+    "Newton's law of cooling",
+    "Lotka–Volterra model",
+    "SIR model",
+    "RLC circuits",
+    "forced oscillators",
+    "psychological stress-response model",
+    "separable equations",
+    "homogeneous equations"
+   ],
+   "topic": "ODE models and applications studied",
+   "time": "2024-03-06..2024-04-17",
+   "sources": [
+    "T696",
+    "T698",
+    "T702",
+    "T758",
+    "T764",
+    "T878",
+    "T884",
+    "T894",
+    "T902",
+    "T1020",
+    "T1028",
+    "T1100",
+    "T1114",
+    "T1126",
+    "T1134",
+    "T1140",
+    "T1166",
+    "T1170",
+    "T1176"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user repeatedly worked on analytical ODE methods: separation of variables and partial fractions; characteristic equations, including real, repeated, and complex roots; applying initial conditions; undetermined coefficients; variation of parameters; Wronskians and fundamental solution sets; direct substitution to verify solutions; and Laplace transforms. The user especially practiced forced-oscillator particular solutions and resonance (2024-03-06..2024-04-17).",
+   "entities": [
+    "user",
+    "separation of variables",
+    "characteristic-equation method",
+    "initial conditions",
+    "undetermined coefficients",
+    "variation of parameters",
+    "Wronskian",
+    "solution verification",
+    "Laplace transforms",
+    "forced oscillators",
+    "resonance"
+   ],
+   "topic": "Analytical ODE methods practiced",
+   "time": "2024-03-06..2024-04-17",
+   "sources": [
+    "T686",
+    "T694",
+    "T708",
+    "T724",
+    "T750",
+    "T794",
+    "T802",
+    "T804",
+    "T816",
+    "T864",
+    "T905",
+    "T952",
+    "T964",
+    "T1008",
+    "T1014",
+    "T1018",
+    "T1038",
+    "T1090",
+    "T1092",
+    "T1094",
+    "T1120"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user repeatedly studied numerical methods and computational tools: Euler’s method and RK4 for scalar ODEs (2024-03-06..2024-04-17); Python examples using SciPy odeint, solve_ivp, and Matplotlib (2024-03-06..2024-04-03); and MATLAB ode45 simulations, adaptive tolerances, and phase-plane plotting (2024-04-17). Topics included step-size choice, accuracy versus computation, convergence, error estimates, analytical comparisons, and graphical interpretation.",
+   "entities": [
+    "user",
+    "Euler's method",
+    "RK4",
+    "Python",
+    "SciPy",
+    "Matplotlib",
+    "MATLAB",
+    "ode45",
+    "step-size selection",
+    "adaptive solvers",
+    "error analysis",
+    "plots"
+   ],
+   "topic": "Numerical methods and tools",
+   "time": "2024-03-06..2024-04-17",
+   "sources": [
+    "T671",
+    "T690",
+    "T692",
+    "T734",
+    "T736",
+    "T766",
+    "T772",
+    "T784",
+    "T788",
+    "T978",
+    "T988",
+    "T1010",
+    "T1102",
+    "T1104",
+    "T1130",
+    "T1132",
+    "T1172",
+    "T1174",
+    "T1182"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user repeatedly requested step-by-step, beginner-friendly explanations with clear reasoning and calculations, and asked to verify their proposed solutions rather than accept them uncritically. They prefer analytical solutions before numerical verification and error comparisons, and explicitly request plots when interpreting numerical outputs. They also explicitly asked that explanations of forced oscillators always include resonance effects.",
+   "entities": [
+    "user"
+   ],
+   "topic": "Learning and explanation preferences",
+   "time": "2024-03-06..2024-04-17",
+   "sources": [
+    "T756",
+    "T790",
+    "T794",
+    "T802",
+    "T938",
+    "T956",
+    "T988",
+    "T1008",
+    "T1010",
+    "T1014",
+    "T1058",
+    "T1068",
+    "T1092"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s ODE-learning work developed from logistic growth, decay, separation, Euler/RK4, and variation of parameters (2024-03-06) to characteristic roots, complex roots, initial conditions, and RLC examples (2024-03-20). By 2024-04-03, the user was practicing nonhomogeneous equations, forced damped oscillators, resonance, and numerical error control; they reported completing 9 undetermined-coefficients problems and feeling confident that day. On 2024-04-17, work extended to predator–prey simulations, phase portraits, stability, parameter effects, and resonance. The records span 42 elapsed days from March 6 to April 17, 2024.",
+   "entities": [
+    "user",
+    "ODE learning"
+   ],
+   "topic": "ODE learning progression",
+   "time": "2024-03-06..2024-04-17",
+   "sources": [
+    "T720",
+    "T732",
+    "T794",
+    "T828",
+    "T896",
+    "T898",
+    "T940",
+    "T952",
+    "T1002",
+    "T1020",
+    "T1090",
+    "T1100",
+    "T1114",
+    "T1134",
+    "T1140",
+    "T1170"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user repeatedly investigated how step size affects accuracy and computational effort. On 2024-03-06, they said they preferred smaller steps for accuracy despite longer computation, and explored timing, Euler-versus-RK4 comparisons, and convergence checks. On 2024-04-03, they worked on reducing simulation error for logistic growth and a forced oscillator, including adaptive step-size control and comparing numerical results with analytical solutions. On 2024-04-17, they continued this work with predator–prey simulations in MATLAB, comparing requested output intervals and ode45 tolerances. The records span 42 elapsed days.",
+   "entities": [
+    "user",
+    "step-size selection",
+    "numerical error control"
+   ],
+   "topic": "Accuracy and computational-effort trade-offs",
+   "time": "2024-03-06..2024-04-17",
+   "sources": [
+    "T672",
+    "T690",
+    "T692",
+    "T752",
+    "T784",
+    "T966",
+    "T978",
+    "T984",
+    "T1010",
+    "T1004",
+    "T1104",
+    "T1130",
+    "T1132",
+    "T1172",
+    "T1174"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported improving a quiz score on logistic and decay models from 80% to 90% on 2024-03-06. On 2024-03-20, they reported improving their complex-roots and oscillations test score from 82% to 93%, and solving 5 of 6 second-order ODE problems correctly. These are separate reported progress measures, not a single comparable score series.",
+   "entities": [
+    "user",
+    "quiz scores",
+    "ODE problem accuracy"
+   ],
+   "topic": "Reported learning progress",
+   "time": "2024-03-06..2024-03-20",
+   "sources": [
+    "T720",
+    "T896",
+    "T898"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user reported completing 6 logistic-growth problems and solving 5 correctly on 2024-03-06; completing 5 complex-root problems with 90% average accuracy on 2024-03-20; and completing 7 complex-root problems while aiming for 95% accuracy on 2024-03-20. On 2024-04-03, the user reported completing 9 undetermined-coefficients problems and feeling confident. These are distinct practice reports.",
+   "entities": [
+    "user",
+    "logistic-growth practice",
+    "complex-root practice",
+    "undetermined-coefficients practice"
+   ],
+   "topic": "Reported practice counts and accuracy",
+   "time": "2024-03-06..2024-04-03",
+   "sources": [
+    "T732",
+    "T733",
+    "T828",
+    "T936",
+    "T1090"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user’s stated approach to numerical accuracy favored smaller step sizes even when they increase runtime (2024-03-06). Across later discussions, the user explored balancing accuracy with computation through convergence checks, adaptive step sizes, and solver tolerances (2024-03-06..2024-04-17), rather than relying only on a fixed small step.",
+   "entities": [
+    "user",
+    "numerical step size",
+    "accuracy-efficiency preference"
+   ],
+   "topic": "Preference and approach to numerical accuracy",
+   "time": "2024-03-06..2024-04-17",
+   "sources": [
+    "T672",
+    "T690",
+    "T752",
+    "T784",
+    "T1010",
+    "T1104",
+    "T1130",
+    "T1132",
+    "T1174"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user repeatedly studied ordinary differential equations, numerical methods, and mathematical modeling, including: SIR disease dynamics (2024-04-17 onward); Lotka–Volterra predator–prey systems (2024-04-17 onward); power-series and Frobenius methods, including Bessel’s equation and the quantum harmonic oscillator (2024-05-01 onward); constant-coefficient linear ODEs and methods including characteristic equations, undetermined coefficients, variation of parameters, and Laplace transforms (2024-04-17 onward); logistic population growth, parameter estimation, and harvesting (2024-05-01 onward); and illustrative beam-deflection and psychological stress-response models (2024-05-01).",
+   "entities": [
+    "the user",
+    "SIR model",
+    "Lotka–Volterra model",
+    "power-series methods",
+    "Frobenius method",
+    "quantum harmonic oscillator",
+    "logistic growth model",
+    "beam-deflection model",
+    "stress-response model"
+   ],
+   "topic": "Recurring mathematics and modeling studies",
+   "time": "2024-04-17..2024-05-15",
+   "sources": [
+    "T1200",
+    "T1270",
+    "T1324",
+    "T1443",
+    "T1528",
+    "T1588",
+    "T1640"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user repeatedly practiced numerical solution and verification methods: Euler’s method, adaptive Euler/Heun approaches, RK4, MATLAB ode45, Python SciPy solve_ivp, and comparisons against analytical or series solutions. Their examples included SIR, Lotka–Volterra, logistic growth, and linear second-order ODEs (2024-04-17..2024-05-15).",
+   "entities": [
+    "the user",
+    "Euler’s method",
+    "Heun’s method",
+    "RK4",
+    "MATLAB ode45",
+    "SciPy solve_ivp"
+   ],
+   "topic": "Numerical methods practiced",
+   "time": "2024-04-17..2024-05-15",
+   "sources": [
+    "T1201",
+    "T1203",
+    "T1267",
+    "T1352",
+    "T1529",
+    "T1625",
+    "T1630"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user’s recurring learning preferences include compassionate, beginner-friendly, conceptual, step-by-step explanations; explicit calculations; analytical work before numerical verification when feasible; error and convergence checks; practical interpretations; and plots. The user wants phase-plane plots when discussing nonlinear system dynamics and wants the radius of convergence explained for power-series solutions, including validity at a specified point. For Laplace methods, the user specifically wants step-by-step inverse-transform work. These preferences were stated or reinforced on 2024-04-17, 2024-05-01, and 2024-05-15.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Learning and explanation preferences",
+   "time": "2024-04-17..2024-05-15",
+   "sources": [
+    "T1276",
+    "T1324",
+    "T1440",
+    "T1656",
+    "T1657",
+    "T1658"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user reported these study results: nonlinear-systems test score improved from 78% to 88% (2024-04-17); series-solutions quiz score improved from 70% to 85% (2024-05-01); completed six power-series problems with 90% average accuracy (2024-05-01); completed 10 mixed ODE problems with 9/10 correct, averaging 25 minutes per problem (2024-05-15); and completed five nonlinear RK4 problems with average error below 1% (2024-05-15).",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Study achievements",
+   "time": "2024-04-17..2024-05-15",
+   "sources": [
+    "T1410",
+    "T1496",
+    "T1536"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user began studying full nonlinear SIR simulation and numerical methods on 2024-04-17, using the illustrative setup N=1000, S(0)=995, I(0)=5, R(0)=0, β=0.3, γ=0.1. They explored Euler, adaptive Euler, RK4, and step-size comparisons, preferring the full nonlinear model over equilibrium linearization. They then asked how to verify conservation S+I+R=N, numerical stability and accuracy, and how to estimate β and γ from observations. Later discussions included interpreting recovery-flow integrals. By 2024-04-17, the user understood that the total population is conserved in the closed model and wanted its real-world meaning and practical numerical checks.",
+   "entities": [
+    "the user",
+    "SIR model",
+    "β",
+    "γ"
+   ],
+   "topic": "SIR modeling and numerical verification",
+   "time": "2024-04-17..2024-05-01",
+   "sources": [
+    "T1200",
+    "T1201",
+    "T1203",
+    "T1228",
+    "T1246",
+    "T1462"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user began exploring Lotka–Volterra dynamics on 2024-04-17, including equilibria, Jacobian stability, parameter effects, nullclines, phase portraits, and simulations from different initial populations. The April example used α=0.1, β=0.02, δ=0.3, γ=0.01, with coexistence equilibrium (30,5); simulations used initial values such as (40,9). On 2024-05-01, the user separately considered α=0.1, β=0.02, γ=0.3, δ=0.01 and asked about constant-parameter limitations and seasonal forcing. On 2024-05-15, they asked about RK4 application and step-size effects for the April parameterization. The user reported completing six predator–prey simulations on 2024-04-17 and wanted phase-plane plots for nonlinear dynamics.",
+   "entities": [
+    "the user",
+    "Lotka–Volterra predator–prey model"
+   ],
+   "topic": "Predator–prey modeling and phase-plane analysis",
+   "time": "2024-04-17..2024-05-15",
+   "sources": [
+    "T1260",
+    "T1266",
+    "T1270",
+    "T1274",
+    "T1276",
+    "T1348",
+    "T1384",
+    "T1389",
+    "T1579",
+    "T1630"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user worked repeatedly on series solutions beginning 2024-05-01, especially the recurrence and radius of convergence for y''+xy'+y=0 and Frobenius solutions for y''+(1/x)y'+y=0. They asked about coefficient matching, initial conditions, truncation, convergence, and comparison with RK4; on 2024-05-15 they continued reviewing recurrence relations and radius of convergence. They reported four series problems at 87% average accuracy on 2024-05-01, later six problems at 90% average accuracy, and a series-solutions quiz improvement from 70% to 85%.",
+   "entities": [
+    "the user",
+    "power-series solutions",
+    "Frobenius method",
+    "y''+xy'+y=0",
+    "y''+(1/x)y'+y=0"
+   ],
+   "topic": "Series-solution study and progress",
+   "time": "2024-05-01..2024-05-15",
+   "sources": [
+    "T1324",
+    "T1326",
+    "T1332",
+    "T1396",
+    "T1410",
+    "T1430",
+    "T1440",
+    "T1464",
+    "T1570",
+    "T1632"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user prepared for a final exam scheduled for 2024-05-15, covering separable, linear, and second-order ODEs, numerical methods, and modeling. On 2024-05-15 they practiced solution methods, parameter estimation, numerical step-size choices, and applications; they reported 10 mixed problems with 9/10 correct and an average of 25 minutes per problem. They considered a 12-minute-per-problem pacing strategy for a two-hour exam, and had three two-hour review sessions scheduled in one record and later described four two-hour review sessions (eight hours total), without dates specified for the sessions.",
+   "entities": [
+    "the user",
+    "ODE final exam"
+   ],
+   "topic": "Final-exam preparation",
+   "time": "2024-05-15..2024-05-15",
+   "sources": [
+    "T1492",
+    "T1496",
+    "T1602",
+    "T1608",
+    "T1622",
+    "T1654"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user developed a recurring interest in logistic population modeling, starting with estimating growth rate and carrying capacity from data on 2024-05-01. They later asked about nonlinear regression, weak identifiability of carrying capacity without a plateau, and combining preliminary estimates with fitting. On 2024-05-15 they studied logistic prediction, numerical verification, constant harvesting, equilibrium conditions, sustainable harvest, and time-varying harvesting. They also asked about tuning parameters to reduce mean squared prediction error. The user’s questions progressed from fitting growth curves to interpreting harvesting thresholds and assessing numerical accuracy.",
+   "entities": [
+    "the user",
+    "logistic population model",
+    "growth rate",
+    "carrying capacity",
+    "harvesting"
+   ],
+   "topic": "Logistic growth, parameter estimation, and harvesting",
+   "time": "2024-05-01..2024-05-15",
+   "sources": [
+    "T1414",
+    "T1416",
+    "T1418",
+    "T1526",
+    "T1528",
+    "T1540",
+    "T1640",
+    "T1652"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "Across the study reports, the user’s nonlinear-systems test score rose from 78% to 88% (a 10-percentage-point increase) on 2024-04-17, and their series-solutions quiz score rose from 70% to 85% (a 15-percentage-point increase) by 2024-05-01. The user also reported six power-series problems at 90% average accuracy on 2024-05-01, 9/10 mixed ODE problems on 2024-05-15, and five nonlinear RK4 problems with average error below 1% on 2024-05-15.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Reported score and accuracy changes",
+   "time": "2024-04-17..2024-05-15",
+   "sources": [
+    "T1410",
+    "T1496",
+    "T1536"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user’s planned final-exam review commitment changed across reports: one record on 2024-05-15 says three sessions of two hours each (six hours total), while a later record says four sessions of two hours each (eight hours total). The user said they had not prepared final-exam notes or review sessions before and felt the plan seemed contradictory.",
+   "entities": [
+    "the user"
+   ],
+   "topic": "Change in planned review-session count",
+   "time": "2024-05-15..2024-05-15",
+   "sources": [
+    "T1622",
+    "T1654"
+   ]
+  }
+ ]
+}

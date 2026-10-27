@@ -1,0 +1,367 @@
+{
+ "rollups": [
+  {
+   "type": "rollup:collection",
+   "text": "The user’s documented trips and outings: Washington, D.C., for a job interview (2023-04-10); Philadelphia for a music festival (2023-04-24); Denver for a five-day family vacation (2023-05-01..2023-05-05); the Hamptons for a beach weekend with friends (2023-06-05); Los Angeles for a friend’s birthday party (2023-06-15); Montreal for a short business trip (2023-10-01); and a weekend trip to Yosemite, completed shortly before 2023-10-01. The user also reported a family trip to Hawaii in September 2023, visiting Oahu, Maui, and the Big Island.",
+   "entities": [
+    "Washington, D.C.",
+    "Philadelphia, Pennsylvania",
+    "Denver, Colorado",
+    "Hamptons, New York",
+    "Los Angeles, California",
+    "Montreal, Quebec",
+    "Yosemite",
+    "Oahu",
+    "Maui",
+    "Big Island"
+   ],
+   "topic": "travel",
+   "time": "2023-04-10..2023-10-01",
+   "sources": [
+    "T183",
+    "T181",
+    "T179",
+    "T177",
+    "T175",
+    "T173",
+    "T187",
+    "T393",
+    "T395"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "Games the user played, enjoyed, or considered: Sea of Thieves (loved it and sought exploration-focused multiplayer games and news about updates; 2023-05-24); The Last of Us Part II (completed twice, on normal and hard, and admired its emotional storytelling; 2023-05-24); Days Gone and Horizon Zero Dawn (planned games to try; 2023-05-24); and Apex Legends (played frequently and set level goals; 2023-06-16 and 2023-09-30).",
+   "entities": [
+    "Sea of Thieves",
+    "The Last of Us Part II",
+    "Days Gone",
+    "Horizon Zero Dawn",
+    "Apex Legends"
+   ],
+   "topic": "video games",
+   "time": "2023-05-24..2023-09-30",
+   "sources": [
+    "T13",
+    "T19",
+    "T17",
+    "T21",
+    "T23",
+    "T61"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user’s recurring movement and performance activities: yoga classes (reported three times weekly; 2023-05-27), dance classes on Fridays (2023-05-27), a planned summer bike trip with friends and interest in the Elroy-Sparta State Trail (2023-06-02), volunteering at a charity bike ride (2023-05-06), and running/cycling endurance training, including considering altitude acclimatization before a race (2023-09-30).",
+   "entities": [
+    "yoga",
+    "dance",
+    "cycling",
+    "running"
+   ],
+   "topic": "physical activities",
+   "time": "2023-05-06..2023-09-30",
+   "sources": [
+    "T25",
+    "T27",
+    "T49",
+    "T51",
+    "T53",
+    "T57",
+    "T146",
+    "T148",
+    "T150",
+    "T152"
+   ]
+  },
+  {
+   "type": "rollup:collection",
+   "text": "The user’s creative and learning activities include taking stand-up comedy classes for six weeks and performing at one open mic by 2023-07-10; a daily writing challenge begun about four weeks before 2023-10-03, targeting 500 words on five days per week; an Art Appreciation course at a local community college, reported 2023-10-05; attending a Thai cooking class the week before 2023-10-06 and a pastry-making class on 2023-10-06; and restarting guitar practice with YouTube tutorials on 2023-10-07.",
+   "entities": [
+    "stand-up comedy",
+    "writing",
+    "Art Appreciation",
+    "Thai cooking",
+    "pastry making",
+    "guitar"
+   ],
+   "topic": "classes and creative pursuits",
+   "time": "2023-07-10..2023-10-07",
+   "sources": [
+    "T273",
+    "T277",
+    "T279",
+    "T281",
+    "T283",
+    "T331",
+    "T333",
+    "T377",
+    "T403",
+    "T411"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "Apex Legends progression and play style: On 2023-06-16 the user was playing frequently, aimed to reach level 100 by the end of 2023, and wanted to improve aim. By 2023-09-30 the user’s stated long-term target was level 150; they intended to complete daily and weekly challenges and improve team communication, while keeping sessions with friends relaxed and focused on fun rather than leveling.",
+   "entities": [
+    "Apex Legends",
+    "level 100",
+    "level 150"
+   ],
+   "topic": "Apex Legends goals and preferences",
+   "time": "2023-06-16..2023-09-30",
+   "sources": [
+    "T61",
+    "T71"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s writing challenge and confidence: By 2023-10-03, the user was in week four of a challenge to write 500 words a day, five days a week. During the challenge, negative self-talk such as “This is terrible, I’m not a real writer” was affecting their writing. The user sought ways to address self-doubt and explore personal mythology through writing prompts; the challenge’s later outcome is not recorded.",
+   "entities": [
+    "writing challenge",
+    "self-doubt",
+    "personal mythology"
+   ],
+   "topic": "daily writing challenge",
+   "time": "2023-10-03..2023-10-03",
+   "sources": [
+    "T273",
+    "T275",
+    "T277",
+    "T279",
+    "T281",
+    "T283"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s plan for a Tokyo trip: On 2023-10-07, the user was considering staying in Tokyo for around 7–10 days and wanted affordable lodging and nearby excursions. They planned to check out recommended food neighborhoods and restaurants, especially for sushi and ramen, and were excited about trying mochi, manju, and matcha sweets. No dates, bookings, or completed trip are recorded.",
+   "entities": [
+    "Tokyo",
+    "Japan",
+    "sushi",
+    "ramen",
+    "mochi",
+    "manju",
+    "matcha"
+   ],
+   "topic": "Japan trip planning",
+   "time": "2023-10-07..2023-10-07",
+   "sources": [
+    "T391",
+    "T393",
+    "T397",
+    "T399",
+    "T401"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s photography equipment and maintenance: The user acquired a Sony FE 24-70mm f/2.8 GM lens on 2023-02-10 and was glad to have it on a Yosemite weekend trip shortly before 2023-10-01. On 2023-10-01, the user was considering an F-Stop Loka UL 40L backpack and a Gitzo GT3543LS tripod, planned to organize gear storage, and said dust spots had appeared after putting off sensor cleaning; they intended to try an air blower. The user also decided to try selling an unused Sony RX100 Mark IV on eBay and Facebook Marketplace.",
+   "entities": [
+    "Sony FE 24-70mm f/2.8 GM",
+    "F-Stop Loka UL 40L",
+    "Gitzo GT3543LS",
+    "Sony RX100 Mark IV"
+   ],
+   "topic": "photography gear and maintenance",
+   "time": "2023-02-10..2023-10-01",
+   "sources": [
+    "T187",
+    "T185",
+    "T189",
+    "T191",
+    "T193",
+    "T195"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s plan to manage weak bedroom Wi-Fi: On 2023-10-03, the user described weak and intermittent Wi-Fi in the bedroom despite an Asus RT-AC68U router about 20 feet away, a couple of walls between, and a range extender; restarting the router had not helped. The user planned to raise the router and update its firmware, and said they would investigate Wi-Fi monitoring tools and the extender’s documentation. No outcome is recorded.",
+   "entities": [
+    "Asus RT-AC68U",
+    "range extender",
+    "bedroom Wi-Fi"
+   ],
+   "topic": "home Wi-Fi troubleshooting",
+   "time": "2023-10-03..2023-10-03",
+   "sources": [
+    "T293",
+    "T295",
+    "T297",
+    "T299"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s care for their mother after knee replacement: On 2023-10-03, the user reported that their mother had leg numbness and tingling after surgery and planned to encourage follow-up with the surgeon. The user also planned to help organize a recovery team, set realistic goals, support a regular physical-therapy routine, track progress, and help with pain management. No subsequent recovery status is recorded.",
+   "entities": [
+    "user’s mother",
+    "knee replacement recovery"
+   ],
+   "topic": "mother’s postoperative recovery",
+   "time": "2023-10-03..2023-10-03",
+   "sources": [
+    "T307",
+    "T309",
+    "T311"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s planning for a summer dinner party: On 2023-10-02, the user had harvested basil and made pesto for the first time, and planned pesto pasta with grilled chicken and pesto bruschetta for about 8–10 guests. They also planned refreshing drinks using garden mint and basil, including mint lemonade and basil limeade, and intended to make and freeze a large batch of pesto. The meal and event are described as plans, not confirmed as completed.",
+   "entities": [
+    "pesto",
+    "pesto pasta with grilled chicken",
+    "pesto bruschetta",
+    "mint lemonade",
+    "basil limeade"
+   ],
+   "topic": "summer dinner party",
+   "time": "2023-10-02..2023-10-02",
+   "sources": [
+    "T241",
+    "T242",
+    "T243",
+    "T245",
+    "T247",
+    "T249",
+    "T251"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s plans for Thai cooking: On 2023-10-03, the user said a Thai restaurant’s Pad Thai was amazing and expressed interest in cooking Thai food at home, especially Massaman curry. They planned to make Massaman curry paste and spring roll wrappers from scratch on the weekend of 2023-10-07..2023-10-08. On 2023-10-06, they also described learning about lemongrass and galangal in a Thai cooking class and considered a vegan tofu-and-vegetable stir-fry with peanut sauce, crunchy nuts, crispy shallots, and jasmine rice. The planned dishes are not confirmed as made.",
+   "entities": [
+    "Pad Thai",
+    "Massaman curry paste",
+    "spring roll wrappers",
+    "lemongrass",
+    "galangal",
+    "vegan tofu stir-fry"
+   ],
+   "topic": "Thai food and cooking",
+   "time": "2023-10-03..2023-10-08",
+   "sources": [
+    "T265",
+    "T269",
+    "T377",
+    "T379",
+    "T381",
+    "T383",
+    "T385",
+    "T387"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s health and flu-prevention concerns: On 2023-05-30, the user said Tamiflu had helped during a previous flu illness, wanted to reduce the risk of flu recurrence, and was considering vaccination. After asking about vaccine types and costs, the user decided to get a quadrivalent flu vaccine. On 2023-10-03, the user described persistent low energy after tough months and a flu recovery that took two weeks, and planned to prioritize sleep, exercise, and stress management. No vaccine administration or later health outcome is recorded.",
+   "entities": [
+    "flu",
+    "Tamiflu",
+    "quadrivalent flu vaccine",
+    "fatigue"
+   ],
+   "topic": "flu prevention and recovery",
+   "time": "2023-05-30..2023-10-03",
+   "sources": [
+    "T37",
+    "T38",
+    "T39",
+    "T40",
+    "T41",
+    "T43",
+    "T303",
+    "T305"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s carpool plan: After reporting around $100 per week in fuel and tolls on 2023-10-08 and recalling a major accident-related traffic jam around 2023-09-24, the user planned to start carpooling with colleagues in November 2023. The group was still discussing logistics; the user hoped to reduce costs, carbon emissions, commute time, and exposure to traffic jams. The user was considering mileage tracking, automatic monthly contributions, and a transparent group-account buffer for unexpected expenses and fuel-price changes.",
+   "entities": [
+    "carpool with colleagues",
+    "mileage-tracking app",
+    "group account"
+   ],
+   "topic": "commute and carpool planning",
+   "time": "2023-09-24..2023-11",
+   "sources": [
+    "T448",
+    "T450",
+    "T452",
+    "T454",
+    "T456",
+    "T458"
+   ]
+  },
+  {
+   "type": "rollup:thread",
+   "text": "The user’s career decision and development: On 2023-10-01, the user described being in a new role, attending networking events and conferences, and considering an MBA or certifications. A recruiter from a rival company had offered a technical lead position; the user was tempted but hesitant to leave a current company where they had built a strong network and felt belonging. The user asked for time to consider and was scheduled to meet the recruiter again the following week, while seeking ways to assess the rival company’s culture. The decision is not recorded.",
+   "entities": [
+    "technical lead offer",
+    "rival company",
+    "MBA",
+    "certifications"
+   ],
+   "topic": "career development and job offer",
+   "time": "2023-10-01..2023-10-08",
+   "sources": [
+    "T156",
+    "T162",
+    "T164",
+    "T166"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user completed The Last of Us Part II twice by 2023-05-24: approximately 25 hours on normal difficulty and 30 hours on hard difficulty. The user found the challenge balanced and was unsure whether they would attempt a higher difficulty later.",
+   "entities": [
+    "The Last of Us Part II",
+    "two playthroughs"
+   ],
+   "topic": "game completion count and playtime",
+   "time": "2023-05-24..2023-05-24",
+   "sources": [
+    "T19",
+    "T21",
+    "T17"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user’s four identified gifts totaled $295 of a reported $500 in recent gift spending as of 2023-10-08, leaving $205 unaccounted for. Identified gifts: a $100 electronics-store gift card for the user’s brother’s graduation (May 2023); $75 earrings for the user’s sister’s birthday (September 2023); a $20 meme-themed mug for the user’s best friend’s housewarming (date unspecified); and about $100 in baby clothes and toys for a coworker’s baby shower (September 2023).",
+   "entities": [
+    "$500 reported spending",
+    "$295 identified spending",
+    "$205 unaccounted",
+    "four gifts"
+   ],
+   "topic": "gift-spending accounting",
+   "time": "2023-05..2023-10-08",
+   "sources": [
+    "T428",
+    "T430",
+    "T432",
+    "T434",
+    "T436",
+    "T438",
+    "T439"
+   ]
+  },
+  {
+   "type": "rollup:count",
+   "text": "The user planned a Tokyo stay of about 7–10 days on 2023-10-07. This was a proposed trip duration, not a confirmed booking or completed trip.",
+   "entities": [
+    "Tokyo trip",
+    "7–10 days"
+   ],
+   "topic": "planned travel duration",
+   "time": "2023-10-07..2023-10-07",
+   "sources": [
+    "T391",
+    "T393"
+   ]
+  }
+ ]
+}

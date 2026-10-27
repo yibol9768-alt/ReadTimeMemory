@@ -1,0 +1,3202 @@
+{
+ "records": [
+  {
+   "type": "fact",
+   "text": "On March 15, 2024, the user said they were turning 45 and that their birthday was coming up on March 15, 2024.",
+   "entities": [
+    "User"
+   ],
+   "topic": "birthday",
+   "time": "2024-03-15",
+   "sources": [
+    "T1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The user works as a TV/film producer and said they were stressed about managing time effectively.",
+   "entities": [
+    "User"
+   ],
+   "topic": "work and well-being",
+   "time": "2024-03-15",
+   "sources": [
+    "T1"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user liked a weekly schedule intended to balance TV/film production work and self-care. The suggested workday structure was waking at 7:00 AM, starting work at 8:00 AM, taking lunch at noon, resuming work at 1:00 PM, ending work at 5:00 PM, downtime at 6:00 PM, a self-care activity at 8:00 PM, winding down at 10:00 PM, and bedtime at 11:00 PM. The weekend plan included morning routines, leisure or errands, lunch, social or family time, self-care, and weekly planning on Sunday at 1:00 PM. The user said the updated plan looked perfect.",
+   "entities": [
+    "User"
+   ],
+   "topic": "weekly schedule",
+   "time": "2024-03-15",
+   "sources": [
+    "T1",
+    "T2",
+    "T4"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user wanted to add a Saturday yoga session around 10:00 AM for stress relief. The assistant's updated schedule placed yoga at 9:00 AM, followed by errands or work catch-up at 10:30 AM. The user later said the yoga session in the updated plan was exactly what they needed and approved the plan.",
+   "entities": [
+    "User"
+   ],
+   "topic": "yoga and stress relief",
+   "time": "2024-03-15",
+   "sources": [
+    "T2",
+    "T3",
+    "T4"
+   ]
+  },
+  {
+   "type": "relation",
+   "text": "James is the user's partner.",
+   "entities": [
+    "James",
+    "User"
+   ],
+   "topic": "partnership",
+   "time": "",
+   "sources": [
+    "T2"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The user wanted a weekly Friday dinner date with their partner, James. The assistant included dinner with James at 6:00 PM on Fridays, and the user approved the updated schedule.",
+   "entities": [
+    "User",
+    "James"
+   ],
+   "topic": "weekly dinner date",
+   "time": "2024-03-15",
+   "sources": [
+    "T2",
+    "T3",
+    "T4"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "For the user's birthday on March 15, 2024, the assistant suggested planning a celebration suited to the user's interests, considering taking the day off work, and choosing enjoyable, relaxing activities. The user did not state whether they would do these things.",
+   "entities": [
+    "User"
+   ],
+   "topic": "birthday plans",
+   "time": "2024-03-15",
+   "sources": [
+    "T1"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said on March 15, 2024, that she earns about $85,000 annually and lives in East Janethaven, Montserrat. She described the location as beautiful but somewhat distracting.",
+   "entities": [
+    "Crystal Wilson",
+    "East Janethaven",
+    "Montserrat"
+   ],
+   "topic": "income and location",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "opinion",
+   "text": "Crystal Wilson said she was worried about balancing work and family, especially making sure she gives enough time to her partner James and her daughters.",
+   "entities": [
+    "Crystal Wilson",
+    "James",
+    "Crystal Wilson's daughters"
+   ],
+   "topic": "work-life balance",
+   "time": "2024-03-15",
+   "sources": [
+    "T12"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said her partner James is 53 years old, works in finance, and is supportive of her career decisions.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "James",
+   "time": "2024-03-15",
+   "sources": [
+    "T12"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson approved adding a 30-minute afternoon walk to her weekly plan to clear her head and enjoy the scenery.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "weekly schedule",
+   "time": "2024-03-15",
+   "sources": [
+    "T8",
+    "T10"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson approved a weekly check-in with Laura to discuss progress on the pilot episode. Wednesday at 4:30 PM was offered as an example time, but no definite day or time was selected by Crystal Wilson.",
+   "entities": [
+    "Crystal Wilson",
+    "Laura"
+   ],
+   "topic": "pilot episode",
+   "time": "2024-03-15",
+   "sources": [
+    "T8",
+    "T9",
+    "T10"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson approved a weekly family movie night on Sundays as a way to spend quality time together.",
+   "entities": [
+    "Crystal Wilson",
+    "James",
+    "Crystal Wilson's daughters"
+   ],
+   "topic": "family time",
+   "time": "2024-03-15",
+   "sources": [
+    "T14",
+    "T16"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson approved having a date night with James once a month. The first Saturday of the month at 7:00 PM was suggested as an example, not selected as a definite recurring date and time.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "relationship",
+   "time": "2024-03-15",
+   "sources": [
+    "T14",
+    "T15",
+    "T16"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 15, 2024, Crystal Wilson said she has three children: Emma, age 11; Michelle, age 12; and Rachel, age 7. All three attend East Janethaven Primary School and have activities on Tuesdays and Thursdays.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "Michelle",
+    "Rachel",
+    "East Janethaven Primary School"
+   ],
+   "topic": "family",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson approved a proposed weekly schedule intended to let her attend her children’s Tuesday and Thursday activities at East Janethaven Primary School. The proposed activity block was 3:30–5:00 PM on both days; this was part of the plan, not a separately stated actual activity time.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "Michelle",
+    "Rachel",
+    "East Janethaven Primary School"
+   ],
+   "topic": "family schedule",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "opinion",
+   "text": "On March 15, 2024, Crystal Wilson said she was worried about balancing work and time with friends, including Carla.",
+   "entities": [
+    "Crystal Wilson",
+    "Carla"
+   ],
+   "topic": "work-life balance",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "relation",
+   "text": "Crystal Wilson met Carla at the Montserrat Film Festival in 2018. Carla is a graphic designer and has been a valued person for Crystal to bounce ideas off.",
+   "entities": [
+    "Crystal Wilson",
+    "Carla",
+    "Montserrat Film Festival"
+   ],
+   "topic": "friendship and creative collaboration",
+   "time": "2018",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson approved setting aside a monthly meeting with Carla; the suggested recurring time was the second Saturday of each month at 4:00 PM, for coffee, a catch-up, or brainstorming. Crystal described having a set monthly time to meet Carla as perfect.",
+   "entities": [
+    "Crystal Wilson",
+    "Carla"
+   ],
+   "topic": "friendship and creative collaboration",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson has a weekly Zoom call with Laura every Monday at 10:00 AM. Laura is 82 and a veteran producer.",
+   "entities": [
+    "Crystal Wilson",
+    "Laura"
+   ],
+   "topic": "mentorship",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson planned to ask Laura for advice about managing multiple projects and setting boundaries between work and personal life. Crystal also planned to email Laura afterward to thank her and summarize their discussion.",
+   "entities": [
+    "Crystal Wilson",
+    "Laura"
+   ],
+   "topic": "mentorship and time management",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson said she was worried about meeting the June 30, 2024 deadline for her pilot episode, which has a budget cap of $120,000, and asked for a plan to stay on track.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot episode"
+   ],
+   "topic": "pilot episode deadline and budget",
+   "time": "2024-03-15",
+   "sources": [
+    "T32"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The proposed pilot-episode timeline was: pre-production March 1–April 30, 2024; production May 1–31, 2024; and post-production June 1–30, 2024. Pre-production milestones: script development and finalization March 1–15; casting March 16–31; location scouting and permits April 1–15; budget allocation and approval April 16–30. Production: principal photography May 1–20 and additional scenes/pick-ups May 21–31. Post-production: editing June 1–15; visual effects and color grading June 16–25; sound design and music composition June 26–30.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot episode"
+   ],
+   "topic": "pilot episode timeline",
+   "time": "2024-03-01..2024-06-30",
+   "sources": [
+    "T33"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The proposed $120,000 pilot-episode budget allocated $30,000 to pre-production (script development $5,000; casting $5,000; location scouting and permits $5,000; equipment rental $5,000; miscellaneous $10,000), $60,000 to production (crew salaries $20,000; talent fees $20,000; location costs $10,000; equipment rental $5,000; miscellaneous $5,000), and $30,000 to post-production (editing $10,000; visual effects and color grading $10,000; sound design and music composition $5,000; miscellaneous $5,000).",
+   "entities": [
+    "Crystal Wilson",
+    "pilot episode"
+   ],
+   "topic": "pilot episode budget",
+   "time": "2024-03-15",
+   "sources": [
+    "T33"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The proposed plan called for weekly team check-ins; tracking daily production progress; monitoring spending with a budget-tracking tool; keeping detailed records of tasks, expenses, and decisions; sending stakeholders regular progress updates and maintaining feedback loops; and preparing a contingency plan for unexpected delays or cost overruns. Pre-production tasks included stakeholder script feedback, auditions and signed cast contracts, location logistics and permits, equipment/material orders, final pre-production meetings, and approvals. Production included reviewing the cut with the director and producers; post-production included matching the final look to the creative vision and finalizing the audio mix and deliverables.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot episode"
+   ],
+   "topic": "pilot episode project management",
+   "time": "2024-03-15",
+   "sources": [
+    "T33",
+    "T35"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 15, 2024, Crystal Wilson said the proposed pilot-episode plan looked great, covered everything she needed, and that she would follow it closely and keep everyone updated on progress. Crystal thanked the assistant for preparing it.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot episode"
+   ],
+   "topic": "pilot episode project plan",
+   "time": "2024-03-15",
+   "sources": [
+    "T34"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 15, 2024, Crystal Wilson said she uses Google Calendar synced with a Moleskine planner and blocks two-hour creative sessions every weekday at 9:00 AM; she was unsure whether this was the best way to organize her time.",
+   "entities": [
+    "Crystal Wilson",
+    "Google Calendar",
+    "Moleskine planner"
+   ],
+   "topic": "schedule and time management",
+   "time": "2024-03-15",
+   "sources": [
+    "T36"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 15, 2024, Crystal Wilson said she was stressed about meeting her June 2024 deadline and was prioritizing script finalization over location scouting during March.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "pilot production schedule",
+   "time": "2024-03-15",
+   "sources": [
+    "T38"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson agreed on March 15, 2024, to focus on finalizing the script from March through April 2024, aiming to complete the draft and feedback stages in March and finish final review, edits, and approval by the end of April. She planned to hold weekly check-ins and use Trello to organize tasks.",
+   "entities": [
+    "Crystal Wilson",
+    "Trello"
+   ],
+   "topic": "script finalization",
+   "time": "2024-03-15..2024-04-30",
+   "sources": [
+    "T40",
+    "T42"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson agreed to begin location scouting immediately after the script was finalized in early May 2024.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "location scouting",
+   "time": "2024-05",
+   "sources": [
+    "T40",
+    "T42"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson said the proposed script-finalization plan looked great and that focusing on the script as outlined would help her stay on track; she said she would stick to the plan and hold weekly check-ins.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "project planning",
+   "time": "2024-03-15",
+   "sources": [
+    "T40",
+    "T42"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 15, 2024, Crystal Wilson reported moderate stress, rated 6/10, mostly from balancing work and family schedules. Crystal asked for stress-management ideas that would not affect her goal setting.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "stress",
+   "time": "2024-03-15",
+   "sources": [
+    "T44"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson said she would incorporate mindfulness and meditation, regular exercise, scheduled family activities, and short breaks throughout the day to manage stress. The assistant had suggested 10–15 minutes of daily mindfulness or meditation, at least 30 minutes of daily physical activity, and short breaks such as five minutes each hour or the Pomodoro method.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "stress management",
+   "time": "2024-03-15",
+   "sources": [
+    "T45",
+    "T46",
+    "T47"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, the assistant advised Crystal Wilson to manage stress while maintaining goals by setting realistic, manageable goals; reviewing and adjusting them; allowing flexibility; and using positive affirmations. Other suggestions included prioritizing tasks with the Eisenhower Box, delegating where possible, maintaining a healthy diet and 7–9 hours of sleep, and considering therapy or counseling if stress became overwhelming.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "stress management and goal setting",
+   "time": "2024-03-15",
+   "sources": [
+    "T45",
+    "T47"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, the assistant suggested a weekday routine with a 7 AM wake-up, an 8 AM work start, a noon lunch break, a 3:30 PM walk, a 5 PM workday end, evening family time, and an 11 PM bedtime. The suggested weekend routine included family activities, Sunday planning for the upcoming week, and weekly check-ins. The assistant also suggested Trello for task management.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "stress-management schedule",
+   "time": "2024-03-15",
+   "sources": [
+    "T45",
+    "T47"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson said she was trying to reduce her work hours from 50 to 40 per week by July 2024 without affecting work performance. The assistant proposed assessing and prioritizing workload, discussing the goal with her manager, automating repetitive tasks, outsourcing or delegating non-core work, training colleagues, setting working-hour boundaries, limiting after-hours work messages, and monitoring progress with her manager and team.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work hours",
+   "time": "2024-03-15",
+   "sources": [
+    "T48",
+    "T49"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant's proposed timeline for Crystal Wilson's reduction from 50 to 40 work hours per week put workload assessment and a manager discussion in April 2024; process streamlining and identifying delegable tasks in May; training colleagues and beginning delegation in mid-to-late May; setting boundaries in early June; and monitoring progress and making adjustments in late June.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work-hours reduction timeline",
+   "time": "2024-04-01..2024-06-28",
+   "sources": [
+    "T49"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson accepted the work-hours reduction plan and said she would start by assessing her workload and identifying key tasks, then schedule a meeting with her manager to discuss her goal and propose the plan. Crystal also said automating repetitive tasks, delegating non-core tasks, setting clear boundaries, and limiting after-hours access to work email would be helpful.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work hours",
+   "time": "2024-03-15",
+   "sources": [
+    "T50"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 15, 2024, Crystal Wilson said she already sets reminders on her iPhone for meetings and deadlines and wanted a better way to organize them, especially 24-hour alerts before production calls.",
+   "entities": [
+    "Crystal Wilson",
+    "iPhone",
+    "production calls"
+   ],
+   "topic": "reminders",
+   "time": "2024-03-15",
+   "sources": [
+    "T52"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson planned to use Google Calendar to set 24-hour alerts for production calls and sync Google Calendar with her iPhone.",
+   "entities": [
+    "Crystal Wilson",
+    "Google Calendar",
+    "iPhone",
+    "production calls"
+   ],
+   "topic": "reminders",
+   "time": "2024-03-15",
+   "sources": [
+    "T54",
+    "T56"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson planned to create separate Work and Production Calls lists in the Reminders app on her iPhone to organize reminders.",
+   "entities": [
+    "Crystal Wilson",
+    "Reminders app",
+    "iPhone"
+   ],
+   "topic": "reminders",
+   "time": "2024-03-15",
+   "sources": [
+    "T54",
+    "T56"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson said she might look into IFTTT or Zapier later to automate reminders, but would use the Google Calendar and Reminders app setup for now.",
+   "entities": [
+    "Crystal Wilson",
+    "IFTTT",
+    "Zapier",
+    "Google Calendar",
+    "Reminders app"
+   ],
+   "topic": "reminder automation",
+   "time": "2024-03-15",
+   "sources": [
+    "T54",
+    "T56"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson said she was considering switching from checking email daily to batching it weekly, hoping to save 3 hours per week, but was unsure whether the change would affect her productivity.",
+   "entities": [
+    "Crystal Wilson",
+    "email batching"
+   ],
+   "topic": "email management",
+   "time": "2024-03-15",
+   "sources": [
+    "T58"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson decided to try weekly email batching for four weeks, then evaluate how it works. She plans to tell her team and clients about the change, process email on Fridays from 2:00 PM to 5:00 PM, and use filters to sort messages into “Urgent,” “Important,” and “Routine.”",
+   "entities": [
+    "Crystal Wilson",
+    "email batching",
+    "Crystal Wilson's team",
+    "Crystal Wilson's clients"
+   ],
+   "topic": "email management",
+   "time": "2024-03-15..2024-04-12",
+   "sources": [
+    "T60"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson expressed hope that her four-week trial of weekly email batching would work out.",
+   "entities": [
+    "Crystal Wilson",
+    "email batching"
+   ],
+   "topic": "email management",
+   "time": "2024-03-15",
+   "sources": [
+    "T60"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 15, 2024, Crystal Wilson said that Alan, a 41-year-old cinematographer she met on set in 2021, invited her to a networking event at The Blue Lagoon on March 22, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "Alan",
+    "The Blue Lagoon"
+   ],
+   "topic": "Networking event invitation",
+   "time": "2024-03-22",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson decided to attend Alan’s networking event at The Blue Lagoon on March 22, 2024, and planned to contact Alan for more details.",
+   "entities": [
+    "Crystal Wilson",
+    "Alan",
+    "The Blue Lagoon"
+   ],
+   "topic": "Networking event attendance",
+   "time": "2024-03-22",
+   "sources": []
+  },
+  {
+   "type": "opinion",
+   "text": "Crystal Wilson thought attending Alan’s networking event would be a good opportunity to network and reconnect with him, and she thought The Blue Lagoon seemed like a nice place.",
+   "entities": [
+    "Crystal Wilson",
+    "Alan",
+    "The Blue Lagoon"
+   ],
+   "topic": "Networking event",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On March 14, 2024, Crystal Wilson declined a last-minute meeting scheduled for 3 PM because she wanted to protect her 9 AM writing block and save two hours of focused work.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "writing schedule and meeting",
+   "time": "2024-03-14",
+   "sources": [
+    "T66"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 15, 2024, Crystal Wilson said she felt somewhat stressed about declining the last-minute 3 PM meeting on March 14, 2024.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work stress",
+   "time": "2024-03-15",
+   "sources": [
+    "T66"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson decided to send the meeting organizer a message asking to reschedule the March 14 meeting. She planned to offer alternative times that worked for her and show willingness to find a solution suitable for everyone; she did not specify the alternative times.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "rescheduling a meeting",
+   "time": "2024-03-15",
+   "sources": [
+    "T68"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 15, 2024, Crystal Wilson said she was debating whether choosing to train Michele internally instead of hiring a freelance editor for $1,500 was the right call. Crystal said the internal training saves her $900, but she was unsure whether it was the best use of her time.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "internal editing training",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "On March 15, 2024, Crystal Wilson decided to train Michele internally rather than hire a $1,500 freelance editor. Crystal felt the long-term benefits were worth it, saw the training as an opportunity for Michele’s professional growth, and said it would show the team that she values their development. Crystal planned to set clear goals and timelines to keep the training efficient.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "internal editing training",
+   "time": "2024-03-15",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On March 15, 2024, Crystal Wilson said she aims to sleep seven hours nightly, usually keeps a consistent sleep schedule, and is usually asleep by 10:30 PM. Her children sometimes disrupt her sleep.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "Michelle",
+    "Rachel"
+   ],
+   "topic": "sleep schedule",
+   "time": "2024-03-15",
+   "sources": [
+    "T74",
+    "T76"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On March 15, 2024, Crystal Wilson said her energy peaks in the morning and she prefers to reserve morning time for creative work rather than multitasking throughout the day. She asked for help adjusting her schedule to protect both adequate rest and a morning creative block.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "creative work scheduling",
+   "time": "2024-03-15",
+   "sources": [
+    "T74",
+    "T76"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On March 15, 2024, the assistant recommended that Crystal Wilson keep her usual 10:30 PM bedtime, coordinate nighttime childcare with her partner, and protect a distraction-free morning creative-work block. The assistant gave a sample schedule with wake-up at 6:00 AM and creative work from 7:00 to 9:00 AM; this was advice, not a schedule Crystal said she adopted.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "sleep and creative-work scheduling advice",
+   "time": "2024-03-15",
+   "sources": [
+    "T77"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On March 15, 2024, Crystal Wilson said she was stressed about a new online course in advanced storytelling techniques, which starts April 1, 2024, and costs $350. Crystal asked how to balance the course with her current workload and family commitments.",
+   "entities": [
+    "Crystal Wilson",
+    "online course in advanced storytelling techniques"
+   ],
+   "topic": "course and workload",
+   "time": "2024-03-15",
+   "sources": [
+    "T78"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant recommended that Crystal Wilson assess her work and family commitments and course requirements, block dedicated study time, prioritize tasks, set boundaries, seek help with household responsibilities and delegate noncritical work, use focused work intervals and task batching, and maintain healthy habits. The assistant gave an example schedule with course study from 7–8 PM, plus family communication and calendar-blocking suggestions; these were recommendations, not confirmed plans adopted by Crystal.",
+   "entities": [
+    "Crystal Wilson",
+    "James",
+    "Emma",
+    "Michelle",
+    "Rachel"
+   ],
+   "topic": "course and workload",
+   "time": "2024-03-15",
+   "sources": [
+    "T79"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson reported that her pilot script was 40% complete by March 10, 2024, against a 50% mid-March target, and expressed concern about falling behind the June 30, 2024 deadline. The assistant proposed weekly percentage targets, reaching 60% March 22, 70% March 29, 80% April 5, 98% May 3, followed by revision and preparation through June and submission June 29–30. It also suggested writing five days a week, initially two pages daily, weekly reviews, and a Saturday review with Sunday rest. This was an assistant-proposed schedule, not a user-confirmed commitment.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot script"
+   ],
+   "topic": "pilot script progress and schedule",
+   "time": "2024-03-15",
+   "sources": [
+    "T80",
+    "T81"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson stated on March 15, 2024, that her pilot script was already 55% complete, and asked how to reach the 60% target by March 22. This is a separate progress statement from Crystal's report that the script was 40% complete by March 10; both statements are retained as given.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot script"
+   ],
+   "topic": "pilot script progress",
+   "time": "2024-03-15",
+   "sources": [
+    "T82"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "To move the pilot script from 55% to 60% by March 22, 2024, the assistant recommended writing 1% (described as one page) daily March 16–20, reviewing and revising March 21, and making final adjustments March 22. The assistant also suggested a consistent routine, breaks, accountability support, and progress-tracking tools such as Trello or a digital calendar. These were recommendations, not confirmed actions by Crystal Wilson.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot script"
+   ],
+   "topic": "pilot script schedule",
+   "time": "2024-03-15",
+   "sources": [
+    "T83"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson wants dates formatted as MM/DD/YYYY whenever she asks about scheduling details.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "date formatting",
+   "time": "2024-03-15",
+   "sources": [
+    "T84"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On March 15, 2024, the assistant stated that Crystal Wilson’s pilot script was 55% complete as of 03/15/2024, with a target of 60% completion by 03/22/2024. This is a separate progress statement from earlier information that the script was 40% complete.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot script"
+   ],
+   "topic": "pilot script progress",
+   "time": "2024-03-15",
+   "sources": [
+    "T85"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant proposed that Crystal Wilson reach 60% pilot-script completion by 03/22/2024 by writing one page per day from 03/16/2024 through 03/20/2024, reviewing and revising on 03/21/2024, and making final adjustments on 03/22/2024. Crystal Wilson did not state whether she would follow this plan.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot script"
+   ],
+   "topic": "pilot script schedule",
+   "time": "2024-03-16..2024-03-22",
+   "sources": [
+    "T85"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said she had never declined any meetings to protect her writing time and asked how she could balance meetings with writing without feeling guilty about saying no to meetings.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "meetings and writing time",
+   "time": "2024-03-15",
+   "sources": [
+    "T86"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant advised Crystal Wilson to communicate her priorities, block protected writing time on her calendar, offer alternate or shorter meeting times, prioritize or delegate meetings, and practice polite ways to decline. This was advice, not a stated decision by Crystal Wilson.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "meetings and writing time",
+   "time": "2024-03-15",
+   "sources": [
+    "T87"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 2, 2024, Crystal Wilson said she was stressed about meeting the June 30, 2024 deadline for her pilot episode and was considering Trello task-batching boards, as Laura had suggested. Crystal said her project tracking had improved by 30% since April 10, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "Laura",
+    "Trello",
+    "pilot episode"
+   ],
+   "topic": "pilot deadline and project tracking",
+   "time": "2024-05-02",
+   "sources": [
+    "T88"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On May 2, 2024, Crystal Wilson said she would start organizing her Trello board with Scriptwriting and Pre-production phases, using due dates and checklists, and would probably move on to Production next. She had not said she had created or populated the board yet.",
+   "entities": [
+    "Crystal Wilson",
+    "Trello",
+    "pilot episode"
+   ],
+   "topic": "Trello board plan",
+   "time": "2024-05-02",
+   "sources": [
+    "T92"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 2, 2024, Crystal Wilson asked for advice on handling unexpected delays or changes to her pilot project schedule.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot episode"
+   ],
+   "topic": "project delays",
+   "time": "2024-05-02",
+   "sources": [
+    "T92"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "For Crystal Wilson's pilot episode, the assistant suggested structuring a Trello board with Scriptwriting, Pre-production, Production, Post-production, and Final Review lists; using task cards, due dates, priority/type/responsible-person labels, checklists, assignments, comments, attachments, and regular status updates.",
+   "entities": [
+    "Crystal Wilson",
+    "Trello",
+    "pilot episode"
+   ],
+   "topic": "Trello organization advice",
+   "time": "2024-05-02",
+   "sources": [
+    "T91"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant gave an example Trello schedule for Crystal Wilson's pilot episode: Write Act 1 due March 20, Act 2 March 25, Act 3 April 1, finalize script April 5; cast actors April 10, scout locations April 15, arrange equipment rentals April 20, schedule rehearsals April 25; shoot scenes on May 1, 2, and 3 and wrap production May 5; edit scenes May 10, 15, and 20, add music and sound effects May 25, color correct May 30; review the pilot June 1, make final adjustments June 10, and submit for approval June 30. These were example dates proposed by the assistant, not dates Crystal confirmed or adopted.",
+   "entities": [
+    "Crystal Wilson",
+    "Trello",
+    "pilot episode"
+   ],
+   "topic": "example project schedule",
+   "time": "2024-05-02",
+   "sources": [
+    "T91"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant advised Crystal Wilson to manage unexpected pilot-project delays by adding schedule buffers and flexible deadlines, holding weekly check-ins, updating Trello and informing the team, prioritizing critical-path tasks, using labels and checklists to flag delays, and logging changes and their causes. The assistant illustrated this with a hypothetical location-scouting delay; Crystal did not report that such a delay had occurred.",
+   "entities": [
+    "Crystal Wilson",
+    "Trello",
+    "pilot episode"
+   ],
+   "topic": "delay-management advice",
+   "time": "2024-05-02",
+   "sources": [
+    "T93"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On May 2, 2024, Crystal Wilson said she was working a 50-hour workweek and wanted to reduce it to 40 hours by July 2024 while balancing work and family life.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work-life balance",
+   "time": "2024-05-02",
+   "sources": [
+    "T94"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On May 2, 2024, Crystal Wilson said she had been blocking three-hour editing sessions on Tuesdays and Thursdays and was unsure whether that was enough time.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "editing schedule",
+   "time": "2024-05-02",
+   "sources": [
+    "T96"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On May 2, 2024, Crystal Wilson agreed to increase her Tuesday and Thursday editing blocks to four hours and add a shorter two-hour editing block on Wednesday. She planned to track how long tasks actually took and adjust the schedule as needed.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "editing schedule",
+   "time": "2024-05-02",
+   "sources": [
+    "T98"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she spoke with Heather, a casting director, on March 28, 2024. Heather recommended holding early auditions, and Crystal shifted her focus from scriptwriting to casting as a result. Crystal asked whether that was the right decision.",
+   "entities": [
+    "Crystal Wilson",
+    "Heather"
+   ],
+   "topic": "Pilot casting",
+   "time": "2024-03-28",
+   "sources": []
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant told Crystal Wilson that shifting focus to casting on Heather’s recommendation could be a strategic decision, especially if early auditions help secure talent, provide creative input, and support scheduling. It cautioned that casting could slow script progress if the script is not ready, and suggested balancing scriptwriting and casting, reviewing progress weekly, and communicating with Heather and the team.",
+   "entities": [
+    "Crystal Wilson",
+    "Heather"
+   ],
+   "topic": "Pilot casting",
+   "time": "2024-05-02",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she was somewhat stressed about coordinating with Jeremy, a 36-year-old sound engineer, for a location scout at Rendezvous Bay on March 30, 2024, and finalizing permits by April 5, 2024. She asked for help prioritizing tasks for that week.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy",
+    "Rendezvous Bay"
+   ],
+   "topic": "Location scout and permits",
+   "time": "2024-03-30..2024-04-05",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "The assistant proposed a task schedule for Crystal Wilson for March 29-April 5, 2024: prepare for the scout and coordinate with Jeremy on March 29; scout Rendezvous Bay with Jeremy on March 30, assessing acoustics, taking notes and photos, then reviewing findings; rest and review scout notes on March 31; work on scriptwriting and permits April 1-2; finalize permits and distribute copies April 3; check permits and location details April 4; and confirm permits April 5. This was a suggested plan, not confirmation that the tasks occurred.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy",
+    "Rendezvous Bay"
+   ],
+   "topic": "Location scout and permits",
+   "time": "2024-03-29..2024-04-05",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "The assistant suggested that Crystal Wilson coordinate with Jeremy and the team through Trello, email, or instant messaging, and organize documents in Google Drive or Dropbox while allowing buffer time for unexpected issues.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy"
+   ],
+   "topic": "Project coordination",
+   "time": "2024-05-02",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On May 2, 2024, Crystal Wilson said she and her partner James had agreed to limit work calls after 7 PM. Crystal said this had improved their evening time together by 2 hours per week.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "work-life balance",
+   "time": "2024-05-02",
+   "sources": [
+    "T104"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On May 2, 2024, Crystal Wilson asked for advice on further adjusting her schedule to spend more quality time with James. The assistant suggested setting dedicated time such as a weekly date night or shared hobby, planning weekend activities, sharing morning or evening routines, maintaining work boundaries, and having a weekly check-in about their time together.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "quality time and scheduling",
+   "time": "2024-05-02",
+   "sources": [
+    "T104",
+    "T105"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said that in late April 2024 she felt her burnout risk was 7/10. After introducing daily 30-minute mindfulness sessions at 3 PM, her stress had fallen to 4/10 by May 1, 2024. On May 2, 2024, she said she was feeling somewhat burned out again and asked how to maintain the improvement.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "burnout and mindfulness",
+   "time": "2024-04-30..2024-05-02",
+   "sources": [
+    "T106"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "In response to Crystal Wilson's question about maintaining her mindfulness progress, the assistant recommended continuing the daily 30-minute 3 PM sessions, varying the practices, taking brief mindful breaks, journaling and reviewing stress weekly, seeking accountability or community support, adding exercise such as yoga or walking, limiting screen time, and considering professional guidance if stress remains high.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "mindfulness and stress management",
+   "time": "2024-05-02",
+   "sources": [
+    "T106",
+    "T107"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson celebrated completing casting by April 20, 2024, with a dinner at The Coral Reef. The dinner cost $120 for four guests.",
+   "entities": [
+    "Crystal Wilson",
+    "The Coral Reef"
+   ],
+   "topic": "Casting milestone celebration",
+   "time": "2024-04-20",
+   "sources": [
+    "T108"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Crystal Wilson wondered whether to set aside a similar budget for other milestones, such as a party to celebrate completing the pilot episode.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Milestone celebration budget",
+   "time": "2024-05-02",
+   "sources": [
+    "T108"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Carla suggested a weekend retreat for Crystal Wilson at Emerald Bay Resort for May 18–19, 2024. Crystal said she had booked a room for $220 per night and felt somewhat stressed about the retreat; she was weighing relaxation with Carla against focusing on her task completion rate.",
+   "entities": [
+    "Crystal Wilson",
+    "Carla",
+    "Emerald Bay Resort"
+   ],
+   "topic": "Weekend retreat",
+   "time": "2024-05-18..2024-05-19",
+   "sources": [
+    "T110"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said using Todoist had increased her task completion rate by 25%. She uses Todoist for daily task reminders and has synced it with Google Calendar.",
+   "entities": [
+    "Crystal Wilson",
+    "Todoist",
+    "Google Calendar"
+   ],
+   "topic": "Task management and productivity",
+   "time": "2024-05-02",
+   "sources": [
+    "T110",
+    "T112"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson declined a $15,000 contract for a documentary project on April 15, 2024. On May 2, 2024, she said she was somewhat stressed about the decision and asked whether declining was the right call to preserve the timeline integrity of her pilot.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Documentary contract and pilot timeline",
+   "time": "2024-04-15",
+   "sources": [
+    "T114"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson started attending three Pilates classes per week at Montserrat Wellness Center on April 22, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "Montserrat Wellness Center"
+   ],
+   "topic": "Pilates",
+   "time": "2024-04-22",
+   "sources": [
+    "T116"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On May 2, 2024, Crystal Wilson said she was feeling more energetic since starting three weekly Pilates classes at Montserrat Wellness Center.",
+   "entities": [
+    "Crystal Wilson",
+    "Montserrat Wellness Center"
+   ],
+   "topic": "energy and fitness",
+   "time": "2024-05-02",
+   "sources": [
+    "T116"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On May 2, 2024, Crystal Wilson was worried it would be difficult to sustain replacing morning social-media browsing with journaling, a change she had been making since April 12, 2024. She said the replacement saved 20 minutes daily and worried she might slip back into old habits.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "journaling habit",
+   "time": "2024-05-02",
+   "sources": [
+    "T118"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested a sample Pilates schedule of Monday, Wednesday, and Friday from 6:00 PM to 7:00 PM, alongside Crystal Wilson's existing weekday 9:00 AM creative-work sessions and 3:00 PM mindfulness sessions. This was an example proposed by the assistant, not a schedule Crystal Wilson confirmed adopting.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "weekly schedule and Pilates",
+   "time": "",
+   "sources": [
+    "T117"
+   ]
+  },
+  {
+   "type": "state",
+   "text": "Crystal Wilson is the user, a TV/film producer in East Janethaven, Montserrat. Her partner is James; daughters Emma (11), Michelle (12), and Rachel (7) attend East Janethaven Primary School. Carla is Crystal's graphic-designer friend, met at the Montserrat Film Festival in 2018. Laura is an 82-year-old veteran producer with weekly Monday 10 AM Zoom calls with Crystal. Crystal is developing a pilot due June 30, 2024, with a $120,000 cap; she approved the proposed timeline/budget March 15 and said she would follow it and update everyone. She uses Google Calendar synced with a Moleskine planner, weekday creative sessions at 9 AM, iPhone meeting reminders, and Todoist synced with Google Calendar; she reported Todoist increased task completion rate by 25%. March 15: deadline stress, prioritized. Crystal began three weekly Pilates classes at Montserrat Wellness Center April 22, 2024, and reported more energy May 2. Since April 12, she has been replacing morning social-media browsing with journaling, saving 20 minutes daily; she worried about slipping back.",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson was excited about attending a charity gala on May 10, 2024, at The Governor’s Mansion. Stephanie invited Crystal, and Crystal wanted help preparing to meet new people and expand her professional network effectively.",
+   "entities": [
+    "Crystal Wilson",
+    "Stephanie",
+    "The Governor’s Mansion"
+   ],
+   "topic": "Charity gala and networking",
+   "time": "2024-05-10",
+   "sources": [
+    "T120"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson allocated $5,000 for post-production software licenses, including Adobe Premiere Pro and DaVinci Resolve. Crystal said she purchased the licenses on April 25, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "Adobe Premiere Pro",
+    "DaVinci Resolve"
+   ],
+   "topic": "Post-production software budget",
+   "time": "2024-04-25",
+   "sources": [
+    "T122"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 2, 2024, Crystal Wilson said she was worried about staying within her budget and asked for help tracking her expenses.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Expense tracking and budget concern",
+   "time": "2024-05-02",
+   "sources": [
+    "T122"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "On May 2, 2024, Crystal Wilson said she prefers digital tools such as Trello and Todoist for real-time updates and collaboration.",
+   "entities": [
+    "Crystal Wilson",
+    "Trello",
+    "Todoist"
+   ],
+   "topic": "Digital task-management preferences",
+   "time": "2024-05-02",
+   "sources": [
+    "T124"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 2, 2024, Crystal Wilson asked how to set up a Trello board for task batching, as Laura had suggested.",
+   "entities": [
+    "Crystal Wilson",
+    "Laura",
+    "Trello"
+   ],
+   "topic": "Task batching",
+   "time": "2024-05-02",
+   "sources": [
+    "T124"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "A suggested Trello board for post-production task batching included lists To Do, In Progress, Editing, Color Correction, Sound Design, Final Review, and Done. Cards could include descriptions, due dates, assigned members, priority labels, comments, attachments, and checklists; team members could be invited and assigned permissions.",
+   "entities": [
+    "Trello"
+   ],
+   "topic": "Post-production task management",
+   "time": "2024-05-02",
+   "sources": [
+    "T125"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The Trello setup example included a high-priority card, “Edit Scene 1,” assigned to Crystal Wilson and due May 15, 2024, with checklist steps to import footage, make a rough cut, make a fine cut, and export a rough edit. Another example, “Color Correct Scene 2,” was assigned to James, marked medium priority, and due May 20, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "James",
+    "Trello"
+   ],
+   "topic": "Example Trello task cards",
+   "time": "2024-05-02",
+   "sources": [
+    "T125"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Expense-tracking guidance offered to Crystal Wilson on May 2, 2024 recommended recording each transaction’s date, description, amount, and category; reviewing spending weekly for 15–30 minutes and summarizing monthly; keeping receipts and invoices digitally; setting budget alerts; and adjusting spending or reallocating funds as needed. Suggested tools included Google Sheets, Microsoft Excel, Mint, YNAB, and QuickBooks, with expense categories such as software licenses and hardware.",
+   "entities": [
+    "Crystal Wilson",
+    "Google Sheets",
+    "Microsoft Excel",
+    "Mint",
+    "YNAB",
+    "QuickBooks"
+   ],
+   "topic": "Post-production expense tracking",
+   "time": "2024-05-02",
+   "sources": [
+    "T123"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "An illustrative, not reported, expense spreadsheet listed Adobe Premiere Pro at $1,200 and DaVinci Resolve at $800 on April 25, 2024, an external hard drive at $300 on May 1, 2024, and a microphone at $200 on May 5, 2024. An illustrative monthly summary used a $5,000 total budget, $2,500 in expenses to date, and $2,500 remaining.",
+   "entities": [
+    "Adobe Premiere Pro",
+    "DaVinci Resolve"
+   ],
+   "topic": "Illustrative expense-tracking examples",
+   "time": "2024-04-25..2024-05-05",
+   "sources": [
+    "T123"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On May 2, 2024, Crystal Wilson said she was stressed that the pilot delivery date had been pushed back to July 15, 2024, because of casting delays. The change was communicated to stakeholders on April 28, 2024. Crystal asked how to manage her time and still meet the new deadline.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot",
+    "stakeholders"
+   ],
+   "topic": "pilot deadline",
+   "time": "2024-05-02",
+   "sources": [
+    "T126"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Since April 3, 2024, Crystal Wilson has worked with Michele in editing sessions every Wednesday at 2 PM. Crystal said their collaboration had improved footage-review speed by 40%, and asked how to further improve their productivity and workflow.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "editing collaboration",
+   "time": "2024-04-03..2024-05-02",
+   "sources": [
+    "T128"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson rescheduled a client meeting on March 29, 2024, from 11 AM to 4 PM, gaining three extra hours for her morning writing blocks. On May 2, 2024, she said she was stressed and unsure whether rescheduling the meeting was the right decision.",
+   "entities": [
+    "Crystal Wilson",
+    "client"
+   ],
+   "topic": "client meeting and writing time",
+   "time": "2024-03-29",
+   "sources": [
+    "T130"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson completed 3 of 6 modules in a storytelling course by April 20, 2024, and scored 92% on the first quiz.",
+   "entities": [
+    "Crystal Wilson",
+    "storytelling course"
+   ],
+   "topic": "education",
+   "time": "2024-04-20",
+   "sources": [
+    "T132"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Crystal Wilson wondered whether the storytelling skills she was acquiring would help her career as a producer.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "career development",
+   "time": "2024-05-02",
+   "sources": [
+    "T132"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson asked how best to allocate an increased $6,200 budget for post-production software licenses. She said she had added a new sound-editing plugin on April 28, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "post-production software budget",
+    "sound-editing plugin"
+   ],
+   "topic": "post-production budget",
+   "time": "2024-05-02",
+   "sources": [
+    "T134"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant suggested a sample allocation of $3,000 for core software licenses, $2,500 for plugins and add-ons, and $700 for miscellaneous costs. The example listed $1,200 for Adobe Creative Cloud, $800 for DaVinci Resolve Studio, $1,000 for other essential software; $800 for the sound-editing plugin, $700 for a color-grading plugin, $1,000 for a visual-effects plugin; and $300 for hardware or accessories and $400 for training materials or courses. The assistant recommended assessing needs, prioritizing essential purchases, weighing subscriptions against one-time purchases, reviewing spending monthly, and looking for discounts.",
+   "entities": [
+    "Crystal Wilson",
+    "Adobe Creative Cloud",
+    "DaVinci Resolve Studio"
+   ],
+   "topic": "post-production budget advice",
+   "time": "2024-05-02",
+   "sources": [
+    "T135"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson wants time zones always included whenever meeting times are discussed with her.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "meeting times",
+   "time": "2024-05-02",
+   "sources": [
+    "T136"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said she had never attended any location scouts with Jeremy.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy"
+   ],
+   "topic": "pilot location scouting",
+   "time": "2024-05-02",
+   "sources": [
+    "T138"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson asked how she could improve collaboration with Jeremy on the pilot episode of her new series.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy"
+   ],
+   "topic": "pilot collaboration",
+   "time": "2024-05-02",
+   "sources": [
+    "T138"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson considered how to proceed with location scouting if her and Jeremy's schedules conflict, and asked whether recorded videos could be used if Jeremy could not live-stream a scouting trip.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy"
+   ],
+   "topic": "pilot location scouting",
+   "time": "2024-05-02",
+   "sources": [
+    "T140",
+    "T142"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On June 15, 2024, Crystal Wilson’s daughters Emma and Michelle started summer camp at East Janethaven Community Center.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "Michelle",
+    "East Janethaven Community Center"
+   ],
+   "topic": "summer camp",
+   "time": "2024-06-15",
+   "sources": [
+    "T144"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On July 10, 2024, Crystal Wilson said she felt stressed about her schedule and balancing work and family time, and wanted to make productive use of the daytime time freed up by Emma and Michelle attending summer camp.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "Michelle"
+   ],
+   "topic": "schedule and work-life balance",
+   "time": "2024-07-10",
+   "sources": [
+    "T144"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said she had been batching emails and calls on Mondays and Fridays since June 1, 2024, and that this saved her four hours per week.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "task management and batching",
+   "time": "2024-06-01..2024-07-10",
+   "sources": [
+    "T148"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Crystal Wilson asked whether batching emails and calls on Mondays and Fridays was a good task-management strategy; the assistant endorsed it, citing reduced context switching, improved productivity, and clearer work-life boundaries.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "task management and batching",
+   "time": "2024-07-10",
+   "sources": [
+    "T148",
+    "T149"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said she had added one-hour daily buffer slots for unexpected tasks starting July 1, 2024, and that the change reduced her deadline stress by 35%.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "schedule buffers and stress",
+   "time": "2024-07-01..2024-07-10",
+   "sources": [
+    "T150"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Crystal Wilson asked whether adding daily one-hour buffer slots was a good way to overhaul her schedule. The assistant endorsed the decision, noting that buffers offer flexibility and can reduce stress, and suggested reviewing their use over time.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "schedule buffers and stress",
+   "time": "2024-07-10",
+   "sources": [
+    "T150",
+    "T151"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested that Crystal Wilson time-block mornings for creative work, afternoons for meetings and calls, and evenings for family and personal time; batch similar tasks, retain buffer time, and use digital task-management tools.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "schedule planning",
+   "time": "2024-07-10",
+   "sources": [
+    "T145",
+    "T147",
+    "T149",
+    "T151"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 10, 2024, Crystal Wilson said she was stressed about the $299 cost of Final Cut Pro and had chosen Adobe instead because she wanted to avoid $150 in retraining costs; she asked whether choosing Adobe was a good call.",
+   "entities": [
+    "Crystal Wilson",
+    "Adobe",
+    "Final Cut Pro"
+   ],
+   "topic": "video editing software choice",
+   "time": "2024-07-10",
+   "sources": [
+    "T152"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On July 10, 2024, the assistant compared Final Cut Pro at $299 plus $150 retraining ($449 total, with no ongoing costs) with Adobe Creative Cloud at a quoted $209.99 per year ($629.97 over three years). The assistant said Adobe could suit Crystal Wilson because she was familiar with Adobe products and could benefit from integration with other Adobe tools, while noting DaVinci Resolve as a free/open-source alternative.",
+   "entities": [
+    "Crystal Wilson",
+    "Adobe Creative Cloud",
+    "Final Cut Pro",
+    "DaVinci Resolve"
+   ],
+   "topic": "video editing software cost comparison",
+   "time": "2024-07-10",
+   "sources": [
+    "T153"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson hired Stephanie's agency on June 20, 2024, for social media management at $800 per month, after Laura advised Crystal to delegate. On July 10, 2024, Crystal asked whether the agency would really reduce her workload.",
+   "entities": [
+    "Crystal Wilson",
+    "Stephanie",
+    "Laura"
+   ],
+   "topic": "delegating social media management",
+   "time": "2024-06-20",
+   "sources": [
+    "T154"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On July 10, 2024, the assistant characterized Crystal Wilson's decision to hire Stephanie's agency for social media management as strategic and likely to ease her workload, while recommending that Crystal communicate goals clearly, hold regular check-ins, and track metrics such as follower growth, engagement, and social-media-driven website traffic.",
+   "entities": [
+    "Crystal Wilson",
+    "Stephanie"
+   ],
+   "topic": "delegating social media management",
+   "time": "2024-07-10",
+   "sources": [
+    "T155"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 10, 2024, Crystal Wilson said she was stressed about her pilot episode. As of July 5, the pilot was 75% complete: 12 of 16 scenes had been filmed, and 60% of post-production had started. Crystal asked for help managing time to meet the July 15, 2024 deadline.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot episode"
+   ],
+   "topic": "pilot production",
+   "time": "2024-07-05..2024-07-15",
+   "sources": [
+    "T156"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant proposed filming the four remaining pilot scenes from July 6–8, 2024: Scene 13 on July 6, Scene 14 on July 7, and Scenes 15 and 16 on July 8. The proposed post-production schedule for July 9–14 included editing, VFX, sound design, color grading, final review, and delivery preparation. The plan also suggested daily team check-ins, 1–2 hours of daily buffer, delegation, and tracking tasks in Trello and Todoist; it was advice, not confirmation that Crystal adopted it.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot episode",
+    "Trello",
+    "Todoist"
+   ],
+   "topic": "pilot production schedule",
+   "time": "2024-07-06..2024-07-14",
+   "sources": [
+    "T157"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said she had practiced meditation at 9 PM each evening since June 10, 2024. She said her sleep had improved from 6 hours to 7.5 hours nightly and asked for suggestions to improve emotional balance.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "meditation and sleep",
+   "time": "2024-06-10..2024-07-10",
+   "sources": [
+    "T158"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested ways Crystal Wilson might support emotional balance: gradually lengthen meditation, try mindfulness, loving-kindness, or guided meditation, journal or list three daily gratitudes, exercise or take nature walks, practice breathing exercises, maintain sleep habits and reduce screens before bed, spend quality time with loved ones, consider a support group or therapy if overwhelmed, eat a balanced diet and stay hydrated, and use mindful pauses in daily activities. These were suggestions, not confirmed actions.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "emotional wellbeing advice",
+   "time": "",
+   "sources": [
+    "T159"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she and Alan worked on a storyboard at The Blue Lagoon café on June 25, 2024, and finished the visuals in two hours. On July 10, 2024, Crystal said she was stressed and worried that the storyboard might not be sufficient, and asked how to improve it.",
+   "entities": [
+    "Crystal Wilson",
+    "Alan",
+    "The Blue Lagoon café",
+    "storyboard"
+   ],
+   "topic": "storyboard collaboration",
+   "time": "2024-06-25..2024-07-10",
+   "sources": [
+    "T160"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested that Crystal Wilson and Alan review the storyboard frame by frame, seek each other's feedback and input from peers or mentor Laura, add character, setting, lighting, prop, and transition details, make iterative drafts, and consider color, annotations, storyboard software, walkthroughs, or role-playing. The assistant offered a three-day refinement outline; these were suggestions, not confirmed actions.",
+   "entities": [
+    "Crystal Wilson",
+    "Alan",
+    "Laura",
+    "storyboard"
+   ],
+   "topic": "storyboard improvement",
+   "time": "",
+   "sources": [
+    "T161"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On July 10, 2024, Crystal Wilson said Rachel’s school had requested more parental involvement. Crystal negotiated to attend only monthly school meetings, which she said saves her 3 hours per month.",
+   "entities": [
+    "Crystal Wilson",
+    "Rachel",
+    "East Janethaven Primary School"
+   ],
+   "topic": "Rachel's school involvement",
+   "time": "2024-07-10",
+   "sources": [
+    "T162"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On July 10, 2024, Crystal Wilson asked whether attending monthly meetings at Rachel’s school was a good compromise or whether she should do more.",
+   "entities": [
+    "Crystal Wilson",
+    "Rachel",
+    "East Janethaven Primary School"
+   ],
+   "topic": "Rachel's school involvement",
+   "time": "2024-07-10",
+   "sources": [
+    "T162"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On July 10, 2024, Crystal Wilson said she had set recurring Google Calendar reminders for family appointments and school events, and her Google Calendar was synced with her partner James’s calendar.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "Family calendar and reminders",
+   "time": "2024-07-10",
+   "sources": [
+    "T164"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On July 10, 2024, Crystal Wilson was unsure whether her recurring Google Calendar reminders synced with James’s calendar were the best way to track family appointments and school events, and asked for help optimizing the reminder system.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "Family calendar and reminders",
+   "time": "2024-07-10",
+   "sources": [
+    "T164"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 10, 2024, Crystal Wilson said she had started meal prepping on Sundays to save time and money. She said this reduced her weekday cooking time by 1 hour and saved her $50 per week on takeout.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "meal preparation and food budget",
+   "time": "2024-07-10",
+   "sources": [
+    "T166"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On July 10, 2024, Crystal Wilson asked for additional ways to reduce cooking time and food costs beyond her Sunday meal prep. Suggestions included batch-cooking and freezing, using a slow cooker or Instant Pot, weekly meal planning and grocery lists, buying shelf-stable foods in bulk, repurposing leftovers, doubling recipes, preparing snacks ahead, using meal-planning or budgeting apps, and tracking food to reduce waste.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "meal preparation and food budget",
+   "time": "2024-07-10",
+   "sources": [
+    "T166",
+    "T167"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "By July 1, 2024, Crystal Wilson had reduced her work hours from 50 to 42 per week and was reallocating the resulting 8 hours to family and leisure activities. On July 10, 2024, she said she was worried about her new schedule and asked how to use the extra time effectively.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work-life balance",
+   "time": "2024-07-01..2024-07-10",
+   "sources": [
+    "T168"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "In response to Crystal Wilson's concern about using her extra 8 weekly hours effectively, suggestions included planning and time-blocking family activities, leisure, and self-care; spending quality one-on-one time with each child; maintaining hobbies, exercise, mindfulness, and social connections; and leaving room to adjust plans or be spontaneous.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "Michelle",
+    "Rachel"
+   ],
+   "topic": "work-life balance",
+   "time": "2024-07-10",
+   "sources": [
+    "T169"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson finalized a sound-mixing schedule with Jeremy at Montserrat Studios for July 12–15, 2024: four sessions at $150 each, totaling $600.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy",
+    "Montserrat Studios"
+   ],
+   "topic": "sound mixing schedule",
+   "time": "2024-07-12..2024-07-15",
+   "sources": [
+    "T170"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson felt stressed on July 10, 2024, about declining an invitation to a networking brunch on July 3, 2024, in order to meet a production deadline on July 5, 2024. She preserved five hours of work time and wondered whether that was the right decision.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "networking brunch and production deadline",
+   "time": "2024-07-03..2024-07-10",
+   "sources": [
+    "T172"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson prioritizes batching similar tasks, especially emails and calls, to maintain focus and reduce context switching.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work habits and scheduling",
+   "time": "2024-07-10",
+   "sources": [
+    "T174"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 6, 2024, Crystal Wilson celebrated reaching 70% filming completion with a family outing to Rendezvous Bay. Parking and snacks cost $60. On July 10, Crystal said she felt stressed about the expense and asked whether the outing was worth it.",
+   "entities": [
+    "Crystal Wilson",
+    "Rendezvous Bay"
+   ],
+   "topic": "filming milestone and family outing",
+   "time": "2024-07-06..2024-07-10",
+   "sources": [
+    "T176"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson registered for a digital-marketing webinar for producers scheduled for July 20, 2024. It cost $120, and she hopes it will help improve promotion of her project; she asked whether it would really help.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "digital marketing webinar",
+   "time": "2024-07-20",
+   "sources": [
+    "T178"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson accepted Jeffrey’s invitation to attend a book club meeting at East Janethaven Library on July 18, 2024. The meeting’s exact start time and duration were not confirmed in this conversation.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeffrey",
+    "East Janethaven Library"
+   ],
+   "topic": "Book club",
+   "time": "2024-07-18",
+   "sources": [
+    "T180"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On July 10, 2024, Crystal Wilson said she was somewhat stressed about fitting the July 18 book club meeting at East Janethaven Library into her schedule and asked for help figuring it out.",
+   "entities": [
+    "Crystal Wilson",
+    "East Janethaven Library"
+   ],
+   "topic": "Scheduling stress",
+   "time": "2024-07-10",
+   "sources": [
+    "T180"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant suggested that Crystal Wilson confirm the meeting’s start and end times with Jeffrey, block the event in her calendar, and allow 15–30 minutes of buffer time before and after. The assistant’s example schedule tentatively placed the book club from 3 PM to 5 PM, with travel from 2 PM to 3 PM and 5 PM to 6 PM; those times were suggestions, not confirmed meeting details.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeffrey",
+    "East Janethaven Library"
+   ],
+   "topic": "Book club scheduling suggestions",
+   "time": "2024-07-10",
+   "sources": [
+    "T181"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson started a no-work rule on Sundays on June 30, 2024. As of July 10, 2024, Crystal Wilson said the rule was helping reduce stress, and she was looking for additional ways to prevent burnout, including changing her daily routine.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "stress and burnout",
+   "time": "2024-06-30..2024-07-10",
+   "sources": [
+    "T182"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On July 10, 2024, Crystal Wilson said sound mixing sessions with Jeremy had been extended to July 16 because additional edits were requested on July 10.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy"
+   ],
+   "topic": "sound mixing",
+   "time": "2024-07-10..2024-07-16",
+   "sources": [
+    "T184"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant recommended that Crystal Wilson manage stress and prevent burnout with structured work hours and breaks, mindfulness and breathing exercises, regular physical activity and outdoor time, consistent sleep, healthy nutrition and hydration, social connection, realistic goals, and regular digital breaks. These were suggestions, not confirmed habits or decisions by Crystal Wilson.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "stress and burnout",
+   "time": "2024-07-10",
+   "sources": [
+    "T183"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested a sample schedule for July 16, 2024: creative work from 9 AM to noon, lunch from noon to 1 PM, sound mixing with Jeremy from 1 PM to 6 PM, and wrap-up from 6 PM to 7 PM. The assistant also suggested moving or delegating conflicts, updating Google Calendar, and informing the team; Crystal Wilson did not say that she adopted these suggestions.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy"
+   ],
+   "topic": "schedule adjustment",
+   "time": "2024-07-16",
+   "sources": [
+    "T185"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson wants attendance to be confirmed whenever she asks about social events.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "social-event attendance",
+   "time": "2024-07-10",
+   "sources": [
+    "T186"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "A book club meeting at East Janethaven Library was listed for July 18, 2024, from 3 PM to 5 PM. The assistant stated that Crystal Wilson's attendance was confirmed.",
+   "entities": [
+    "Crystal Wilson",
+    "East Janethaven Library"
+   ],
+   "topic": "book club meeting",
+   "time": "2024-07-18",
+   "sources": [
+    "T187"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said she has never practiced evening meditation to improve sleep quality.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "evening meditation",
+   "time": "2024-07-10",
+   "sources": [
+    "T188"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson planned a weekend getaway to the Montserrat Botanical Gardens with her partner James for September 14–15, 2024, hoping to relax and reconnect after intense work months. Crystal asked for help prioritizing tasks before the trip.",
+   "entities": [
+    "Crystal Wilson",
+    "James",
+    "Montserrat Botanical Gardens"
+   ],
+   "topic": "weekend getaway",
+   "time": "2024-09-14..2024-09-15",
+   "sources": [
+    "T190"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Before the September 14–15, 2024 getaway, Crystal Wilson said she would review current tasks and deadlines, delegate some editing work to Michele, possibly ask Laura for quick mentorship tips, set reminders, and create buffer slots in her schedule. Crystal looked forward to disconnecting and enjoying the botanical gardens with James.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele",
+    "Laura",
+    "James",
+    "Montserrat Botanical Gardens"
+   ],
+   "topic": "trip preparation and delegation",
+   "time": "2024-09-05..2024-09-14",
+   "sources": [
+    "T192"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Crystal Wilson said the proposed trip-preparation plan sounded great and thanked the assistant for the advice.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "trip preparation",
+   "time": "2024-09-05",
+   "sources": [
+    "T192"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she had a time anchor set for September 5, 2024, and was trying to balance work and personal life. She asked for advice on managing her schedule effectively.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "schedule management",
+   "time": "2024-09-05",
+   "sources": [
+    "T194"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant recommended reviewing and prioritizing work and personal tasks, scheduling focused work and buffer time, delegating where possible, using planning tools, setting work boundaries, reserving family and relaxation time, and reviewing the schedule regularly. These were recommendations, not confirmed actions or established routines.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "schedule management advice",
+   "time": "2024-09-05",
+   "sources": [
+    "T195"
+   ]
+  },
+  {
+   "type": "state",
+   "text": "Crystal Wilson is the user, a TV/film producer in East Janethaven, Montserrat. Her partner is James; daughters Emma (11), Michelle (12), and Rachel (7) attend East Janethaven Primary School. Carla is her graphic-designer friend, met at the Montserrat Film Festival in 2018. Laura is an 82-year-old veteran producer with weekly Monday 10 AM Zoom calls with Crystal. Crystal is developing a pilot; she approved the proposed timeline/budget March 15 and said she would follow it and update everyone. She uses Google Calendar synced with a Moleskine planner, weekday creative sessions at 9 AM, iPhone meeting reminders, and Todoist synced with Google Calendar; Todoist increased her task completion rate by 25%. Alan is a collaborator. Crystal prefers batching similar tasks, especially emails and calls. Crystal planned a getaway with James to Montserrat Botanical Gardens for September 14–15, 2024, to relax and reconnect after intense work months. Ahead of the trip she planned to review tasks/deadlines, delegate some editing to Michele, possibly ask Laura for mentorship tips, set reminders, and add buffer slots. On September 5, 2024, she said she had a time anchor set for that date and sought work-life scheduling advice.",
+   "entities": [],
+   "topic": "",
+   "time": "",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson asked how to make full use of her integrated Outlook and Google Calendar to improve cross-platform scheduling accuracy by 15% after August 20, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "Outlook",
+    "Google Calendar"
+   ],
+   "topic": "calendar synchronization",
+   "time": "2024-08-20..",
+   "sources": [
+    "T196"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Producer feedback led Crystal Wilson to prioritize final editing over marketing preparation and delay the social media launch until September 20, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "producers"
+   ],
+   "topic": "pilot editing and marketing schedule",
+   "time": "2024-09-20",
+   "sources": [
+    "T198"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "Crystal Wilson said she was somewhat stressed about rejecting a $25,000 offer for a commercial shoot scheduled for August 30, 2024, and asked whether declining was the right decision to prioritize completing her pilot and preserve creative control.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "commercial offer and pilot priorities",
+   "time": "2024-08-30",
+   "sources": [
+    "T200"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On September 5, 2024, Crystal Wilson said she had hired Michele as a new part-time assistant after Laura recommended hiring an assistant. Michele works 20 hours per week at $25 per hour.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele",
+    "Laura"
+   ],
+   "topic": "assistant employment",
+   "time": "2024-09-05",
+   "sources": [
+    "T202"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On September 5, 2024, Crystal Wilson was considering asking Michele to help manage her schedule better and asked whether that was a good idea.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "schedule management",
+   "time": "2024-09-05",
+   "sources": [
+    "T202"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant endorsed Michele helping Crystal Wilson manage her schedule and suggested she could handle scheduling meetings, managing emails, organizing documents, tracking tasks and deadlines, managing calendars, setting reminders, and coordinating communications and meetings.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "assistant responsibilities",
+   "time": "2024-09-05",
+   "sources": [
+    "T203"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested giving Michele access to Crystal Wilson's Google Calendar and Outlook calendar, and using Trello or Todoist for task tracking. These were suggestions, not user-confirmed changes to Crystal's existing tools.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele",
+    "Google Calendar",
+    "Outlook",
+    "Trello",
+    "Todoist"
+   ],
+   "topic": "calendar and task tools",
+   "time": "2024-09-05",
+   "sources": [
+    "T203"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant proposed weekly planning meetings at the beginning of each week, daily check-ins, and an example daily 10 AM meeting with Michele to review progress and adjust plans.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "planning routine",
+   "time": "2024-09-05",
+   "sources": [
+    "T203"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested Michele could batch and respond to emails on designated days, filter important emails, organize files, prepare meeting materials, track expenses, and assist with budgets, including the previously mentioned $25,000 commercial shoot. The assistant also recommended initial workflow training and a regular feedback loop.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "administrative delegation",
+   "time": "2024-09-05",
+   "sources": [
+    "T203"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On September 5, 2024, Crystal Wilson said she was stressed about meeting a September 1 deadline for pilot editing; she reported the editing was 90% complete and color grading was scheduled for September 10–12, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot"
+   ],
+   "topic": "pilot editing and color grading",
+   "time": "2024-09-05",
+   "sources": [
+    "T204"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant proposed a pilot-work schedule beginning August 25, 2024: complete the remaining 10% of editing August 25–29; finalize editing, review, and export August 30–31; continue editing, coordination, and preparation August 1–9 (as written in the plan, the assistant labeled this September 1–9); and dedicate September 10–12 to color grading. The assistant's proposed schedule included 9 AM–12 PM and 1–4 PM work blocks, daily one-hour buffers, and full days for color grading.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot"
+   ],
+   "topic": "proposed pilot timeline",
+   "time": "2024-08-25..2024-09-12",
+   "sources": [
+    "T205"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "For the pilot, the assistant suggested Michele handle scheduling and communication with the color-grading team and prepare files and documentation. The assistant also suggested Crystal coordinate with Jeremy on any needed sound adjustments, conduct daily and weekly progress reviews, preserve relaxation and family time, and use breaks and relaxation techniques to manage stress.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele",
+    "Jeremy",
+    "pilot"
+   ],
+   "topic": "pilot delegation and wellbeing",
+   "time": "2024-09-05",
+   "sources": [
+    "T205"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson has been doing 10-minute morning breathing exercises at 7:30 AM since August 15, 2024. Crystal says the practice has noticeably improved focus during meetings.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "mindfulness and focus",
+   "time": "2024-08-15..2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "opinion",
+   "text": "On September 5, 2024, Crystal Wilson wondered whether to change the timing of her morning breathing exercises or add mindfulness practices to her routine to improve productivity further.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "mindfulness and productivity",
+   "time": "2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "On September 5, 2024, the assistant suggested that Crystal Wilson could try moving her 7:30 AM breathing exercises to 7:00 or 8:00 AM, add 10–15 minutes of meditation afterward, take a 5–10 minute midday mindfulness break, and do 10–15 minutes of evening reflection or gratitude practice. The assistant also suggested mindfulness apps, reminders, physical activity or yoga, and weekly reviews; these were suggestions, not confirmed plans by Crystal.",
+   "entities": [
+    "Crystal Wilson",
+    "Headspace",
+    "Calm",
+    "Insight Timer"
+   ],
+   "topic": "suggested mindfulness routine",
+   "time": "2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson declined Alan's dinner invitation for September 2, 2024, to protect family dinner time; Crystal says declining saved two hours. On September 5, Crystal said she felt somewhat stressed about protecting family dinner time and wondered whether declining was the right decision.",
+   "entities": [
+    "Crystal Wilson",
+    "Alan"
+   ],
+   "topic": "family time and boundaries",
+   "time": "2024-09-02..2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant affirmed Crystal Wilson's decision to decline Alan's September 2 dinner invitation, framing it as prioritizing family time and work-life balance, and suggested explaining the family commitment and proposing another time to meet.",
+   "entities": [
+    "Crystal Wilson",
+    "Alan"
+   ],
+   "topic": "family time and boundaries",
+   "time": "2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson co-hosted a 90-minute virtual brainstorming session with Stephanie on September 3, 2024, for their upcoming projects. On September 5, Crystal was considering how to prioritize tasks for the remainder of the week.",
+   "entities": [
+    "Crystal Wilson",
+    "Stephanie"
+   ],
+   "topic": "project brainstorming and task priorities",
+   "time": "2024-09-03..2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "plan",
+   "text": "In response to Crystal Wilson's question about prioritizing the week, the assistant suggested summarizing the September 3 brainstorming session and handling its action items, continuing and finalizing pilot editing, preparing and coordinating files for color grading scheduled September 10–12, and handling administrative work. The proposed schedule covered September 4–8, 2024, with pilot-editing work, color-grading preparation, and administrative tasks. The assistant suggested delegating scheduling, color-grading communication, and document preparation to Michele, and sound adjustments to Jeremy; these were assistant recommendations, not confirmed assignments.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele",
+    "Jeremy",
+    "Stephanie"
+   ],
+   "topic": "suggested weekly work plan",
+   "time": "2024-09-04..2024-09-08",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson is trying to set up automated email reminders for pilot deadlines using Asana. Crystal said she had heard that automation can reduce missed tasks by 40% and asked for help; the 40% figure was presented as something Crystal had heard, not as a verified result.",
+   "entities": [
+    "Crystal Wilson",
+    "Asana"
+   ],
+   "topic": "pilot deadlines and reminders",
+   "time": "2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said that she has kept a consistent 10 PM bedtime since August 1, 2024, and her average sleep duration has improved to 7.2 hours. She asked how to further improve sleep quality.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "sleep",
+   "time": "2024-08-01..2024-09-05",
+   "sources": [
+    "T214"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson is trying to hold weekly planning sessions on Sundays at 4 PM and wants to increase her schedule adherence by 30%.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "weekly planning",
+   "time": "2024-09-05",
+   "sources": [
+    "T216"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson finalized sound-mixing notes with Jeremy on September 4, 2024, for a sound-mixing session scheduled for September 10, 2024. Crystal said she felt good about how the project was coming together and asked whether her collaboration strategies were on track.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy"
+   ],
+   "topic": "pilot sound mixing",
+   "time": "2024-09-04..2024-09-10",
+   "sources": [
+    "T218"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she rescheduled a client call from 3 PM to 11 AM on September 1, 2024, to avoid conflicts with editing deadlines, and that the change gave her two extra hours. She asked how to use the extra time effectively.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "time management and editing",
+   "time": "2024-09-01",
+   "sources": [
+    "T220"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson prefers setting realistic deadlines with built-in buffers to avoid last-minute rushes and stress spikes. She asked how to apply this preference to her current projects.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "project deadlines",
+   "time": "2024-09-05",
+   "sources": [
+    "T222"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant suggested adding a 20–30% time buffer to task estimates, reviewing deadlines with stakeholders, monitoring progress through regular check-ins, and tracking tasks and timelines in a project-management tool such as Asana, Trello, or Microsoft Project.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "project planning",
+   "time": "2024-09-05",
+   "sources": [
+    "T222"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant described setting up an Asana project for pilot editing, adding tasks with due dates, configuring task reminders and email notifications, and optionally using custom fields, tags, and integrations such as Google Calendar or Slack. Example tasks were rough cuts due September 1, final edits due September 5, and final-cut export due September 7.",
+   "entities": [
+    "Crystal Wilson",
+    "Asana"
+   ],
+   "topic": "pilot deadlines and reminders",
+   "time": "2024-09-05",
+   "sources": [
+    "T213"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On September 3, 2024, Crystal Wilson celebrated her pilot reaching 90% completion with a six-person team at The Coral Reef; the celebration cost $180.",
+   "entities": [
+    "Crystal Wilson",
+    "The Coral Reef"
+   ],
+   "topic": "Pilot milestone celebration",
+   "time": "2024-09-03",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "On September 5, 2024, Crystal Wilson wanted ideas for celebrating her small team's achievement of reaching 90% completion on the pilot without spending as much as the $180 six-person celebration at The Coral Reef.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot team",
+    "The Coral Reef"
+   ],
+   "topic": "Budget-conscious celebrations",
+   "time": "2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "On September 5, 2024, Crystal Wilson said she had been reading Cal Newport's “Deep Work” and applying its techniques to improve her concentration during editing blocks.",
+   "entities": [
+    "Crystal Wilson",
+    "Cal Newport",
+    "Deep Work"
+   ],
+   "topic": "Focus and productivity",
+   "time": "2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "preference",
+   "text": "On September 5, 2024, Crystal Wilson asked for books and resources to further develop her mindset and productivity.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Focus and productivity",
+   "time": "2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "fact",
+   "text": "In response to Crystal Wilson's productivity question, the assistant recommended “Atomic Habits” by James Clear, “The 7 Habits of Highly Effective People” by Stephen R. Covey, “Getting Things Done” by David Allen, “Flow” by Mihaly Csikszentmihalyi, “Essentialism” by Greg McKeown, and “Drive” by Daniel H. Pink. Suggested resources included The Tim Ferriss Show, HBR IdeaCast, The Productivity Show, James Clear's blog, Lifehacker, Zen Habits, Coursera, Udemy, LinkedIn Learning, Focus@Will, Forest, Trello, and Todoist.",
+   "entities": [
+    "Crystal Wilson",
+    "James Clear",
+    "Stephen R. Covey",
+    "David Allen",
+    "Mihaly Csikszentmihalyi",
+    "Greg McKeown",
+    "Daniel H. Pink"
+   ],
+   "topic": "Productivity recommendations",
+   "time": "2024-09-05",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On September 5, 2024, Crystal Wilson said she was somewhat stressed about an upcoming visit to the East Janethaven Art Gallery with Jeffrey on September 12, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeffrey",
+    "East Janethaven Art Gallery"
+   ],
+   "topic": "art gallery visit",
+   "time": "2024-09-12",
+   "sources": [
+    "T228"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said her stress level had decreased from 6.5 on August 10, 2024, to 4.5 by September 5, 2024, thanks to mindfulness practices.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "stress and mindfulness",
+   "time": "2024-08-10..2024-09-05",
+   "sources": [
+    "T228"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On September 5, 2024, Crystal Wilson said she was excited about her September 12, 2024 visit to the East Janethaven Art Gallery with Jeffrey and described it as a creative-inspiration outing that had been planned for a while.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeffrey",
+    "East Janethaven Art Gallery"
+   ],
+   "topic": "creative inspiration outing",
+   "time": "2024-09-12",
+   "sources": [
+    "T230"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On September 5, 2024, Crystal Wilson said she had reduced her work hours from 50 to 42 hours per week, giving her an additional 8 hours weekly.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Work schedule",
+   "time": "2024-09-05",
+   "sources": [
+    "T232"
+   ]
+  },
+  {
+   "type": "goal",
+   "text": "On September 5, 2024, Crystal Wilson wanted to use her additional 8 weekly hours wisely for family time and leisure, and was curious about balancing work and family time better.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Work-life balance",
+   "time": "2024-09-05",
+   "sources": [
+    "T232"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson wants cost breakdowns whenever she asks about event expenses.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Event expenses",
+   "time": "2024-09-05",
+   "sources": [
+    "T234"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson was planning to visit the East Janethaven Art Gallery with Jeffrey on September 12, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeffrey",
+    "East Janethaven Art Gallery"
+   ],
+   "topic": "Art gallery visit",
+   "time": "2024-09-12",
+   "sources": [
+    "T235"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "An assistant estimated the East Janethaven Art Gallery visit for two people at $89 using public transit or $90 when driving. The estimate included admission at $10 per person ($20 total), public transit at $2 per person ($4 total) or $5 parking, lunch at $15 per person ($30 total), snacks at $5 per person ($10 total), souvenirs at $10 per person ($20 total), and $5 for camera batteries or chargers if needed. These were estimates, not confirmed expenses.",
+   "entities": [
+    "East Janethaven Art Gallery",
+    "Jeffrey"
+   ],
+   "topic": "Art gallery visit expenses",
+   "time": "2024-09-05",
+   "sources": [
+    "T235"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson had never read Cal Newport's book \"Deep Work\" and was considering getting it to improve her focus. She said she had been trying to batch similar tasks to maintain focus and reduce context switching.",
+   "entities": [
+    "Crystal Wilson",
+    "Cal Newport",
+    "Deep Work"
+   ],
+   "topic": "Reading and productivity",
+   "time": "2024-09-05",
+   "sources": [
+    "T236"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "The assistant recommended Cal Newport's \"Deep Work\" to Crystal Wilson, saying its focus strategies and discussion of batching similar tasks could suit her goal of reducing context switching.",
+   "entities": [
+    "Crystal Wilson",
+    "Cal Newport",
+    "Deep Work"
+   ],
+   "topic": "Reading and productivity",
+   "time": "2024-09-05",
+   "sources": [
+    "T237"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On November 20, 2024, Crystal Wilson said she was somewhat stressed because Emma's school play rehearsals would start November 25. Crystal had scheduled herself to attend all five evening rehearsals at East Janethaven Theater.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "East Janethaven Theater"
+   ],
+   "topic": "family and school rehearsals",
+   "time": "2024-11-20",
+   "sources": [
+    "T238"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson asked for help planning her schedule around attending all five of Emma's evening school play rehearsals at East Janethaven Theater, starting November 25, 2024.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "East Janethaven Theater"
+   ],
+   "topic": "schedule planning",
+   "time": "2024-11-20",
+   "sources": [
+    "T238"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson said she was trying to balance family-support responsibilities, including attending Emma's rehearsals, with her own needs, and asked how to prioritize her time effectively. The five rehearsals were planned for November 25, 27, and 29, and December 1 and 3, 2024, from 6 PM to 9 PM; these dates and times were supplied in the assistant's planning response, not specified by Crystal.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "James"
+   ],
+   "topic": "family and personal time management",
+   "time": "2024-11-20..2024-12-03",
+   "sources": [
+    "T240",
+    "T241"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson had blocked two-hour slots on Mondays and Wednesdays for marketing preparation, starting November 1, 2024, to promote a pilot release planned for December 15, 2024. She asked how to use those slots effectively.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "pilot marketing",
+   "time": "2024-11-01..2024-12-15",
+   "sources": [
+    "T242"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested using the Monday and Wednesday marketing slots for research, a social media content calendar, promotional materials, press releases, and interviews; tracking tasks in Trello synced with Google Calendar; and reviewing progress weekly. These were recommendations, not confirmed actions by Crystal Wilson.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "pilot marketing",
+   "time": "2024-11-01..2024-12-15",
+   "sources": [
+    "T243"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson's goal was to reach 100% post-production completion by December 5, 2024. She asked how to adjust her schedule around existing commitments, including attending Emma's school play rehearsals at East Janethaven Theater.",
+   "entities": [
+    "Crystal Wilson",
+    "Emma",
+    "East Janethaven Theater"
+   ],
+   "topic": "pilot post-production deadline",
+   "time": "2024-11-20..2024-12-05",
+   "sources": [
+    "T244"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant recommended prioritizing post-production tasks toward the December 5, 2024 completion goal, including color grading and final editing, sound mixing and mastering, and visual-effects review; it also suggested delegating tasks, using calendar buffers, and attending the rehearsals on November 25, 27, and 29 and December 1 and 3 from 6 PM to 9 PM. These were suggestions, not confirmed actions by Crystal Wilson.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele",
+    "Emma",
+    "East Janethaven Theater",
+    "Jeremy"
+   ],
+   "topic": "post-production and schedule planning",
+   "time": "2024-11-20..2024-12-05",
+   "sources": [
+    "T245"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On November 20, 2024, Crystal Wilson said she approved a $3,500 budget for Facebook and Instagram ads and rejected a $5,000 influencer campaign.",
+   "entities": [
+    "Crystal Wilson",
+    "Facebook",
+    "Instagram"
+   ],
+   "topic": "social media advertising budget",
+   "time": "2024-11-20",
+   "sources": [
+    "T246"
+   ]
+  },
+  {
+   "type": "opinion",
+   "text": "On November 20, 2024, Crystal Wilson asked whether rejecting the $5,000 influencer campaign was a good decision.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "social media advertising budget",
+   "time": "2024-11-20",
+   "sources": [
+    "T246"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson had a review meeting with Laura on November 10, 2024. Laura suggested focusing on audience engagement strategies, and Crystal thought the strategies would really help her project.",
+   "entities": [
+    "Crystal Wilson",
+    "Laura"
+   ],
+   "topic": "audience engagement",
+   "time": "2024-11-10",
+   "sources": [
+    "T248"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "As of November 20, 2024, Crystal Wilson's existing marketing preparation schedule was on Mondays and Wednesdays; she asked how to balance audience engagement strategies with that schedule.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "marketing schedule",
+   "time": "2024-11-20",
+   "sources": [
+    "T248"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested incorporating audience engagement activities into Crystal Wilson's Monday and Wednesday marketing-preparation blocks, including content creation, community interaction, analytics review, and collaboration planning. The assistant gave an example schedule of 9–11 AM on both days, with engagement work in one hour-long slot each day.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "marketing schedule",
+   "time": "",
+   "sources": [
+    "T249"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said her post-production was 95% complete by November 15, 2024, and the final sound mix was scheduled for November 22, 2024. On November 20, she said she felt overwhelmed by the post-production schedule and asked for help prioritizing tasks to meet the deadline.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "post-production",
+   "time": "2024-11-20",
+   "sources": [
+    "T250"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant recommended prioritizing remaining post-production work ahead of the November 22, 2024 final sound mix: finish color grading, visual effects, and editing/picture lock; conduct quality assurance and an audio-video sync check; export and organize files for the mix; coordinate with Jeremy; and review the mixed audio afterward.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy"
+   ],
+   "topic": "post-production",
+   "time": "2024-11-15..2024-11-22",
+   "sources": [
+    "T251"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On November 20, 2024, Crystal Wilson said she had scheduled three spa visits at Montserrat Wellness Center between November 21 and December 10, 2024, to prevent burnout. Crystal wondered whether three visits would be enough self-care or whether she should add activities to maintain her energy.",
+   "entities": [
+    "Crystal Wilson",
+    "Montserrat Wellness Center"
+   ],
+   "topic": "Self-care and burnout",
+   "time": "2024-11-20..2024-12-10",
+   "sources": [
+    "T252"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On November 20, 2024, the assistant suggested that Crystal Wilson monitor stress and energy and consider adding mindfulness or meditation, physical activity such as yoga or walking, creative hobbies, social time, and relaxation techniques. The assistant also proposed a schedule listing spa visits on November 21, 25, and 29 and December 3, 7, and 10, 2024—six visits, despite Crystal having said she scheduled three.",
+   "entities": [
+    "Crystal Wilson",
+    "Montserrat Wellness Center"
+   ],
+   "topic": "Self-care suggestions",
+   "time": "2024-11-20..2024-12-10",
+   "sources": [
+    "T253"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On November 20, 2024, Crystal Wilson said she was worried about James and their evening quality time. Crystal said she had agreed to take no work calls after 6 PM during pilot launch week and asked how to meet deadlines without jeopardizing the launch.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "Pilot launch and work-life balance",
+   "time": "2024-11-20",
+   "sources": [
+    "T254"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "In response on November 20, 2024, the assistant suggested prioritizing and scheduling launch tasks, starting work earlier, batching similar work, delegating tasks to Michele or other team members, using Trello and Google Calendar, informing stakeholders about Crystal Wilson’s availability, and preparing in advance. The assistant offered a sample workday from 7 AM to 6 PM, with evening time for James from 7 PM to 9 PM, plus buffer slots and a Sunday weekly review.",
+   "entities": [
+    "Crystal Wilson",
+    "James",
+    "Michele"
+   ],
+   "topic": "Pilot launch scheduling and evening time",
+   "time": "2024-11-20",
+   "sources": [
+    "T255"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson planned a creative workshop with her graphic-designer friend Carla at The Blue Lagoon for December 7, 2024, and was inviting 10 local artists. Crystal asked how to keep everyone aligned and make the most of the event.",
+   "entities": [
+    "Crystal Wilson",
+    "Carla",
+    "The Blue Lagoon",
+    "10 local artists"
+   ],
+   "topic": "Creative workshop",
+   "time": "2024-12-07",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On November 20, 2024, Crystal Wilson asked whether she and Carla should plan a backup date for their December 7 creative workshop in case some invited artists could not attend. No backup date was decided in the conversation.",
+   "entities": [
+    "Crystal Wilson",
+    "Carla",
+    "10 local artists",
+    "The Blue Lagoon"
+   ],
+   "topic": "Creative workshop scheduling",
+   "time": "2024-11-20",
+   "sources": []
+  },
+  {
+   "type": "event",
+   "text": "On November 20, 2024, Crystal Wilson said she felt overwhelmed by upcoming project deadlines: final sound mix on November 22, final cut on December 5, and release on December 15. Crystal asked for help prioritizing tasks to meet those milestones.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "project deadlines",
+   "time": "2024-11-20",
+   "sources": [
+    "T260"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On November 20, 2024, the assistant suggested a project schedule leading to the November 22 sound mix with Jeremy and the December 5 final cut: finish color grading, VFX, and picture lock; review and check audio-video synchronization; prepare and export files for Jeremy; review the mix; make any post-mix edits; perform final checks and export; and prepare release materials such as trailers, posters, and press releases. The assistant also suggested delegating suitable tasks to Michele and holding regular team check-ins.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeremy",
+    "Michele"
+   ],
+   "topic": "project schedule",
+   "time": "2024-11-20..2024-12-15",
+   "sources": [
+    "T261"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she had started taking 15-minute evening walks on November 5, 2024, and had noticed improved mood and reduced screen fatigue. Crystal asked whether to continue the practice and how to stick to it.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "evening walks and wellbeing",
+   "time": "2024-11-05..2024-11-20",
+   "sources": [
+    "T262"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant recommended that Crystal Wilson continue her 15-minute evening walks, keep a consistent time, use reminders, choose an enjoyable route, track progress, prepare for weather, and consider inviting James or a friend. The assistant proposed gradually increasing walks to 20 minutes from November 20 through December 5, then maintaining 20 minutes from December 6 through December 15 and potentially adding a 30-minute weekend walk. These were suggestions, not confirmed actions by Crystal.",
+   "entities": [
+    "Crystal Wilson",
+    "James"
+   ],
+   "topic": "walking routine",
+   "time": "2024-11-20..2024-12-15",
+   "sources": [
+    "T263"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said she had recently decided to start work at 8:00 AM rather than 9:00 AM, giving her an extra productive hour. She asked how to use that hour effectively.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work schedule",
+   "time": "2024-11-20",
+   "sources": [
+    "T264"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested using Crystal Wilson's early work time for a brief calendar and email review followed by focused work on high-priority tasks, with specific goals, minimized distractions, and a daily review of progress. The assistant's sample schedules were inconsistent about the exact length and timing of the extra hour.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "morning productivity",
+   "time": "2024-11-20",
+   "sources": [
+    "T265"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she worked with her part-time assistant Michele on final edits at Montserrat Studios on November 18, 2024. They completed three scenes in four hours. Crystal asked how to maintain that productivity in collaborative work sessions.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele",
+    "Montserrat Studios"
+   ],
+   "topic": "collaborative editing",
+   "time": "2024-11-18",
+   "sources": [
+    "T266"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant recommended preparing clear session objectives and materials, communicating regularly, using focused time blocks and check-ins, dividing work according to strengths, organizing shared files, taking breaks, and reviewing what worked afterward. The assistant gave examples such as assigning Michele visual-effects work while Crystal focused on timing and continuity; this division was only a suggestion.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "collaborative productivity",
+   "time": "2024-11-20",
+   "sources": [
+    "T267"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she declined a networking event on November 12, 2024, to save five hours and meet editing deadlines. On November 20, 2024, she asked about managing her time better while editing deadlines were approaching.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "time management and editing",
+   "time": "2024-11-12..2024-11-20",
+   "sources": [
+    "T268"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant endorsed prioritizing deadline-critical work over nonessential commitments and suggested prioritization, time blocking, limiting interruptions, delegating to Michele or other team members, regular progress reviews, breaks, and project-management tools. These were recommendations, not confirmed actions.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "time management",
+   "time": "2024-11-20",
+   "sources": [
+    "T269"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson said she prefers working early in the morning to maximize productivity before her family's activities begin. She asked how to prioritize morning work sessions.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "work preferences",
+   "time": "2024-11-20",
+   "sources": [
+    "T270"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "The assistant suggested that Crystal Wilson prepare the night before, set specific goals, time-block high-impact work, minimize distractions, take short breaks, track progress, and review each session. The assistant offered sample schedules beginning as early as 6:00 AM; Crystal did not confirm adopting those schedules.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "morning work sessions",
+   "time": "2024-11-20",
+   "sources": [
+    "T271"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "Crystal Wilson is planning a family celebration at The Coral Reef on December 20, 2024, to mark the success of her pilot. She has budgeted $300 for 8 guests and is unsure whether that will cover food and drinks.",
+   "entities": [
+    "Crystal Wilson",
+    "The Coral Reef",
+    "pilot"
+   ],
+   "topic": "Pilot success celebration",
+   "time": "2024-12-20",
+   "sources": [
+    "T272"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On November 20, 2024, Crystal Wilson said she had enrolled in a digital marketing analytics workshop scheduled for December 1, 2024. She hopes the workshop will help her track her pilot campaign results and understand how to boost her project's online presence.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot"
+   ],
+   "topic": "Digital marketing workshop",
+   "time": "2024-12-01",
+   "sources": [
+    "T274"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "The assistant offered an illustrative estimate for Crystal Wilson's planned celebration: at assumed prices of $25 per person for food and $10 per person for drinks, food for 8 guests would cost $200 and drinks $80, totaling $280 before gratuity. A 15% tip would be about $42, bringing the illustrative total to $322. These were hypothetical estimates, not confirmed prices from The Coral Reef.",
+   "entities": [
+    "Crystal Wilson",
+    "The Coral Reef"
+   ],
+   "topic": "Celebration budget estimate",
+   "time": "2024-11-20",
+   "sources": [
+    "T273"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On November 20, 2024, Crystal Wilson said she was stressed about a book launch at East Janethaven Library on November 28, 2024. Jeffrey invited Crystal, and Crystal accepted in order to maintain social balance; Crystal asked how to avoid overcommitting.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeffrey",
+    "East Janethaven Library"
+   ],
+   "topic": "Book launch and social commitments",
+   "time": "2024-11-20",
+   "sources": [
+    "T276"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On November 20, 2024, the assistant suggested that Crystal Wilson review her calendar and deadlines, set boundaries with Jeffrey and the organizers (including stating arrival or departure limits), prioritize and time-block essential work, delegate tasks to Michele when feasible, prepare in advance, limit nonessential email and social media, and protect time for rest. The assistant offered an illustrative schedule with the November 28 book launch from 1:00 PM to 4:00 PM and travel time, but Crystal did not confirm that schedule.",
+   "entities": [
+    "Crystal Wilson",
+    "Jeffrey",
+    "Michele",
+    "East Janethaven Library"
+   ],
+   "topic": "Managing commitments",
+   "time": "2024-11-20",
+   "sources": [
+    "T277"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "Crystal Wilson said she had instituted a no-work policy on Sundays beginning November 3, 2024, to reduce stress spikes. On November 20, 2024, Crystal worried that the policy might affect productivity and asked for help balancing work and rest to prevent burnout.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Work-life balance",
+   "time": "2024-11-20",
+   "sources": [
+    "T278"
+   ]
+  },
+  {
+   "type": "plan",
+   "text": "On November 20, 2024, the assistant suggested that Crystal Wilson keep a structured weekday schedule, prioritize tasks, delegate or outsource when possible, use Sundays for recovery, set realistic goals, take regular breaks (including the Pomodoro technique), continue mindfulness and self-care, and periodically reassess her work-life balance. The assistant described Saturday as suitable for light catch-up work and leisure, while preserving Sundays as work-free; Crystal did not confirm adopting the proposed schedule.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele"
+   ],
+   "topic": "Work-life balance and burnout prevention",
+   "time": "2024-11-20",
+   "sources": [
+    "T279"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "Crystal Wilson said she declined a dinner invitation from Alan on September 2 to protect family time and asked how to do this without hurting the other person's feelings.",
+   "entities": [
+    "Crystal Wilson",
+    "Alan"
+   ],
+   "topic": "Declining invitations and family time",
+   "time": "2024-09-02",
+   "sources": [
+    "T280"
+   ]
+  },
+  {
+   "type": "preference",
+   "text": "Crystal Wilson wants budget amounts explicitly confirmed whenever she asks about financial decisions.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "Financial decisions",
+   "time": "2024-11-20",
+   "sources": [
+    "T282"
+   ]
+  },
+  {
+   "type": "fact",
+   "text": "On November 20, 2024, Crystal Wilson said her work hours had been reduced from 50 to 42 hours per week and asked how to prioritize tasks while meeting deadlines and preserving time for family and leisure, citing pilot editing being 90% complete by September 1.",
+   "entities": [
+    "Crystal Wilson",
+    "pilot editing"
+   ],
+   "topic": "work hours and time management",
+   "time": "2024-11-20",
+   "sources": [
+    "T284"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "On November 20, 2024, the assistant recommended that Crystal Wilson list tasks and deadlines, time-block focused work, prioritize with the Eisenhower Matrix, delegate to Michele, batch similar tasks, set deadline buffers, use Trello, Google Calendar, or Todoist, protect family and leisure time, take breaks such as Pomodoro breaks, and hold weekly planning sessions. The assistant suggested aiming for 95% pilot-editing completion by August 28 rather than September 1, and blocking three-hour editing sessions on Tuesdays and Thursdays.",
+   "entities": [
+    "Crystal Wilson",
+    "Michele",
+    "pilot editing",
+    "Trello",
+    "Google Calendar",
+    "Todoist"
+   ],
+   "topic": "time-management recommendations",
+   "time": "2024-11-20",
+   "sources": [
+    "T285"
+   ]
+  },
+  {
+   "type": "event",
+   "text": "The assistant offered Crystal Wilson a sample schedule: focused work on weekdays from 9:00 AM to 6:30 PM with breaks and lunch; Saturday morning for light work or catch-up followed by family or leisure time; and Sunday as a no-work day for rest, family, and leisure.",
+   "entities": [
+    "Crystal Wilson"
+   ],
+   "topic": "sample work-life schedule",
+   "time": "2024-11-20",
+   "sources": [
+    "T285"
+   ]
+  }
+ ],
+ "segments": 52
+}

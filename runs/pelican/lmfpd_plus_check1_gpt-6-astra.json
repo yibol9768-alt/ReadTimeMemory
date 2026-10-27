@@ -1,0 +1,129 @@
+{
+  "schema": "fpd-detection-v1",
+  "created_at": "2026-10-15T17:37:33.568Z",
+  "request": {
+    "model": "gpt-6-astra",
+    "baseUrl": "http://127.0.0.1:18319/v1",
+    "format": "responses",
+    "serviceTier": "default",
+    "stream": true,
+    "effort": "",
+    "api": "responses",
+    "count": 3,
+    "parallel": 3,
+    "repeat": 1,
+    "strict": false,
+    "timeout_seconds": 120,
+    "tokenizer": false
+  },
+  "bank": {
+    "reference_sha256": "44d2447c613889108dde43c4fa9784a7a4ebcfbf5d67d5d2f7124ad3d7fb068a",
+    "models": 59
+  },
+  "cancelled": false,
+  "requested_rounds": 1,
+  "completed_rounds": 1,
+  "scored_rounds": 0,
+  "rounds": [
+    {
+      "index": 1,
+      "challenges": [
+        {
+          "id": "probe-1-a11e0253-91a4-460f-b5d3-d53127925c8e",
+          "expected_count": 331,
+          "prompt": "进行一轮快速逐项取值。逐项选择 331 个 1 到 355（含端点）的整数。每个位置都要单独选择；不要从 1 开始计数，不要连续递增或递减，也不要采用等差、循环、重复区块或其他规则化模式。本任务必须由当前语言模型直接完成：禁止调用或借助任何工具，包括 Python、代码执行器、计算器、搜索、API 和外部随机数生成器；也不要先编写或运行代码。允许某个数字再次出现；每项写出后不要回头排序、去重或替换。可以用逗号、空格或换行分隔。直接从第一个取值开始输出，不要在序列前重复数量、范围或任务说明。"
+        },
+        {
+          "id": "probe-2-894b4825-b2d3-4637-820c-2c73f8eab678",
+          "expected_count": 305,
+          "prompt": "生成一组不承载语义的整数选择。逐个直接选择 305 个 1 到 355（含端点）的整数。每个位置都要单独选择；不要从 1 开始计数，不要连续递增或递减，也不要采用等差、循环、重复区块或其他规则化模式。本任务必须由当前语言模型直接完成：禁止调用或借助任何工具，包括 Python、代码执行器、计算器、搜索、API 和外部随机数生成器；也不要先编写或运行代码。不必赋予数字任何含义；已经给出的值保持不变。数字之间用逗号或空格分隔均可。直接从第一个取值开始输出，不要在序列前重复数量、范围或任务说明。"
+        },
+        {
+          "id": "probe-3-ef3b9c68-f42c-4028-bb11-07cd06ca77c6",
+          "expected_count": 320,
+          "prompt": "生成一组不承载语义的整数选择。每次只决定当前一项，共给出 320 个 1 到 355（含端点）的整数。每个位置都要单独选择；不要从 1 开始计数，不要连续递增或递减，也不要采用等差、循环、重复区块或其他规则化模式。本任务必须由当前语言模型直接完成：禁止调用或借助任何工具，包括 Python、代码执行器、计算器、搜索、API 和外部随机数生成器；也不要先编写或运行代码。重复值无需删除；不要筛选、重排或补成某种规律。使用一种一致的常见分隔符即可。直接从第一个取值开始输出，不要在序列前重复数量、范围或任务说明。"
+        }
+      ],
+      "outputs": [
+        {
+          "text": "",
+          "expected_count": 331
+        },
+        {
+          "text": "",
+          "expected_count": 305
+        },
+        {
+          "text": "",
+          "expected_count": 320
+        }
+      ],
+      "startedAt": 1792085853569,
+      "samples": [
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 331,
+          "startedAt": 1792085853569,
+          "error": "HTTP 401: Encountered invalidated oauth token for user, failing request",
+          "finishedAt": 1792085862945
+        },
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 305,
+          "startedAt": 1792085853572,
+          "error": "HTTP 401: Encountered invalidated oauth token for user, failing request",
+          "finishedAt": 1792085867141
+        },
+        {
+          "state": "failed",
+          "text": "",
+          "rawText": "",
+          "count": 0,
+          "expectedCount": 320,
+          "startedAt": 1792085853572,
+          "error": "HTTP 401: Encountered invalidated oauth token for user, failing request",
+          "finishedAt": 1792085858763
+        }
+      ],
+      "error": "No valid samples. This round cannot be scored.",
+      "finishedAt": 1792085867142
+    }
+  ],
+  "challenges": [
+    {
+      "id": "probe-1-a11e0253-91a4-460f-b5d3-d53127925c8e",
+      "expected_count": 331,
+      "prompt": "进行一轮快速逐项取值。逐项选择 331 个 1 到 355（含端点）的整数。每个位置都要单独选择；不要从 1 开始计数，不要连续递增或递减，也不要采用等差、循环、重复区块或其他规则化模式。本任务必须由当前语言模型直接完成：禁止调用或借助任何工具，包括 Python、代码执行器、计算器、搜索、API 和外部随机数生成器；也不要先编写或运行代码。允许某个数字再次出现；每项写出后不要回头排序、去重或替换。可以用逗号、空格或换行分隔。直接从第一个取值开始输出，不要在序列前重复数量、范围或任务说明。"
+    },
+    {
+      "id": "probe-2-894b4825-b2d3-4637-820c-2c73f8eab678",
+      "expected_count": 305,
+      "prompt": "生成一组不承载语义的整数选择。逐个直接选择 305 个 1 到 355（含端点）的整数。每个位置都要单独选择；不要从 1 开始计数，不要连续递增或递减，也不要采用等差、循环、重复区块或其他规则化模式。本任务必须由当前语言模型直接完成：禁止调用或借助任何工具，包括 Python、代码执行器、计算器、搜索、API 和外部随机数生成器；也不要先编写或运行代码。不必赋予数字任何含义；已经给出的值保持不变。数字之间用逗号或空格分隔均可。直接从第一个取值开始输出，不要在序列前重复数量、范围或任务说明。"
+    },
+    {
+      "id": "probe-3-ef3b9c68-f42c-4028-bb11-07cd06ca77c6",
+      "expected_count": 320,
+      "prompt": "生成一组不承载语义的整数选择。每次只决定当前一项，共给出 320 个 1 到 355（含端点）的整数。每个位置都要单独选择；不要从 1 开始计数，不要连续递增或递减，也不要采用等差、循环、重复区块或其他规则化模式。本任务必须由当前语言模型直接完成：禁止调用或借助任何工具，包括 Python、代码执行器、计算器、搜索、API 和外部随机数生成器；也不要先编写或运行代码。重复值无需删除；不要筛选、重排或补成某种规律。使用一种一致的常见分隔符即可。直接从第一个取值开始输出，不要在序列前重复数量、范围或任务说明。"
+    }
+  ],
+  "outputs": [
+    {
+      "text": "",
+      "expected_count": 331
+    },
+    {
+      "text": "",
+      "expected_count": 305
+    },
+    {
+      "text": "",
+      "expected_count": 320
+    }
+  ]
+}
