@@ -1,0 +1,369 @@
+{
+  "contract": "mine3-r3.1-native-1",
+  "provenance": "native",
+  "source_flow": {
+    "blogs": {
+      "requested": 20,
+      "scanned": 19320,
+      "eligible": 4309,
+      "frozen": 19,
+      "drops": {
+        "too_few_segments": 14601,
+        "invalid_blog_date": 164,
+        "non_english": 32,
+        "duplicate": 214,
+        "empty_segment": 1
+      },
+      "source_tokens": 244864,
+      "mined": 8,
+      "confirmed_facts": 487,
+      "update_pairs": 2,
+      "update_bearing_materials": 2,
+      "verified_update_bearing_materials": 1,
+      "attempted_questions": 12,
+      "written_questions": 11,
+      "verified_questions": 11,
+      "accepted_questions": 2,
+      "groups": 10,
+      "groups_per_100k_source_tokens": 4.083899634082592,
+      "costs": {
+        "calls": 2416,
+        "prompt_tokens": 8072723,
+        "completion_tokens": 870456,
+        "unknown_usage_calls": 9,
+        "failed_calls": 197,
+        "mock_calls": 0,
+        "by_task": {
+          "extract": {
+            "calls": 100,
+            "tokens": 821780,
+            "unknown_usage_calls": 6
+          },
+          "confirm": {
+            "calls": 814,
+            "tokens": 2157083,
+            "unknown_usage_calls": 0
+          },
+          "canonicalize": {
+            "calls": 46,
+            "tokens": 168344,
+            "unknown_usage_calls": 3
+          },
+          "replacement": {
+            "calls": 178,
+            "tokens": 3038625,
+            "unknown_usage_calls": 0
+          },
+          "set_check": {
+            "calls": 51,
+            "tokens": 855943,
+            "unknown_usage_calls": 0
+          },
+          "canonical_confirm": {
+            "calls": 5,
+            "tokens": 6222,
+            "unknown_usage_calls": 0
+          },
+          "question": {
+            "calls": 14,
+            "tokens": 7525,
+            "unknown_usage_calls": 0
+          },
+          "intent": {
+            "calls": 24,
+            "tokens": 13321,
+            "unknown_usage_calls": 0
+          },
+          "support": {
+            "calls": 1104,
+            "tokens": 1544455,
+            "unknown_usage_calls": 0
+          },
+          "answer": {
+            "calls": 40,
+            "tokens": 307732,
+            "unknown_usage_calls": 0
+          },
+          "answer_grade": {
+            "calls": 40,
+            "tokens": 22149,
+            "unknown_usage_calls": 0
+          }
+        },
+        "total_tokens": 8943179
+      },
+      "tokens_per_accepted_question": 4471589.5
+    },
+    "wildchat": {
+      "requested": 20,
+      "scanned": 837989,
+      "eligible": 19343,
+      "frozen": 20,
+      "drops": {
+        "too_few_segments": 391746,
+        "non_english": 359538,
+        "non_english_turn": 64351,
+        "duplicate": 3011
+      },
+      "source_tokens": 60225,
+      "mined": 19,
+      "confirmed_facts": 101,
+      "update_pairs": 0,
+      "update_bearing_materials": 0,
+      "verified_update_bearing_materials": 0,
+      "attempted_questions": 2,
+      "written_questions": 2,
+      "verified_questions": 2,
+      "accepted_questions": 0,
+      "groups": 0,
+      "groups_per_100k_source_tokens": 0.0,
+      "costs": {
+        "calls": 323,
+        "prompt_tokens": 567878,
+        "completion_tokens": 99571,
+        "unknown_usage_calls": 0,
+        "failed_calls": 13,
+        "mock_calls": 0,
+        "by_task": {
+          "extract": {
+            "calls": 32,
+            "tokens": 154255,
+            "unknown_usage_calls": 0
+          },
+          "confirm": {
+            "calls": 109,
+            "tokens": 186256,
+            "unknown_usage_calls": 0
+          },
+          "canonicalize": {
+            "calls": 14,
+            "tokens": 25326,
+            "unknown_usage_calls": 0
+          },
+          "replacement": {
+            "calls": 10,
+            "tokens": 59768,
+            "unknown_usage_calls": 0
+          },
+          "set_check": {
+            "calls": 2,
+            "tokens": 13071,
+            "unknown_usage_calls": 0
+          },
+          "question": {
+            "calls": 2,
+            "tokens": 1089,
+            "unknown_usage_calls": 0
+          },
+          "intent": {
+            "calls": 4,
+            "tokens": 2300,
+            "unknown_usage_calls": 0
+          },
+          "support": {
+            "calls": 134,
+            "tokens": 195024,
+            "unknown_usage_calls": 0
+          },
+          "answer": {
+            "calls": 8,
+            "tokens": 24947,
+            "unknown_usage_calls": 0
+          },
+          "answer_grade": {
+            "calls": 8,
+            "tokens": 5413,
+            "unknown_usage_calls": 0
+          }
+        },
+        "total_tokens": 667449
+      },
+      "tokens_per_accepted_question": null
+    },
+    "irc_ubuntu": {
+      "requested": 10,
+      "scanned": 19957,
+      "eligible": 15752,
+      "frozen": 10,
+      "drops": {
+        "too_few_segments": 3958,
+        "non_english": 131,
+        "duplicate": 116
+      },
+      "source_tokens": 858,
+      "mined": 10,
+      "confirmed_facts": 24,
+      "update_pairs": 0,
+      "update_bearing_materials": 0,
+      "verified_update_bearing_materials": 0,
+      "attempted_questions": 0,
+      "written_questions": 0,
+      "verified_questions": 0,
+      "accepted_questions": 0,
+      "groups": 0,
+      "groups_per_100k_source_tokens": 0.0,
+      "costs": {
+        "calls": 50,
+        "prompt_tokens": 37076,
+        "completion_tokens": 15821,
+        "unknown_usage_calls": 0,
+        "failed_calls": 0,
+        "mock_calls": 0,
+        "by_task": {
+          "extract": {
+            "calls": 10,
+            "tokens": 16548,
+            "unknown_usage_calls": 0
+          },
+          "confirm": {
+            "calls": 33,
+            "tokens": 29938,
+            "unknown_usage_calls": 0
+          },
+          "canonicalize": {
+            "calls": 7,
+            "tokens": 6411,
+            "unknown_usage_calls": 0
+          }
+        },
+        "total_tokens": 52897
+      },
+      "tokens_per_accepted_question": null
+    }
+  },
+  "accepted_questions": 2,
+  "groups": 10,
+  "negative_material_coverage": {
+    "wrong_person": 0,
+    "minimal_state_diff": 0,
+    "same_speaker_other_topic": 2,
+    "same_topic_wrong_attribute": 1,
+    "random": 2
+  },
+  "negative_material_ids": {
+    "wrong_person": [],
+    "minimal_state_diff": [],
+    "same_speaker_other_topic": [
+      "m3_67d3c5b6079166786c5a",
+      "m3_d3591b5adbe4ca030020"
+    ],
+    "same_topic_wrong_attribute": [
+      "m3_d3591b5adbe4ca030020"
+    ],
+    "random": [
+      "m3_67d3c5b6079166786c5a",
+      "m3_d3591b5adbe4ca030020"
+    ]
+  },
+  "costs": {
+    "calls": 2789,
+    "prompt_tokens": 8677677,
+    "completion_tokens": 985848,
+    "unknown_usage_calls": 9,
+    "failed_calls": 210,
+    "mock_calls": 0,
+    "by_task": {
+      "extract": {
+        "calls": 142,
+        "tokens": 992583,
+        "unknown_usage_calls": 6
+      },
+      "confirm": {
+        "calls": 956,
+        "tokens": 2373277,
+        "unknown_usage_calls": 0
+      },
+      "canonicalize": {
+        "calls": 67,
+        "tokens": 200081,
+        "unknown_usage_calls": 3
+      },
+      "replacement": {
+        "calls": 188,
+        "tokens": 3098393,
+        "unknown_usage_calls": 0
+      },
+      "set_check": {
+        "calls": 53,
+        "tokens": 869014,
+        "unknown_usage_calls": 0
+      },
+      "canonical_confirm": {
+        "calls": 5,
+        "tokens": 6222,
+        "unknown_usage_calls": 0
+      },
+      "question": {
+        "calls": 16,
+        "tokens": 8614,
+        "unknown_usage_calls": 0
+      },
+      "intent": {
+        "calls": 28,
+        "tokens": 15621,
+        "unknown_usage_calls": 0
+      },
+      "support": {
+        "calls": 1238,
+        "tokens": 1739479,
+        "unknown_usage_calls": 0
+      },
+      "answer": {
+        "calls": 48,
+        "tokens": 332679,
+        "unknown_usage_calls": 0
+      },
+      "answer_grade": {
+        "calls": 48,
+        "tokens": 27562,
+        "unknown_usage_calls": 0
+      }
+    },
+    "total_tokens": 9663525
+  },
+  "tokens_per_accepted_question": 4831762.5,
+  "groups_per_100k_source_tokens": 3.268539975878175,
+  "controls": {
+    "positive_trials": 24,
+    "positive_correct_rate": 0.2916666666666667,
+    "evidence_removed_trials": 24,
+    "evidence_removed_correct_rate": 0.0,
+    "unresolved_trials": 0
+  },
+  "primary_candidate_agreement": 0.9944444444444445,
+  "question_rejections": {
+    "question_intent": 1
+  },
+  "verification_rejections": {
+    "incomplete_visible_evidence": 1,
+    "positive_control": 10
+  },
+  "evidence_audit": {
+    "perspectives": {
+      "observer": 2
+    },
+    "holder_self_candidates": 2,
+    "third_party_candidates": 1,
+    "assistant_candidates": 0,
+    "assistant_only_questions": 0
+  },
+  "gates": {
+    "blog_verified_updates": false,
+    "wildchat_verified_updates": false,
+    "pilot_freeze": false,
+    "accepted_questions": false,
+    "negative_coverage": false,
+    "positive_control": false,
+    "evidence_removed_control": true,
+    "teacher_cost": false,
+    "human_usability": null,
+    "blinded_dual_review": null,
+    "label_error_upper_bound": null,
+    "per_stratum_label_error_upper_bound": null,
+    "fresh_50_replication": null,
+    "licenses_and_seven_benchmark_contamination": null
+  },
+  "go": false,
+  "release_ready": false,
+  "interpretation": "Exploratory pilot only. Pending human review, per-stratum error bounds, source/license and seven-benchmark overlap audit, and fresh-50 replication block scaling. Native selection does not imply discriminator AUC=0.5 or establish identity-intervention coverage."
+}

@@ -189,6 +189,11 @@ def questions(ep, which):
     return ep[which]["questions"]
 
 
+# reader thinking level for the answer call (harness option, not part of the method): V3_READ_EFFORT=low|medium|high
+RE = os.environ.get("V3_READ_EFFORT", "low")
+RT = 1500 if RE == "low" else 12000
+
+
 def run(args):
     data = json.load(open(args.data))
     data = [e for e in data if e["episode_id"] in args.ids.split(",")] if args.ids else data[: args.n]
@@ -221,21 +226,19 @@ def run(args):
                     pos = ep[phase]["position_after_session"]
                     hist = "\n\n".join(f"SESSION {i}:\n{session_text(s)}" for i, s in enumerate(ep["sessions"][: pos + 1]))
                     if args.cond == "full":
-                        pred, state = llm.call(FULL_SYS, f"{hist}\n\nQuestion: {qtext}", effort="low",
-                                               max_tokens=1500, tag="meme_full"), None
+                        pred, state = llm.call(FULL_SYS, f"{hist}\n\nQuestion: {qtext}", effort=RE, max_tokens=RT, tag="meme_full"), None
                     elif args.cond == "full_fair":
-                        pred, state = llm.call(FAIR_SYS, f"{hist}\n\nQuestion: {qtext}", effort="low",
-                                               max_tokens=1500, tag="meme_full_fair"), None
+                        pred, state = llm.call(FAIR_SYS, f"{hist}\n\nQuestion: {qtext}", effort=RE, max_tokens=RT, tag="meme_full_fair"), None
                     elif args.cond == "hybrid":   # the method: raw conversations + program-maintained state
                         smry = build(ep, "meme_state", upto=pos).reader_summary()
                         pred, state = llm.call(FAIR_SYS, f"{hist}\n\nMemory state maintained from these conversations "
                                                f"(may be incomplete; trust it for current values, unknown and forgotten "
-                                               f"slots):\n{smry}\n\nQuestion: {qtext}", effort="low", max_tokens=1500,
+                                               f"slots):\n{smry}\n\nQuestion: {qtext}", effort=RE, max_tokens=RT,
                                                tag="meme_hybrid"), None
                     else:   # full_rules: same extractor as state, its slots and rules listed after the conversations
                         smry = build(ep, "meme_state", upto=pos).summary()
                         pred, state = llm.call(FAIR_SYS, f"{hist}\n\nExtracted memory (may be incomplete):\n{smry}"
-                                               f"\n\nQuestion: {qtext}", effort="low", max_tokens=1500,
+                                               f"\n\nQuestion: {qtext}", effort=RE, max_tokens=RT,
                                                tag="meme_full_rules"), None
                 rows.append({"ep": ep["episode_id"], "phase": phase, "qi": qi, "q": q, "pred": pred, "state": state})
         return rows

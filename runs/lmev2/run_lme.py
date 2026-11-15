@@ -32,15 +32,23 @@ _bm = {}
 
 
 def bm25_ctx(domain, q, budget):
+    with _lock:
+        if domain not in _bm:
+            _load_bm(domain)
+    return _bm[domain].query(q, budget)
+
+
+def _load_bm(domain):
     if domain not in _bm:
         import importlib.util
         spec = importlib.util.spec_from_file_location("rp", os.path.join(D, "bm25lib.py"))
         m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
         _bm[domain] = m.BM25(domain)
-    return _bm[domain].query(q, budget)
 
 
 _ui = {}
+import threading
+_lock = threading.Lock()
 
 
 def context(method, q, budget):
@@ -49,10 +57,23 @@ def context(method, q, budget):
         return ""
     if method == "bm25":
         return bm25_ctx(dom, q["question"], budget)
-    if dom not in _ui:
-        _ui[dom] = UIIndex(os.path.join(D, f"store_small_{dom}"))
+    with _lock:
+        if dom not in _ui:
+            _ui[dom] = UIIndex(os.path.join(D, f"store_small_{dom}"))
     if method == "uistore":
         return _ui[dom].query(q["question"], budget)[0]
+    if method in ("replay", "replay_bm25", "replay_cov", "replay_names", "replay2_bm25", "replay2_facts"):
+        from mem.replay import ReplayIndex
+        v2 = method.startswith("replay2")
+        key = ("rp2_" if v2 else "rp_") + dom
+        with _lock:
+            if key not in _ui:
+                _ui[key] = ReplayIndex(os.path.join(D, f"replay{'2' if v2 else ''}_small_{dom}"))
+                _ui[key].absent([])   # build the lookup text once, before threads share it
+        if method == "replay":
+            return _ui[key].query(q["question"], budget)[0]
+        return _ui[key].query(q["question"], budget // 2, coverage={"replay_cov": True, "replay_names": "names", "replay2_facts": "facts"}.get(method, False))[0] + \
+            "\n\n### Raw observation slices\n" + bm25_ctx(dom, q["question"], budget // 2)
     if method == "hybrid":   # half closed-world store, half raw BM25 slices
         return _ui[dom].query(q["question"], budget // 2)[0] + "\n\n### Raw observation slices\n" + \
             bm25_ctx(dom, q["question"], budget // 2)
@@ -68,6 +89,9 @@ def answer(a):
     if a.types:
         qs = [q for q in qs if any(t == q["question_type"] or (t == "abs" and q["question_type"].endswith("-abs"))
                                    for t in a.types.split(","))]
+    if a.ids_file:
+        keep = set(open(a.ids_file).read().split())
+        qs = [q for q in qs if q["id"] in keep]
     if a.limit:
         qs = qs[: a.limit]
     os.makedirs(os.path.join(D, "out"), exist_ok=True)
@@ -146,6 +170,7 @@ def report(a):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("step", choices=["answer", "judge", "report"])
+    ap.add_argument("--ids-file")
     ap.add_argument("--method", default="uistore"); ap.add_argument("--tag", default="dev")
     ap.add_argument("--types", default=""); ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--budget", type=int, default=60000); ap.add_argument("--par", type=int, default=2)

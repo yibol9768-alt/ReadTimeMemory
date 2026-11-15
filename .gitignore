@@ -1,26 +1,12 @@
-# datasets (third-party; download them from their sources)
-data/
-runs/meme/data/
-runs/lmev2/data/
-# third-party code checkouts and environments
-runs/lmev2/repo/
-runs/lmev2/venv/
-venv/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
 __pycache__/
-*.pyc
-# caches, logs, backups
-runs/cache.jsonl*
-runs/rank_cache.json*
-*.log
-*.bak
-*.bak-*
-*.corrupt*
-# derived copies of benchmark text (rebuilt by the scripts)
-runs/lmev2/store_*/
-runs/**/ext/*/ctx.jsonl
-# LaTeX build products
-paper/**/*.aux
-paper/**/*.out
-paper/**/*.synctex.gz
-paper/**/*.fdb_latexmk
-paper/**/*.fls
+.venv/
+node_modules/
+*.pdf
+*.tex
+*.bib
+checkpoints/
